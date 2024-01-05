@@ -1,0 +1,2664 @@
+[{
+  "dishes": [
+    "Pasta",
+    "Lobster",
+    "Shrimp",
+    "Salad",
+    "Calamari",
+    "Cannoli",
+    "Meatballs",
+    "Eggplant",
+    "Clams",
+    "Tartufo",
+    "Pesto",
+    "Fish"
+  ],
+  "localAddress": "2929 Avenue R, 11229-2604",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/06/9a/37/bd/rack-or-lamb-with-roasted.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 216,
+  "isClosed": false,
+  "features": [
+    "Takeout",
+    "Reservations",
+    "Private Dining",
+    "Seating",
+    "Parking Available",
+    "Valet Parking",
+    "Highchairs Available",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Table Service"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "locationString": "Brooklyn, New York",
+  "id": "459576",
+  "phone": "+1 718-998-7851",
+  "rankingPosition": 6,
+  "openNowText": "Open Now",
+  "rawRanking": 4.512977123260498,
+  "website": "http://michaelsofbrooklyn.com",
+  "priceRange": "$21 - $30",
+  "type": "RESTAURANT",
+  "email": "MichaelsOfBklyn@Aol.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "2929 Avenue R, Brooklyn, NY 11229-2604",
+  "name": "Michael's of Brooklyn",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Pasta",
+    "Lasagne",
+    "Salad",
+    "Cannoli",
+    "Arancini",
+    "Eggplant",
+    "Tuna",
+    "Octopus",
+    "Ragu",
+    "Pesto",
+    "Cakes"
+  ],
+  "localAddress": "438 3rd Ave, At 30th St, 10016-6040",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/9b/c7/ba/norma.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Pizza",
+    "Sicilian",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 293,
+  "isClosed": false,
+  "features": [
+    "Delivery",
+    "Takeout",
+    "Reservations",
+    "Seating",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Street Parking"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner"
+  ],
+  "locationString": "New York City, New York",
+  "id": "11876357",
+  "phone": "+1 212-889-0600",
+  "rankingPosition": 69,
+  "openNowText": "Open Now",
+  "rawRanking": 4.493777275085449,
+  "website": "http://www.normarestaurant.com/",
+  "priceRange": null,
+  "type": "RESTAURANT",
+  "email": "info@normamurrayhill.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "438 3rd Ave At 30th St, New York City, NY 10016-6040",
+  "name": "Norma - Gastronomia Siciliana",
+  "subcategories": [],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Crab",
+    "Dumplings",
+    "Lobster",
+    "Lobster Roll",
+    "Oyster",
+    "Shrimp",
+    "Tempura",
+    "Salad",
+    "Roe",
+    "Scallops",
+    "Cod",
+    "Salmon",
+    "Tuna",
+    "Fish Soup",
+    "Beef",
+    "Sashimi",
+    "Fish"
+  ],
+  "localAddress": "119 Sullivan Street, 10012",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/ed/31/0b/sushi.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Asian",
+    "Healthy",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 1062,
+  "isClosed": false,
+  "features": [
+    "Delivery",
+    "Takeout",
+    "Seating",
+    "Serves Alcohol",
+    "Accepts American Express",
+    "Accepts Mastercard",
+    "Accepts Visa",
+    "Accepts Credit Cards",
+    "Table Service"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "locationString": "New York City, New York",
+  "id": "457772",
+  "phone": "+1 212-343-0404",
+  "rankingPosition": 67,
+  "openNowText": "Open Now",
+  "rawRanking": 4.501145362854004,
+  "website": "https://www.blueribbonsushi119.com/",
+  "priceRange": "$31 - $45",
+  "type": "RESTAURANT",
+  "email": null,
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "119 Sullivan Street, New York City, NY 10012",
+  "name": "Blue Ribbon Sushi",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "A cozy, cedar clad Sushi Bar with an award-winning sake list and an extensive selection of fresh fish flown in daily from the Sea of Japan as well as both the Atlantic and Pacific oceans. Open late.\n\nWhether you sit at the walnut Sushi Bar or at one of the cozy tables in the back room, Blue Ribbon Sushi will transport you to the other side of the world.",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Falafel",
+    "Salad",
+    "Eggplant",
+    "Hummus"
+  ],
+  "localAddress": "305 Amsterdam Ave, 10023-1739",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/82/69/db/photo0jpg.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 660,
+          "openHours": "11:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 660,
+          "openHours": "11:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 660,
+          "openHours": "11:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 660,
+          "openHours": "11:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 660,
+          "openHours": "11:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 660,
+          "openHours": "11:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 660,
+          "openHours": "11:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Lebanese",
+    "Mediterranean",
+    "Middle Eastern",
+    "Israeli",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Kosher",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 355,
+  "isClosed": false,
+  "features": [
+    "Delivery",
+    "Takeout",
+    "Seating",
+    "Serves Alcohol",
+    "Accepts Credit Cards",
+    "Table Service"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner",
+    "Brunch"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner",
+    "Brunch"
+  ],
+  "locationString": "New York City, New York",
+  "id": "2452488",
+  "phone": "+1 212-799-3335",
+  "rankingPosition": 63,
+  "openNowText": "Open Now",
+  "rawRanking": 4.506800651550293,
+  "website": "http://www.hummusplace.com/",
+  "priceRange": null,
+  "type": "RESTAURANT",
+  "email": "hummusplaceoffice@gmail.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "305 Amsterdam Ave, New York City, NY 10023-1739",
+  "name": "Hummus Place",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Noodle",
+    "Dumplings",
+    "Pad Thai",
+    "Shrimp",
+    "Salad",
+    "Curry",
+    "Green Curry",
+    "Red Curry",
+    "Beef",
+    "Duck",
+    "Fried rice"
+  ],
+  "localAddress": "5 E 19th St, 10003-1107",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/33/12/3e/antique-bell-with-red.jpg",
+  "hours": {
+    "weekRanges": [
+      [],
+      [
+        {
+          "open": 420,
+          "openHours": "07:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 420,
+          "openHours": "07:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 420,
+          "openHours": "07:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 420,
+          "openHours": "07:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 420,
+          "openHours": "07:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 420,
+          "openHours": "07:00",
+          "close": 960,
+          "closeHours": "16:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Thai",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 218,
+  "isClosed": false,
+  "features": [
+    "Delivery",
+    "Takeout",
+    "Reservations",
+    "Seating",
+    "Serves Alcohol",
+    "Full Bar",
+    "Table Service"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner"
+  ],
+  "locationString": "New York City, New York",
+  "id": "11356100",
+  "phone": "+1 212-802-9999",
+  "rankingPosition": 56,
+  "openNowText": "Open Now",
+  "rawRanking": 4.517996788024902,
+  "website": "http://www.thaivillanyc.com",
+  "priceRange": "$11 - $30",
+  "type": "RESTAURANT",
+  "email": "info@thaivillanyc.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "5 E 19th St, New York City, NY 10003-1107",
+  "name": "Thai Villa",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "Savor Remarkable Thai Cooking in an Old-World Setting",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Pasta",
+    "Crab",
+    "Burger",
+    "Lobster",
+    "Oyster",
+    "Polenta",
+    "Ribs",
+    "Salad",
+    "Risotto",
+    "Suckling Pig",
+    "Scallops",
+    "Halibut",
+    "Salmon",
+    "Tuna",
+    "Quail",
+    "Foie gras",
+    "Octopus",
+    "Toasts",
+    "Bass",
+    "Beef",
+    "Duck",
+    "Lamb",
+    "Ragu",
+    "Agnolotti",
+    "Pesto",
+    "Cakes",
+    "Fish",
+    "Pork"
+  ],
+  "localAddress": "43 E 19th St, 10003-1304",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/9d/94/59/craft-main-dining-room.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1290,
+          "closeHours": "21:30"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1290,
+          "closeHours": "21:30"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "American",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 1037,
+  "isClosed": false,
+  "features": [
+    "Accepts Credit Cards",
+    "Street Parking",
+    "Gift Cards Available"
+  ],
+  "mealTypes": [
+    "Dinner"
+  ],
+  "dietaryRestrictions": [
+    "Dinner"
+  ],
+  "locationString": "New York City, New York",
+  "id": "1750605",
+  "phone": "+1 212-780-0880",
+  "rankingPosition": 68,
+  "openNowText": "Open Now",
+  "rawRanking": 4.499131679534912,
+  "website": "http://www.craftrestaurant.com",
+  "priceRange": "$35 - $80",
+  "type": "RESTAURANT",
+  "email": "info@craftrestaurant.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "43 E 19th St, New York City, NY 10003-1304",
+  "name": "Craft",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "Created by Tom Colicchio and located in the heart of NYC, Craft serves simply prepared dishes highlighting pristine, seasonal ingredients within the award-winning architectural design of Bentel and Bentel.Craft received the James Beard Award for Best New Restaurant nationwide in 2002 and New York Times critic, William Grimes awarded Craft three stars in 2001, an honor upheld by Sam Sifton in 2011. CraftNYC is open for dinner, takeaway and delivery every evening.",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Pasta",
+    "Burger",
+    "Ribs",
+    "Shrimp",
+    "Salad",
+    "Wings",
+    "Mac and cheese",
+    "Salmon",
+    "Beef",
+    "Fried rice",
+    "Fish",
+    "Pork"
+  ],
+  "localAddress": "700 W 125th St, 10027",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/12/cb/b3/55/dinosaur-bar-b-que.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 0,
+          "openHours": "00:00",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "American",
+    "Bar",
+    "Barbecue",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 1244,
+  "isClosed": false,
+  "features": [
+    "Takeout",
+    "Reservations",
+    "Seating",
+    "Television",
+    "Highchairs Available",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Free Wifi",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Live Music"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "locationString": "New York City, New York",
+  "id": "620401",
+  "phone": "(212) 694-1777",
+  "rankingPosition": 62,
+  "openNowText": "Open Now",
+  "rawRanking": 4.510613918304443,
+  "website": "http://dinosaurbarbque.com/locations/harlem",
+  "priceRange": "$20 - $25",
+  "type": "RESTAURANT",
+  "email": null,
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "700 W 125th St, New York City, NY 10027",
+  "name": "Dinosaur Bar-B-Que",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "Located in West Harlem under the Riverside Drive Viaduct, Dinosaur Bar-B-Que is a rustic BBQ restaurant, blues venue, and cocktail bar serving the best smoked meats & award winning sauces in the area.",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Cannelloni",
+    "Pasta",
+    "Cheesecake",
+    "Crab",
+    "Lasagne",
+    "Lobster",
+    "Shrimp",
+    "Salad",
+    "Calamari",
+    "Cannoli",
+    "Alfredo",
+    "Tiramisu",
+    "Meatballs",
+    "Tortellini",
+    "Tortelloni",
+    "Eggplant",
+    "Clams",
+    "Torte",
+    "Tortelli",
+    "Pesto",
+    "Pork"
+  ],
+  "localAddress": "236 W 56th St, 10019-4306",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/a6/18/a1/photo0jpg.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1290,
+          "closeHours": "21:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1290,
+          "closeHours": "21:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1290,
+          "closeHours": "21:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1290,
+          "closeHours": "21:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1290,
+          "closeHours": "21:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1290,
+          "closeHours": "21:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1290,
+          "closeHours": "21:30"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Neapolitan",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 5294,
+  "isClosed": false,
+  "features": [
+    "Takeout",
+    "Reservations",
+    "Private Dining",
+    "Seating",
+    "Highchairs Available",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Gift Cards Available"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner"
+  ],
+  "locationString": "New York City, New York",
+  "id": "478026",
+  "phone": "+1 212-247-3491",
+  "rankingPosition": 54,
+  "openNowText": "Open Now",
+  "rawRanking": 4.52836799621582,
+  "website": "http://www.patsys.com",
+  "priceRange": "$80",
+  "type": "RESTAURANT",
+  "email": "patsysnyc@gmail.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "236 W 56th St, New York City, NY 10019-4306",
+  "name": "Patsy's Italian Restaurant",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "Since 1944, Patsy’s Italian Restaurant has been a traditional, family-owned and operated Italian restaurant located on Manhattan's west side just south of Central Park.",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Pasta",
+    "Lasagne",
+    "Tapas",
+    "Salad",
+    "Chili",
+    "Kale Salad",
+    "Tiramisu",
+    "Prosciutto",
+    "Meatballs",
+    "Carbonara",
+    "Beef",
+    "Pesto",
+    "Cakes"
+  ],
+  "localAddress": "370 W 51st St, 10019-6403",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/9f/4f/ea/b-side-pizzeria.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Pizza",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 540,
+  "isClosed": false,
+  "features": [
+    "Takeout",
+    "Seating",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Accepts Credit Cards",
+    "Table Service"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner"
+  ],
+  "locationString": "New York City, New York",
+  "id": "7078660",
+  "phone": "+1 646-679-7225",
+  "rankingPosition": 55,
+  "openNowText": "Open Now",
+  "rawRanking": 4.521200656890869,
+  "website": "http://bsidepizzabar-nyc.com",
+  "priceRange": null,
+  "type": "RESTAURANT",
+  "email": "bside@chowdowninc.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "370 W 51st St, New York City, NY 10019-6403",
+  "name": "B Side Pizzeria",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "New York Style Pizza",
+    "Meatballs"
+  ],
+  "localAddress": "413 8th Ave, 10001-1804",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/0e/f6/40/26/half-chicken-for-me-half.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1440,
+          "closeHours": "00:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Pizza",
+    "Fast Food",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "numberOfReviews": 1360,
+  "isClosed": false,
+  "features": [
+    "Delivery",
+    "Takeout",
+    "Seating",
+    "Wheelchair Accessible",
+    "Accepts Credit Cards"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "locationString": "New York City, New York",
+  "id": "2409563",
+  "phone": "+1 212-594-8939",
+  "rankingPosition": 57,
+  "openNowText": "Open Now",
+  "rawRanking": 4.517100811004639,
+  "website": "http://www.nypizzasuprema.com",
+  "priceRange": null,
+  "type": "RESTAURANT",
+  "email": "nypizzasuprema@gmail.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "413 8th Ave, New York City, NY 10001-1804",
+  "name": "NY Pizza Suprema",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "NY Pizza Suprema is an Award Winning Pizza place in business in same location a cross from Penn station and MSG for 56 years serving only NY style pizza and no other foods. Featured on The Rachel Ray show, Time Out New York, Good Day New York, The Wall Street Journal and numerous other NY newspapers and periodicals where we routinely make “Best Pizza in NYC” lists. Sliceharvester rated us #1 Pizza Place after sampling close to 400 pizzas in Manhattan pizza places. Recently we have been Honored by The Ellis Island National Museum of Immigration with an Exibit of our pizzeria celebrating the “History of Pizza in America.” We are Celebrity Chef Curtis Stone’s favorite pizza in America. We are rated 8th Best slice of pizza in the World by Big 7 Travel. At NY Pizza Suprema pizza is not just another item on our menu — pizza is all we make! We use 5 different red sauces, use a 30 month aged parmigiano-reggiano, 16 month aged pecorino romano, extra virgin olive oil — all from Italy!",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Pasta",
+    "Salad",
+    "Calamari",
+    "Eggplant",
+    "Neapolitan pizza",
+    "Paccheri",
+    "Pesto"
+  ],
+  "localAddress": "146 W Houston St, 10012-2561",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/09/3b/d5/17/photo0jpg.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 0,
+          "openHours": "00:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Pizza",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 424,
+  "isClosed": false,
+  "features": [
+    "Delivery",
+    "Takeout",
+    "Reservations",
+    "Seating",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Accepts Credit Cards",
+    "Table Service"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner",
+    "Brunch"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner",
+    "Brunch"
+  ],
+  "locationString": "New York City, New York",
+  "id": "8319600",
+  "phone": "+1 212-533-1242",
+  "rankingPosition": 59,
+  "openNowText": "Open Now",
+  "rawRanking": 4.513628005981445,
+  "website": "http://www.songenapulenyc.us/?utm_source=TripAdvisor&utm_medium=TripAdvWebsite&utm_campaign=TA&utm_term=TA",
+  "priceRange": null,
+  "type": "RESTAURANT",
+  "email": "info@songenapuleusa.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "146 W Houston St, New York City, NY 10012-2561",
+  "name": "Song E Napule Pizzeria & Trattoria",
+  "subcategories": [],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Omelette",
+    "Sandwiches",
+    "Bagels",
+    "French Toast",
+    "Burger",
+    "Pancakes",
+    "Breakfast Burrito",
+    "Toasts"
+  ],
+  "localAddress": "124 W 25th St, Frnt 1, 10001-7421",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/02/3e/cf/c9/french-toast-at-johny.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 480,
+          "openHours": "08:00",
+          "close": 870,
+          "closeHours": "14:30"
+        }
+      ],
+      [
+        {
+          "open": 480,
+          "openHours": "08:00",
+          "close": 870,
+          "closeHours": "14:30"
+        }
+      ],
+      [
+        {
+          "open": 480,
+          "openHours": "08:00",
+          "close": 870,
+          "closeHours": "14:30"
+        }
+      ],
+      [
+        {
+          "open": 480,
+          "openHours": "08:00",
+          "close": 870,
+          "closeHours": "14:30"
+        }
+      ],
+      [
+        {
+          "open": 480,
+          "openHours": "08:00",
+          "close": 870,
+          "closeHours": "14:30"
+        }
+      ],
+      [
+        {
+          "open": 480,
+          "openHours": "08:00",
+          "close": 870,
+          "closeHours": "14:30"
+        }
+      ],
+      [
+        {
+          "open": 480,
+          "openHours": "08:00",
+          "close": 870,
+          "closeHours": "14:30"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "American",
+    "Diner",
+    "Vegetarian Friendly"
+  ],
+  "numberOfReviews": 454,
+  "isClosed": false,
+  "features": [
+    "Delivery",
+    "Takeout",
+    "Seating",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Accepts American Express",
+    "Accepts Mastercard",
+    "Accepts Visa",
+    "Accepts Discover"
+  ],
+  "mealTypes": [
+    "Breakfast",
+    "Lunch",
+    "Brunch"
+  ],
+  "dietaryRestrictions": [
+    "Breakfast",
+    "Lunch",
+    "Brunch"
+  ],
+  "locationString": "New York City, New York",
+  "id": "2460876",
+  "phone": "+1 212-243-6230",
+  "rankingPosition": 48,
+  "openNowText": "Closed Now",
+  "rawRanking": 4.552313327789307,
+  "website": "http://www.johnysluncheonette.com",
+  "priceRange": null,
+  "type": "RESTAURANT",
+  "email": null,
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "124 W 25th St Frnt 1, New York City, NY 10001-7421",
+  "name": "Johny's Luncheonette",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Noodle",
+    "Crab",
+    "Dumplings",
+    "Omelette",
+    "Ribs",
+    "Shrimp",
+    "Tempura",
+    "Udon & Soba (Wheat & Buckwheat Noodle)",
+    "Ramen",
+    "Yakitori (Grilled Skewers)",
+    "Salad",
+    "Tacos",
+    "Croquettes",
+    "Tataki",
+    "Roe",
+    "Salmon",
+    "Tuna",
+    "Octopus",
+    "Fish Soup",
+    "Beef",
+    "Udon",
+    "Gyoza",
+    "Miso ramen",
+    "Sashimi",
+    "Fish",
+    "Pork"
+  ],
+  "localAddress": "53 W 35th St, Basement, 10001-2219",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/23/21/e3/izakaya-mew-dinning-area.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 855,
+          "closeHours": "14:15"
+        },
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 855,
+          "closeHours": "14:15"
+        },
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 855,
+          "closeHours": "14:15"
+        },
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 855,
+          "closeHours": "14:15"
+        },
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 855,
+          "closeHours": "14:15"
+        },
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1410,
+          "closeHours": "23:30"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1410,
+          "closeHours": "23:30"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Asian",
+    "Healthy",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 1111,
+  "isClosed": false,
+  "features": [
+    "Takeout",
+    "Seating",
+    "Serves Alcohol",
+    "Full Bar",
+    "Accepts Credit Cards",
+    "Table Service"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner",
+    "Drinks",
+    "Late Night"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner",
+    "Drinks",
+    "Late Night"
+  ],
+  "locationString": "New York City, New York",
+  "id": "4721694",
+  "phone": "+1 646-368-9459",
+  "rankingPosition": 51,
+  "openNowText": "Open Now",
+  "rawRanking": 4.549140930175781,
+  "website": "http://mewnyc.com/",
+  "priceRange": "$30 - $40",
+  "type": "RESTAURANT",
+  "email": "mew.manhattan@handhospitality.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "53 W 35th St Basement, New York City, NY 10001-2219",
+  "name": "Izakaya MEW",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Falafel",
+    "Halloumi",
+    "Burger",
+    "Salad",
+    "Pancakes",
+    "Couscous",
+    "Mussels",
+    "Eggplant",
+    "Hummus",
+    "Salmon",
+    "Lamb",
+    "Cakes",
+    "Fish"
+  ],
+  "localAddress": "133 Wythe Ave, 11249-2809",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/05/b3/4d/8c/cafe-mogador.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 540,
+          "openHours": "09:00",
+          "close": 1500,
+          "closeHours": "01:00"
+        }
+      ],
+      [
+        {
+          "open": 540,
+          "openHours": "09:00",
+          "close": 1500,
+          "closeHours": "01:00"
+        }
+      ],
+      [
+        {
+          "open": 540,
+          "openHours": "09:00",
+          "close": 1500,
+          "closeHours": "01:00"
+        }
+      ],
+      [
+        {
+          "open": 540,
+          "openHours": "09:00",
+          "close": 1500,
+          "closeHours": "01:00"
+        }
+      ],
+      [
+        {
+          "open": 540,
+          "openHours": "09:00",
+          "close": 1560,
+          "closeHours": "02:00"
+        }
+      ],
+      [
+        {
+          "open": 540,
+          "openHours": "09:00",
+          "close": 1560,
+          "closeHours": "02:00"
+        }
+      ],
+      [
+        {
+          "open": 540,
+          "openHours": "09:00",
+          "close": 1500,
+          "closeHours": "01:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Moroccan",
+    "Mediterranean",
+    "Middle Eastern",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 481,
+  "isClosed": false,
+  "features": [
+    "Takeout",
+    "Reservations",
+    "Outdoor Seating",
+    "Seating",
+    "Highchairs Available",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Free Wifi",
+    "Accepts Credit Cards",
+    "Table Service"
+  ],
+  "mealTypes": [
+    "Breakfast",
+    "Lunch",
+    "Dinner",
+    "Brunch"
+  ],
+  "dietaryRestrictions": [
+    "Breakfast",
+    "Lunch",
+    "Dinner",
+    "Brunch"
+  ],
+  "locationString": "Brooklyn, New York",
+  "id": "4617929",
+  "phone": "+1 718-486-9222",
+  "rankingPosition": 7,
+  "openNowText": "Open Now",
+  "rawRanking": 4.507201671600342,
+  "website": "http://www.cafemogador.com",
+  "priceRange": null,
+  "type": "RESTAURANT",
+  "email": null,
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "133 Wythe Ave, Brooklyn, NY 11249-2809",
+  "name": "Cafe Mogador Williamsburg",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Cheeseburger",
+    "Cheesecake",
+    "Burger",
+    "Shrimp",
+    "Salad",
+    "Tacos",
+    "Wings",
+    "Chili",
+    "Nachos",
+    "Hamburgers",
+    "Fish"
+  ],
+  "localAddress": "16 West 51st St, Rockefeller Center, 10019",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/58/17/c2/food-and-personal-are.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 630,
+          "openHours": "10:30",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "American",
+    "Bar",
+    "Vegetarian Friendly",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 4018,
+  "isClosed": false,
+  "features": [
+    "Delivery",
+    "Takeout",
+    "Seating",
+    "Television",
+    "Highchairs Available",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Accepts American Express",
+    "Accepts Mastercard",
+    "Accepts Visa",
+    "Free Wifi",
+    "Accepts Discover",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Live Music"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner",
+    "Late Night"
+  ],
+  "locationString": "New York City, New York",
+  "id": "1950899",
+  "phone": "+1 212-705-8510",
+  "rankingPosition": 52,
+  "openNowText": "Open Now",
+  "rawRanking": 4.546036243438721,
+  "website": "https://www.billsbarandburger.com/location/bills-bar-and-burger-rockefeller-center/",
+  "priceRange": "$15 - $30",
+  "type": "RESTAURANT",
+  "email": "birc@ldry.com",
+  "rating": 4,
+  "category": "restaurant",
+  "address": "16 West 51st St Rockefeller Center, New York City, NY 10019",
+  "name": "Bill's Bar & Burger",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "Serving homage to burger and shake lovers, Bill's Burger & Bar first opened its doors in 2009 at Rockefeller Center in New York City - the largest standalone burger joint in the country. It continues to dazzle patrons with an impressive craft burger list that includes its signature Bill's 'Fat Cat' Burger that was listed as one of CNN's \"Top 10 Burgers in America\" and continues to be ranked among New York sources like The Daily Meal and Thrillist. The popular restaurant is known for offering a welcoming, low-key environment for guests to enjoy good company, great food and its extensive list of local and craft beer.",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Pasta",
+    "Cheesecake",
+    "Crab",
+    "Filet Mignon",
+    "Lasagne",
+    "Lobster",
+    "Shrimp",
+    "Salad",
+    "Calamari",
+    "Lamb chops",
+    "Cannoli",
+    "Risotto",
+    "Tiramisu",
+    "Mussels",
+    "Tortellini",
+    "Minestrone",
+    "Tortelloni",
+    "Eggplant",
+    "Gelato",
+    "Scallops",
+    "Salmon",
+    "Octopus",
+    "Bass",
+    "Beef",
+    "Lamb",
+    "Antipasti",
+    "Broccoli rabe",
+    "Ragu",
+    "Buffalo mozzarella",
+    "Pesto",
+    "Fish",
+    "Chicken dishes"
+  ],
+  "localAddress": "507 9th Ave, Corner of W 38th Street, 10018-2802",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/14/bf/7e/chilean-sea-bass.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 1606,
+  "isClosed": false,
+  "features": [
+    "Takeout",
+    "Seating",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Wine and Beer",
+    "Free Wifi",
+    "Reservations",
+    "Private Dining",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Dog Friendly",
+    "Family style",
+    "Non-smoking restaurants"
+  ],
+  "mealTypes": [
+    "Dinner",
+    "Drinks"
+  ],
+  "dietaryRestrictions": [
+    "Dinner",
+    "Drinks"
+  ],
+  "locationString": "New York City, New York",
+  "id": "1903700",
+  "phone": "+1 212-244-0088",
+  "rankingPosition": 45,
+  "openNowText": "Open Now",
+  "rawRanking": 4.564946174621582,
+  "website": "http://ilpuntorestaurant.com/",
+  "priceRange": "$25 - $50",
+  "type": "RESTAURANT",
+  "email": "info@ilpuntonyc.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "507 9th Ave Corner of W 38th Street, New York City, NY 10018-2802",
+  "name": "IL Punto Ristorante",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "Your escape to Italy is here, in Midtown Manhattan, at Il Punto Ristorante. Our lunch and dinner menus feature fresh, homemade pastas, seafood, poultry, and veal. Accompany your meal with a selection from our wine list, and a delicious dessert! Il Punto features a main dining room, a full Bar, and two small dining rooms perfect for private events, meetings or celebrations. Buon Appetito!",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Pasta",
+    "Polenta",
+    "Salad",
+    "Risotto",
+    "Tiramisu",
+    "Tagliatelle",
+    "Tuna",
+    "Octopus",
+    "Beef",
+    "Duck",
+    "Lamb",
+    "Ragu",
+    "Agnolotti",
+    "Pesto",
+    "Vitello tonnato",
+    "Fish"
+  ],
+  "localAddress": "90 Thompson St, Btw Spring St & Prince St, 10012-3744",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/b7/0b/02/san-carlo.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 960,
+          "openHours": "16:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 960,
+          "openHours": "16:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 960,
+          "openHours": "16:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 960,
+          "openHours": "16:00",
+          "close": 1350,
+          "closeHours": "22:30"
+        }
+      ],
+      [
+        {
+          "open": 960,
+          "openHours": "16:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Mediterranean",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 767,
+  "isClosed": false,
+  "features": [
+    "Takeout",
+    "Reservations",
+    "Seating",
+    "Street Parking",
+    "Highchairs Available",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Accepts American Express",
+    "Accepts Mastercard",
+    "Accepts Visa",
+    "Digital Payments",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Gift Cards Available"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner",
+    "Brunch",
+    "Drinks"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner",
+    "Brunch",
+    "Drinks"
+  ],
+  "locationString": "New York City, New York",
+  "id": "10032108",
+  "phone": "+1 212-625-1212",
+  "rankingPosition": 44,
+  "openNowText": "Open Now",
+  "rawRanking": 4.566468238830566,
+  "website": "http://www.sancarlonyc.com",
+  "priceRange": "$15 - $50",
+  "type": "RESTAURANT",
+  "email": "info@sancarlonyc.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "90 Thompson St Btw Spring St & Prince St, New York City, NY 10012-3744",
+  "name": "San Carlo Osteria Piemonte",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "Restaurant \"SAN CARLO Osteria Piemonte\" is one of the few references throughout New York of Piedmont cuisine and North Italy. The land in Northern Italy is very rich in tastes and flavors to be discovered. There are such delicacies as the white truffle of Alba (Cuneo), Barolo (Cuneo) true Piedmont fassona beef, besides of course, a world of exceptional seasonal vegetables...we're waiting for you..",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Baguette",
+    "Ceviche",
+    "Crab",
+    "Lobster",
+    "Oyster",
+    "Ribs",
+    "Salad",
+    "Scallops",
+    "Salmon",
+    "Caviar",
+    "Tuna",
+    "Foie gras",
+    "Bass",
+    "Beef",
+    "Duck",
+    "Lamb",
+    "Cakes",
+    "Fish"
+  ],
+  "localAddress": "60 East 65th Street, 10065-7056",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/7d/2c/41/dinner-at-daniel.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1020,
+          "openHours": "17:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "French",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 3400,
+  "isClosed": false,
+  "features": [
+    "Reservations",
+    "Private Dining",
+    "Seating",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Gift Cards Available"
+  ],
+  "mealTypes": [
+    "Dinner"
+  ],
+  "dietaryRestrictions": [
+    "Dinner"
+  ],
+  "locationString": "New York City, New York",
+  "id": "457808",
+  "phone": "212 288 0033",
+  "rankingPosition": 71,
+  "openNowText": "Open Now",
+  "rawRanking": 4.489928245544434,
+  "website": "http://www.danielnyc.com/",
+  "priceRange": "$100 - $400",
+  "type": "RESTAURANT",
+  "email": "info@danielnyc.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "60 East 65th Street, New York City, NY 10065-7056",
+  "name": "Daniel",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Crab",
+    "Lobster",
+    "Ribs",
+    "Shrimp",
+    "Salad",
+    "Risotto",
+    "Carbonara",
+    "Bolognese",
+    "Gelato",
+    "Scallops",
+    "Halibut",
+    "Salmon",
+    "Duck",
+    "Chocolate mousse",
+    "Lamb",
+    "Agnolotti",
+    "Pesto",
+    "Fish"
+  ],
+  "localAddress": "165 Duane St, 10013-3332",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/bb/65/cf/scalini-fedeli-main-dinning.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 990,
+          "openHours": "16:30",
+          "close": 1230,
+          "closeHours": "20:30"
+        }
+      ],
+      [],
+      [
+        {
+          "open": 1050,
+          "openHours": "17:30",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 1050,
+          "openHours": "17:30",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 1050,
+          "openHours": "17:30",
+          "close": 1260,
+          "closeHours": "21:00"
+        }
+      ],
+      [
+        {
+          "open": 1050,
+          "openHours": "17:30",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 1050,
+          "openHours": "17:30",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 453,
+  "isClosed": false,
+  "features": [
+    "Reservations",
+    "Seating",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Private Dining"
+  ],
+  "mealTypes": [
+    "Dinner",
+    "Lunch",
+    "Late Night"
+  ],
+  "dietaryRestrictions": [
+    "Dinner",
+    "Lunch",
+    "Late Night"
+  ],
+  "locationString": "New York City, New York",
+  "id": "424246",
+  "phone": "+1 212-528-0400",
+  "rankingPosition": 42,
+  "openNowText": "Open Now",
+  "rawRanking": 4.577736854553223,
+  "website": "http://www.scalinifedeli.com/tribeca/about-tribeca",
+  "priceRange": "$41 - $80",
+  "type": "RESTAURANT",
+  "email": null,
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "165 Duane St, New York City, NY 10013-3332",
+  "name": "Scalini Fedeli",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": "Scalini Fedeli ranked among New York's finest restaurants since its opening in early 2004, taking Italian cuisine to new heights. Rewarded with the highest overall ratings in the Zagat Survey, Scalini Fedeli has been granted one star by the Michelin guide in it's inaugural 2006 issue. The inviting decor features vaulted ceilings and European antiques and provides the perfect setting for chef Michael Cetrulo's delightful cuisine which offers the finest ingredients coupled with a confidence and grace that ensures your meal will be a memorable one. Menu highlights include soft egg yolk raviolo with ricotta and truffle butter and New York's finest venison chop in a port wine and balsamic vinegar sauce with toasted hazelnuts, sauteed spinach and roasted Mission figs. The 350-bottle wine list encompasses all regions of Italy but also does justice to the best American wineries.",
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+},
+{
+  "dishes": [
+    "Pasta",
+    "Cheesecake",
+    "Shrimp",
+    "Salad",
+    "Cannoli",
+    "Risotto",
+    "Tiramisu",
+    "Mussels",
+    "Gelato",
+    "Salmon",
+    "Octopus",
+    "Pesto",
+    "Fish",
+    "Pork"
+  ],
+  "localAddress": "501 W 51st St, 10019-5341",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/04/8d/e6/2d/appetizers.jpg",
+  "hours": {
+    "weekRanges": [
+      [
+        {
+          "open": 930,
+          "openHours": "15:30",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1320,
+          "closeHours": "22:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ],
+      [
+        {
+          "open": 720,
+          "openHours": "12:00",
+          "close": 1380,
+          "closeHours": "23:00"
+        }
+      ]
+    ],
+    "timezone": "America/New_York"
+  },
+  "cuisines": [
+    "Italian",
+    "Sicilian",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "numberOfReviews": 340,
+  "isClosed": false,
+  "features": [
+    "Takeout",
+    "Reservations",
+    "Outdoor Seating",
+    "Seating",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Full Bar",
+    "Accepts Credit Cards",
+    "Table Service",
+    "Delivery"
+  ],
+  "mealTypes": [
+    "Lunch",
+    "Dinner"
+  ],
+  "dietaryRestrictions": [
+    "Lunch",
+    "Dinner"
+  ],
+  "locationString": "New York City, New York",
+  "id": "953662",
+  "phone": "+1 212-757-9290",
+  "rankingPosition": 78,
+  "openNowText": "Open Now",
+  "rawRanking": 4.479965686798096,
+  "website": "http://www.ilmelogranonyc.com/?utm_source=TripAdvisor&utm_medium=TripAdvWebsite&utm_campaign=TA&utm_term=TA",
+  "priceRange": "$30 - $40",
+  "type": "RESTAURANT",
+  "email": "info@ilmelogranonyc.com",
+  "rating": 4.5,
+  "category": "restaurant",
+  "address": "501 W 51st St, New York City, NY 10019-5341",
+  "name": "IL Melograno",
+  "subcategories": [
+    "Sit down"
+  ],
+  "description": null,
+  "ownersTopReasons": null,
+  "establishmentTypes": [
+    "Restaurants"
+  ]
+}]

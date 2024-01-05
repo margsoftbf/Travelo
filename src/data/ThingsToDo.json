@@ -1,0 +1,1748 @@
+[{
+  "offerGroup": {
+    "lowestPrice": "$39.00",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-NYC-Small-Group-Tour%2Fd687-5250P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c818713a9655b0e8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=110144&clt=TD&from=api&nt=true",
+        "price": "$129.00",
+        "roundedUpPrice": "$129",
+        "offerType": null,
+        "title": "Full-Day New York \"Must See\" Small-Group Tour plus One World Observatory Ticket",
+        "productCode": "5250P15",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/77/91.jpg",
+        "description": null,
+        "primaryCategory": "Full-day Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-TV-and-Movie-Tour%2Fd687-2218TVTOUR%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=1822612fb5c9d3857&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=110144&clt=TD&from=api&nt=true",
+        "price": "$61.00",
+        "roundedUpPrice": "$61",
+        "offerType": null,
+        "title": "NYC TV & Movie Tour",
+        "productCode": "2218TVTOUR",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6f/6c/0e.jpg",
+        "description": null,
+        "primaryCategory": "Movie & TV Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-in-One-Day-Guided-Sightseeing-Tour%2Fd687-7081NYCDAY%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e655146b870917d1e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=110144&clt=TD&from=api&nt=true",
+        "price": "$99.00",
+        "roundedUpPrice": "$99",
+        "offerType": null,
+        "title": "New York in One Day Guided Sightseeing Tour",
+        "productCode": "7081NYCDAY",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/25/13/74.jpg",
+        "description": null,
+        "primaryCategory": "Bus & Minivan Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FGossip-Girl-Sites-Tour%2Fd687-2218GOSSIP%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=b11f3ee01692c8adf&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=110144&clt=TD&from=api&nt=true",
+        "price": "$66.00",
+        "roundedUpPrice": "$66",
+        "offerType": null,
+        "title": "Public Gossip Girl Sites Bus Tour ",
+        "productCode": "2218GOSSIP",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/2a/3d/d8.jpg",
+        "description": null,
+        "primaryCategory": "Movie & TV Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNYC-Highlights-Small-Group-Tour%2Fd687-5250P17%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c38d11100d7055fda&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=110144&clt=TD&from=api&nt=true",
+        "price": "$89.00",
+        "roundedUpPrice": "$89",
+        "offerType": null,
+        "title": "New York \"Must See\" Small-Group Half-Day Tour",
+        "productCode": "5250P17",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/7d/2b.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      }
+    ]
+  },
+  "website": "http://visit5thavenue.com",
+  "subcategories": [
+    "Sights & Landmarks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-NYC-Small-Group-Tour%2Fd687-5250P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c818713a9655b0e8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=110144&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 51,
+  "name": "Fifth Avenue",
+  "address": "5th Ave, New York City, NY 10118-4810",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d110144-Reviews-Fifth_Avenue-New_York_City_New_York.html",
+  "phone": "+1 212-336-1440",
+  "type": "ATTRACTION",
+  "email": null,
+  "rating": 4.5,
+  "localName": "Fifth Avenue",
+  "description": "Famous street offering some of the most expensive and fashionable shops in the city.",
+  "localAddress": "5th Ave, 10118-4810",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/91/19/9d/5th-avenue.jpg",
+  "rawRanking": 4.040379524230957,
+  "numberOfReviews": 8584,
+  "id": "110144",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$10.05",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FRadio-City-Stage-Door-Tour-Tickets%2Fd687-76482P4%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=81eabfe2373441405&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=110164&clt=TD&from=api&nt=true",
+        "price": "$42.00",
+        "roundedUpPrice": "$42",
+        "offerType": null,
+        "title": "Radio City Music Hall Stage Door Tour",
+        "productCode": "76482P4",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/12/38/18/13.jpg",
+        "description": null,
+        "primaryCategory": "Theater, Shows & Musicals"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSee-It-All-NYC-Walking-and-Boat-Tour%2Fd687-137375P2%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=87253008984677e15&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=110164&clt=TD&from=api&nt=true",
+        "price": "$69.95",
+        "roundedUpPrice": "$70",
+        "offerType": null,
+        "title": "See It All NYC Walking and Boat Tour",
+        "productCode": "137375P2",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/b4/11/12.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Christmas-Holiday-Tour%2Fd687-31003P23%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=7e4360501e85cf263&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=110164&clt=TD&from=api&nt=true",
+        "price": "$27.74",
+        "roundedUpPrice": "$28",
+        "offerType": null,
+        "title": "New York Christmas Holiday Small-Group Walking Tour",
+        "productCode": "31003P23",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/df/2d/c8.jpg",
+        "description": null,
+        "primaryCategory": "Christmas"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FPrivate-New-York-Christmas-Holiday-Tour%2Fd687-31003P29%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c2bb343a7e5805235&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=110164&clt=TD&from=api&nt=true",
+        "price": "$85.00",
+        "roundedUpPrice": "$85",
+        "offerType": null,
+        "title": "Private New York City Christmas Walking Tour",
+        "productCode": "31003P29",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/91/47/34.jpg",
+        "description": null,
+        "primaryCategory": "Christmas"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Midtown-Tourist-Scavenger-Hunt%2Fd687-152849P9%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=6d18c08252fb5a813&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=110164&clt=TD&from=api&nt=true",
+        "price": "$38.49",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "New York Midtown self-guided walking tour & scavenger Hunt",
+        "productCode": "152849P9",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/b1/6f/20.jpg",
+        "description": null,
+        "primaryCategory": "Self-guided Tours & Rentals"
+      }
+    ]
+  },
+  "website": "http://www.radiocity.com",
+  "subcategories": [
+    "Sights & Landmarks",
+    "Concerts & Shows"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FRadio-City-Stage-Door-Tour-Tickets%2Fd687-76482P4%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=81eabfe2373441405&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=110164&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 42,
+  "name": "Radio City Music Hall",
+  "address": "1260 6th Avenue Between 50th and 51st Streets, New York City, NY 10020",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d110164-Reviews-Radio_City_Music_Hall-New_York_City_New_York.html",
+  "phone": "+1 212-247-4777",
+  "type": "ATTRACTION",
+  "email": "feedback@radiocity.com",
+  "rating": 4.5,
+  "localName": "Radio City Music Hall",
+  "description": "Tours run daily starting at 9:30 AM",
+  "localAddress": "1260 6th Avenue, Between 50th and 51st Streets, 10020",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/29/a1/03/radio-city-music-hall.jpg",
+  "rawRanking": 4.1177778244018555,
+  "numberOfReviews": 9301,
+  "id": "110164",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$10.05",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FMetropolitan-New-York-Tour-with-Madison-Square-Garden%2Fd687-87512P8%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c25568d68193e9415&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=275371&clt=TD&from=api&nt=true",
+        "price": "$95.00",
+        "roundedUpPrice": "$95",
+        "offerType": null,
+        "title": "New York Tour of Culture ",
+        "productCode": "87512P8",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/b0/9c/b1.jpg",
+        "description": null,
+        "primaryCategory": "Walking Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Manhattan-Scenic-Helicopter-Tour%2Fd687-5024NIGHT%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=371d9f75edd0e4d9c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=275371&clt=TD&from=api&nt=true",
+        "price": "$279.00",
+        "roundedUpPrice": "$279",
+        "offerType": null,
+        "title": "New York Manhattan Scenic Helicopter Tour",
+        "productCode": "5024NIGHT",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/bb/4e/9d.jpg",
+        "description": null,
+        "primaryCategory": "Helicopter Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FThe-New-York-Sightseeing-Pass%2Fd687-45522PASS%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=885dda58e752d7142&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=275371&clt=TD&from=api&nt=true",
+        "price": "$149.00",
+        "roundedUpPrice": "$149",
+        "offerType": null,
+        "title": "New York Sightseeing Day Pass: 100+ Attractions including One World Observatory",
+        "productCode": "45522PASS",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/3b/54/3f.jpg",
+        "description": null,
+        "primaryCategory": "Sightseeing Passes"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNYC-Private-Helicopter-Sightseeing-Experience-with-Champagne-Toast%2Fd687-7030PRIHELI%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=a3516746cb2dd7555&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=275371&clt=TD&from=api&nt=true",
+        "price": "$2,140.00",
+        "roundedUpPrice": "$2,140",
+        "offerType": null,
+        "title": "Private NYC Helicopter Sightseeing Charter with Champagne from Manhattan ",
+        "productCode": "7030PRIHELI",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0d/f9/71/bc.jpg",
+        "description": null,
+        "primaryCategory": "Helicopter Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FPrivate-NYC-Tour-in-English-and-NYC-auf-Deutsch%2Fd687-28394P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=2c470367692e63421&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=275371&clt=TD&from=api&nt=true",
+        "price": "$1,400.00",
+        "roundedUpPrice": "$1,400",
+        "offerType": null,
+        "title": "Private NYC Bike Tour",
+        "productCode": "28394P1",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/70/64/b1.jpg",
+        "description": null,
+        "primaryCategory": "Bike & Mountain Bike Tours"
+      }
+    ]
+  },
+  "website": "http://www.msg.com/madison-square-garden",
+  "subcategories": [
+    "Sights & Landmarks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FMetropolitan-New-York-Tour-with-Madison-Square-Garden%2Fd687-87512P8%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c25568d68193e9415&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=275371&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 56,
+  "name": "Madison Square Garden",
+  "address": "4 Penn Plaza, New York City, NY 10001",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d275371-Reviews-Madison_Square_Garden-New_York_City_New_York.html",
+  "phone": "+1 212-465-6225",
+  "type": "ATTRACTION",
+  "email": null,
+  "rating": 4.5,
+  "localName": "Madison Square Garden",
+  "description": "Tours run daily beginning at 9:30 AM.",
+  "localAddress": "4 Penn Plaza, 10001",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/09/01/ee/69/madison-square-garden.jpg",
+  "rawRanking": 4.019908905029297,
+  "numberOfReviews": 9170,
+  "id": "275371",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$0.40",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSUMMIT-One-Vanderbilt-Experience-Ticket%2Fd687-77354P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=6e4a4b64749f1fa0c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=23709243&clt=TD&from=api&nt=true",
+        "price": "$45.73",
+        "roundedUpPrice": "$46",
+        "offerType": null,
+        "title": "SUMMIT One Vanderbilt Experience Ticket",
+        "productCode": "77354P1",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/11/dc/06/69.jpg",
+        "description": null,
+        "primaryCategory": "Attraction Tickets"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FMust-See-Manhattan-Guided-Tour-with-Empire-State-Building-Ticket%2Fd687-7167P65%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=251b3fb9b1d3dfc6e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=23709243&clt=TD&from=api&nt=true",
+        "price": "$89.00",
+        "roundedUpPrice": "$89",
+        "offerType": null,
+        "title": "Must-See Manhattan Tour with SUMMIT One Vanderbilt Ticket",
+        "productCode": "7167P65",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0c/07/df/66.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FTimes-Square-Pedicab-Tours%2Fd687-374860P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=d8c90044991f3a5a7&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=23709243&clt=TD&from=api&nt=true",
+        "price": "$39.95",
+        "roundedUpPrice": "$40",
+        "offerType": null,
+        "title": "Private Pedicab Tour of Midtown Manhattan",
+        "productCode": "374860P1",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/e3/d4/d4.jpg",
+        "description": null,
+        "primaryCategory": "Private Sightseeing Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FHarlem-and-Gospel-Mass-Guided-Tour-in-Spanish%2Fd687-75303P5%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=fd4a8d15d33d587eb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=23709243&clt=TD&from=api&nt=true",
+        "price": "$132.00",
+        "roundedUpPrice": "$132",
+        "offerType": null,
+        "title": "New York Night Tour and tickets to Summit or Empire",
+        "productCode": "75303P5",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/10/7f/77/02.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FPrivate-Tour-of-New-York-Citys-Landmarks-with-tickets%2Fd687-255730P29%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=9bc8902a801b1ccbf&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=23709243&clt=TD&from=api&nt=true",
+        "price": "$220.00",
+        "roundedUpPrice": "$220",
+        "offerType": null,
+        "title": "Grand Central Terminal: Private Tour with SUMMIT ONE Vanderbilt",
+        "productCode": "255730P29",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/10/0a/b4/6c.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      }
+    ]
+  },
+  "website": "http://www.summitov.com",
+  "subcategories": [
+    "Sights & Landmarks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSUMMIT-One-Vanderbilt-Experience-Ticket%2Fd687-77354P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=6e4a4b64749f1fa0c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=23709243&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 25,
+  "name": "SUMMIT One Vanderbilt",
+  "address": "45 E 42nd St Entrance located on the Main Concourse of Grand Central Terminal, New York City, NY 10017-5408",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d23709243-Reviews-SUMMIT_One_Vanderbilt-New_York_City_New_York.html",
+  "phone": "+1 877-682-1401",
+  "type": "ATTRACTION",
+  "email": "hello@summitov.com",
+  "rating": 4.5,
+  "localName": "SUMMIT One Vanderbilt",
+  "description": "Not your usual observation deck, Summit ONE Vanderbilt offers three levels of multi-sensory immersive experiences. Here, you can enjoy panoramic views, marvel at mirrored rooms and art installations. Even the elevator ride up has a light show. For those seeking a thrilling experience, hop on the external glass elevator—the largest of its kind in the world. You might want to arrive just before sunset; crowds mostly arrive in the mornings, and thin out as the day progresses.",
+  "localAddress": "45 E 42nd St, Entrance located on the Main Concourse of Grand Central Terminal, 10017-5408",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/21/5c/7a/f4/summit-one-vanderbilt.jpg",
+  "rawRanking": 4.25322151184082,
+  "numberOfReviews": 2555,
+  "id": "23709243",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$25.00",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FGround-Zero-Museum-Workshop-Tour%2Fd687-2296GUIDED%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=5d99e6eb8669fd95d&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=626630&clt=TD&from=api&nt=true",
+        "price": "$32.50",
+        "roundedUpPrice": "$33",
+        "offerType": null,
+        "title": "Ground Zero Museum Workshop Tour",
+        "productCode": "2296GUIDED",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0d/31/69/c9.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2F911-Memorial-pools-Ground-Zero-Walking-Tour-Optional-Upgrade-to-911-Museum%2Fd687-15081P166%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=8c22d860572cdafcf&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=626630&clt=TD&from=api&nt=true",
+        "price": "$35.99",
+        "roundedUpPrice": "$36",
+        "offerType": null,
+        "title": "Ground 0 and World Trade Center Tour with 911 Museum Upgrade",
+        "productCode": "15081P166",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6b/69/94.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Pass%2Fd687-3878PASS%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e8b24308b33774b68&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=626630&clt=TD&from=api&nt=true",
+        "price": "$149.00",
+        "roundedUpPrice": "$149",
+        "offerType": null,
+        "title": "The New York Pass®: 100+ Attractions including Empire State Building",
+        "productCode": "3878PASS",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0d/09/c4/d7.jpg",
+        "description": null,
+        "primaryCategory": "Attraction Tickets"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FThe-New-York-Sightseeing-Pass%2Fd687-45522PASS%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=885dda58e752d7142&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=626630&clt=TD&from=api&nt=true",
+        "price": "$149.00",
+        "roundedUpPrice": "$149",
+        "offerType": null,
+        "title": "New York Sightseeing Day Pass: 100+ Attractions including One World Observatory",
+        "productCode": "45522PASS",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/3b/54/3f.jpg",
+        "description": null,
+        "primaryCategory": "Sightseeing Passes"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFully-Escorted-Ellis-Island-Statue-and-911-Memorial-Pools%2Fd687-15081P145%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=b532daddb30574535&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=626630&clt=TD&from=api&nt=true",
+        "price": "$89.99",
+        "roundedUpPrice": "$90",
+        "offerType": null,
+        "title": "Ellis Island Statue of Liberty & 911 Memorial Pools Tour 8:30am ",
+        "productCode": "15081P145",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0c/2a/9c/11.jpg",
+        "description": null,
+        "primaryCategory": "City Tours"
+      }
+    ]
+  },
+  "website": "http://www.groundzeromuseumworkshop.org",
+  "subcategories": [
+    "Museums"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FGround-Zero-Museum-Workshop-Tour%2Fd687-2296GUIDED%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=5d99e6eb8669fd95d&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=626630&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 20,
+  "name": "Ground Zero Museum Workshop",
+  "address": "420 W 14th St Floor 2, New York City, NY 10014-1064",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d626630-Reviews-Ground_Zero_Museum_Workshop-New_York_City_New_York.html",
+  "phone": "+1 347-225-7779",
+  "type": "ATTRACTION",
+  "email": "groundzeroticket@aol.com",
+  "rating": 5,
+  "localName": "Ground Zero Museum Workshop",
+  "description": "9/11 Museum Workshop: 100 Images & Artifacts from 9/11, in the Meatpacking District near High Line Park. Experience what it was like to be with FDNY Firefighters on the front lines after the 9/11 attacks and educate your kids about 9/11 in a gentle, non-threatening way. Experience the stunning images of Official Ground Zero Photographer Gary Marlon Suson. \"Rare Photos\" (N.Y. Times) are displayed, some in lifelike 3-D. Winner of Trip Advisor's \"Top 25 Museums in the USA” Award for 2013/2014 and a member of Trip Advisor's \"Hall of Fame.\" Presented in BOSE Audio. Praised by parents as a \"safe\" intro to 9/11 for their young kids. Guests allowed to pick up rare World Trade artifacts. 1-Hour audio tours Wednesday to Saturday include self-guided audio narration in English, Italian, French and Spanish. Walk-ins welcome. \"Incredible\" says Fox News. Tastefully and realistically presented. See the \"Bible Page\" and \"Frozen Clock.\" A wonderful “first stop” before your visit to the 9/11 Memorial.",
+  "localAddress": "420 W 14th St, Floor 2, 10014-1064",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/21/ef/43/33/bose-audio-stories-behind.jpg",
+  "rawRanking": 4.378481864929199,
+  "numberOfReviews": 3065,
+  "id": "626630",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$9.48",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSecrets-of-the-High-Line%2Fd687-43581P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=39e14eb2edbc3da75&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=288031&clt=TD&from=api&nt=true",
+        "price": "$45.00",
+        "roundedUpPrice": "$45",
+        "offerType": null,
+        "title": "Secrets of the High Line",
+        "productCode": "43581P1",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0e/80/4e/f5.jpg",
+        "description": null,
+        "primaryCategory": "City Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FMeatpacking-District-Chelsea-Market-The-Highline-Walking-Tour%2Fd687-31003P14%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=b1af2a479cf466edf&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=288031&clt=TD&from=api&nt=true",
+        "price": "$47.00",
+        "roundedUpPrice": "$47",
+        "offerType": null,
+        "title": "Semi-Private Meatpacking District, Chelsea Market, and High Line Walking Tour",
+        "productCode": "31003P14",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/8e/3b/79.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FHigh-Line-and-Chelsea-Walking-Tour%2Fd687-5250HIGH%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=5d06beda7fdb71058&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=288031&clt=TD&from=api&nt=true",
+        "price": "$39.00",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "High Line and Chelsea Small Group Tour",
+        "productCode": "5250HIGH",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/29/86/0e.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FChelsea-Market-Meatpacking-and-High-Line-Food-Tour%2Fd687-8501P8%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=3cac292fc6e98aa65&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=288031&clt=TD&from=api&nt=true",
+        "price": "$88.00",
+        "roundedUpPrice": "$88",
+        "offerType": null,
+        "title": "Chelsea Market and High Line Food Tour by Like A Local Tours",
+        "productCode": "8501P8",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/10/7b/25/f7.jpg",
+        "description": null,
+        "primaryCategory": "Food Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FPrivate-Meatpacking-District-Chelsea-Market-and-The-Highline-Walking-Tour%2Fd687-31003P19%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=b7dcd084a8a067c78&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=288031&clt=TD&from=api&nt=true",
+        "price": "$85.00",
+        "roundedUpPrice": "$85",
+        "offerType": null,
+        "title": "Private Meatpacking District, Chelsea Market, and The Highline Walking Tour",
+        "productCode": "31003P19",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/83/90/1c.jpg",
+        "description": null,
+        "primaryCategory": "Private Sightseeing Tours"
+      }
+    ]
+  },
+  "website": "http://www.chelseamarket.com/",
+  "subcategories": [
+    "Shopping"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSecrets-of-the-High-Line%2Fd687-43581P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=39e14eb2edbc3da75&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=288031&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 80,
+  "name": "Chelsea Market",
+  "address": "75 9th Ave, New York City, NY 10011-7006",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d288031-Reviews-Chelsea_Market-New_York_City_New_York.html",
+  "phone": "+1 212-652-2110",
+  "type": "ATTRACTION",
+  "email": null,
+  "rating": 4.5,
+  "localName": "Chelsea Market",
+  "description": "Chelsea Market is a world-famous food hall in the heart of New York City's Meatpacking District. Commonly featured in walking and food tours, the market has an array of dining options that draw both locals and travelers. Set aside a couple of hours to conquer the corridors of this sprawling indoor marketplace. Many travelers load up on fresh produce, prime cuts of meat, artisanal cheeses, and even imported Italian dry goods. \n\nFor more elbow room, visit either early in the morning or late in the afternoon. Plus, keep a lookout for delicious free samples and the quaint bookstore on site. \n\n– Tripadvisor",
+  "localAddress": "75 9th Ave, 10011-7006",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/23/e9/a4/chelsea-market.jpg",
+  "rawRanking": 3.937408924102783,
+  "numberOfReviews": 9808,
+  "id": "288031",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$5.58",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FThe-Museum-of-Modern-Art-Admission-with-Skip-the-Line-Access%2Fd687-2174MOMA_TR%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e149be9f6d5b6d100&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=105126&clt=TD&from=api&nt=true",
+        "price": "$30.00",
+        "roundedUpPrice": "$30",
+        "offerType": null,
+        "title": "The Museum of Modern Art Admission Ticket",
+        "productCode": "2174MOMA_TR",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/11/70/e6/61.jpg",
+        "description": null,
+        "primaryCategory": "Museum Tickets & Passes"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-City-Explorer-Pass%2Fd687-3958EXPNYC%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c41bc1e2a00e36fa7&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=105126&clt=TD&from=api&nt=true",
+        "price": "$79.00",
+        "roundedUpPrice": "$79",
+        "offerType": null,
+        "title": "Go City: New York Explorer Pass - Choose 2, 3, 4, 5, 6, 7 or 10 attractions",
+        "productCode": "3958EXPNYC",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/11/c3/87/81.jpg",
+        "description": null,
+        "primaryCategory": "Sightseeing Passes"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Pass%2Fd687-3878PASS%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e8b24308b33774b68&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=105126&clt=TD&from=api&nt=true",
+        "price": "$149.00",
+        "roundedUpPrice": "$149",
+        "offerType": null,
+        "title": "The New York Pass®: 100+ Attractions including Empire State Building",
+        "productCode": "3878PASS",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0d/09/c4/d7.jpg",
+        "description": null,
+        "primaryCategory": "Attraction Tickets"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FIconic-New-York-Photography-Tour%2Fd687-5537P4%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=37f6715312ee2106e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=105126&clt=TD&from=api&nt=true",
+        "price": "$125.00",
+        "roundedUpPrice": "$125",
+        "offerType": null,
+        "title": "New York Icon Photography Tour led by a Local Photographer",
+        "productCode": "5537P4",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6f/06/91.jpg",
+        "description": null,
+        "primaryCategory": "Photography Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FThe-New-York-Sightseeing-Flex-Pass%2Fd687-455222FLEXPASS%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c0f4bb20e8c1a0c89&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=105126&clt=TD&from=api&nt=true",
+        "price": "$79.00",
+        "roundedUpPrice": "$79",
+        "offerType": null,
+        "title": "The New York Sightseeing Flex Pass: Save Big on 100+ Attractions and Tours!",
+        "productCode": "455222FLEXPASS",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6c/65/34.jpg",
+        "description": null,
+        "primaryCategory": "Sightseeing Passes"
+      }
+    ]
+  },
+  "website": "http://www.moma.org",
+  "subcategories": [
+    "Museums"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FThe-Museum-of-Modern-Art-Admission-with-Skip-the-Line-Access%2Fd687-2174MOMA_TR%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e149be9f6d5b6d100&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=105126&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 17,
+  "name": "The Museum of Modern Art (MoMA)",
+  "address": "11 West 53rd Street, New York City, NY 10019-5401",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d105126-Reviews-The_Museum_of_Modern_Art_MoMA-New_York_City_New_York.html",
+  "phone": "+1 212-708-9400",
+  "type": "ATTRACTION",
+  "email": null,
+  "rating": 4.5,
+  "localName": "The Museum of Modern Art (MoMA)",
+  "description": "Located in the heart of Manhattan, The Museum of Modern Art (MoMA) is home to the world’s greatest collection of modern and contemporary art. The collection features Vincent van Gogh’s “The Starry Night,” along with works by Claude Monet, Pablo Picasso, Frida Kahlo, Andy Warhol, Salvador Dalí, and many other great artists of our time. MoMA's collection also showcases photography, film, architecture, design, media, and performance art. Visitors can also enjoy the flagship MoMA Store and a range of high-quality dining options.",
+  "localAddress": "11 West 53rd Street, 10019-5401",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/23/a8/57/5b/the-museum-of-modern.jpg",
+  "rawRanking": 4.504695892333984,
+  "numberOfReviews": 18348,
+  "id": "105126",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$0.79",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-City-Explorer-Pass%2Fd687-3958EXPNYC%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c41bc1e2a00e36fa7&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=525259&clt=TD&from=api&nt=true",
+        "price": "$79.00",
+        "roundedUpPrice": "$79",
+        "offerType": null,
+        "title": "Go City: New York Explorer Pass - Choose 2, 3, 4, 5, 6, 7 or 10 attractions",
+        "productCode": "3958EXPNYC",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/11/c3/87/81.jpg",
+        "description": null,
+        "primaryCategory": "Sightseeing Passes"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Pass%2Fd687-3878PASS%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e8b24308b33774b68&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=525259&clt=TD&from=api&nt=true",
+        "price": "$149.00",
+        "roundedUpPrice": "$149",
+        "offerType": null,
+        "title": "The New York Pass®: 100+ Attractions including Empire State Building",
+        "productCode": "3878PASS",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0d/09/c4/d7.jpg",
+        "description": null,
+        "primaryCategory": "Attraction Tickets"
+      }
+    ]
+  },
+  "website": "https://www.museumofsex.com/museum/",
+  "subcategories": [
+    "Museums"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-City-Explorer-Pass%2Fd687-3958EXPNYC%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c41bc1e2a00e36fa7&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=525259&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 26,
+  "name": "Museum of Sex",
+  "address": "233 5th Ave, New York City, NY 10016-8733",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d525259-Reviews-Museum_of_Sex-New_York_City_New_York.html",
+  "phone": "+1 212-689-6337",
+  "type": "ATTRACTION",
+  "email": "info@museumofsex.com",
+  "rating": 4.5,
+  "localName": "Museum of Sex",
+  "description": "The Museum of Sex, also known as MoSex, is dedicated to the history, evolution, and cultural significance of human sexuality. In its mission to encourage open discourse, the museum hosts educational exhibitions that feature a variety of sexual preferences and subcultures, and is home to over 20,000 artifacts. After your educational journey, swing by Super Funland, a four-story immersive journey and innovative carnival experience created by artists like RuPaul, and check out the gift shop downstairs for a spicy souvenir.\n\nVisitors to the Museum of Sex must be 18 years or older with valid proof of ID. – Tripadvisor",
+  "localAddress": "233 5th Ave, 10016-8733",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/76/d0/e0/museum-of-sex.jpg",
+  "rawRanking": 4.246994972229004,
+  "numberOfReviews": 735,
+  "id": "525259",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$10.05",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-in-One-Day-Guided-Sightseeing-Tour%2Fd687-7081NYCDAY%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e655146b870917d1e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=136053&clt=TD&from=api&nt=true",
+        "price": "$99.00",
+        "roundedUpPrice": "$99",
+        "offerType": null,
+        "title": "New York in One Day Guided Sightseeing Tour",
+        "productCode": "7081NYCDAY",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/25/13/74.jpg",
+        "description": null,
+        "primaryCategory": "Bus & Minivan Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-NYC-Small-Group-Tour%2Fd687-5250P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c818713a9655b0e8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=136053&clt=TD&from=api&nt=true",
+        "price": "$129.00",
+        "roundedUpPrice": "$129",
+        "offerType": null,
+        "title": "Full-Day New York \"Must See\" Small-Group Tour plus One World Observatory Ticket",
+        "productCode": "5250P15",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/77/91.jpg",
+        "description": null,
+        "primaryCategory": "Full-day Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSee-It-All-NYC-Walking-and-Boat-Tour%2Fd687-137375P2%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=87253008984677e15&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=136053&clt=TD&from=api&nt=true",
+        "price": "$69.95",
+        "roundedUpPrice": "$70",
+        "offerType": null,
+        "title": "See It All NYC Walking and Boat Tour",
+        "productCode": "137375P2",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/b4/11/12.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Tour-by-Subway-and-Bus-with-Private-Guide%2Fd687-7908P9%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=17889242b98b6725a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=136053&clt=TD&from=api&nt=true",
+        "price": "$499.00",
+        "roundedUpPrice": "$499",
+        "offerType": null,
+        "title": "New York Tour by Subway and Bus with Private Guide",
+        "productCode": "7908P9",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/74/b1/60.jpg",
+        "description": null,
+        "primaryCategory": "Private Sightseeing Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNYC-Highlights-Small-Group-Tour%2Fd687-5250P17%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c38d11100d7055fda&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=136053&clt=TD&from=api&nt=true",
+        "price": "$89.00",
+        "roundedUpPrice": "$89",
+        "offerType": null,
+        "title": "New York \"Must See\" Small-Group Half-Day Tour",
+        "productCode": "5250P17",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/7d/2b.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      }
+    ]
+  },
+  "website": "http://www.saintpatrickscathedral.org/tours",
+  "subcategories": [
+    "Sights & Landmarks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-in-One-Day-Guided-Sightseeing-Tour%2Fd687-7081NYCDAY%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e655146b870917d1e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=136053&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 6,
+  "name": "St. Patrick's Cathedral",
+  "address": "50th Street & 5th Avenue Wheelchair accessibility located off the corner of 51st Street and 5th Avenue, New York City, NY 10022-6863",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d136053-Reviews-St_Patrick_s_Cathedral-New_York_City_New_York.html",
+  "phone": "8009203904",
+  "type": "ATTRACTION",
+  "email": "tickets@saintpatrickscathedral.org",
+  "rating": 4.5,
+  "localName": "St. Patrick's Cathedral",
+  "description": "St. Patrick’s Cathedral is the Mother Church of the Archdiocese of New York and the seat of its Archbishop. Built by contributions large and small, it remains emblematic of the ascendance of religious freedom in the New World. As such, this international landmark is a beacon of hope for those who share the Catholic faith and a source of inspiration to the more than five million visitors of every religious denomination welcomed here each year. St. Patrick’s Cathedral has stood strong, overlooking 5th Ave, since 1879. The vibrancy of its windows, the beauty of its music and the purpose of its charitable outreach call us to respond to our shared humanity. Saint Patrick’s Cathedral is a must see destination when visiting New York. Our tour has been crafted to capture the essence of the church. It addresses the rich history of the past and the incredible art and architecture that makes it one of a kind. Timothy Cardinal Dolan, narrates the tour with Monsignor Robert Ritchie.",
+  "localAddress": "50th Street & 5th Avenue, Wheelchair accessibility located off the corner of 51st Street and 5th Avenue, 10022-6863",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/af/8f/8e/pope-francis-with-msgr.jpg",
+  "rawRanking": 4.836681842803955,
+  "numberOfReviews": 15305,
+  "id": "136053",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$0.66",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNYC-Highlights-Small-Group-Tour%2Fd687-5250P17%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c38d11100d7055fda&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=143363&clt=TD&from=api&nt=true",
+        "price": "$89.00",
+        "roundedUpPrice": "$89",
+        "offerType": null,
+        "title": "New York \"Must See\" Small-Group Half-Day Tour",
+        "productCode": "5250P17",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/7d/2b.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-NYC-Small-Group-Tour%2Fd687-5250P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c818713a9655b0e8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=143363&clt=TD&from=api&nt=true",
+        "price": "$129.00",
+        "roundedUpPrice": "$129",
+        "offerType": null,
+        "title": "Full-Day New York \"Must See\" Small-Group Tour plus One World Observatory Ticket",
+        "productCode": "5250P15",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/77/91.jpg",
+        "description": null,
+        "primaryCategory": "Full-day Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FThe-Super-Tour-of-NYC-Heroes-Comics-and-More%2Fd687-2218SUPER%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=54b114a57e21651ab&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=143363&clt=TD&from=api&nt=true",
+        "price": "$66.00",
+        "roundedUpPrice": "$66",
+        "offerType": null,
+        "title": "Public Super Tour of NYC: Heroes, Comics and More! ",
+        "productCode": "2218SUPER",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/3b/c3/7a.jpg",
+        "description": null,
+        "primaryCategory": "Movie & TV Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FPrivate-Super-Tour-of-NYC-Heroes-Comics-More%2Fd687-2218P19%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=5c382e53badf8d558&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=143363&clt=TD&from=api&nt=true",
+        "price": "$253.13",
+        "roundedUpPrice": "$254",
+        "offerType": null,
+        "title": "2.5 Hour Private Super Tour of NYC: Heroes! Comics! More! ",
+        "productCode": "2218P19",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/ad/c6/47.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      }
+    ]
+  },
+  "website": "http://www.nyc.gov/html/dot/html/ferrybus/statfery.shtml",
+  "subcategories": [
+    "Transportation"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNYC-Highlights-Small-Group-Tour%2Fd687-5250P17%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c38d11100d7055fda&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=143363&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 9,
+  "name": "Staten Island Ferry",
+  "address": "4 South Street, New York City, NY 10004",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d143363-Reviews-Staten_Island_Ferry-New_York_City_New_York.html",
+  "phone": "+1 212-839-3061",
+  "type": "ATTRACTION",
+  "email": null,
+  "rating": 4.5,
+  "localName": "Staten Island Ferry",
+  "description": "Avoid the traffic of the Verrazzano-Narrows Bridge by taking the free ferry to Staten Island, where you can marvel at the beauty of New York’s coastline along the way. The iconic orange ferry sails right through New York Harbor and is one of the best ways to see the Statue of Liberty and Manhattan skyline. Snap photos, watch life pass by, and even look out for the Brooklyn Bridge in the distance. \n\nUpon arrival in Staten Island, be sure to visit the National Lighthouse Museum and the Empire Outlets mall, located right next to the terminal. \n\n– Tripadvisor",
+  "localAddress": "4 South Street, 10004",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/41/61/63/passing-ferry.jpg",
+  "rawRanking": 4.793814659118652,
+  "numberOfReviews": 23002,
+  "id": "143363",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$28.00",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FOne-World-Observatory-Admission%2Fd687-8747ONEWORLD%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=988eb3505b26aa83d&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=8072300&clt=TD&from=api&nt=true",
+        "price": "$43.55",
+        "roundedUpPrice": "$44",
+        "offerType": null,
+        "title": "NYC One World Observatory Ticket Optional Upgrade Skip-the-Line",
+        "productCode": "8747ONEWORLD",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/12/22/be/ab.jpg",
+        "description": null,
+        "primaryCategory": "Attraction Tickets"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FAll-Access-911-Experience-Ground-Zero-Tour-911-Memorial-and-Museum-One-World-Observatory%2Fd687-5250P14%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=6ea25d5ab6a09c70c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=8072300&clt=TD&from=api&nt=true",
+        "price": "$109.00",
+        "roundedUpPrice": "$109",
+        "offerType": null,
+        "title": "All-Access 9/11: Ground Zero Tour, Memorial and Museum, One World Observatory",
+        "productCode": "5250P14",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/04/f7/8c.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2F911-Memorial-and-Ground-Zero-Walking-Tour-with-Optional-One-World-Observatory-Entrance%2Fd687-5250GZOWO%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=035aeee3889730a4a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=8072300&clt=TD&from=api&nt=true",
+        "price": "$39.00",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "9/11 Memorial, Ground Zero Tour with Optional One World Observatory Ticket",
+        "productCode": "5250GZOWO",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/06/da/93.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FThe-New-York-Sightseeing-Flex-Pass%2Fd687-455222FLEXPASS%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c0f4bb20e8c1a0c89&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=8072300&clt=TD&from=api&nt=true",
+        "price": "$79.00",
+        "roundedUpPrice": "$79",
+        "offerType": null,
+        "title": "The New York Sightseeing Flex Pass: Save Big on 100+ Attractions and Tours!",
+        "productCode": "455222FLEXPASS",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6c/65/34.jpg",
+        "description": null,
+        "primaryCategory": "Sightseeing Passes"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-City-Sky-Line-and-Statue-of-Liberty-Sightseeing-Cruise%2Fd687-195909P2%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=317d603864dc96a33&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=8072300&clt=TD&from=api&nt=true",
+        "price": "$29.99",
+        "roundedUpPrice": "$30",
+        "offerType": null,
+        "title": "New York Sky Line and Statue of Liberty Sightseeing Cruise Pier36",
+        "productCode": "195909P2",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/2f/ea/87.jpg",
+        "description": null,
+        "primaryCategory": "Day Cruises"
+      }
+    ]
+  },
+  "website": "https://oneworldobservatory.com/en-US",
+  "subcategories": [
+    "Sights & Landmarks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FOne-World-Observatory-Admission%2Fd687-8747ONEWORLD%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=988eb3505b26aa83d&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=8072300&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 16,
+  "name": "One World Observatory",
+  "address": "285 Fulton St One World Trade Center, New York City, NY 10007-0089",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d8072300-Reviews-One_World_Observatory-New_York_City_New_York.html",
+  "phone": "+1 212-602-4000",
+  "type": "ATTRACTION",
+  "email": "info@oneworldobservatory.com",
+  "rating": 4.5,
+  "localName": "One World Observatory",
+  "description": "There are a million things to experience in New York City, but there’s only one way to see them all at once. You can start by hopping a Sky Pod to the top of the tallest building in the Western Hemisphere. There, 102 stories up, find yourself face-to-face with New York’s iconic skyline. Maybe you’ve seen views of the city before, but never quite like this. Walk the three sprawling levels of the Observatory and discover surprises along the way. Drop into the café and grab a bite to eat. Step onto the Sky Portal and stroll high above the crowded streets. Take an interactive guided tour of the city with the help of our Skyline Concierges, available to answer any questions you might have about New York’s long and storied history. And don’t leave without stopping by the One Mix bar for a glass of celebratory prosecco and one last look toward the horizon. See for yourself why One World Observatory is truly An Experience Above.",
+  "localAddress": "285 Fulton St, One World Trade Center, 10007-0089",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/17/0e/f5/46/sky-portal-step-on-this.jpg",
+  "rawRanking": 4.551669597625732,
+  "numberOfReviews": 29006,
+  "id": "8072300",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$5.58",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FHard-Rock-Cafe-New-York-Times-Square%2Fd687-8870P17%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=0587d7637429e4576&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=110145&clt=TD&from=api&nt=true",
+        "price": "$38.50",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "Hard Rock Cafe New York Times Square",
+        "productCode": "8870P17",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/75/9a/ce.jpg",
+        "description": null,
+        "primaryCategory": "Dining Experiences"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-in-One-Day-Guided-Sightseeing-Tour%2Fd687-7081NYCDAY%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e655146b870917d1e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=110145&clt=TD&from=api&nt=true",
+        "price": "$99.00",
+        "roundedUpPrice": "$99",
+        "offerType": null,
+        "title": "New York in One Day Guided Sightseeing Tour",
+        "productCode": "7081NYCDAY",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/25/13/74.jpg",
+        "description": null,
+        "primaryCategory": "Bus & Minivan Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Must-See-Combo-Tour%2Fd687-5250P36%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=9ceb4b6d017098f3c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=110145&clt=TD&from=api&nt=true",
+        "price": "$89.00",
+        "roundedUpPrice": "$89",
+        "offerType": null,
+        "title": "NYC Must-See Highlights of Manhattan Bus Tour",
+        "productCode": "5250P36",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/2a/82/e9.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FBig-Bus-New-York-Hop-on-Hop-off-Tour%2Fd687-5096NYCHOHO%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bae819bd6be32f7a3&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=110145&clt=TD&from=api&nt=true",
+        "price": "$54.00",
+        "roundedUpPrice": "$54",
+        "offerType": null,
+        "title": "Big Bus New York Hop-On Hop-Off Open Top Tour",
+        "productCode": "5096NYCHOHO",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/bd/96/20.jpg",
+        "description": null,
+        "primaryCategory": "Hop-on Hop-off Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-NYC-Small-Group-Tour%2Fd687-5250P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c818713a9655b0e8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=110145&clt=TD&from=api&nt=true",
+        "price": "$129.00",
+        "roundedUpPrice": "$129",
+        "offerType": null,
+        "title": "Full-Day New York \"Must See\" Small-Group Tour plus One World Observatory Ticket",
+        "productCode": "5250P15",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/77/91.jpg",
+        "description": null,
+        "primaryCategory": "Full-day Tours"
+      }
+    ]
+  },
+  "website": "http://www.timessquarenyc.org/",
+  "subcategories": [
+    "Sights & Landmarks",
+    "Other"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FHard-Rock-Cafe-New-York-Times-Square%2Fd687-8870P17%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=0587d7637429e4576&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=110145&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 18,
+  "name": "Times Square",
+  "address": "Broadway, New York City, NY 10036",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d110145-Reviews-Times_Square-New_York_City_New_York.html",
+  "phone": "(212) 768-1560",
+  "type": "ATTRACTION",
+  "email": "info@timessquarenyc.org",
+  "rating": 4.5,
+  "localName": "Times Square",
+  "description": "Central area in NYC that has many shops, restaurants, office buildings and flashing billboards around it.",
+  "localAddress": "Broadway, 10036",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/d5/ae/38/times-square.jpg",
+  "rawRanking": 4.428021430969238,
+  "numberOfReviews": 56784,
+  "id": "110145",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$2.76",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSkip-the-line-Met-Cloisters-and-Fifth-Avenue-Tour-by-Car%2Fd687-368349P528%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=66fb7a665fe4a3ffb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=106609&clt=TD&from=api&nt=true",
+        "price": "$276.40",
+        "roundedUpPrice": "$277",
+        "offerType": null,
+        "title": "Skip the line Met Cloisters and Fifth Avenue Tour by Car",
+        "productCode": "368349P528",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0d/4c/7a/df.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      }
+    ]
+  },
+  "website": "http://www.metmuseum.org/visit/met-cloisters",
+  "subcategories": [
+    "Shopping",
+    "Museums"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSkip-the-line-Met-Cloisters-and-Fifth-Avenue-Tour-by-Car%2Fd687-368349P528%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=66fb7a665fe4a3ffb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=106609&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 30,
+  "name": "The Met Cloisters",
+  "address": "99 Margaret Corbin Drive Fort Tryon Park, New York City, NY 10040",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d106609-Reviews-The_Met_Cloisters-New_York_City_New_York.html",
+  "phone": "+1 212-923-3700",
+  "type": "ATTRACTION",
+  "email": null,
+  "rating": 4.5,
+  "localName": "The Met Cloisters",
+  "description": "Atop a tall hill in the northern tip of Manhattan, you’ll find The Met’s second location—The Met Cloisters. Visiting is like traveling through time: medieval architecture is incorporated into a modern building purpose-built to evoke the Middle Ages.",
+  "localAddress": "99 Margaret Corbin Drive, Fort Tryon Park, 10040",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/24/61/94/53/the-met-cloisters-exterior.jpg",
+  "rawRanking": 4.186459541320801,
+  "numberOfReviews": 5159,
+  "id": "106609",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$6.00",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FManhattan-Architecture-Photography-Tour%2Fd687-5537P7%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=9026ae45b1c99fd47&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=116236&clt=TD&from=api&nt=true",
+        "price": "$125.00",
+        "roundedUpPrice": "$125",
+        "offerType": null,
+        "title": "Manhattan Architecture Photography Tour",
+        "productCode": "5537P7",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6f/06/93.jpg",
+        "description": null,
+        "primaryCategory": "Photography Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FMidtown-Highlights-New-York-Best-Hits-Tour%2Fd687-108074P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=15348be778de79a09&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=116236&clt=TD&from=api&nt=true",
+        "price": "$125.00",
+        "roundedUpPrice": "$125",
+        "offerType": null,
+        "title": "Midtown Highlights - New York Best Hits Tour",
+        "productCode": "108074P3",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/36/ab/d4.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-NYC-Small-Group-Tour%2Fd687-5250P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c818713a9655b0e8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=116236&clt=TD&from=api&nt=true",
+        "price": "$129.00",
+        "roundedUpPrice": "$129",
+        "offerType": null,
+        "title": "Full-Day New York \"Must See\" Small-Group Tour plus One World Observatory Ticket",
+        "productCode": "5250P15",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/77/91.jpg",
+        "description": null,
+        "primaryCategory": "Full-day Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-in-New-York-Tour-NYC-in-1-Day%2Fd687-108074P5%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=b4b3f7daeac97301a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=116236&clt=TD&from=api&nt=true",
+        "price": "$275.00",
+        "roundedUpPrice": "$275",
+        "offerType": null,
+        "title": "Full Day in New York Tour - NYC in 1 Day",
+        "productCode": "108074P5",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/3b/51/37.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-in-One-Day-Guided-Sightseeing-Tour%2Fd687-7081NYCDAY%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e655146b870917d1e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=116236&clt=TD&from=api&nt=true",
+        "price": "$99.00",
+        "roundedUpPrice": "$99",
+        "offerType": null,
+        "title": "New York in One Day Guided Sightseeing Tour",
+        "productCode": "7081NYCDAY",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/25/13/74.jpg",
+        "description": null,
+        "primaryCategory": "Bus & Minivan Tours"
+      }
+    ]
+  },
+  "website": "http://www.nypl.org/",
+  "subcategories": [
+    "Museums"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FManhattan-Architecture-Photography-Tour%2Fd687-5537P7%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=9026ae45b1c99fd47&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=116236&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 14,
+  "name": "New York Public Library",
+  "address": "476 5th Ave New York, NY 10018, New York City, NY 10018",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d116236-Reviews-New_York_Public_Library-New_York_City_New_York.html",
+  "phone": "+1 212-930-0800",
+  "type": "ATTRACTION",
+  "email": "nyplweb@nypl.org",
+  "rating": 4.5,
+  "localName": "New York Public Library",
+  "description": "New York Public Library’s monumental main branch is known for its stunning architecture and remarkable historical collections. Take a break from the city’s hustle and bustle at the Rose Main Reading Room, amid chandeliers and an ornate ceiling with murals. Enjoy the free guided tour of the building and view masterpieces like the first Gutenberg Bible, and bring the kids to see the original stuffed animals that inspired the Winnie the Pooh stories. \n\nThe library is served by multiple subway lines and is adjacent to the gorgeous Bryant Park, where you can unwind after the visit. \n\n– Tripadvisor",
+  "localAddress": "476 5th Ave New York, NY 10018, 10018",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/01/7d/71/33/ny-public-library-reading.jpg",
+  "rawRanking": 4.701022148132324,
+  "numberOfReviews": 14627,
+  "id": "116236",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$19.99",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FCircle-Line-Harbor-Lights-Night-Cruise%2Fd687-2800HLC%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=31afd4f86ad7081e5&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=267031&clt=TD&from=api&nt=true",
+        "price": "$49.00",
+        "roundedUpPrice": "$49",
+        "offerType": null,
+        "title": "Circle Line: New York City Harbor Lights Cruise",
+        "productCode": "2800HLC",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/0a/5d/f1.jpg",
+        "description": null,
+        "primaryCategory": "Day Cruises"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-NYC-Small-Group-Tour%2Fd687-5250P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c818713a9655b0e8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=267031&clt=TD&from=api&nt=true",
+        "price": "$129.00",
+        "roundedUpPrice": "$129",
+        "offerType": null,
+        "title": "Full-Day New York \"Must See\" Small-Group Tour plus One World Observatory Ticket",
+        "productCode": "5250P15",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/77/91.jpg",
+        "description": null,
+        "primaryCategory": "Full-day Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FBest-of-Brooklyn-Walking-Tour-in-Williamsburg%2Fd687-9132UNPLUGGED%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=810025db23a78be55&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=267031&clt=TD&from=api&nt=true",
+        "price": "$32.00",
+        "roundedUpPrice": "$32",
+        "offerType": null,
+        "title": "Best of Brooklyn Walking Tour in Williamsburg",
+        "productCode": "9132UNPLUGGED",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/74/ba/3c.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Airport-Luxury-Arrival-Transfer-by-Stretch-Limousine-SUV-Sedan-or-Van%2Fd687-3112P2%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=97d9be7dc8e29c659&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=267031&clt=TD&from=api&nt=true",
+        "price": "$129.50",
+        "roundedUpPrice": "$130",
+        "offerType": null,
+        "title": "NYC VIP Private Luxury airport arrival ride by Stretch Limousine, SUV or Sedan",
+        "productCode": "3112P2",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/d7/5b/47.jpg",
+        "description": null,
+        "primaryCategory": "Airport & Ground Transfers"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FTour-of-the-Secrets-of-Grand-Central-Terminal%2Fd687-26697P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=33189959a1b2e24b2&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=267031&clt=TD&from=api&nt=true",
+        "price": "$39.00",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "NYC Secrets of Grand Central Walking Tour",
+        "productCode": "26697P1",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/70/58/0f.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      }
+    ]
+  },
+  "website": null,
+  "subcategories": [
+    "Sights & Landmarks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FCircle-Line-Harbor-Lights-Night-Cruise%2Fd687-2800HLC%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=31afd4f86ad7081e5&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=267031&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 1,
+  "name": "Manhattan Skyline",
+  "address": "New York City, NY 11201",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d267031-Reviews-Manhattan_Skyline-New_York_City_New_York.html",
+  "phone": null,
+  "type": "ATTRACTION",
+  "email": null,
+  "rating": 5,
+  "localName": "Manhattan Skyline",
+  "description": "From the Chrysler Building to the Empire State Building, this world-famous skyline view of New York's most densely populated borough is a must-see for any traveler.",
+  "localAddress": "11201",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/b7/74/07/photo0jpg.jpg",
+  "rawRanking": 5,
+  "numberOfReviews": 21496,
+  "id": "267031",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$6.00",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FTour-of-the-Secrets-of-Grand-Central-Terminal%2Fd687-26697P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=33189959a1b2e24b2&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=103371&clt=TD&from=api&nt=true",
+        "price": "$39.00",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "NYC Secrets of Grand Central Walking Tour",
+        "productCode": "26697P1",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/70/58/0f.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-NYC-Small-Group-Tour%2Fd687-5250P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c818713a9655b0e8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=103371&clt=TD&from=api&nt=true",
+        "price": "$129.00",
+        "roundedUpPrice": "$129",
+        "offerType": null,
+        "title": "Full-Day New York \"Must See\" Small-Group Tour plus One World Observatory Ticket",
+        "productCode": "5250P15",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/77/91.jpg",
+        "description": null,
+        "primaryCategory": "Full-day Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FBig-Bus-New-York-Hop-on-Hop-off-Tour%2Fd687-5096NYCHOHO%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bae819bd6be32f7a3&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=103371&clt=TD&from=api&nt=true",
+        "price": "$54.00",
+        "roundedUpPrice": "$54",
+        "offerType": null,
+        "title": "Big Bus New York Hop-On Hop-Off Open Top Tour",
+        "productCode": "5096NYCHOHO",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/bd/96/20.jpg",
+        "description": null,
+        "primaryCategory": "Hop-on Hop-off Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSuperheroes-in-New-York-Walking-Tour%2Fd687-31003P22%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=668928796734d026c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=103371&clt=TD&from=api&nt=true",
+        "price": "$39.00",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "Superheroes in New York Walking Tour",
+        "productCode": "31003P22",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/df/2d/c4.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Underground-Subway-Tour-with-Private-Guide%2Fd687-8175P2%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=9eed06527393ce966&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=103371&clt=TD&from=api&nt=true",
+        "price": "$185.00",
+        "roundedUpPrice": "$185",
+        "offerType": null,
+        "title": "Guided Private Underground New York Subway Tour",
+        "productCode": "8175P2",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/41/6c/a3.jpg",
+        "description": null,
+        "primaryCategory": "Private Sightseeing Tours"
+      }
+    ]
+  },
+  "website": "http://www.grandcentralterminal.com/",
+  "subcategories": [
+    "Sights & Landmarks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FTour-of-the-Secrets-of-Grand-Central-Terminal%2Fd687-26697P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=33189959a1b2e24b2&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=103371&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 8,
+  "name": "Grand Central Terminal",
+  "address": "89 E 42nd Street, New York City, NY 10017-5503",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d103371-Reviews-Grand_Central_Terminal-New_York_City_New_York.html",
+  "phone": "(212) 340-2583",
+  "type": "ATTRACTION",
+  "email": "info@grandcentralterminal.com",
+  "rating": 4.5,
+  "localName": "Grand Central Terminal",
+  "description": "Grand Central Terminal is the most extraordinary public space in New York City. Opened to the public in 1913, this historic train terminal is a world-famous landmark in Midtown. Its rich history is a story of immense wealth and great engineering. Grand Central is one of the busiest train stations in the world, with approximately 750,000 visitors every day. It is the home of Metro-North Railroad, a subway station, iconic restaurants, shops, and the world's most alluring Apple Store. Some of the highlights to see along your tour of Grand Central include the opal-faced clock, valued at $20 million, above the Information Booth, the Largest Tiffany Glass Clock in the World below the 48-foot, 1500-ton Transportation statue overlooking 42nd Street at Park Avenue, and the mystifying acoustics of the Whispering Gallery in front of the Oyster Bar and Restaurant. Audio and guided tours are available for those with a passion for history. More information regarding tours and ways to plan your visit can be found on the Grand Central Terminal website.",
+  "localAddress": "89 E 42nd Street, 10017-5503",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/17/f3/4b/4e/grand-central-terminal.jpg",
+  "rawRanking": 4.796093940734863,
+  "numberOfReviews": 44735,
+  "id": "103371",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$6.00",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FManhattan-to-Brooklyn-NYC-Walking-Tour-Brooklyn-Bridge-and-Dumbo%2Fd687-5637BB%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=d7d053f37535a12ca&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=102741&clt=TD&from=api&nt=true",
+        "price": "$39.00",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "Brooklyn Bridge & DUMBO Neighborhood Tour - from Manhattan to Brooklyn",
+        "productCode": "5637BB",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/08/39/10/02.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2F60-min-Sightseeing-Cruise-on-a-Yacht-to-View-The-Statue-of-Liberty%2Fd687-201238P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=37893ecfba462ca19&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=102741&clt=TD&from=api&nt=true",
+        "price": "$16.00",
+        "roundedUpPrice": "$16",
+        "offerType": null,
+        "title": "60 min Sightseeing Cruise on a Yacht to View The Statue of Liberty",
+        "productCode": "201238P1",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/66/85/e8.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FFull-Day-NYC-Small-Group-Tour%2Fd687-5250P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c818713a9655b0e8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=102741&clt=TD&from=api&nt=true",
+        "price": "$129.00",
+        "roundedUpPrice": "$129",
+        "offerType": null,
+        "title": "Full-Day New York \"Must See\" Small-Group Tour plus One World Observatory Ticket",
+        "productCode": "5250P15",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/0b/77/91.jpg",
+        "description": null,
+        "primaryCategory": "Full-day Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FBig-Bus-New-York-Hop-on-Hop-off-Tour%2Fd687-5096NYCHOHO%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bae819bd6be32f7a3&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=102741&clt=TD&from=api&nt=true",
+        "price": "$54.00",
+        "roundedUpPrice": "$54",
+        "offerType": null,
+        "title": "Big Bus New York Hop-On Hop-Off Open Top Tour",
+        "productCode": "5096NYCHOHO",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/bd/96/20.jpg",
+        "description": null,
+        "primaryCategory": "Hop-on Hop-off Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-in-One-Day-Guided-Sightseeing-Tour%2Fd687-7081NYCDAY%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e655146b870917d1e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=102741&clt=TD&from=api&nt=true",
+        "price": "$99.00",
+        "roundedUpPrice": "$99",
+        "offerType": null,
+        "title": "New York in One Day Guided Sightseeing Tour",
+        "productCode": "7081NYCDAY",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/25/13/74.jpg",
+        "description": null,
+        "primaryCategory": "Bus & Minivan Tours"
+      }
+    ]
+  },
+  "website": "http://www.nyc.gov/html/dot/html/bridges/bridges.shtml#brooklyn",
+  "subcategories": [
+    "Sights & Landmarks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FManhattan-to-Brooklyn-NYC-Walking-Tour-Brooklyn-Bridge-and-Dumbo%2Fd687-5637BB%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=d7d053f37535a12ca&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=102741&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 5,
+  "name": "Brooklyn Bridge",
+  "address": "New York City, NY 10038",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d102741-Reviews-Brooklyn_Bridge-New_York_City_New_York.html",
+  "phone": null,
+  "type": "ATTRACTION",
+  "email": null,
+  "rating": 4.5,
+  "localName": "Brooklyn Bridge",
+  "description": "Opened in 1883, the Brooklyn Bridge provides passage between Brooklyn and Manhattan for motorists, trains, bicycles and pedestrians. One of the primary symbols of New York City, it is a marvel of design and provides spectacular views of the city's skyline.",
+  "localAddress": "10038",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/3a/14/1e/photo3jpg.jpg",
+  "rawRanking": 4.87058162689209,
+  "numberOfReviews": 26001,
+  "id": "102741",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$6.00",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FBig-Bus-New-York-Hop-on-Hop-off-Tour%2Fd687-5096NYCHOHO%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bae819bd6be32f7a3&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=136347&clt=TD&from=api&nt=true",
+        "price": "$54.00",
+        "roundedUpPrice": "$54",
+        "offerType": null,
+        "title": "Big Bus New York Hop-On Hop-Off Open Top Tour",
+        "productCode": "5096NYCHOHO",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/bd/96/20.jpg",
+        "description": null,
+        "primaryCategory": "Hop-on Hop-off Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FLandmarks-of-Midtown-Walking-Tour%2Fd687-43159P11%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=3897c51e4cecef448&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=136347&clt=TD&from=api&nt=true",
+        "price": "$40.00",
+        "roundedUpPrice": "$40",
+        "offerType": null,
+        "title": "Art Deco and Architecture Midtown Landmarks Tour",
+        "productCode": "43159P11",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6c/43/3e.jpg",
+        "description": null,
+        "primaryCategory": "Historical & Heritage Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-City-1-Day-Hop-on-Hop-off-with-Empire-State-and-Statue-of-Liberty%2Fd687-5096P27%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=7650b536f3bf4fafb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=136347&clt=TD&from=api&nt=true",
+        "price": "$130.00",
+        "roundedUpPrice": "$130",
+        "offerType": null,
+        "title": "New York City 1-Day Hop-on Hop-off with Empire State and Statue of Liberty Ferry",
+        "productCode": "5096P27",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/bd/96/20.jpg",
+        "description": null,
+        "primaryCategory": "Hop-on Hop-off Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FBig-Bus-Tours-New-York-Empire-State-Building%2Fd687-5096P33%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=0c789abdceed23878&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=136347&clt=TD&from=api&nt=true",
+        "price": "$100.00",
+        "roundedUpPrice": "$100",
+        "offerType": null,
+        "title": "New York City 1-Day Hop-on Hop-off with Empire State Building Admission",
+        "productCode": "5096P33",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/be/04/38.jpg",
+        "description": null,
+        "primaryCategory": "Bus & Minivan Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FManhattan-Architecture-Photography-Tour%2Fd687-5537P7%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=9026ae45b1c99fd47&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=136347&clt=TD&from=api&nt=true",
+        "price": "$125.00",
+        "roundedUpPrice": "$125",
+        "offerType": null,
+        "title": "Manhattan Architecture Photography Tour",
+        "productCode": "5537P7",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6f/06/93.jpg",
+        "description": null,
+        "primaryCategory": "Photography Tours"
+      }
+    ]
+  },
+  "website": "http://bryantpark.org",
+  "subcategories": [
+    "Nature & Parks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FBig-Bus-New-York-Hop-on-Hop-off-Tour%2Fd687-5096NYCHOHO%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bae819bd6be32f7a3&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=136347&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 11,
+  "name": "Bryant Park",
+  "address": "between 40th and 42nd Streets & Fifth and Sixth Ave, New York City, NY 10017",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d136347-Reviews-Bryant_Park-New_York_City_New_York.html",
+  "phone": "+1 236-565-2365",
+  "type": "ATTRACTION",
+  "email": "bpc@urbanmgt.com",
+  "rating": 4.5,
+  "localName": "Bryant Park",
+  "description": "Bryant Park has a French-style merry-go-round, open year-round, plus a well-maintained lawn, with chairs and tables. The outdoor Reading Room has picture books and summertime story times. In winter. Take a spin on the free ice-skating rink. The park also has clean bathrooms, a rarity in midtown.",
+  "localAddress": "between 40th and 42nd Streets & Fifth and Sixth Ave, 10017",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-w/06/46/7a/36/bryant-park.jpg",
+  "rawRanking": 4.755293369293213,
+  "numberOfReviews": 23878,
+  "id": "136347",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$6.00",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSecrets-of-the-High-Line%2Fd687-43581P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=39e14eb2edbc3da75&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=519474&clt=TD&from=api&nt=true",
+        "price": "$45.00",
+        "roundedUpPrice": "$45",
+        "offerType": null,
+        "title": "Secrets of the High Line",
+        "productCode": "43581P1",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0e/80/4e/f5.jpg",
+        "description": null,
+        "primaryCategory": "City Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FHigh-Line-and-Hudson-Yards%2Fd687-43159P18%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=320e622b90894c2de&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=519474&clt=TD&from=api&nt=true",
+        "price": "$250.00",
+        "roundedUpPrice": "$250",
+        "offerType": null,
+        "title": "High Line and Hudson Yards Private Walking Tour",
+        "productCode": "43159P18",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6c/43/4a.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FHigh-Line-and-Chelsea-Walking-Tour%2Fd687-5250HIGH%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=5d06beda7fdb71058&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=519474&clt=TD&from=api&nt=true",
+        "price": "$39.00",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "High Line and Chelsea Small Group Tour",
+        "productCode": "5250HIGH",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/29/86/0e.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSecrets-of-Hudson-Yards-HighLine-and-Vessel%2Fd687-5250P30%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=6315c30bff63c9a8a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=519474&clt=TD&from=api&nt=true",
+        "price": "$39.00",
+        "roundedUpPrice": "$39",
+        "offerType": null,
+        "title": "Hudson Yards, HighLine Tour with Optional Edge Entry",
+        "productCode": "5250P30",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/8c/33/95.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FMeatpacking-District-Chelsea-Market-The-Highline-Walking-Tour%2Fd687-31003P14%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=b1af2a479cf466edf&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=519474&clt=TD&from=api&nt=true",
+        "price": "$47.00",
+        "roundedUpPrice": "$47",
+        "offerType": null,
+        "title": "Semi-Private Meatpacking District, Chelsea Market, and High Line Walking Tour",
+        "productCode": "31003P14",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/8e/3b/79.jpg",
+        "description": null,
+        "primaryCategory": "Cultural Tours"
+      }
+    ]
+  },
+  "website": "https://www.nycgovparks.org/parks/the-high-line",
+  "subcategories": [
+    "Sights & Landmarks",
+    "Nature & Parks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FSecrets-of-the-High-Line%2Fd687-43581P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=39e14eb2edbc3da75&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=519474&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 10,
+  "name": "The High Line",
+  "address": "Gansevoort St To W. 30 St. Between Washington St. and 11 Ave, New York City, NY 10011",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d519474-Reviews-The_High_Line-New_York_City_New_York.html",
+  "phone": "+1 212-500-6035",
+  "type": "ATTRACTION",
+  "email": "info@thehighline.org",
+  "rating": 4.5,
+  "localName": "The High Line",
+  "description": "This elevated railway turned public park provides fantastic views of the Hudson River and New York City skyline on Manhattan's West Side. The 1.5-mile High Line draws travelers to its lush horticulture, art installations and community programs. Here, you can have a leisure stroll along the structure and admire colorful murals and installations all around. Other must-sees of the area include the Chelsea Market, the Whitney Museum of American Art and the Vessel.\n\nHear the story behind this unique greenway on a free tour led by knowledgeable guides which takes place on some days. – Tripadvisor",
+  "localAddress": "Gansevoort St, To W. 30 St. Between Washington St. and 11 Ave, 10011",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/86/71/32/at-sunset.jpg",
+  "rawRanking": 4.77271032333374,
+  "numberOfReviews": 63006,
+  "id": "519474",
+  "localLangCode": "en-US"
+},
+{
+  "offerGroup": {
+    "lowestPrice": "$0.15",
+    "offerList": [
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FTop-of-the-Rock-Observation-Deck-New-York%2Fd687-3784TOPROCK%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=117497a034d8ac437&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=587661&clt=TD&from=api&nt=true",
+        "price": "$43.55",
+        "roundedUpPrice": "$44",
+        "offerType": null,
+        "title": "New York's Iconic, Top of the Rock Observation Deck",
+        "productCode": "3784TOPROCK",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0b/db/b0/6d.jpg",
+        "description": null,
+        "primaryCategory": "Attraction Tickets"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-City-Explorer-Pass%2Fd687-3958EXPNYC%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c41bc1e2a00e36fa7&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=587661&clt=TD&from=api&nt=true",
+        "price": "$79.00",
+        "roundedUpPrice": "$79",
+        "offerType": null,
+        "title": "Go City: New York Explorer Pass - Choose 2, 3, 4, 5, 6, 7 or 10 attractions",
+        "productCode": "3958EXPNYC",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/11/c3/87/81.jpg",
+        "description": null,
+        "primaryCategory": "Sightseeing Passes"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-CityPass%2Fd687-2640NYC%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=092a39e3addd53fac&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=587661&clt=TD&from=api&nt=true",
+        "price": "$138.00",
+        "roundedUpPrice": "$138",
+        "offerType": null,
+        "title": "New York CityPASS",
+        "productCode": "2640NYC",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0b/e6/aa/84.jpg",
+        "description": null,
+        "primaryCategory": "Sightseeing Passes"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNYC-Bicycle-Rental%2Fd687-37907P4%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=7c943cc1361fe0d8e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=587661&clt=TD&from=api&nt=true",
+        "price": "$15.00",
+        "roundedUpPrice": "$15",
+        "offerType": null,
+        "title": "Bike Rental-Easy GO NYC",
+        "productCode": "37907P4",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/68/bc/f1.jpg",
+        "description": null,
+        "primaryCategory": "Bike Rentals"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FNew-York-Pass%2Fd687-3878PASS%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e8b24308b33774b68&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=587661&clt=TD&from=api&nt=true",
+        "price": "$149.00",
+        "roundedUpPrice": "$149",
+        "offerType": null,
+        "title": "The New York Pass®: 100+ Attractions including Empire State Building",
+        "productCode": "3878PASS",
+        "partner": "Viator",
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0d/09/c4/d7.jpg",
+        "description": null,
+        "primaryCategory": "Attraction Tickets"
+      }
+    ]
+  },
+  "website": "http://www.topoftherocknyc.com",
+  "subcategories": [
+    "Sights & Landmarks"
+  ],
+  "booking": {
+    "provider": "Viator",
+    "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNew-York-City%2FTop-of-the-Rock-Observation-Deck-New-York%2Fd687-3784TOPROCK%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=117497a034d8ac437&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=587661&clt=TD&from=api&nt=true"
+  },
+  "category": "attraction",
+  "rankingPosition": 19,
+  "name": "Top of the Rock",
+  "address": "30 Rockfeller Plaza Enter on West 50th Street, between 5th & 6th Avenues, New York City, NY 10111",
+  "webUrl": "https://www.tripadvisor.com/Attraction_Review-g60763-d587661-Reviews-Top_of_the_Rock-New_York_City_New_York.html",
+  "phone": "+1 212-698-2000",
+  "type": "ATTRACTION",
+  "email": "info@topoftherocknyc.com",
+  "rating": 4.5,
+  "localName": "Top of the Rock",
+  "description": "Top of the Rock Observation Deck, the newly opened, 3-tiered observation deck on the 67th, 69th and 70th floors of 30 Rockefeller Plaza, is New York City's most amazing attraction! The unforgettable experience includes a panoramic 360-degree, unobstructed view from the 70th floor observatory, 850 feet in the sky! Hours of Operation: 8:00 AM - Midnight, last elevator goes up at 11:00 PM.Main entrance is located on 50th Street between 5th & 6th Avenues.",
+  "localAddress": "30 Rockfeller Plaza, Enter on West 50th Street, between 5th & 6th Avenues, 10111",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/08/20/ff/cd/top-of-the-rock-observation.jpg",
+  "rawRanking": 4.418278217315674,
+  "numberOfReviews": 80170,
+  "id": "587661",
+  "localLangCode": "en-US"
+}]
