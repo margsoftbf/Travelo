@@ -1,2664 +1,4557 @@
-[{
-  "dishes": [
-    "Pasta",
-    "Lobster",
-    "Shrimp",
-    "Salad",
-    "Calamari",
-    "Cannoli",
-    "Meatballs",
-    "Eggplant",
-    "Clams",
-    "Tartufo",
-    "Pesto",
-    "Fish"
-  ],
-  "localAddress": "2929 Avenue R, 11229-2604",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/06/9a/37/bd/rack-or-lamb-with-roasted.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 216,
-  "isClosed": false,
-  "features": [
-    "Takeout",
-    "Reservations",
-    "Private Dining",
-    "Seating",
-    "Parking Available",
-    "Valet Parking",
-    "Highchairs Available",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Table Service"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "locationString": "Brooklyn, New York",
-  "id": "459576",
-  "phone": "+1 718-998-7851",
-  "rankingPosition": 6,
-  "openNowText": "Open Now",
-  "rawRanking": 4.512977123260498,
-  "website": "http://michaelsofbrooklyn.com",
-  "priceRange": "$21 - $30",
-  "type": "RESTAURANT",
-  "email": "MichaelsOfBklyn@Aol.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "2929 Avenue R, Brooklyn, NY 11229-2604",
-  "name": "Michael's of Brooklyn",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Pasta",
-    "Lasagne",
-    "Salad",
-    "Cannoli",
-    "Arancini",
-    "Eggplant",
-    "Tuna",
-    "Octopus",
-    "Ragu",
-    "Pesto",
-    "Cakes"
-  ],
-  "localAddress": "438 3rd Ave, At 30th St, 10016-6040",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/9b/c7/ba/norma.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Pizza",
-    "Sicilian",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 293,
-  "isClosed": false,
-  "features": [
-    "Delivery",
-    "Takeout",
-    "Reservations",
-    "Seating",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Street Parking"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner"
-  ],
-  "locationString": "New York City, New York",
-  "id": "11876357",
-  "phone": "+1 212-889-0600",
-  "rankingPosition": 69,
-  "openNowText": "Open Now",
-  "rawRanking": 4.493777275085449,
-  "website": "http://www.normarestaurant.com/",
-  "priceRange": null,
-  "type": "RESTAURANT",
-  "email": "info@normamurrayhill.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "438 3rd Ave At 30th St, New York City, NY 10016-6040",
-  "name": "Norma - Gastronomia Siciliana",
-  "subcategories": [],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Crab",
-    "Dumplings",
-    "Lobster",
-    "Lobster Roll",
-    "Oyster",
-    "Shrimp",
-    "Tempura",
-    "Salad",
-    "Roe",
-    "Scallops",
-    "Cod",
-    "Salmon",
-    "Tuna",
-    "Fish Soup",
-    "Beef",
-    "Sashimi",
-    "Fish"
-  ],
-  "localAddress": "119 Sullivan Street, 10012",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/ed/31/0b/sushi.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Japanese",
-    "Sushi",
-    "Asian",
-    "Healthy",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 1062,
-  "isClosed": false,
-  "features": [
-    "Delivery",
-    "Takeout",
-    "Seating",
-    "Serves Alcohol",
-    "Accepts American Express",
-    "Accepts Mastercard",
-    "Accepts Visa",
-    "Accepts Credit Cards",
-    "Table Service"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "locationString": "New York City, New York",
-  "id": "457772",
-  "phone": "+1 212-343-0404",
-  "rankingPosition": 67,
-  "openNowText": "Open Now",
-  "rawRanking": 4.501145362854004,
-  "website": "https://www.blueribbonsushi119.com/",
-  "priceRange": "$31 - $45",
-  "type": "RESTAURANT",
-  "email": null,
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "119 Sullivan Street, New York City, NY 10012",
-  "name": "Blue Ribbon Sushi",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "A cozy, cedar clad Sushi Bar with an award-winning sake list and an extensive selection of fresh fish flown in daily from the Sea of Japan as well as both the Atlantic and Pacific oceans. Open late.\n\nWhether you sit at the walnut Sushi Bar or at one of the cozy tables in the back room, Blue Ribbon Sushi will transport you to the other side of the world.",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Falafel",
-    "Salad",
-    "Eggplant",
-    "Hummus"
-  ],
-  "localAddress": "305 Amsterdam Ave, 10023-1739",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/82/69/db/photo0jpg.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 660,
-          "openHours": "11:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 660,
-          "openHours": "11:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 660,
-          "openHours": "11:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 660,
-          "openHours": "11:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 660,
-          "openHours": "11:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 660,
-          "openHours": "11:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 660,
-          "openHours": "11:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Lebanese",
-    "Mediterranean",
-    "Middle Eastern",
-    "Israeli",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Kosher",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 355,
-  "isClosed": false,
-  "features": [
-    "Delivery",
-    "Takeout",
-    "Seating",
-    "Serves Alcohol",
-    "Accepts Credit Cards",
-    "Table Service"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner",
-    "Brunch"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner",
-    "Brunch"
-  ],
-  "locationString": "New York City, New York",
-  "id": "2452488",
-  "phone": "+1 212-799-3335",
-  "rankingPosition": 63,
-  "openNowText": "Open Now",
-  "rawRanking": 4.506800651550293,
-  "website": "http://www.hummusplace.com/",
-  "priceRange": null,
-  "type": "RESTAURANT",
-  "email": "hummusplaceoffice@gmail.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "305 Amsterdam Ave, New York City, NY 10023-1739",
-  "name": "Hummus Place",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Noodle",
-    "Dumplings",
-    "Pad Thai",
-    "Shrimp",
-    "Salad",
-    "Curry",
-    "Green Curry",
-    "Red Curry",
-    "Beef",
-    "Duck",
-    "Fried rice"
-  ],
-  "localAddress": "5 E 19th St, 10003-1107",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/33/12/3e/antique-bell-with-red.jpg",
-  "hours": {
-    "weekRanges": [
-      [],
-      [
-        {
-          "open": 420,
-          "openHours": "07:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 420,
-          "openHours": "07:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 420,
-          "openHours": "07:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 420,
-          "openHours": "07:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 420,
-          "openHours": "07:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 420,
-          "openHours": "07:00",
-          "close": 960,
-          "closeHours": "16:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Thai",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 218,
-  "isClosed": false,
-  "features": [
-    "Delivery",
-    "Takeout",
-    "Reservations",
-    "Seating",
-    "Serves Alcohol",
-    "Full Bar",
-    "Table Service"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner"
-  ],
-  "locationString": "New York City, New York",
-  "id": "11356100",
-  "phone": "+1 212-802-9999",
-  "rankingPosition": 56,
-  "openNowText": "Open Now",
-  "rawRanking": 4.517996788024902,
-  "website": "http://www.thaivillanyc.com",
-  "priceRange": "$11 - $30",
-  "type": "RESTAURANT",
-  "email": "info@thaivillanyc.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "5 E 19th St, New York City, NY 10003-1107",
-  "name": "Thai Villa",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "Savor Remarkable Thai Cooking in an Old-World Setting",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Pasta",
-    "Crab",
-    "Burger",
-    "Lobster",
-    "Oyster",
-    "Polenta",
-    "Ribs",
-    "Salad",
-    "Risotto",
-    "Suckling Pig",
-    "Scallops",
-    "Halibut",
-    "Salmon",
-    "Tuna",
-    "Quail",
-    "Foie gras",
-    "Octopus",
-    "Toasts",
-    "Bass",
-    "Beef",
-    "Duck",
-    "Lamb",
-    "Ragu",
-    "Agnolotti",
-    "Pesto",
-    "Cakes",
-    "Fish",
-    "Pork"
-  ],
-  "localAddress": "43 E 19th St, 10003-1304",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/9d/94/59/craft-main-dining-room.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1290,
-          "closeHours": "21:30"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1290,
-          "closeHours": "21:30"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "American",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 1037,
-  "isClosed": false,
-  "features": [
-    "Accepts Credit Cards",
-    "Street Parking",
-    "Gift Cards Available"
-  ],
-  "mealTypes": [
-    "Dinner"
-  ],
-  "dietaryRestrictions": [
-    "Dinner"
-  ],
-  "locationString": "New York City, New York",
-  "id": "1750605",
-  "phone": "+1 212-780-0880",
-  "rankingPosition": 68,
-  "openNowText": "Open Now",
-  "rawRanking": 4.499131679534912,
-  "website": "http://www.craftrestaurant.com",
-  "priceRange": "$35 - $80",
-  "type": "RESTAURANT",
-  "email": "info@craftrestaurant.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "43 E 19th St, New York City, NY 10003-1304",
-  "name": "Craft",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "Created by Tom Colicchio and located in the heart of NYC, Craft serves simply prepared dishes highlighting pristine, seasonal ingredients within the award-winning architectural design of Bentel and Bentel.Craft received the James Beard Award for Best New Restaurant nationwide in 2002 and New York Times critic, William Grimes awarded Craft three stars in 2001, an honor upheld by Sam Sifton in 2011. CraftNYC is open for dinner, takeaway and delivery every evening.",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Pasta",
-    "Burger",
-    "Ribs",
-    "Shrimp",
-    "Salad",
-    "Wings",
-    "Mac and cheese",
-    "Salmon",
-    "Beef",
-    "Fried rice",
-    "Fish",
-    "Pork"
-  ],
-  "localAddress": "700 W 125th St, 10027",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/12/cb/b3/55/dinosaur-bar-b-que.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 0,
-          "openHours": "00:00",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "American",
-    "Bar",
-    "Barbecue",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 1244,
-  "isClosed": false,
-  "features": [
-    "Takeout",
-    "Reservations",
-    "Seating",
-    "Television",
-    "Highchairs Available",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Free Wifi",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Live Music"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "locationString": "New York City, New York",
-  "id": "620401",
-  "phone": "(212) 694-1777",
-  "rankingPosition": 62,
-  "openNowText": "Open Now",
-  "rawRanking": 4.510613918304443,
-  "website": "http://dinosaurbarbque.com/locations/harlem",
-  "priceRange": "$20 - $25",
-  "type": "RESTAURANT",
-  "email": null,
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "700 W 125th St, New York City, NY 10027",
-  "name": "Dinosaur Bar-B-Que",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "Located in West Harlem under the Riverside Drive Viaduct, Dinosaur Bar-B-Que is a rustic BBQ restaurant, blues venue, and cocktail bar serving the best smoked meats & award winning sauces in the area.",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Cannelloni",
-    "Pasta",
-    "Cheesecake",
-    "Crab",
-    "Lasagne",
-    "Lobster",
-    "Shrimp",
-    "Salad",
-    "Calamari",
-    "Cannoli",
-    "Alfredo",
-    "Tiramisu",
-    "Meatballs",
-    "Tortellini",
-    "Tortelloni",
-    "Eggplant",
-    "Clams",
-    "Torte",
-    "Tortelli",
-    "Pesto",
-    "Pork"
-  ],
-  "localAddress": "236 W 56th St, 10019-4306",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/a6/18/a1/photo0jpg.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1290,
-          "closeHours": "21:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1290,
-          "closeHours": "21:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1290,
-          "closeHours": "21:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1290,
-          "closeHours": "21:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1290,
-          "closeHours": "21:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1290,
-          "closeHours": "21:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1290,
-          "closeHours": "21:30"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Neapolitan",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 5294,
-  "isClosed": false,
-  "features": [
-    "Takeout",
-    "Reservations",
-    "Private Dining",
-    "Seating",
-    "Highchairs Available",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Gift Cards Available"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner"
-  ],
-  "locationString": "New York City, New York",
-  "id": "478026",
-  "phone": "+1 212-247-3491",
-  "rankingPosition": 54,
-  "openNowText": "Open Now",
-  "rawRanking": 4.52836799621582,
-  "website": "http://www.patsys.com",
-  "priceRange": "$80",
-  "type": "RESTAURANT",
-  "email": "patsysnyc@gmail.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "236 W 56th St, New York City, NY 10019-4306",
-  "name": "Patsy's Italian Restaurant",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "Since 1944, Patsy’s Italian Restaurant has been a traditional, family-owned and operated Italian restaurant located on Manhattan's west side just south of Central Park.",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Pasta",
-    "Lasagne",
-    "Tapas",
-    "Salad",
-    "Chili",
-    "Kale Salad",
-    "Tiramisu",
-    "Prosciutto",
-    "Meatballs",
-    "Carbonara",
-    "Beef",
-    "Pesto",
-    "Cakes"
-  ],
-  "localAddress": "370 W 51st St, 10019-6403",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/9f/4f/ea/b-side-pizzeria.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Pizza",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 540,
-  "isClosed": false,
-  "features": [
-    "Takeout",
-    "Seating",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Accepts Credit Cards",
-    "Table Service"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner"
-  ],
-  "locationString": "New York City, New York",
-  "id": "7078660",
-  "phone": "+1 646-679-7225",
-  "rankingPosition": 55,
-  "openNowText": "Open Now",
-  "rawRanking": 4.521200656890869,
-  "website": "http://bsidepizzabar-nyc.com",
-  "priceRange": null,
-  "type": "RESTAURANT",
-  "email": "bside@chowdowninc.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "370 W 51st St, New York City, NY 10019-6403",
-  "name": "B Side Pizzeria",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "New York Style Pizza",
-    "Meatballs"
-  ],
-  "localAddress": "413 8th Ave, 10001-1804",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/0e/f6/40/26/half-chicken-for-me-half.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1440,
-          "closeHours": "00:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Pizza",
-    "Fast Food",
-    "Vegetarian Friendly",
-    "Vegan Options"
-  ],
-  "numberOfReviews": 1360,
-  "isClosed": false,
-  "features": [
-    "Delivery",
-    "Takeout",
-    "Seating",
-    "Wheelchair Accessible",
-    "Accepts Credit Cards"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "locationString": "New York City, New York",
-  "id": "2409563",
-  "phone": "+1 212-594-8939",
-  "rankingPosition": 57,
-  "openNowText": "Open Now",
-  "rawRanking": 4.517100811004639,
-  "website": "http://www.nypizzasuprema.com",
-  "priceRange": null,
-  "type": "RESTAURANT",
-  "email": "nypizzasuprema@gmail.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "413 8th Ave, New York City, NY 10001-1804",
-  "name": "NY Pizza Suprema",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "NY Pizza Suprema is an Award Winning Pizza place in business in same location a cross from Penn station and MSG for 56 years serving only NY style pizza and no other foods. Featured on The Rachel Ray show, Time Out New York, Good Day New York, The Wall Street Journal and numerous other NY newspapers and periodicals where we routinely make “Best Pizza in NYC” lists. Sliceharvester rated us #1 Pizza Place after sampling close to 400 pizzas in Manhattan pizza places. Recently we have been Honored by The Ellis Island National Museum of Immigration with an Exibit of our pizzeria celebrating the “History of Pizza in America.” We are Celebrity Chef Curtis Stone’s favorite pizza in America. We are rated 8th Best slice of pizza in the World by Big 7 Travel. At NY Pizza Suprema pizza is not just another item on our menu — pizza is all we make! We use 5 different red sauces, use a 30 month aged parmigiano-reggiano, 16 month aged pecorino romano, extra virgin olive oil — all from Italy!",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Pasta",
-    "Salad",
-    "Calamari",
-    "Eggplant",
-    "Neapolitan pizza",
-    "Paccheri",
-    "Pesto"
-  ],
-  "localAddress": "146 W Houston St, 10012-2561",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/09/3b/d5/17/photo0jpg.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 0,
-          "openHours": "00:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Pizza",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 424,
-  "isClosed": false,
-  "features": [
-    "Delivery",
-    "Takeout",
-    "Reservations",
-    "Seating",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Accepts Credit Cards",
-    "Table Service"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner",
-    "Brunch"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner",
-    "Brunch"
-  ],
-  "locationString": "New York City, New York",
-  "id": "8319600",
-  "phone": "+1 212-533-1242",
-  "rankingPosition": 59,
-  "openNowText": "Open Now",
-  "rawRanking": 4.513628005981445,
-  "website": "http://www.songenapulenyc.us/?utm_source=TripAdvisor&utm_medium=TripAdvWebsite&utm_campaign=TA&utm_term=TA",
-  "priceRange": null,
-  "type": "RESTAURANT",
-  "email": "info@songenapuleusa.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "146 W Houston St, New York City, NY 10012-2561",
-  "name": "Song E Napule Pizzeria & Trattoria",
-  "subcategories": [],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Omelette",
-    "Sandwiches",
-    "Bagels",
-    "French Toast",
-    "Burger",
-    "Pancakes",
-    "Breakfast Burrito",
-    "Toasts"
-  ],
-  "localAddress": "124 W 25th St, Frnt 1, 10001-7421",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/02/3e/cf/c9/french-toast-at-johny.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 480,
-          "openHours": "08:00",
-          "close": 870,
-          "closeHours": "14:30"
-        }
-      ],
-      [
-        {
-          "open": 480,
-          "openHours": "08:00",
-          "close": 870,
-          "closeHours": "14:30"
-        }
-      ],
-      [
-        {
-          "open": 480,
-          "openHours": "08:00",
-          "close": 870,
-          "closeHours": "14:30"
-        }
-      ],
-      [
-        {
-          "open": 480,
-          "openHours": "08:00",
-          "close": 870,
-          "closeHours": "14:30"
-        }
-      ],
-      [
-        {
-          "open": 480,
-          "openHours": "08:00",
-          "close": 870,
-          "closeHours": "14:30"
-        }
-      ],
-      [
-        {
-          "open": 480,
-          "openHours": "08:00",
-          "close": 870,
-          "closeHours": "14:30"
-        }
-      ],
-      [
-        {
-          "open": 480,
-          "openHours": "08:00",
-          "close": 870,
-          "closeHours": "14:30"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "American",
-    "Diner",
-    "Vegetarian Friendly"
-  ],
-  "numberOfReviews": 454,
-  "isClosed": false,
-  "features": [
-    "Delivery",
-    "Takeout",
-    "Seating",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Accepts American Express",
-    "Accepts Mastercard",
-    "Accepts Visa",
-    "Accepts Discover"
-  ],
-  "mealTypes": [
-    "Breakfast",
-    "Lunch",
-    "Brunch"
-  ],
-  "dietaryRestrictions": [
-    "Breakfast",
-    "Lunch",
-    "Brunch"
-  ],
-  "locationString": "New York City, New York",
-  "id": "2460876",
-  "phone": "+1 212-243-6230",
-  "rankingPosition": 48,
-  "openNowText": "Closed Now",
-  "rawRanking": 4.552313327789307,
-  "website": "http://www.johnysluncheonette.com",
-  "priceRange": null,
-  "type": "RESTAURANT",
-  "email": null,
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "124 W 25th St Frnt 1, New York City, NY 10001-7421",
-  "name": "Johny's Luncheonette",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Noodle",
-    "Crab",
-    "Dumplings",
-    "Omelette",
-    "Ribs",
-    "Shrimp",
-    "Tempura",
-    "Udon & Soba (Wheat & Buckwheat Noodle)",
-    "Ramen",
-    "Yakitori (Grilled Skewers)",
-    "Salad",
-    "Tacos",
-    "Croquettes",
-    "Tataki",
-    "Roe",
-    "Salmon",
-    "Tuna",
-    "Octopus",
-    "Fish Soup",
-    "Beef",
-    "Udon",
-    "Gyoza",
-    "Miso ramen",
-    "Sashimi",
-    "Fish",
-    "Pork"
-  ],
-  "localAddress": "53 W 35th St, Basement, 10001-2219",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/23/21/e3/izakaya-mew-dinning-area.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 855,
-          "closeHours": "14:15"
-        },
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 855,
-          "closeHours": "14:15"
-        },
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 855,
-          "closeHours": "14:15"
-        },
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 855,
-          "closeHours": "14:15"
-        },
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 855,
-          "closeHours": "14:15"
-        },
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1410,
-          "closeHours": "23:30"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1410,
-          "closeHours": "23:30"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Japanese",
-    "Sushi",
-    "Asian",
-    "Healthy",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 1111,
-  "isClosed": false,
-  "features": [
-    "Takeout",
-    "Seating",
-    "Serves Alcohol",
-    "Full Bar",
-    "Accepts Credit Cards",
-    "Table Service"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner",
-    "Drinks",
-    "Late Night"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner",
-    "Drinks",
-    "Late Night"
-  ],
-  "locationString": "New York City, New York",
-  "id": "4721694",
-  "phone": "+1 646-368-9459",
-  "rankingPosition": 51,
-  "openNowText": "Open Now",
-  "rawRanking": 4.549140930175781,
-  "website": "http://mewnyc.com/",
-  "priceRange": "$30 - $40",
-  "type": "RESTAURANT",
-  "email": "mew.manhattan@handhospitality.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "53 W 35th St Basement, New York City, NY 10001-2219",
-  "name": "Izakaya MEW",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Falafel",
-    "Halloumi",
-    "Burger",
-    "Salad",
-    "Pancakes",
-    "Couscous",
-    "Mussels",
-    "Eggplant",
-    "Hummus",
-    "Salmon",
-    "Lamb",
-    "Cakes",
-    "Fish"
-  ],
-  "localAddress": "133 Wythe Ave, 11249-2809",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/05/b3/4d/8c/cafe-mogador.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 540,
-          "openHours": "09:00",
-          "close": 1500,
-          "closeHours": "01:00"
-        }
-      ],
-      [
-        {
-          "open": 540,
-          "openHours": "09:00",
-          "close": 1500,
-          "closeHours": "01:00"
-        }
-      ],
-      [
-        {
-          "open": 540,
-          "openHours": "09:00",
-          "close": 1500,
-          "closeHours": "01:00"
-        }
-      ],
-      [
-        {
-          "open": 540,
-          "openHours": "09:00",
-          "close": 1500,
-          "closeHours": "01:00"
-        }
-      ],
-      [
-        {
-          "open": 540,
-          "openHours": "09:00",
-          "close": 1560,
-          "closeHours": "02:00"
-        }
-      ],
-      [
-        {
-          "open": 540,
-          "openHours": "09:00",
-          "close": 1560,
-          "closeHours": "02:00"
-        }
-      ],
-      [
-        {
-          "open": 540,
-          "openHours": "09:00",
-          "close": 1500,
-          "closeHours": "01:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Moroccan",
-    "Mediterranean",
-    "Middle Eastern",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 481,
-  "isClosed": false,
-  "features": [
-    "Takeout",
-    "Reservations",
-    "Outdoor Seating",
-    "Seating",
-    "Highchairs Available",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Free Wifi",
-    "Accepts Credit Cards",
-    "Table Service"
-  ],
-  "mealTypes": [
-    "Breakfast",
-    "Lunch",
-    "Dinner",
-    "Brunch"
-  ],
-  "dietaryRestrictions": [
-    "Breakfast",
-    "Lunch",
-    "Dinner",
-    "Brunch"
-  ],
-  "locationString": "Brooklyn, New York",
-  "id": "4617929",
-  "phone": "+1 718-486-9222",
-  "rankingPosition": 7,
-  "openNowText": "Open Now",
-  "rawRanking": 4.507201671600342,
-  "website": "http://www.cafemogador.com",
-  "priceRange": null,
-  "type": "RESTAURANT",
-  "email": null,
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "133 Wythe Ave, Brooklyn, NY 11249-2809",
-  "name": "Cafe Mogador Williamsburg",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Cheeseburger",
-    "Cheesecake",
-    "Burger",
-    "Shrimp",
-    "Salad",
-    "Tacos",
-    "Wings",
-    "Chili",
-    "Nachos",
-    "Hamburgers",
-    "Fish"
-  ],
-  "localAddress": "16 West 51st St, Rockefeller Center, 10019",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/58/17/c2/food-and-personal-are.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 630,
-          "openHours": "10:30",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "American",
-    "Bar",
-    "Vegetarian Friendly",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 4018,
-  "isClosed": false,
-  "features": [
-    "Delivery",
-    "Takeout",
-    "Seating",
-    "Television",
-    "Highchairs Available",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Accepts American Express",
-    "Accepts Mastercard",
-    "Accepts Visa",
-    "Free Wifi",
-    "Accepts Discover",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Live Music"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner",
-    "Late Night"
-  ],
-  "locationString": "New York City, New York",
-  "id": "1950899",
-  "phone": "+1 212-705-8510",
-  "rankingPosition": 52,
-  "openNowText": "Open Now",
-  "rawRanking": 4.546036243438721,
-  "website": "https://www.billsbarandburger.com/location/bills-bar-and-burger-rockefeller-center/",
-  "priceRange": "$15 - $30",
-  "type": "RESTAURANT",
-  "email": "birc@ldry.com",
-  "rating": 4,
-  "category": "restaurant",
-  "address": "16 West 51st St Rockefeller Center, New York City, NY 10019",
-  "name": "Bill's Bar & Burger",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "Serving homage to burger and shake lovers, Bill's Burger & Bar first opened its doors in 2009 at Rockefeller Center in New York City - the largest standalone burger joint in the country. It continues to dazzle patrons with an impressive craft burger list that includes its signature Bill's 'Fat Cat' Burger that was listed as one of CNN's \"Top 10 Burgers in America\" and continues to be ranked among New York sources like The Daily Meal and Thrillist. The popular restaurant is known for offering a welcoming, low-key environment for guests to enjoy good company, great food and its extensive list of local and craft beer.",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Pasta",
-    "Cheesecake",
-    "Crab",
-    "Filet Mignon",
-    "Lasagne",
-    "Lobster",
-    "Shrimp",
-    "Salad",
-    "Calamari",
-    "Lamb chops",
-    "Cannoli",
-    "Risotto",
-    "Tiramisu",
-    "Mussels",
-    "Tortellini",
-    "Minestrone",
-    "Tortelloni",
-    "Eggplant",
-    "Gelato",
-    "Scallops",
-    "Salmon",
-    "Octopus",
-    "Bass",
-    "Beef",
-    "Lamb",
-    "Antipasti",
-    "Broccoli rabe",
-    "Ragu",
-    "Buffalo mozzarella",
-    "Pesto",
-    "Fish",
-    "Chicken dishes"
-  ],
-  "localAddress": "507 9th Ave, Corner of W 38th Street, 10018-2802",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/14/bf/7e/chilean-sea-bass.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 1606,
-  "isClosed": false,
-  "features": [
-    "Takeout",
-    "Seating",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Wine and Beer",
-    "Free Wifi",
-    "Reservations",
-    "Private Dining",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Dog Friendly",
-    "Family style",
-    "Non-smoking restaurants"
-  ],
-  "mealTypes": [
-    "Dinner",
-    "Drinks"
-  ],
-  "dietaryRestrictions": [
-    "Dinner",
-    "Drinks"
-  ],
-  "locationString": "New York City, New York",
-  "id": "1903700",
-  "phone": "+1 212-244-0088",
-  "rankingPosition": 45,
-  "openNowText": "Open Now",
-  "rawRanking": 4.564946174621582,
-  "website": "http://ilpuntorestaurant.com/",
-  "priceRange": "$25 - $50",
-  "type": "RESTAURANT",
-  "email": "info@ilpuntonyc.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "507 9th Ave Corner of W 38th Street, New York City, NY 10018-2802",
-  "name": "IL Punto Ristorante",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "Your escape to Italy is here, in Midtown Manhattan, at Il Punto Ristorante. Our lunch and dinner menus feature fresh, homemade pastas, seafood, poultry, and veal. Accompany your meal with a selection from our wine list, and a delicious dessert! Il Punto features a main dining room, a full Bar, and two small dining rooms perfect for private events, meetings or celebrations. Buon Appetito!",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Pasta",
-    "Polenta",
-    "Salad",
-    "Risotto",
-    "Tiramisu",
-    "Tagliatelle",
-    "Tuna",
-    "Octopus",
-    "Beef",
-    "Duck",
-    "Lamb",
-    "Ragu",
-    "Agnolotti",
-    "Pesto",
-    "Vitello tonnato",
-    "Fish"
-  ],
-  "localAddress": "90 Thompson St, Btw Spring St & Prince St, 10012-3744",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/b7/0b/02/san-carlo.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 960,
-          "openHours": "16:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 960,
-          "openHours": "16:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 960,
-          "openHours": "16:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 960,
-          "openHours": "16:00",
-          "close": 1350,
-          "closeHours": "22:30"
-        }
-      ],
-      [
-        {
-          "open": 960,
-          "openHours": "16:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Mediterranean",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 767,
-  "isClosed": false,
-  "features": [
-    "Takeout",
-    "Reservations",
-    "Seating",
-    "Street Parking",
-    "Highchairs Available",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Accepts American Express",
-    "Accepts Mastercard",
-    "Accepts Visa",
-    "Digital Payments",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Gift Cards Available"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner",
-    "Brunch",
-    "Drinks"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner",
-    "Brunch",
-    "Drinks"
-  ],
-  "locationString": "New York City, New York",
-  "id": "10032108",
-  "phone": "+1 212-625-1212",
-  "rankingPosition": 44,
-  "openNowText": "Open Now",
-  "rawRanking": 4.566468238830566,
-  "website": "http://www.sancarlonyc.com",
-  "priceRange": "$15 - $50",
-  "type": "RESTAURANT",
-  "email": "info@sancarlonyc.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "90 Thompson St Btw Spring St & Prince St, New York City, NY 10012-3744",
-  "name": "San Carlo Osteria Piemonte",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "Restaurant \"SAN CARLO Osteria Piemonte\" is one of the few references throughout New York of Piedmont cuisine and North Italy. The land in Northern Italy is very rich in tastes and flavors to be discovered. There are such delicacies as the white truffle of Alba (Cuneo), Barolo (Cuneo) true Piedmont fassona beef, besides of course, a world of exceptional seasonal vegetables...we're waiting for you..",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Baguette",
-    "Ceviche",
-    "Crab",
-    "Lobster",
-    "Oyster",
-    "Ribs",
-    "Salad",
-    "Scallops",
-    "Salmon",
-    "Caviar",
-    "Tuna",
-    "Foie gras",
-    "Bass",
-    "Beef",
-    "Duck",
-    "Lamb",
-    "Cakes",
-    "Fish"
-  ],
-  "localAddress": "60 East 65th Street, 10065-7056",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/7d/2c/41/dinner-at-daniel.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1020,
-          "openHours": "17:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "French",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 3400,
-  "isClosed": false,
-  "features": [
-    "Reservations",
-    "Private Dining",
-    "Seating",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Gift Cards Available"
-  ],
-  "mealTypes": [
-    "Dinner"
-  ],
-  "dietaryRestrictions": [
-    "Dinner"
-  ],
-  "locationString": "New York City, New York",
-  "id": "457808",
-  "phone": "212 288 0033",
-  "rankingPosition": 71,
-  "openNowText": "Open Now",
-  "rawRanking": 4.489928245544434,
-  "website": "http://www.danielnyc.com/",
-  "priceRange": "$100 - $400",
-  "type": "RESTAURANT",
-  "email": "info@danielnyc.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "60 East 65th Street, New York City, NY 10065-7056",
-  "name": "Daniel",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Crab",
-    "Lobster",
-    "Ribs",
-    "Shrimp",
-    "Salad",
-    "Risotto",
-    "Carbonara",
-    "Bolognese",
-    "Gelato",
-    "Scallops",
-    "Halibut",
-    "Salmon",
-    "Duck",
-    "Chocolate mousse",
-    "Lamb",
-    "Agnolotti",
-    "Pesto",
-    "Fish"
-  ],
-  "localAddress": "165 Duane St, 10013-3332",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/bb/65/cf/scalini-fedeli-main-dinning.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 990,
-          "openHours": "16:30",
-          "close": 1230,
-          "closeHours": "20:30"
-        }
-      ],
-      [],
-      [
-        {
-          "open": 1050,
-          "openHours": "17:30",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 1050,
-          "openHours": "17:30",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 1050,
-          "openHours": "17:30",
-          "close": 1260,
-          "closeHours": "21:00"
-        }
-      ],
-      [
-        {
-          "open": 1050,
-          "openHours": "17:30",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 1050,
-          "openHours": "17:30",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 453,
-  "isClosed": false,
-  "features": [
-    "Reservations",
-    "Seating",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Private Dining"
-  ],
-  "mealTypes": [
-    "Dinner",
-    "Lunch",
-    "Late Night"
-  ],
-  "dietaryRestrictions": [
-    "Dinner",
-    "Lunch",
-    "Late Night"
-  ],
-  "locationString": "New York City, New York",
-  "id": "424246",
-  "phone": "+1 212-528-0400",
-  "rankingPosition": 42,
-  "openNowText": "Open Now",
-  "rawRanking": 4.577736854553223,
-  "website": "http://www.scalinifedeli.com/tribeca/about-tribeca",
-  "priceRange": "$41 - $80",
-  "type": "RESTAURANT",
-  "email": null,
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "165 Duane St, New York City, NY 10013-3332",
-  "name": "Scalini Fedeli",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": "Scalini Fedeli ranked among New York's finest restaurants since its opening in early 2004, taking Italian cuisine to new heights. Rewarded with the highest overall ratings in the Zagat Survey, Scalini Fedeli has been granted one star by the Michelin guide in it's inaugural 2006 issue. The inviting decor features vaulted ceilings and European antiques and provides the perfect setting for chef Michael Cetrulo's delightful cuisine which offers the finest ingredients coupled with a confidence and grace that ensures your meal will be a memorable one. Menu highlights include soft egg yolk raviolo with ricotta and truffle butter and New York's finest venison chop in a port wine and balsamic vinegar sauce with toasted hazelnuts, sauteed spinach and roasted Mission figs. The 350-bottle wine list encompasses all regions of Italy but also does justice to the best American wineries.",
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-},
-{
-  "dishes": [
-    "Pasta",
-    "Cheesecake",
-    "Shrimp",
-    "Salad",
-    "Cannoli",
-    "Risotto",
-    "Tiramisu",
-    "Mussels",
-    "Gelato",
-    "Salmon",
-    "Octopus",
-    "Pesto",
-    "Fish",
-    "Pork"
-  ],
-  "localAddress": "501 W 51st St, 10019-5341",
-  "image": "https://media-cdn.tripadvisor.com/media/photo-o/04/8d/e6/2d/appetizers.jpg",
-  "hours": {
-    "weekRanges": [
-      [
-        {
-          "open": 930,
-          "openHours": "15:30",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1320,
-          "closeHours": "22:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ],
-      [
-        {
-          "open": 720,
-          "openHours": "12:00",
-          "close": 1380,
-          "closeHours": "23:00"
-        }
-      ]
-    ],
-    "timezone": "America/New_York"
-  },
-  "cuisines": [
-    "Italian",
-    "Sicilian",
-    "Vegetarian Friendly",
-    "Vegan Options",
-    "Gluten Free Options"
-  ],
-  "numberOfReviews": 340,
-  "isClosed": false,
-  "features": [
-    "Takeout",
-    "Reservations",
-    "Outdoor Seating",
-    "Seating",
-    "Wheelchair Accessible",
-    "Serves Alcohol",
-    "Full Bar",
-    "Accepts Credit Cards",
-    "Table Service",
-    "Delivery"
-  ],
-  "mealTypes": [
-    "Lunch",
-    "Dinner"
-  ],
-  "dietaryRestrictions": [
-    "Lunch",
-    "Dinner"
-  ],
-  "locationString": "New York City, New York",
-  "id": "953662",
-  "phone": "+1 212-757-9290",
-  "rankingPosition": 78,
-  "openNowText": "Open Now",
-  "rawRanking": 4.479965686798096,
-  "website": "http://www.ilmelogranonyc.com/?utm_source=TripAdvisor&utm_medium=TripAdvWebsite&utm_campaign=TA&utm_term=TA",
-  "priceRange": "$30 - $40",
-  "type": "RESTAURANT",
-  "email": "info@ilmelogranonyc.com",
-  "rating": 4.5,
-  "category": "restaurant",
-  "address": "501 W 51st St, New York City, NY 10019-5341",
-  "name": "IL Melograno",
-  "subcategories": [
-    "Sit down"
-  ],
-  "description": null,
-  "ownersTopReasons": null,
-  "establishmentTypes": [
-    "Restaurants"
-  ]
-}]
+[
+	{
+		"mealTypes": ["Dinner", "Drinks"],
+		"dishes": [
+			"Pasta",
+			"Cheesecake",
+			"Crab",
+			"Filet Mignon",
+			"Lasagne",
+			"Lobster",
+			"Shrimp",
+			"Salad",
+			"Calamari",
+			"Lamb chops",
+			"Cannoli",
+			"Risotto",
+			"Tiramisu",
+			"Mussels",
+			"Tortellini",
+			"Minestrone",
+			"Tortelloni",
+			"Eggplant",
+			"Gelato",
+			"Scallops",
+			"Salmon",
+			"Octopus",
+			"Bass",
+			"Beef",
+			"Lamb",
+			"Antipasti",
+			"Broccoli rabe",
+			"Ragu",
+			"Buffalo mozzarella",
+			"Pesto",
+			"Fish",
+			"Chicken dishes"
+		],
+		"features": [
+			"Takeout",
+			"Seating",
+			"Wheelchair Accessible",
+			"Serves Alcohol",
+			"Full Bar",
+			"Wine and Beer",
+			"Free Wifi",
+			"Reservations",
+			"Private Dining",
+			"Accepts Credit Cards",
+			"Table Service",
+			"Dog Friendly",
+			"Family style",
+			"Non-smoking restaurants"
+		],
+		"numberOfReviews": 1606,
+		"email": "info@ilpuntonyc.com",
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "507 9th Ave",
+			"street2": "Corner of W 38th Street",
+			"city": "New York City",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "10018-2802"
+		},
+		"locationString": "New York City, New York",
+		"priceLevel": "$$ - $$$",
+		"rating": 4.5,
+		"subcategories": ["Sit down"],
+		"ratingHistogram": {
+			"count1": 17,
+			"count2": 39,
+			"count3": 115,
+			"count4": 375,
+			"count5": 1060
+		},
+		"localName": "IL Punto Ristorante",
+		"openNowText": "Open Now",
+		"cuisines": [
+			"Italian",
+			"Vegetarian Friendly",
+			"Vegan Options",
+			"Gluten Free Options"
+		],
+		"id": "1903700",
+		"description": "Your escape to Italy is here, in Midtown Manhattan, at Il Punto Ristorante. Our lunch and dinner menus feature fresh, homemade pastas, seafood, poultry, and veal. Accompany your meal with a selection from our wine list, and a delicious dessert! Il Punto features a main dining room, a full Bar, and two small dining rooms perfect for private events, meetings or celebrations. Buon Appetito!",
+		"website": "http://ilpuntorestaurant.com/",
+		"type": "RESTAURANT",
+		"ownersTopReasons": null,
+		"rankingPosition": 45,
+		"priceRange": "$25 - $50",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g60763-d1903700-Reviews-IL_Punto_Ristorante-New_York_City_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/11/14/bf/7e/chilean-sea-bass.jpg",
+		"localAddress": "507 9th Ave, Corner of W 38th Street, 10018-2802",
+		"phone": "+1 212-244-0088",
+		"rankingString": "#45 of 14,293 places to eat in New York City",
+		"address": "507 9th Ave Corner of W 38th Street, New York City, NY 10018-2802",
+		"name": "IL Punto Ristorante"
+	},
+	{
+		"mealTypes": ["Lunch", "Dinner", "Drinks"],
+		"dishes": [
+			"Noodle",
+			"Tonkatsu",
+			"Ramen",
+			"Donburi (Rice Bowl)",
+			"Chili",
+			"Beef",
+			"Gyoza",
+			"Miso ramen",
+			"Fish",
+			"Pork"
+		],
+		"features": [
+			"Delivery",
+			"Takeout",
+			"Seating",
+			"Serves Alcohol",
+			"Accepts Credit Cards",
+			"Table Service",
+			"Accepts American Express",
+			"Accepts Mastercard",
+			"Accepts Visa",
+			"Accepts Discover"
+		],
+		"numberOfReviews": 238,
+		"email": null,
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "20 John St",
+			"street2": "near Wall Street and Fulton St subway",
+			"city": "New York City",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "10038-4038"
+		},
+		"locationString": "New York City, New York",
+		"priceLevel": "$",
+		"rating": 4.5,
+		"subcategories": ["Sit down"],
+		"ratingHistogram": {
+			"count1": 3,
+			"count2": 2,
+			"count3": 12,
+			"count4": 53,
+			"count5": 168
+		},
+		"localName": "Kuu Ramen",
+		"openNowText": "Open Now",
+		"cuisines": [
+			"Japanese",
+			"Asian",
+			"Soups",
+			"Vegetarian Friendly",
+			"Vegan Options"
+		],
+		"id": "7890999",
+		"description": "Well-known among New Yorkers, Kuu Ramen is a Japanese ramen restaurant serving ramen, curry rice, and many izakaya-style small plates located in the heart of the Finacial District, Manhattan.",
+		"website": "http://meijinramen.wixsite.com/kuuramen",
+		"type": "RESTAURANT",
+		"ownersTopReasons": null,
+		"rankingPosition": 46,
+		"priceRange": null,
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g60763-d7890999-Reviews-Kuu_Ramen-New_York_City_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/19/f9/0a/9c/kuu-chili-chicken-and.jpg",
+		"localAddress": "20 John St, near Wall Street and Fulton St subway, 10038-4038",
+		"phone": "+1 212-571-7177",
+		"rankingString": "#46 of 14,293 places to eat in New York City",
+		"address": "20 John St near Wall Street and Fulton St subway, New York City, NY 10038-4038",
+		"name": "Kuu Ramen"
+	},
+	{
+		"mealTypes": ["Lunch", "Dinner", "Late Night"],
+		"dishes": [],
+		"features": [
+			"Delivery",
+			"Takeout",
+			"Seating",
+			"Accepts Credit Cards",
+			"Gift Cards Available"
+		],
+		"numberOfReviews": 1,
+		"email": "info@wolfnights.com",
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 660,
+						"openHours": "11:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 660,
+						"openHours": "11:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 660,
+						"openHours": "11:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 660,
+						"openHours": "11:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 660,
+						"openHours": "11:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 660,
+						"openHours": "11:00",
+						"close": 1560,
+						"closeHours": "02:00"
+					}
+				],
+				[
+					{
+						"open": 660,
+						"openHours": "11:00",
+						"close": 1560,
+						"closeHours": "02:00"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "489 3rd Avenue",
+			"street2": null,
+			"city": "New York City",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "10016"
+		},
+		"locationString": "New York City, New York",
+		"priceLevel": "$$ - $$$",
+		"rating": 5,
+		"subcategories": ["Sit down"],
+		"ratingHistogram": {
+			"count1": 0,
+			"count2": 0,
+			"count3": 0,
+			"count4": 0,
+			"count5": 1
+		},
+		"localName": "Wolfnights - The Gourmet Wrap",
+		"openNowText": "Open Now",
+		"cuisines": ["American", "Fast Food", "Mediterranean"],
+		"id": "24861796",
+		"description": "You're STARVING and you want something that you can wolf down fast. It has to fill you up without slowing you down. And most of all you want an  exciting flavor experience with no compromise on quality. \n\nThat's how the idea for Wolfnights® was born.\n\nWolfnights is obsessed with providing the Ideal Bite®. We make sure that each bite contains salty, sweet, sour, crunchy, and chewy elements, by using unique house-made ingredients to create consistent, one-of-a-kind wraps.",
+		"website": "https://www.wolfnights.com",
+		"type": "RESTAURANT",
+		"ownersTopReasons": null,
+		"rankingPosition": 7026,
+		"priceRange": "$12 - $20",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g60763-d24861796-Reviews-Wolfnights_The_Gourmet_Wrap-New_York_City_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/2a/a1/d5/e0/dire-wolf.jpg",
+		"localAddress": "489 3rd Avenue, 10016",
+		"phone": "+1 877-497-1697",
+		"rankingString": "#7,026 of 14,293 places to eat in New York City",
+		"address": "489 3rd Avenue, New York City, NY 10016",
+		"name": "Wolfnights - The Gourmet Wrap"
+	},
+	{
+		"mealTypes": ["Lunch", "Dinner", "Brunch", "Late Night"],
+		"dishes": [
+			"Pasta",
+			"Cannelloni",
+			"Lasagne",
+			"Lobster",
+			"Oyster",
+			"Polenta",
+			"Shrimp",
+			"Salad",
+			"Calamari",
+			"Cannoli",
+			"Risotto",
+			"Tiramisu",
+			"Prosciutto",
+			"Meatballs",
+			"Eggplant",
+			"Clams",
+			"Octopus",
+			"Lamb",
+			"Antipasti",
+			"Ossobuco",
+			"Broccoli rabe",
+			"Ragu",
+			"Pesto",
+			"Fish",
+			"Pork"
+		],
+		"features": [
+			"Takeout",
+			"Reservations",
+			"Private Dining",
+			"Seating",
+			"Parking Available",
+			"Valet Parking",
+			"Highchairs Available",
+			"Wheelchair Accessible",
+			"Serves Alcohol",
+			"Full Bar",
+			"Accepts Credit Cards",
+			"Table Service"
+		],
+		"numberOfReviews": 430,
+		"email": "lincontro@hotmail.com",
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[],
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[
+					{
+						"open": 240,
+						"openHours": "04:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "2176 31st St",
+			"street2": "",
+			"city": "Astoria",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "11105-2602"
+		},
+		"locationString": "Astoria, Queens, New York",
+		"priceLevel": "$$$$",
+		"rating": 4.5,
+		"subcategories": ["Sit down"],
+		"ratingHistogram": {
+			"count1": 6,
+			"count2": 7,
+			"count3": 25,
+			"count4": 81,
+			"count5": 311
+		},
+		"localName": "Trattoria L'incontro",
+		"openNowText": "Open Now",
+		"cuisines": [
+			"Italian",
+			"Vegetarian Friendly",
+			"Vegan Options",
+			"Gluten Free Options"
+		],
+		"id": "457861",
+		"description": "Zagat 2013 and Michelin Guide Recommended. Our cuisine is a combination of traditional classics and state-of-the-art fare. All of the dishes are prepared with an emphasis on using only the freshest ingredients, keeping the integrity of traditional dishes while incorporating a new style, with the focus on taste.",
+		"website": "http://trattorialincontro.com",
+		"type": "RESTAURANT",
+		"ownersTopReasons": null,
+		"rankingPosition": 1,
+		"priceRange": "$31 - $40",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g29837-d457861-Reviews-Trattoria_L_incontro-Astoria_Queens_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/cb/6f/66/trattoria-l-incontro.jpg",
+		"localAddress": "2176 31st St, 11105-2602",
+		"phone": "+1 718-721-3532",
+		"rankingString": "#1 of 732 places to eat in Astoria",
+		"address": "2176 31st St, Astoria, NY 11105-2602",
+		"name": "Trattoria L'incontro"
+	},
+	{
+		"mealTypes": [],
+		"dishes": [
+			"Chowder",
+			"Crab",
+			"Dumplings",
+			"Fish & Chips",
+			"Lobster",
+			"Lobster Roll",
+			"Oyster",
+			"Shrimp",
+			"Ramen",
+			"Fish Taco",
+			"Salad",
+			"Tacos",
+			"Clam Chowder",
+			"Crab Legs",
+			"Mussels",
+			"Scallops",
+			"Salmon",
+			"Clams",
+			"Octopus",
+			"Shellfish",
+			"Cakes",
+			"Sashimi",
+			"Fish"
+		],
+		"features": [
+			"Gift Cards Available",
+			"Takeout",
+			"Reservations",
+			"Seating",
+			"Serves Alcohol",
+			"Full Bar",
+			"Accepts American Express",
+			"Accepts Mastercard",
+			"Accepts Visa",
+			"Accepts Discover",
+			"Accepts Credit Cards",
+			"Table Service"
+		],
+		"numberOfReviews": 1008,
+		"email": "info@cullandpistol.com",
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 690,
+						"openHours": "11:30",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "75 9th Ave",
+			"street2": "Chelsea Market",
+			"city": "New York City",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "10011-7006"
+		},
+		"locationString": "New York City, New York",
+		"priceLevel": "$$ - $$$",
+		"rating": 4.5,
+		"subcategories": ["Sit down"],
+		"ratingHistogram": {
+			"count1": 9,
+			"count2": 10,
+			"count3": 51,
+			"count4": 284,
+			"count5": 654
+		},
+		"localName": "Cull & Pistol",
+		"openNowText": "Open Now",
+		"cuisines": ["American", "Seafood", "Healthy", "Gluten Free Options"],
+		"id": "4225718",
+		"description": "Cull & Pistol Oyster Bar is a Michelin-acclaimed seafood restaurant located in the heart of Chelsea Market.  Since opening in 2013 we've become a go-to dining destination, beloved by locals and tourists alike. We're known for delivering exceptional service and a seasonal menu that takes full advantage of the remarkably fresh and varied offerings from of our sister seafood market, The Lobster Place.",
+		"website": "https://www.cullandpistol.com/",
+		"type": "RESTAURANT",
+		"ownersTopReasons": null,
+		"rankingPosition": 70,
+		"priceRange": "$30",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g60763-d4225718-Reviews-Cull_Pistol-New_York_City_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/e4/f8/80/cull-pistol-feast.jpg",
+		"localAddress": "75 9th Ave, Chelsea Market, 10011-7006",
+		"phone": "+1 646-568-1223",
+		"rankingString": "#70 of 14,293 places to eat in New York City",
+		"address": "75 9th Ave Chelsea Market, New York City, NY 10011-7006",
+		"name": "Cull & Pistol"
+	},
+	{
+		"mealTypes": ["Lunch", "Dinner"],
+		"dishes": [
+			"Pasta",
+			"Lasagne",
+			"Salad",
+			"Cannoli",
+			"Arancini",
+			"Eggplant",
+			"Tuna",
+			"Octopus",
+			"Ragu",
+			"Pesto",
+			"Cakes"
+		],
+		"features": [
+			"Delivery",
+			"Takeout",
+			"Reservations",
+			"Seating",
+			"Wheelchair Accessible",
+			"Serves Alcohol",
+			"Full Bar",
+			"Accepts Credit Cards",
+			"Table Service",
+			"Street Parking"
+		],
+		"numberOfReviews": 293,
+		"email": "info@normamurrayhill.com",
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1320,
+						"closeHours": "22:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1350,
+						"closeHours": "22:30"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1350,
+						"closeHours": "22:30"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "438 3rd Ave",
+			"street2": "At 30th St",
+			"city": "New York City",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "10016-6040"
+		},
+		"locationString": "New York City, New York",
+		"priceLevel": "$$ - $$$",
+		"rating": 4.5,
+		"subcategories": [],
+		"ratingHistogram": {
+			"count1": 4,
+			"count2": 5,
+			"count3": 13,
+			"count4": 63,
+			"count5": 208
+		},
+		"localName": "Norma - Gastronomia Siciliana",
+		"openNowText": "Open Now",
+		"cuisines": [
+			"Italian",
+			"Pizza",
+			"Sicilian",
+			"Vegetarian Friendly",
+			"Vegan Options",
+			"Gluten Free Options"
+		],
+		"id": "11876357",
+		"description": null,
+		"website": "http://www.normarestaurant.com/",
+		"type": "RESTAURANT",
+		"ownersTopReasons": null,
+		"rankingPosition": 69,
+		"priceRange": null,
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g60763-d11876357-Reviews-Norma_Gastronomia_Siciliana-New_York_City_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/9b/c7/ba/norma.jpg",
+		"localAddress": "438 3rd Ave, At 30th St, 10016-6040",
+		"phone": "+1 212-889-0600",
+		"rankingString": "#69 of 14,293 places to eat in New York City",
+		"address": "438 3rd Ave At 30th St, New York City, NY 10016-6040",
+		"name": "Norma - Gastronomia Siciliana"
+	},
+	{
+		"mealTypes": ["Dinner"],
+		"dishes": [
+			"Pasta",
+			"Crab",
+			"Burger",
+			"Lobster",
+			"Oyster",
+			"Polenta",
+			"Ribs",
+			"Salad",
+			"Risotto",
+			"Suckling Pig",
+			"Scallops",
+			"Halibut",
+			"Salmon",
+			"Tuna",
+			"Quail",
+			"Foie gras",
+			"Octopus",
+			"Toasts",
+			"Bass",
+			"Beef",
+			"Duck",
+			"Lamb",
+			"Ragu",
+			"Agnolotti",
+			"Pesto",
+			"Cakes",
+			"Fish",
+			"Pork"
+		],
+		"features": [
+			"Accepts Credit Cards",
+			"Street Parking",
+			"Gift Cards Available"
+		],
+		"numberOfReviews": 1037,
+		"email": "info@craftrestaurant.com",
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1260,
+						"closeHours": "21:00"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				],
+				[
+					{
+						"open": 1020,
+						"openHours": "17:00",
+						"close": 1290,
+						"closeHours": "21:30"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "43 E 19th St",
+			"street2": "",
+			"city": "New York City",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "10003-1304"
+		},
+		"locationString": "New York City, New York",
+		"priceLevel": "$$$$",
+		"rating": 4.5,
+		"subcategories": ["Sit down"],
+		"ratingHistogram": {
+			"count1": 10,
+			"count2": 26,
+			"count3": 82,
+			"count4": 185,
+			"count5": 734
+		},
+		"localName": "Craft",
+		"openNowText": "Open Now",
+		"cuisines": [
+			"American",
+			"Vegetarian Friendly",
+			"Vegan Options",
+			"Gluten Free Options"
+		],
+		"id": "1750605",
+		"description": "Created by Tom Colicchio and located in the heart of NYC, Craft serves simply prepared dishes highlighting pristine, seasonal ingredients within the award-winning architectural design of Bentel and Bentel.Craft received the James Beard Award for Best New Restaurant nationwide in 2002 and New York Times critic, William Grimes awarded Craft three stars in 2001, an honor upheld by Sam Sifton in 2011. CraftNYC is open for dinner, takeaway and delivery every evening.",
+		"website": "http://www.craftrestaurant.com",
+		"type": "RESTAURANT",
+		"ownersTopReasons": null,
+		"rankingPosition": 68,
+		"priceRange": "$35 - $80",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g60763-d1750605-Reviews-Craft-New_York_City_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/9d/94/59/craft-main-dining-room.jpg",
+		"localAddress": "43 E 19th St, 10003-1304",
+		"phone": "+1 212-780-0880",
+		"rankingString": "#68 of 14,293 places to eat in New York City",
+		"address": "43 E 19th St, New York City, NY 10003-1304",
+		"name": "Craft"
+	},
+	{
+		"mealTypes": ["Lunch", "Dinner", "Late Night"],
+		"dishes": [
+			"Cheeseburger",
+			"Cheesecake",
+			"Burger",
+			"Shrimp",
+			"Salad",
+			"Tacos",
+			"Wings",
+			"Chili",
+			"Nachos",
+			"Hamburgers",
+			"Fish"
+		],
+		"features": [
+			"Delivery",
+			"Takeout",
+			"Seating",
+			"Television",
+			"Highchairs Available",
+			"Wheelchair Accessible",
+			"Serves Alcohol",
+			"Full Bar",
+			"Accepts American Express",
+			"Accepts Mastercard",
+			"Accepts Visa",
+			"Free Wifi",
+			"Accepts Discover",
+			"Accepts Credit Cards",
+			"Table Service",
+			"Live Music"
+		],
+		"numberOfReviews": 4020,
+		"email": "birc@ldry.com",
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 630,
+						"openHours": "10:30",
+						"close": 1380,
+						"closeHours": "23:00"
+					}
+				],
+				[
+					{
+						"open": 630,
+						"openHours": "10:30",
+						"close": 1380,
+						"closeHours": "23:00"
+					}
+				],
+				[
+					{
+						"open": 630,
+						"openHours": "10:30",
+						"close": 1380,
+						"closeHours": "23:00"
+					}
+				],
+				[
+					{
+						"open": 630,
+						"openHours": "10:30",
+						"close": 1380,
+						"closeHours": "23:00"
+					}
+				],
+				[
+					{
+						"open": 630,
+						"openHours": "10:30",
+						"close": 1380,
+						"closeHours": "23:00"
+					}
+				],
+				[
+					{
+						"open": 630,
+						"openHours": "10:30",
+						"close": 1380,
+						"closeHours": "23:00"
+					}
+				],
+				[
+					{
+						"open": 630,
+						"openHours": "10:30",
+						"close": 1380,
+						"closeHours": "23:00"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "16 West 51st St",
+			"street2": "Rockefeller Center",
+			"city": "New York City",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "10019"
+		},
+		"locationString": "New York City, New York",
+		"priceLevel": "$$ - $$$",
+		"rating": 4,
+		"subcategories": ["Sit down"],
+		"ratingHistogram": {
+			"count1": 112,
+			"count2": 148,
+			"count3": 495,
+			"count4": 1475,
+			"count5": 1790
+		},
+		"localName": "Bill's Bar & Burger",
+		"openNowText": "Open Now",
+		"cuisines": [
+			"American",
+			"Bar",
+			"Vegetarian Friendly",
+			"Gluten Free Options"
+		],
+		"id": "1950899",
+		"description": "Serving homage to burger and shake lovers, Bill's Burger & Bar first opened its doors in 2009 at Rockefeller Center in New York City - the largest standalone burger joint in the country. It continues to dazzle patrons with an impressive craft burger list that includes its signature Bill's 'Fat Cat' Burger that was listed as one of CNN's \"Top 10 Burgers in America\" and continues to be ranked among New York sources like The Daily Meal and Thrillist. The popular restaurant is known for offering a welcoming, low-key environment for guests to enjoy good company, great food and its extensive list of local and craft beer.",
+		"website": "https://www.billsbarandburger.com/location/bills-bar-and-burger-rockefeller-center/",
+		"type": "RESTAURANT",
+		"ownersTopReasons": null,
+		"rankingPosition": 52,
+		"priceRange": "$15 - $30",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g60763-d1950899-Reviews-Bill_s_Bar_Burger-New_York_City_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/58/17/c2/food-and-personal-are.jpg",
+		"localAddress": "16 West 51st St, Rockefeller Center, 10019",
+		"phone": "+1 212-705-8510",
+		"rankingString": "#52 of 14,293 places to eat in New York City",
+		"address": "16 West 51st St Rockefeller Center, New York City, NY 10019",
+		"name": "Bill's Bar & Burger"
+	},
+	{
+		"mealTypes": ["Lunch", "Dinner", "Brunch", "Drinks"],
+		"dishes": [
+			"Pasta",
+			"Polenta",
+			"Salad",
+			"Risotto",
+			"Tiramisu",
+			"Tagliatelle",
+			"Tuna",
+			"Octopus",
+			"Beef",
+			"Duck",
+			"Lamb",
+			"Ragu",
+			"Agnolotti",
+			"Pesto",
+			"Vitello tonnato",
+			"Fish"
+		],
+		"features": [
+			"Takeout",
+			"Reservations",
+			"Seating",
+			"Street Parking",
+			"Highchairs Available",
+			"Wheelchair Accessible",
+			"Serves Alcohol",
+			"Full Bar",
+			"Accepts American Express",
+			"Accepts Mastercard",
+			"Accepts Visa",
+			"Digital Payments",
+			"Accepts Credit Cards",
+			"Table Service",
+			"Gift Cards Available"
+		],
+		"numberOfReviews": 767,
+		"email": "info@sancarlonyc.com",
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1350,
+						"closeHours": "22:30"
+					}
+				],
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1350,
+						"closeHours": "22:30"
+					}
+				],
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1350,
+						"closeHours": "22:30"
+					}
+				],
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1350,
+						"closeHours": "22:30"
+					}
+				],
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1350,
+						"closeHours": "22:30"
+					}
+				],
+				[
+					{
+						"open": 960,
+						"openHours": "16:00",
+						"close": 1380,
+						"closeHours": "23:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1380,
+						"closeHours": "23:00"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "90 Thompson St",
+			"street2": "Btw Spring St & Prince St",
+			"city": "New York City",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "10012-3744"
+		},
+		"locationString": "New York City, New York",
+		"priceLevel": "$$ - $$$",
+		"rating": 4.5,
+		"subcategories": ["Sit down"],
+		"ratingHistogram": {
+			"count1": 12,
+			"count2": 10,
+			"count3": 31,
+			"count4": 108,
+			"count5": 606
+		},
+		"localName": "San Carlo Osteria Piemonte",
+		"openNowText": "Open Now",
+		"cuisines": [
+			"Italian",
+			"Mediterranean",
+			"Vegetarian Friendly",
+			"Vegan Options",
+			"Gluten Free Options"
+		],
+		"id": "10032108",
+		"description": "Restaurant \"SAN CARLO Osteria Piemonte\" is one of the few references throughout New York of Piedmont cuisine and North Italy. The land in Northern Italy is very rich in tastes and flavors to be discovered. There are such delicacies as the white truffle of Alba (Cuneo), Barolo (Cuneo) true Piedmont fassona beef, besides of course, a world of exceptional seasonal vegetables...we're waiting for you..",
+		"website": "http://www.sancarlonyc.com",
+		"type": "RESTAURANT",
+		"ownersTopReasons": null,
+		"rankingPosition": 44,
+		"priceRange": "$15 - $50",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g60763-d10032108-Reviews-San_Carlo_Osteria_Piemonte-New_York_City_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/b7/0b/02/san-carlo.jpg",
+		"localAddress": "90 Thompson St, Btw Spring St & Prince St, 10012-3744",
+		"phone": "+1 212-625-1212",
+		"rankingString": "#44 of 14,293 places to eat in New York City",
+		"address": "90 Thompson St Btw Spring St & Prince St, New York City, NY 10012-3744",
+		"name": "San Carlo Osteria Piemonte"
+	},
+	{
+		"mealTypes": ["Lunch", "Dinner", "Brunch", "Late Night"],
+		"dishes": [
+			"Pasta",
+			"Filet Mignon",
+			"Ribs",
+			"Shrimp",
+			"T-Bone Steak",
+			"Salad",
+			"Crepes",
+			"French Fries",
+			"Beef",
+			"Pesto",
+			"Cakes"
+		],
+		"features": [
+			"Television",
+			"Highchairs Available",
+			"Full Bar",
+			"Free Wifi",
+			"Delivery",
+			"Takeout",
+			"Reservations",
+			"Seating",
+			"Wheelchair Accessible",
+			"Serves Alcohol",
+			"Wine and Beer",
+			"Accepts American Express",
+			"Accepts Mastercard",
+			"Accepts Visa",
+			"Cash Only",
+			"Accepts Discover",
+			"Table Service"
+		],
+		"numberOfReviews": 488,
+		"email": "info@buenosairesnyc.com",
+		"hours": {
+			"weekRanges": [
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				],
+				[
+					{
+						"open": 720,
+						"openHours": "12:00",
+						"close": 1440,
+						"closeHours": "00:00"
+					}
+				]
+			],
+			"timezone": "America/New_York"
+		},
+		"addressObj": {
+			"street1": "513 E 6th St",
+			"street2": "Ground Floor",
+			"city": "New York City",
+			"state": "NY",
+			"country": "United States",
+			"postalcode": "10009-6621"
+		},
+		"locationString": "New York City, New York",
+		"priceLevel": "$$ - $$$",
+		"rating": 4.5,
+		"subcategories": ["Sit down"],
+		"ratingHistogram": {
+			"count1": 6,
+			"count2": 13,
+			"count3": 25,
+			"count4": 131,
+			"count5": 313
+		},
+		"localName": "Buenos Aires",
+		"openNowText": "Open Now",
+		"cuisines": ["Steakhouse", "Latin", "Argentinean", "Gluten Free Options"],
+		"id": "901589",
+		"description": null,
+		"website": "http://www.buenosairesnyc.com",
+		"type": "RESTAURANT",
+		"ownersTopReasons": {
+			"sectionHeader": "Top 3 Reasons to Eat Here",
+			"sponsoredBy": "Sponsored by: Buenos Aires",
+			"topReasons": [
+				{
+					"header": "Cozy Atmosphere",
+					"rank": 1,
+					"image_url": "https://media-cdn.tripadvisor.com/media/photo-s/13/b6/e4/0d/photo2jpg.jpg",
+					"text": "Cozy place on the Lower East Side.",
+					"keyword": "cozy place",
+					"isSearchTerm": false,
+					"linkText": "Read review",
+					"review": {
+						"rating": 4,
+						"screenName": "bankrbear",
+						"reviewId": 535801099
+					}
+				},
+				{
+					"header": "Authentic Argentinean Cuisine",
+					"rank": 2,
+					"image_url": "https://media-cdn.tripadvisor.com/media/photo-s/14/28/f3/24/empanadas-argentinas.jpg",
+					"text": "The ambience is Argentine and the food is authentic.",
+					"keyword": "authentic",
+					"isSearchTerm": true,
+					"linkText": "Read review",
+					"review": {
+						"rating": 5,
+						"screenName": "Dealmaker752",
+						"reviewId": 589513584
+					}
+				},
+				{
+					"header": "Large Steak Selection",
+					"rank": 3,
+					"image_url": "https://media-cdn.tripadvisor.com/media/photo-s/14/28/f3/38/filet-mignon.jpg",
+					"text": "The skirt steak was over the top good",
+					"keyword": "steak",
+					"isSearchTerm": true,
+					"linkText": "Read review",
+					"review": {
+						"rating": 5,
+						"screenName": "B E",
+						"reviewId": 593116189
+					}
+				}
+			]
+		},
+		"rankingPosition": 51,
+		"priceRange": "$30",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g60763-d901589-Reviews-Buenos_Aires-New_York_City_New_York.html",
+		"isClosed": false,
+		"establishmentTypes": ["Restaurants"],
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/14/28/f2/f3/the-best-argentinean.jpg",
+		"localAddress": "513 E 6th St, Ground Floor, 10009-6621",
+		"phone": "+1 212-228-2775",
+		"rankingString": "#51 of 14,293 places to eat in New York City",
+		"address": "513 E 6th St Ground Floor, New York City, NY 10009-6621",
+		"name": "Buenos Aires"
+	},
+	{
+		"cuisines": [
+		  "American",
+		  "Asian",
+		  "Gastropub"
+		],
+		"hours": null,
+		"website": "http://www.wingman.hk",
+		"mealTypes": [],
+		"addressObj": {
+		  "street1": "594-596 Nathan Rd",
+		  "street2": "17/f, Mongkok Metro",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": null
+		},
+		"features": [
+		  "Reservations"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [
+		  "Sit down"
+		],
+		"dishes": [
+		  "Chicken Wings",
+		  "Wings"
+		],
+		"category": "restaurant",
+		"rankingPosition": 57,
+		"name": "Wingman",
+		"ownersTopReasons": null,
+		"priceRange": "$100 - $300",
+		"address": "594-596 Nathan Rd 17/f, Mongkok Metro, Hong Kong China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d23345475-Reviews-Wingman-Hong_Kong.html",
+		"phone": "+852 2777 0729",
+		"email": "info@wingman.hk",
+		"type": "RESTAURANT",
+		"rating": 5,
+		"localName": "Wingman",
+		"locationString": "Hong Kong",
+		"description": "「Great Wings, Great Drinks, Great Vibe! Our mission is simple - to make the best chicken wings in HK! Our menu is influenced by the US & HK, we want to infuse the local flavors to create something exciting, wonderful and unique! Wingman",
+		"localAddress": "旺角彌敦道594-596號旺角新城17樓",
+		"rankingString": "#57 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2a/83/7a/da/caption.jpg",
+		"openNowText": null,
+		"priceLevel": "$$ - $$$",
+		"numberOfReviews": 78,
+		"isClosed": false,
+		"id": "23345475",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.609314918518066
+	  },
+	  {
+		"cuisines": [
+		  "Grill"
+		],
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 660,
+				"openHours": "11:00",
+				"close": 1050,
+				"closeHours": "17:30"
+			  }
+			],
+			[
+			  {
+				"open": 660,
+				"openHours": "11:00",
+				"close": 1050,
+				"closeHours": "17:30"
+			  }
+			],
+			[
+			  {
+				"open": 660,
+				"openHours": "11:00",
+				"close": 1050,
+				"closeHours": "17:30"
+			  }
+			],
+			[
+			  {
+				"open": 660,
+				"openHours": "11:00",
+				"close": 1050,
+				"closeHours": "17:30"
+			  }
+			],
+			[
+			  {
+				"open": 660,
+				"openHours": "11:00",
+				"close": 1050,
+				"closeHours": "17:30"
+			  }
+			],
+			[
+			  {
+				"open": 660,
+				"openHours": "11:00",
+				"close": 1050,
+				"closeHours": "17:30"
+			  }
+			],
+			[
+			  {
+				"open": 660,
+				"openHours": "11:00",
+				"close": 1050,
+				"closeHours": "17:30"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Hong_Kong"
+		},
+		"website": null,
+		"mealTypes": [
+		  "Lunch"
+		],
+		"addressObj": {
+		  "street1": "No 487-489 Lockhart Road",
+		  "street2": "G/F, L'Hart, Causeway Bay",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": null
+		},
+		"features": [],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [],
+		"dishes": [],
+		"category": "restaurant",
+		"rankingPosition": 54,
+		"name": "Grill ขนทอง",
+		"ownersTopReasons": null,
+		"priceRange": null,
+		"address": "No 487-489 Lockhart Road G/F, L'Hart, Causeway Bay, Hong Kong China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d25218944-Reviews-Grill-Hong_Kong.html",
+		"phone": null,
+		"email": null,
+		"type": "RESTAURANT",
+		"rating": 4.5,
+		"localName": "Grill ขนทอง",
+		"locationString": "Hong Kong",
+		"description": null,
+		"localAddress": "駱克道487-489號銅鑼灣駱克駅地下",
+		"rankingString": "#54 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-w/29/b7/92/85/caption.jpg",
+		"openNowText": "Closed Now",
+		"priceLevel": "$$ - $$$",
+		"numberOfReviews": 107,
+		"isClosed": false,
+		"id": "25218944",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.618142604827881
+	  },
+	  {
+		"cuisines": [
+		  "Chinese",
+		  "Asian",
+		  "Vegan Options"
+		],
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Hong_Kong"
+		},
+		"website": "https://www.ninahotelgroup.com/en/lodgewood-mong-kok/canton-pot",
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner"
+		],
+		"addressObj": {
+		  "street1": "2/f, Canton Road 1131, Mongkok",
+		  "street2": "",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": null
+		},
+		"features": [
+		  "Reservations",
+		  "Private Dining",
+		  "Seating",
+		  "Wheelchair Accessible",
+		  "Serves Alcohol",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Parking Available",
+		  "Valet Parking",
+		  "Television",
+		  "Wine and Beer",
+		  "Accepts American Express",
+		  "Accepts Mastercard",
+		  "Accepts Visa",
+		  "Digital Payments",
+		  "Free Wifi",
+		  "Family style",
+		  "Non-smoking restaurants"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [
+		  "Sit down"
+		],
+		"dishes": [
+		  "Hot Pot",
+		  "Lobster",
+		  "Meatballs",
+		  "Beef",
+		  "Pork"
+		],
+		"category": "restaurant",
+		"rankingPosition": 50,
+		"name": "canton pot",
+		"ownersTopReasons": null,
+		"priceRange": "$300 - $500",
+		"address": "2/f, Canton Road 1131, Mongkok, Hong Kong China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d6107649-Reviews-Canton_pot-Hong_Kong.html",
+		"phone": "+852 3968 7888",
+		"email": "cantonpot@ninahotelgroup.com",
+		"type": "RESTAURANT",
+		"rating": 4.5,
+		"localName": "canton pot",
+		"locationString": "Hong Kong",
+		"description": "Canton pot representing a new definition of pot cuisine. Canton pot features a variety of luscious soup bases, condiments and sauces. Never miss the signature Miyazaki A5 beef Chuck, Kurobuta pork and deluxe mushroom platter. Finish your meal with our mouth-watering desserts, organic and fragrant teas for a complete experience of contemporary hot pot cuisine.",
+		"localAddress": null,
+		"rankingString": "#50 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/05/59/91/9e/canton-pot.jpg",
+		"openNowText": "Closed Now",
+		"priceLevel": "$$ - $$$",
+		"numberOfReviews": 156,
+		"isClosed": false,
+		"id": "6107649",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.637711524963379
+	  },
+	  {
+		"cuisines": [
+		  "Japanese",
+		  "Sushi",
+		  "Asian",
+		  "Healthy",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Hong_Kong"
+		},
+		"website": "http://honjo.hk",
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner",
+		  "Brunch",
+		  "Late Night",
+		  "Drinks"
+		],
+		"addressObj": {
+		  "street1": "77-91 Queen's Road West",
+		  "street2": "1/f",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": null
+		},
+		"features": [
+		  "Reservations",
+		  "Private Dining",
+		  "Seating",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Wine and Beer"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [
+		  "Sit down"
+		],
+		"dishes": [
+		  "Chicken Wings",
+		  "Oyster",
+		  "Tempura",
+		  "Salad",
+		  "Wings",
+		  "Salmon",
+		  "Tuna",
+		  "Beef",
+		  "Sashimi",
+		  "Fish"
+		],
+		"category": "restaurant",
+		"rankingPosition": 39,
+		"name": "Honjo",
+		"ownersTopReasons": null,
+		"priceRange": "$700 - $1,500",
+		"address": "77-91 Queen's Road West 1/f, Hong Kong China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d17697186-Reviews-Honjo-Hong_Kong.html",
+		"phone": "+852 2663 3772",
+		"email": "info@honjo.hk",
+		"type": "RESTAURANT",
+		"rating": 4.5,
+		"localName": "Honjo",
+		"locationString": "Hong Kong",
+		"description": "Honjo respects Japanese cuisine through showcasing dishes that absorb inspirations from other cultures. Within a contemporary and refined yet welcoming setting, guests will receive an unforgettable dining experience from their first glass of wine to their final dessert or digestif.",
+		"localAddress": "香港上環皇后大道西77-91號荷李活中心1樓",
+		"rankingString": "#39 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/c2/66/2a/photo9jpg.jpg",
+		"openNowText": "Closed Now",
+		"priceLevel": "$$ - $$$",
+		"numberOfReviews": 154,
+		"isClosed": false,
+		"id": "17697186",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.676840782165527
+	  },
+	  {
+		"cuisines": [
+		  "Mediterranean",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Hong_Kong"
+		},
+		"website": "http://www.salisterra.com",
+		"mealTypes": [
+		  "Breakfast",
+		  "Lunch",
+		  "Dinner",
+		  "Brunch",
+		  "Drinks"
+		],
+		"addressObj": {
+		  "street1": "Pacific Place, 88 Queensway",
+		  "street2": "Level 49, The Upper House",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": null
+		},
+		"features": [
+		  "Reservations",
+		  "Seating",
+		  "Parking Available",
+		  "Valet Parking",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Accepts Credit Cards",
+		  "Table Service"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [
+		  "Sit down"
+		],
+		"dishes": [
+		  "Pasta",
+		  "Oyster",
+		  "Salad",
+		  "Clams",
+		  "Duck",
+		  "Lamb",
+		  "Pesto"
+		],
+		"category": "restaurant",
+		"rankingPosition": 48,
+		"name": "Salisterra",
+		"ownersTopReasons": null,
+		"priceRange": "$400 - $800",
+		"address": "Pacific Place, 88 Queensway Level 49, The Upper House, Hong Kong China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d23317047-Reviews-Salisterra-Hong_Kong.html",
+		"phone": "+852 3968 1106",
+		"email": "salisterra@upperhouse.com",
+		"type": "RESTAURANT",
+		"rating": 4.5,
+		"localName": "Salisterra",
+		"locationString": "Hong Kong",
+		"description": "Salisterra draws upon the spectrum of colours and flavours from the Mediterranean to deliver a layered and social dining experience high above the city, with the warmth and familiarity of a neighbourhood bistro. Helmed by London-based Michelin star Chef Jun Tanaka, the menu focuses on fresh, vibrant flavours, taking inspiration from the coastal cuisines of France and Italy.",
+		"localAddress": null,
+		"rankingString": "#48 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/de/97/85/salisterra-main-dining.jpg",
+		"openNowText": "Open Now",
+		"priceLevel": "$$$$",
+		"numberOfReviews": 153,
+		"isClosed": false,
+		"id": "23317047",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.650623798370361
+	  },
+	  {
+		"cuisines": [
+		  "Cafe",
+		  "Diner",
+		  "Bar",
+		  "European",
+		  "Fusion",
+		  "Vegetarian Friendly",
+		  "Vegan Options"
+		],
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 660,
+				"openHours": "11:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 660,
+				"openHours": "11:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Hong_Kong"
+		},
+		"website": "https://www.sevengoodlook.com/pages/viewonwon",
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner",
+		  "Brunch",
+		  "Drinks"
+		],
+		"addressObj": {
+		  "street1": "8 South Lane, Shek Tong Tsui",
+		  "street2": "Shek Tong Tsui",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": "000000"
+		},
+		"features": [
+		  "Takeout",
+		  "Reservations",
+		  "Outdoor Seating",
+		  "Seating",
+		  "Serves Alcohol",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Digital Payments",
+		  "Free Wifi",
+		  "BYOB",
+		  "Dog Friendly"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [
+		  "Sit down"
+		],
+		"dishes": [
+		  "Pasta",
+		  "Lobster",
+		  "Salad",
+		  "Risotto",
+		  "Tuna",
+		  "Foie gras",
+		  "Beef",
+		  "Pesto",
+		  "Tsukemen"
+		],
+		"category": "restaurant",
+		"rankingPosition": 49,
+		"name": "Vie Won Won",
+		"ownersTopReasons": null,
+		"priceRange": "$200 - $600",
+		"address": "8 South Lane, Shek Tong Tsui Shek Tong Tsui, Hong Kong 000000 China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d23471346-Reviews-Vie_Won_Won-Hong_Kong.html",
+		"phone": "+852 5920 2838",
+		"email": null,
+		"type": "RESTAURANT",
+		"rating": 4.5,
+		"localName": "鬼混",
+		"locationString": "Hong Kong",
+		"description": "Vie-won-won\nWe love to make food for the city that we love.\n\nOur unassuming little restaurant is definitely the perfect place to go for a special occasion if you’re celebrating with someone who’s mad about Fusion food. Taking influences from a huge range of countries, the décor sets the tone for a funky yet rather classy affair.\n\nIn viewonwon, it's all about great sharing plates, top service, smashing cocktails and mixing cuisines.",
+		"localAddress": "000000南里8號石塘咀",
+		"rankingString": "#49 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/27/89/5f/d1/caption.jpg",
+		"openNowText": "Closed Now",
+		"priceLevel": "$$ - $$$",
+		"numberOfReviews": 348,
+		"isClosed": false,
+		"id": "23471346",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.64096212387085
+	  },
+	  {
+		"cuisines": [
+		  "Chinese",
+		  "Soups",
+		  "Seafood",
+		  "Diner"
+		],
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1440,
+				"closeHours": "00:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Hong_Kong"
+		},
+		"website": "https://www.facebook.com/TastyHotpotPalace",
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner",
+		  "Late Night"
+		],
+		"addressObj": {
+		  "street1": "16 Carnarvon Road, Tsim Sha Tsui",
+		  "street2": "1/F, Golden Glory Mansion",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": null
+		},
+		"features": [
+		  "Takeout",
+		  "Reservations",
+		  "Private Dining",
+		  "Seating",
+		  "Serves Alcohol",
+		  "Accepts Credit Cards",
+		  "Delivery",
+		  "Accepts American Express",
+		  "Accepts Mastercard",
+		  "Accepts Visa",
+		  "Digital Payments",
+		  "BYOB",
+		  "Non-smoking restaurants"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [
+		  "Sit down"
+		],
+		"dishes": [],
+		"category": "restaurant",
+		"rankingPosition": 43,
+		"name": "Tasty Hotpot Palace",
+		"ownersTopReasons": null,
+		"priceRange": "$200 - $400",
+		"address": "16 Carnarvon Road, Tsim Sha Tsui 1/F, Golden Glory Mansion, Hong Kong China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d19042160-Reviews-Tasty_Hotpot_Palace-Hong_Kong.html",
+		"phone": "+852 2338 1515",
+		"email": null,
+		"type": "RESTAURANT",
+		"rating": 5,
+		"localName": "香香宮煮",
+		"locationString": "Hong Kong",
+		"description": null,
+		"localAddress": "尖沙咀加拿芬道16號金輝大廈1樓",
+		"rankingString": "#43 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/8d/f2/0f/caption.jpg",
+		"openNowText": "Closed Now",
+		"priceLevel": "$$ - $$$",
+		"numberOfReviews": 197,
+		"isClosed": false,
+		"id": "19042160",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.666796684265137
+	  },
+	  {
+		"cuisines": [
+		  "Peruvian",
+		  "Latin",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Hong_Kong"
+		},
+		"website": "https://www.facebook.com/chullschick/",
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner",
+		  "Brunch",
+		  "Drinks"
+		],
+		"addressObj": {
+		  "street1": "45-53A Graham Street, Soho, Central",
+		  "street2": "Shop D, G/F",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": null
+		},
+		"features": [
+		  "Delivery",
+		  "Takeout",
+		  "Reservations",
+		  "Seating",
+		  "Serves Alcohol",
+		  "Free Wifi",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Street Parking"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [
+		  "Sit down"
+		],
+		"dishes": [
+		  "Ceviche",
+		  "Salad",
+		  "Chili",
+		  "Roast Chicken",
+		  "Fish"
+		],
+		"category": "restaurant",
+		"rankingPosition": 37,
+		"name": "Chullschick",
+		"ownersTopReasons": null,
+		"priceRange": "$50 - $200",
+		"address": "45-53A Graham Street, Soho, Central Shop D, G/F, Hong Kong China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d15193438-Reviews-Chullschick-Hong_Kong.html",
+		"phone": "+852 2668 3948",
+		"email": "info@chullschick.com.hk",
+		"type": "RESTAURANT",
+		"rating": 5,
+		"localName": "Chullschick",
+		"locationString": "Hong Kong",
+		"description": "Founded by Abel Ortiz Alvarez, a 12-year veteran in the food & beverage business native to Peru, Chullschick is a “Made in Peru” rotisserie concept that’s the first of its kind in Hong Kong. Combining the best Peruvian and French produce with cooking techniques and experience passed down from generation to generation, it is the only restaurant that has received recognition from Promperu in Hong Kong, and Abel aims to bring the most authentic Peruvian casual dining experience possible with his latest venture.",
+		"localAddress": "中環蘇豪嘉咸街45-53號地下D鋪",
+		"rankingString": "#37 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/14/ea/eb/8c/getlstd-property-photo.jpg",
+		"openNowText": "Closed Now",
+		"priceLevel": "$$ - $$$",
+		"numberOfReviews": 172,
+		"isClosed": false,
+		"id": "15193438",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.685263633728027
+	  },
+	  {
+		"cuisines": [
+		  "American",
+		  "Bar"
+		],
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Hong_Kong"
+		},
+		"website": "http://www.wingman.hk",
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner"
+		],
+		"addressObj": {
+		  "street1": "No.37-43 Cochrane Street, Central",
+		  "street2": "6/F, Cheung Hing Commercial Building",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": null
+		},
+		"features": [
+		  "Takeout",
+		  "Reservations",
+		  "Seating",
+		  "Wheelchair Accessible",
+		  "Accepts Credit Cards",
+		  "Table Service"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [
+		  "Sit down"
+		],
+		"dishes": [
+		  "Chicken Wings",
+		  "Salad",
+		  "Wings"
+		],
+		"category": "restaurant",
+		"rankingPosition": 35,
+		"name": "Wingman",
+		"ownersTopReasons": null,
+		"priceRange": "$100 - $400",
+		"address": "No.37-43 Cochrane Street, Central 6/F, Cheung Hing Commercial Building, Hong Kong China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d17477529-Reviews-Wingman-Hong_Kong.html",
+		"phone": "+852 9607 5500",
+		"email": "wingmanhk852@gmail.com",
+		"type": "RESTAURANT",
+		"rating": 5,
+		"localName": "Wingman",
+		"locationString": "Hong Kong",
+		"description": "We create the best chicken wings in town! Creative flavors of succulent wings that (may) give you an orgasmic explosion.",
+		"localAddress": "中環閣麟街37-43號祥興商業大廈6樓",
+		"rankingString": "#35 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/28/24/ed/f5/a-range-of-our-wings.jpg",
+		"openNowText": "Closed Now",
+		"priceLevel": "$$ - $$$",
+		"numberOfReviews": 181,
+		"isClosed": false,
+		"id": "17477529",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.688989162445068
+	  },
+	  {
+		"cuisines": [
+		  "Indian",
+		  "Asian",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 960,
+				"closeHours": "16:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Hong_Kong"
+		},
+		"website": "http://www.rosewoodhotels.com/en/hong-kong/dining/chaat",
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner",
+		  "Drinks"
+		],
+		"addressObj": {
+		  "street1": "18 Salisbury Road, Tsim Sha Tsui",
+		  "street2": "5/F, Rosewood Hong Kong",
+		  "city": "Hong Kong",
+		  "state": null,
+		  "country": "China",
+		  "postalcode": null
+		},
+		"features": [
+		  "Reservations",
+		  "Outdoor Seating",
+		  "Seating",
+		  "Valet Parking",
+		  "Wheelchair Accessible",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Free Wifi",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Wine and Beer",
+		  "Waterfront"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"subcategories": [
+		  "Sit down"
+		],
+		"dishes": [
+		  "Lobster",
+		  "Lamb chops",
+		  "Curry",
+		  "Beef Cheeks",
+		  "Beef",
+		  "Lamb",
+		  "Cakes",
+		  "Fish",
+		  "Pork"
+		],
+		"category": "restaurant",
+		"rankingPosition": 40,
+		"name": "Chaat",
+		"ownersTopReasons": null,
+		"priceRange": "$500",
+		"address": "18 Salisbury Road, Tsim Sha Tsui 5/F, Rosewood Hong Kong, Hong Kong China",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g294217-d20965183-Reviews-Chaat-Hong_Kong.html",
+		"phone": "+852 3891 8732",
+		"email": "hongkong.restaurantreservations@rosewoodhotels.com",
+		"type": "RESTAURANT",
+		"rating": 4.5,
+		"localName": "Chaat",
+		"locationString": "Hong Kong",
+		"description": "CHAAT brings the delicious street food and homemade classics of India to the restaurant table, delivering authentic flavours reimagined and elevated for a modern setting. CHAAT, in Hindi, means “to lick”. We transports you across the country with a menu from which you will savour every last morsel. Vibrant décor, gilded bronze accents and a custom-made mural by the Hyderabadi contemporary artist Kandi Narsimlu bring the intoxicating energy, vibe and social scene of the bustling Indian marketplace to life for a dining experience unlike any other.",
+		"localAddress": "尖沙咀梳士巴利道18號瑰麗酒店5樓",
+		"rankingString": "#40 of 16,120 places to eat in Hong Kong",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2b/1b/92/ac/caption.jpg",
+		"openNowText": "Closed Now",
+		"priceLevel": "$$$$",
+		"numberOfReviews": 158,
+		"isClosed": false,
+		"id": "20965183",
+		"localLangCode": "zh-HK",
+		"rawRanking": 4.67515754699707
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 930,
+				"closeHours": "15:30"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 930,
+				"closeHours": "15:30"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Takeout",
+		  "Buffet",
+		  "Seating",
+		  "Parking Available",
+		  "Validated Parking",
+		  "Valet Parking",
+		  "Serves Alcohol",
+		  "Accepts American Express",
+		  "Accepts Mastercard",
+		  "Accepts Visa",
+		  "Cash Only",
+		  "Free Wifi",
+		  "Reservations",
+		  "Highchairs Available",
+		  "Wheelchair Accessible",
+		  "Accepts Credit Cards",
+		  "Table Service"
+		],
+		"ownersTopReasons": null,
+		"priceRange": "$120 - $10,000",
+		"photoCount": 1159,
+		"dietaryRestrictions": [
+		  "Lunch",
+		  "Dinner",
+		  "Brunch",
+		  "Drinks"
+		],
+		"address": "4 Sukhumvit Road, Soi 2 JW Marriott Hotel Bangkok, Bangkok 10110 Thailand",
+		"name": "Man Ho Chinese Restaurant",
+		"cuisines": [
+		  "Chinese",
+		  "Asian",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"menuWebUrl": "https://drive.google.com/drive/folders/1epNBqs7p3F1HPeW03lfGGvyW6E1kuP2i?usp=sharing",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d1462966-Reviews-Man_Ho_Chinese_Restaurant-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "4 Sukhumvit Road, Soi 2",
+		  "street2": "JW Marriott Hotel Bangkok",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10110"
+		},
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner",
+		  "Brunch",
+		  "Drinks"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 1195,
+		"email": null,
+		"locationString": "Bangkok",
+		"priceLevel": "$$$$",
+		"dishes": [
+		  "Noodle",
+		  "Dim Sum",
+		  "Dumplings",
+		  "Mandarin Duck",
+		  "Ribs",
+		  "Shrimp",
+		  "Scallops",
+		  "Prawns",
+		  "Duck",
+		  "Fried rice",
+		  "Fish",
+		  "Pork"
+		],
+		"rating": 5,
+		"subcategories": [
+		  "Sit down"
+		],
+		"localName": "ห้องอาหารจีน มานโฮ เจดับบลิว แมริออท กรุงเทพฯ",
+		"openNowText": "Closed Now",
+		"id": "1462966",
+		"description": "Man Ho, the crown jewel of Chinese dining in Bangkok, a place where homage is paid to the time-honored traditions of Chinese cuisine, while embracing a contemporary spirit amidst a backdrop of timeless charm. At the heart of our culinary journey stands Executive Chinese Chef Leslie Du, a paragon of unwavering dedication to excellence and expertise. Chef Du’s magic touch not only ensures an unyielding commitment to quality but also adds an artistic flourish to our modern Chinese décor and atmosphere elevating Man Ho to a dining experience like no other.",
+		"rawRanking": 4.797449588775635,
+		"website": "https://marriottbonvoyasia.com/restaurants-bars/JW-Marriott-Bangkok-Man-Ho",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 55,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/05/cc/0b/man-ho-s-interior-3.jpg",
+		"localAddress": "4 สุขุมวิท ซอย 2, โรงแรมเจดับบลิว แมริออท กรุงเทพฯ, 10110",
+		"phone": "+66 2 656 7700",
+		"rankingString": "#55 of 14,945 places to eat in Bangkok"
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1350,
+				"closeHours": "22:30"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Reservations",
+		  "Outdoor Seating",
+		  "Seating",
+		  "Parking Available",
+		  "Highchairs Available",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Free Wifi",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Buffet",
+		  "Wine and Beer"
+		],
+		"ownersTopReasons": null,
+		"priceRange": "$250 - $2,000",
+		"photoCount": 577,
+		"dietaryRestrictions": [
+		  "Breakfast",
+		  "Lunch",
+		  "Dinner",
+		  "Drinks"
+		],
+		"address": "2089 Sukhumvit Road Khwang Phra Khanong Nuea, Khet Wattana, Bangkok 10260 Thailand",
+		"name": "Greenhouse – Restaurant & Terrace",
+		"cuisines": [
+		  "International",
+		  "Bar",
+		  "Thai",
+		  "Vegetarian Friendly",
+		  "Vegan Options"
+		],
+		"menuWebUrl": "https://www.avanihotels.com/uploads/minor/avani/documents/vsuk/greenhouse/gh_alacartemenu0822updated.pdf?la=en",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d17722994-Reviews-Greenhouse_Restaurant_Terrace-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "2089 Sukhumvit Road",
+		  "street2": "Khwang Phra Khanong Nuea, Khet Wattana",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10260"
+		},
+		"mealTypes": [
+		  "Breakfast",
+		  "Lunch",
+		  "Dinner",
+		  "Drinks"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 301,
+		"email": "fbreservations.vsuk@avanihotels.com",
+		"locationString": "Bangkok",
+		"priceLevel": "$$ - $$$",
+		"dishes": [
+		  "Shrimp",
+		  "Salad"
+		],
+		"rating": 5,
+		"subcategories": [
+		  "Sit down"
+		],
+		"localName": "Greenhouse – Restaurant & Terrace",
+		"openNowText": "Closed Now",
+		"id": "17722994",
+		"description": "Escape from the hustle and bustle of the city with honest food in a simple, stylish setting. Explore a menu based on locally produced, fresh and simple ingredients that take inspiration from all corners of the world. Relax among vibrant colours indoors or chill on the outdoor terrace for a no-fuss dining experience with a view.",
+		"rawRanking": 4.806586265563965,
+		"website": "http://www.avanihotels.com/en/sukhumvit-bangkok/restaurants/greenhouse-restaurant-and-terrace",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 47,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/25/f7/45/3e/greenhouse-restaurant.jpg",
+		"localAddress": "2089 ถนนสุขุมวิท, แขวงพระโขนงเหนือ เขตวัฒนา, 10260",
+		"phone": "+66 2 079 7555",
+		"rankingString": "#47 of 14,945 places to eat in Bangkok"
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Takeout",
+		  "Full Bar",
+		  "Reservations",
+		  "Private Dining",
+		  "Seating",
+		  "Parking Available",
+		  "Validated Parking",
+		  "Valet Parking",
+		  "Highchairs Available",
+		  "Wheelchair Accessible",
+		  "Serves Alcohol",
+		  "Wine and Beer",
+		  "Accepts American Express",
+		  "Accepts Mastercard",
+		  "Accepts Visa",
+		  "Free Wifi",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Family style",
+		  "Non-smoking restaurants",
+		  "Gift Cards Available"
+		],
+		"ownersTopReasons": null,
+		"priceRange": "$250 - $1,000",
+		"photoCount": 1103,
+		"dietaryRestrictions": [
+		  "Lunch",
+		  "Dinner",
+		  "Brunch"
+		],
+		"address": "518/8 Ploenchit Road Renaissance Bangkok Ratchaprasong Hotel, Bangkok 10330 Thailand",
+		"name": "Fei Ya",
+		"cuisines": [
+		  "Chinese",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"menuWebUrl": "https://bit.ly/FeiYamenu",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d2393716-Reviews-Fei_Ya-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "518/8 Ploenchit Road",
+		  "street2": "Renaissance Bangkok Ratchaprasong Hotel",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10330"
+		},
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner",
+		  "Brunch"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 1116,
+		"email": null,
+		"locationString": "Bangkok",
+		"priceLevel": "$$$$",
+		"dishes": [
+		  "Noodle",
+		  "Dim Sum",
+		  "Dumplings",
+		  "Mandarin Duck",
+		  "Peking Duck",
+		  "Shrimp",
+		  "Pancakes",
+		  "Prawns",
+		  "Beef",
+		  "Duck",
+		  "Cakes",
+		  "Fried rice",
+		  "Fish",
+		  "Pork"
+		],
+		"rating": 4.5,
+		"subcategories": [
+		  "Sit down"
+		],
+		"localName": "Fei Ya",
+		"openNowText": "Closed Now",
+		"id": "2393716",
+		"description": "The best duck outside China can be savored in our sleek surroundings of a decidedly modern Chinese restaurant. A creative menu with distinctive Cantonese and Hong Kong twist, an extensive wine list and a choice of over 10 teas expertly recommended.",
+		"rawRanking": 4.811427593231201,
+		"website": "https://www.facebook.com/feiyabkk/",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 43,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/93/8a/99/fei-ya-peking-duck.jpg",
+		"localAddress": "518/8 ถนนเพลินจิต, โรงแรมเรเนซองส์ กรุงเทพฯ ราชประสงค์, 10330",
+		"phone": "+66 2 125 5010",
+		"rankingString": "#43 of 14,945 places to eat in Bangkok"
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1425,
+				"closeHours": "23:45"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1425,
+				"closeHours": "23:45"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1425,
+				"closeHours": "23:45"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1425,
+				"closeHours": "23:45"
+			  }
+			],
+			[
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1425,
+				"closeHours": "23:45"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1020,
+				"openHours": "17:00",
+				"close": 1425,
+				"closeHours": "23:45"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Takeout",
+		  "Reservations",
+		  "Private Dining",
+		  "Seating",
+		  "Parking Available",
+		  "Highchairs Available",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Free Wifi",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Wine and Beer"
+		],
+		"ownersTopReasons": {
+		  "sectionHeader": "Top 3 Reasons to Eat Here",
+		  "sponsoredBy": "Sponsored by: SexyCow BKK",
+		  "topReasons": [
+			{
+			  "header": "Steak Art!",
+			  "rank": 1,
+			  "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/26/f9/f1/c3/ribeye.jpg",
+			  "text": "Fantastic dining experience!",
+			  "keyword": "Steak Art!",
+			  "isSearchTerm": true,
+			  "linkText": "Read review",
+			  "review": {
+				"rating": 5,
+				"screenName": "Somuasa R",
+				"reviewId": 852821424
+			  }
+			},
+			{
+			  "header": "Lots of homemade options",
+			  "rank": 2,
+			  "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/26/fe/03/89/lobster-soup.jpg",
+			  "text": "Been to the restaurant the 2nd time since their opening recently",
+			  "keyword": "Lots of homemade options",
+			  "isSearchTerm": true,
+			  "linkText": "Read review",
+			  "review": {
+				"rating": 5,
+				"screenName": "ethanlwx80",
+				"reviewId": 709390153
+			  }
+			},
+			{
+			  "header": "Unexpected Delight",
+			  "rank": 3,
+			  "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/26/f9/d3/1c/surf-and-turf.jpg",
+			  "text": "menu specialising in all steaks plus pork and exciting fish options",
+			  "keyword": "Unexpected Delight",
+			  "isSearchTerm": true,
+			  "linkText": "Read review",
+			  "review": {
+				"rating": 5,
+				"screenName": "Alan B",
+				"reviewId": 719258230
+			  }
+			}
+		  ]
+		},
+		"priceRange": "$500 - $2,000",
+		"photoCount": 252,
+		"dietaryRestrictions": [
+		  "Lunch",
+		  "Dinner",
+		  "Late Night",
+		  "Drinks"
+		],
+		"address": "62, Langsuan Road The Millennia Tower, G Floor, Bangkok 10330 Thailand",
+		"name": "SexyCow BKK",
+		"cuisines": [
+		  "American",
+		  "Steakhouse",
+		  "Seafood",
+		  "European",
+		  "Bar"
+		],
+		"menuWebUrl": "http://www.sexycow-bkk.com/",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d15637626-Reviews-SexyCow_BKK-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "62, Langsuan Road",
+		  "street2": "The Millennia Tower, G Floor",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10330"
+		},
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner",
+		  "Late Night",
+		  "Drinks"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 116,
+		"email": "reservation@sexycow-bkk.com",
+		"locationString": "Bangkok",
+		"priceLevel": "$$$$",
+		"dishes": [
+		  "Pasta",
+		  "Crab",
+		  "Beef",
+		  "Pesto"
+		],
+		"rating": 5,
+		"subcategories": [
+		  "Sit down"
+		],
+		"localName": "เซ็กซี่คาว ไพร์มสเต็กแอนด์ซีฟู๊ด",
+		"openNowText": "Open Now",
+		"id": "15637626",
+		"description": "Sexy Cow (Prime Steak & Seafood) This sophisticated palette of smoky grey, taupe and charcoal calls to mind elements of mystique and seduction. Here is prime steak and seafood truly showing off their sexier side. The brand-mark hints at dark yet enticing pleasure for the palette.",
+		"rawRanking": 4.805810451507568,
+		"website": "http://www.sexycow-bkk.com",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 49,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/27/0f/51/b3/the-signature-menu-pose.jpg",
+		"localAddress": "62 ถนน หลังสวน, อาคารเดอะ มิลเลนเนีย ทาวเวอร์ ชั้น G, 10330",
+		"phone": "+66 82 924 4014",
+		"rankingString": "#49 of 14,945 places to eat in Bangkok"
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 690,
+				"openHours": "11:30",
+				"close": 870,
+				"closeHours": "14:30"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Reservations",
+		  "Outdoor Seating",
+		  "Private Dining",
+		  "Seating",
+		  "Parking Available",
+		  "Validated Parking",
+		  "Valet Parking",
+		  "Highchairs Available",
+		  "Wheelchair Accessible",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Free Wifi",
+		  "Accepts Credit Cards",
+		  "Table Service"
+		],
+		"ownersTopReasons": {
+		  "sectionHeader": "Top 3 Reasons to Eat Here",
+		  "sponsoredBy": "Sponsored by: Yao Restaurant And Rooftop Bar",
+		  "topReasons": [
+			{
+			  "header": "Gorgeous Rooftop Bar",
+			  "rank": 1,
+			  "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/13/06/2a/65/yao-rooftop-bar.jpg",
+			  "text": "The is perhaps the most beautiful rooftop bar I've ever seen.",
+			  "keyword": "Gorgeous Rooftop Bar",
+			  "isSearchTerm": true,
+			  "linkText": "Read review",
+			  "review": {
+				"rating": 5,
+				"screenName": "jazsacher",
+				"reviewId": 785559031
+			  }
+			},
+			{
+			  "header": "Stunning Views",
+			  "rank": 2,
+			  "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/17/6d/d6/20/yao-rooftop-upper-deck.jpg",
+			  "text": "The city view from the rooftop bar was really breathtaking!",
+			  "keyword": "Stunning Views",
+			  "isSearchTerm": true,
+			  "linkText": "Read review",
+			  "review": {
+				"rating": 5,
+				"screenName": "Wanderlust_ms",
+				"reviewId": 784835024
+			  }
+			},
+			{
+			  "header": "Great Ambiance, Great Food",
+			  "rank": 3,
+			  "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/8f/e4/23/photo2jpg.jpg",
+			  "text": "The ambience is awesome and the food is really tasty .",
+			  "keyword": "Great Ambiance, Great Food",
+			  "isSearchTerm": true,
+			  "linkText": "Read review",
+			  "review": {
+				"rating": 5,
+				"screenName": "Soraya_2",
+				"reviewId": 783904331
+			  }
+			}
+		  ]
+		},
+		"priceRange": "$400 - $1,000",
+		"photoCount": 2735,
+		"dietaryRestrictions": [
+		  "Lunch",
+		  "Dinner",
+		  "Drinks"
+		],
+		"address": "262, Surawong Road Si Phraya, Bang Rak, Bangkok 10500 Thailand",
+		"name": "Yao Restaurant And Rooftop Bar",
+		"cuisines": [
+		  "Chinese",
+		  "Asian",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"menuWebUrl": "https://www.yaobangkok.com/menus",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d13371690-Reviews-Yao_Restaurant_And_Rooftop_Bar-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "262, Surawong Road",
+		  "street2": "Si Phraya, Bang Rak",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10500"
+		},
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner",
+		  "Drinks"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 1807,
+		"email": "mhrs.bkkwo.fbreservation@marriotthotels.com",
+		"locationString": "Bangkok",
+		"priceLevel": "$$ - $$$",
+		"dishes": [
+		  "Noodle",
+		  "Crab",
+		  "Dim Sum",
+		  "Mandarin Duck",
+		  "Peking Duck",
+		  "Beef",
+		  "Duck",
+		  "Fish",
+		  "Pork"
+		],
+		"rating": 5,
+		"subcategories": [
+		  "Sit down"
+		],
+		"localName": "Yao Restaurant And Rooftop Bar",
+		"openNowText": "Closed Now",
+		"id": "13371690",
+		"description": "Yào Restaurant & Rooftop Bar Yào Restaurant & Rooftop Bar, the city’s first modern Chinese influenced multi-level hot spot in Bangkok. Private elevator access, exclusive private rooms combining fine Cantonese and Shanghainese cuisine with our signature tea ritual. The two-level outdoor Rooftop Bar is the ultimate happening place with vibrant Shanghainese influenced deco featuring signature bites and cocktails, with a glimpse of Chao Praya river.",
+		"rawRanking": 4.796804428100586,
+		"website": "http://www.yaobangkok.com",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 56,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/13/06/2a/65/yao-rooftop-bar.jpg",
+		"localAddress": "262 ถนนสุรวงศ์, แขวงสี่พระยา เขตบางรัก, 10500",
+		"phone": "+66 2 088 5666",
+		"rankingString": "#56 of 14,945 places to eat in Bangkok"
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 390,
+				"openHours": "06:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Reservations",
+		  "Seating",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Table Service",
+		  "Highchairs Available"
+		],
+		"ownersTopReasons": null,
+		"priceRange": "$90 - $1,100",
+		"photoCount": 207,
+		"dietaryRestrictions": [
+		  "Breakfast",
+		  "Lunch",
+		  "Dinner",
+		  "Drinks"
+		],
+		"address": "12 Sukhumvit Soi 2 DoubleTree By Hilton Bangkok Ploenchit, Bangkok 10110 Thailand",
+		"name": "OPEN Restaurant",
+		"cuisines": [
+		  "Cafe",
+		  "Asian",
+		  "Thai",
+		  "International",
+		  "Dining bars",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"menuWebUrl": "http://doubletree3.hilton.com/en/hotels/thailand/doubletree-by-hilton-bangkok-ploenchit-BKKSODI/dining/index.html",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d19332159-Reviews-OPEN_Restaurant-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "12 Sukhumvit Soi 2",
+		  "street2": "DoubleTree By Hilton Bangkok Ploenchit",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10110"
+		},
+		"mealTypes": [
+		  "Breakfast",
+		  "Lunch",
+		  "Dinner",
+		  "Drinks"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 179,
+		"email": "terryn.schlenther@hilton.com",
+		"locationString": "Bangkok",
+		"priceLevel": "$$ - $$$",
+		"dishes": [
+		  "Noodle"
+		],
+		"rating": 5,
+		"subcategories": [
+		  "Sit down"
+		],
+		"localName": "OPEN Restaurant",
+		"openNowText": "Closed Now",
+		"id": "19332159",
+		"description": "OPEN is a simple, casual restaurant concept, flexible and locally competitive dining venue ‘free-standing’ restaurant brand, benchmarked against and competitive with popular free-standing outlets in the local market. This is an eatery you would actually WANT to go to, WANT to eat in, and feel GOOD in. OPEN all day, it provides a good selection of food and beverages for all occasions, appetites and budgets. The concept addresses both operator and guest demands for local content in food, culture and setting, and maintains a 60% global versus 40% local ratio in all key aspects. Key appeals include the good food, affordability, comfort, efficient service and a fun, convivial environment. OPEN aims to be a Social Epicenter wherever it is located and to build a strong customer base and loyalty in the local community, thereby increasing hotel guest retention as well. The OPEN team is friendly, caring and knowledgeable. Diversity is respected and valued, among staff and guests.",
+		"rawRanking": 4.803557872772217,
+		"website": "http://doubletree3.hilton.com/en/hotels/thailand/doubletree-by-hilton-bangkok-ploenchit-BKKSODI/dining/index.html",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 51,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/3a/a6/87/dinner-all-you-can-eat.jpg",
+		"localAddress": "12 สุขุมวิทซอย 2, 10110",
+		"phone": "+66 2 262 2501",
+		"rankingString": "#51 of 14,945 places to eat in Bangkok"
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 840,
+				"closeHours": "14:00"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[],
+			[],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 840,
+				"closeHours": "14:00"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 840,
+				"closeHours": "14:00"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 840,
+				"closeHours": "14:00"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 840,
+				"closeHours": "14:00"
+			  },
+			  {
+				"open": 1080,
+				"openHours": "18:00",
+				"close": 1260,
+				"closeHours": "21:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Reservations",
+		  "Private Dining",
+		  "Seating",
+		  "Valet Parking",
+		  "Serves Alcohol",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Wine and Beer",
+		  "Non-smoking restaurants"
+		],
+		"ownersTopReasons": null,
+		"priceRange": null,
+		"photoCount": 591,
+		"dietaryRestrictions": [
+		  "Lunch",
+		  "Dinner"
+		],
+		"address": "300/2 Charoenkrung Road Capella Hotel, Bangkok 10120 Thailand",
+		"name": "Cote by Mauro Colagreco",
+		"cuisines": [
+		  "Italian",
+		  "French",
+		  "European"
+		],
+		"menuWebUrl": "https://drive.google.com/file/d/1y_c19aVrYdo1UHNDr8te-v4Zu_OAN45f/view",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d21509083-Reviews-Cote_by_Mauro_Colagreco-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "300/2 Charoenkrung Road",
+		  "street2": "Capella Hotel",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10120"
+		},
+		"mealTypes": [
+		  "Lunch",
+		  "Dinner"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 152,
+		"email": "cote.bangkok@capellahotels.com",
+		"locationString": "Bangkok",
+		"priceLevel": "$$$$",
+		"dishes": [
+		  "Lobster",
+		  "Caviar",
+		  "Beef",
+		  "Lamb",
+		  "Fish"
+		],
+		"rating": 5,
+		"subcategories": [],
+		"localName": "Cote by Mauro Colagreco",
+		"openNowText": "Closed Now",
+		"id": "21509083",
+		"description": "Chef Mauro Colagreco presents a reinterpretation of French & Italian Riviera cuisine, inspired by his 3 Michelin star restaurant Mirazur.",
+		"rawRanking": 4.801466464996338,
+		"website": "http://www.cotebkk.com/",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 53,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/29/c8/3e/45/cote-by-mauro-colagreco.jpg",
+		"localAddress": null,
+		"phone": "+66 2 098 3888",
+		"rankingString": "#53 of 14,945 places to eat in Bangkok"
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 630,
+				"closeHours": "10:30"
+			  },
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 630,
+				"closeHours": "10:30"
+			  },
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 630,
+				"closeHours": "10:30"
+			  },
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 630,
+				"closeHours": "10:30"
+			  },
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 630,
+				"closeHours": "10:30"
+			  },
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 630,
+				"closeHours": "10:30"
+			  },
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 630,
+				"closeHours": "10:30"
+			  },
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 900,
+				"closeHours": "15:00"
+			  },
+			  {
+				"open": 1050,
+				"openHours": "17:30",
+				"close": 1320,
+				"closeHours": "22:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Reservations",
+		  "Seating",
+		  "Highchairs Available",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Table Service"
+		],
+		"ownersTopReasons": null,
+		"priceRange": "$400 - $2,500",
+		"photoCount": 635,
+		"dietaryRestrictions": [
+		  "Breakfast",
+		  "Lunch",
+		  "Dinner",
+		  "Drinks"
+		],
+		"address": "4 Sukhumvit Road Soi 2 JW Marriott Hotel Bangkok, Bangkok 10110 Thailand",
+		"name": "JW Cafe",
+		"cuisines": [
+		  "Chinese",
+		  "Japanese",
+		  "Indian",
+		  "International",
+		  "Middle Eastern",
+		  "Seafood",
+		  "European",
+		  "Asian",
+		  "Healthy",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"menuWebUrl": "https://drive.google.com/drive/folders/1Gzh2SRllhGIpMDxFpj2Rhmoh1P-KEZJR?usp=sharing",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d15000705-Reviews-JW_Cafe-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "4 Sukhumvit Road Soi 2",
+		  "street2": "JW Marriott Hotel Bangkok",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10110"
+		},
+		"mealTypes": [
+		  "Breakfast",
+		  "Lunch",
+		  "Dinner",
+		  "Drinks"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 618,
+		"email": null,
+		"locationString": "Bangkok",
+		"priceLevel": "$$$$",
+		"dishes": [
+		  "Juice & Smoothies",
+		  "Pasta",
+		  "Crab",
+		  "Oyster",
+		  "Salad",
+		  "Curry",
+		  "Crepes",
+		  "Foie gras",
+		  "Beef",
+		  "Lamb",
+		  "Pesto",
+		  "Fish"
+		],
+		"rating": 5,
+		"subcategories": [
+		  "Sit down"
+		],
+		"localName": "JW Café",
+		"openNowText": "Closed Now",
+		"id": "15000705",
+		"description": "Embracing an urban-industrial concept, JW Café is adorned with gray vein marble and wooden panels to craft a contemporary yet inviting ambiance. The restaurant offers a diverse array of international cuisine, featuring chef-recommended signature dishes, as well as beloved local favorites, fresh seafood and scrumptious desserts. The open plan design includes private dining rooms, expanded food counters and live cooking stations, all designed to enhance the culinary experience.",
+		"rawRanking": 4.801609992980957,
+		"website": "http://www.marriott.com/hotels/hotel-information/restaurant/bkkdt-jw-marriott-hotel-bangkok/",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 52,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/14/b8/c1/1e/jw-cafe-at-jw-marriott.jpg",
+		"localAddress": "4 ถนน สุขุมวิท ซอย 2, โรงแรมเจดับบลิวแมริออท กรุงเทพ, 10110",
+		"phone": "+66 2 656 7700",
+		"rankingString": "#52 of 14,945 places to eat in Bangkok"
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 360,
+				"openHours": "06:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Reservations",
+		  "Seating",
+		  "Parking Available",
+		  "Validated Parking",
+		  "Valet Parking",
+		  "Highchairs Available",
+		  "Wheelchair Accessible",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Free Wifi",
+		  "Accepts Credit Cards",
+		  "Table Service"
+		],
+		"ownersTopReasons": null,
+		"priceRange": "$150 - $1,657",
+		"photoCount": 1479,
+		"dietaryRestrictions": [
+		  "Breakfast",
+		  "Lunch",
+		  "Dinner",
+		  "Brunch",
+		  "Drinks"
+		],
+		"address": "2 Sukhumvit Soi 57 Klongtan Nua, Wattana, Bangkok 10110 Thailand",
+		"name": "57th Street",
+		"cuisines": [
+		  "Seafood",
+		  "Asian",
+		  "International",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"menuWebUrl": "https://marriott-sukhumvit.myshopify.com/blogs/menu/57thstreet-a-la-carte-menu",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d4135165-Reviews-57th_Street-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "2 Sukhumvit Soi 57",
+		  "street2": "Klongtan Nua, Wattana",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10110"
+		},
+		"mealTypes": [
+		  "Breakfast",
+		  "Lunch",
+		  "Dinner",
+		  "Brunch",
+		  "Drinks"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 1426,
+		"email": "diningbangkok@marriott.com",
+		"locationString": "Bangkok",
+		"priceLevel": "$$ - $$$",
+		"dishes": [
+		  "Noodle",
+		  "Pasta",
+		  "Crab",
+		  "Lobster",
+		  "Oyster",
+		  "Pad Thai",
+		  "Shrimp",
+		  "Salad",
+		  "Curry",
+		  "Salmon",
+		  "Prawns",
+		  "Beef",
+		  "Duck",
+		  "Lamb",
+		  "Pesto",
+		  "Cakes",
+		  "Sashimi",
+		  "Fish",
+		  "Pork"
+		],
+		"rating": 5,
+		"subcategories": [
+		  "Sit down"
+		],
+		"localName": "57th Street",
+		"openNowText": "Closed Now",
+		"id": "4135165",
+		"description": "Bright, Relaxing and upbeat all-day dining with engaging open-theatre kitchens offering sumptuous buffets and irresistible la carte specialties. Located at Bangkok Marriott Hotel Sukhumvit",
+		"rawRanking": 4.8108439445495605,
+		"website": "http://www.bangkokmarriott.com",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 45,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/f7/28/c5/taste-a-piece-of-bangkok.jpg",
+		"localAddress": null,
+		"phone": "+66 2 797 0000",
+		"rankingString": "#45 of 14,945 places to eat in Bangkok"
+	  },
+	  {
+		"hours": {
+		  "weekRanges": [
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			],
+			[
+			  {
+				"open": 720,
+				"openHours": "12:00",
+				"close": 1380,
+				"closeHours": "23:00"
+			  }
+			]
+		  ],
+		  "timezone": "Asia/Bangkok"
+		},
+		"features": [
+		  "Reservations",
+		  "Outdoor Seating",
+		  "Private Dining",
+		  "Seating",
+		  "Parking Available",
+		  "Validated Parking",
+		  "Valet Parking",
+		  "Highchairs Available",
+		  "Wheelchair Accessible",
+		  "Serves Alcohol",
+		  "Full Bar",
+		  "Free Wifi",
+		  "Accepts Credit Cards",
+		  "Table Service",
+		  "Live Music"
+		],
+		"ownersTopReasons": null,
+		"priceRange": "$130 - $5,990",
+		"photoCount": 1572,
+		"dietaryRestrictions": [
+		  "Dinner",
+		  "Drinks"
+		],
+		"address": "999/99 Rama 1 Road, Pathumwan Centara Grand Hotel at Central World, Bangkok 10330 Thailand",
+		"name": "Uno Mas",
+		"cuisines": [
+		  "Bar",
+		  "Seafood",
+		  "Mediterranean",
+		  "European",
+		  "Spanish",
+		  "Catalan",
+		  "Vegetarian Friendly",
+		  "Vegan Options",
+		  "Gluten Free Options"
+		],
+		"menuWebUrl": "https://www.unomasbangkok.com/#food",
+		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293916-d9728949-Reviews-Uno_Mas-Bangkok.html",
+		"isClosed": false,
+		"addressObj": {
+		  "street1": "999/99 Rama 1 Road, Pathumwan",
+		  "street2": "Centara Grand Hotel at Central World",
+		  "city": "Bangkok",
+		  "state": null,
+		  "country": "Thailand",
+		  "postalcode": "10330"
+		},
+		"mealTypes": [
+		  "Dinner",
+		  "Drinks"
+		],
+		"establishmentTypes": [
+		  "Restaurants"
+		],
+		"numberOfReviews": 1427,
+		"email": "diningcgcw@chr.co.th",
+		"locationString": "Bangkok",
+		"priceLevel": "$$$$",
+		"dishes": [
+		  "Lobster",
+		  "Paella",
+		  "Shrimp",
+		  "Tapas",
+		  "Salad",
+		  "Suckling Pig",
+		  "Foie gras",
+		  "Octopus",
+		  "Beef",
+		  "Lamb",
+		  "Pork"
+		],
+		"rating": 5,
+		"subcategories": [
+		  "Sit down"
+		],
+		"localName": "Uno Mas",
+		"openNowText": "Closed Now",
+		"id": "9728949",
+		"description": "With a buzzy ambiance and spectacular menu, UNO MAS - Spanish for ‘‘one more”, brings a unique flavour and vibe to the 54th floor of the Centara Grand at CentralWorld hotel in the heart of Bangkok. Pick from the impressive wine cellar while enjoying succulent tapas and seafood at the semi-alfresco Tapas & Raw Bar. Signature dishes include the “Cochinillo Asado”- Spain's traditional and succulent take on roasted suckling pig and the “Gambas Pil Pil” or sizzling prawns in clay pot. Featuring stunning panoramic views of the city’s skyline. Reservations allowed for Dining Deck area only. Open from 12.00hrs onwards until 23.00hrs. Dress code: Casual.",
+		"rawRanking": 4.817000865936279,
+		"website": "http://www.unomasbangkok.com",
+		"localLangCode": "th",
+		"type": "RESTAURANT",
+		"isLongClosed": false,
+		"rankingPosition": 39,
+		"category": "restaurant",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/f5/66/0c/experience-the-true-flavours.jpg",
+		"localAddress": null,
+		"phone": "+66 2 100 6255",
+		"rankingString": "#39 of 14,945 places to eat in Bangkok"
+	  }
+]

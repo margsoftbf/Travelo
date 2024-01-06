@@ -11,6 +11,7 @@ const config: Config = {
 			fontFamily: {
 				coveredByGrace: ['Covered By Your Grace', 'sans-serif'],
 				dmSans: ['DM Sans', 'sans-serif'],
+				plusJakarta: ['Plus Jakarta Sans', 'sans-serif'],
 			},
 			colors: {
 				primary: '#FF5956',

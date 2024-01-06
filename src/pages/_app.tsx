@@ -1,3 +1,4 @@
+import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
@@ -11,7 +12,10 @@ export default function App({ Component, pageProps }: AppProps) {
 				<link rel='icon' href='/favicon.ico' />
 				<meta httpEquiv='Content-Language' content='en' />
 			</Head>
-			<Component {...pageProps} />
+
+			<main className='m-auto'>
+				<Component {...pageProps} />
+			</main>
 		</>
 	);
 }
