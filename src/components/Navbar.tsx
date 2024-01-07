@@ -13,6 +13,8 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { Link as ScrollLink } from 'react-scroll';
 import { FaPhoneVolume } from 'react-icons/fa6';
+import useScrollAnimation from '@/hooks/useScrollAnimation';
+import { motion } from 'framer-motion';
 
 function classNames(...classes: any) {
 	return classes.filter(Boolean).join(' ');
@@ -21,13 +23,24 @@ function classNames(...classes: any) {
 const Navbar = () => {
 	const router = useRouter();
 	const isHomePage = router.pathname === '/';
+	const { ref, controls } = useScrollAnimation();
 
 	return (
-		<div className='bg-white sticky top-0 z-[250] header-underline'>
+		<motion.div
+			className='bg-white sticky top-0 z-[250] header-underline'
+			ref={ref}
+			animate={controls}
+			initial='hidden'
+			variants={{
+				visible: { opacity: 1, y: 0 },
+				hidden: { opacity: 0, y: -50 },
+			}}
+			transition={{ duration: 0.5, type: 'ease-in' }}
+		>
 			<Disclosure as='nav' className=''>
 				{({ open }) => (
 					<>
-						<div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+						<div className='mx-auto max-w-8xl px-4 sm:px-6 lg:px-0'>
 							<div className='flex h-16 items-center justify-between relative'>
 								<div className='flex items-center gap-2 justify-center relative'>
 									<Logo className='w-10 h-9' />
@@ -155,7 +168,7 @@ const Navbar = () => {
 									<div className='bg-primary w-10 h-10 flex items-center justify-center rounded-full'>
 										<button
 											type='button'
-											className='relative flex text-white ease-in-out duration-300 transition  text-sm outline-none'
+											className='relative flex text-white hover:text-myBlackTwo ease-in-out duration-300 transition  text-sm outline-none'
 										>
 											<span className='absolute -inset-1.5' />
 											<span className='sr-only'>Go To Cart</span>
@@ -165,7 +178,7 @@ const Navbar = () => {
 									<div className='bg-primary w-10 h-10 flex items-center justify-center rounded-full'>
 										<button
 											type='button'
-											className='relative flex text-white ease-in-out duration-300 transition  text-sm outline-none'
+											className='relative flex text-white hover:text-myBlackTwo ease-in-out duration-300 transition  text-sm outline-none'
 										>
 											<span className='absolute -inset-1.5' />
 											<span className='sr-only'>Go To Cart</span>
@@ -181,7 +194,7 @@ const Navbar = () => {
 					</>
 				)}
 			</Disclosure>
-		</div>
+		</motion.div>
 	);
 };
 

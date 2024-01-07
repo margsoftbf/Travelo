@@ -24,6 +24,9 @@ const config: Config = {
 				pinkRed: '#CF356C',
 				blackLine: '#403344',
 			},
+			maxWidth: {
+				'8xl': '1440px',
+			},
 		},
 	},
 	plugins: [],
