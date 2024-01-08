@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import attractionsData from '../../data/ThingsToDo.json';
 import { Attraction } from '@/types/types';
 
-const AttractionDetailPage = ({ attraction }: { attraction: Attraction | null }) => {
+const AttractionDetailPage = ({ attraction }: { attraction: Attraction }) => {
   if (!attraction) {
     return <div>Attraction not found</div>;
   }
@@ -24,11 +24,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const id = context.params?.id as string;
+  const id = context.params?.id;
+
   const attraction = attractionsData.find((a) => a.id === id);
 
+  if (!attraction) {
+    return { notFound: true };
+  }
+
   return {
-    props: { attraction: attraction || null },
+    props: { attraction },
   };
 };
 
