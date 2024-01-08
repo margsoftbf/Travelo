@@ -42,12 +42,15 @@ const Navbar = () => {
 					<>
 						<div className='mx-auto max-w-8xl px-4 sm:px-6 lg:px-0'>
 							<div className='flex h-16 items-center justify-between relative'>
-								<div className='flex items-center gap-2 justify-center relative'>
+								<Link
+									href='/'
+									className='flex items-center gap-2 justify-center relative'
+								>
 									<Logo className='w-10 h-9' />
 									<span className='text-black text-3xl font-[800] font-plusJakarta'>
 										Travelo<span className='text-primary'>.</span>
 									</span>
-								</div>
+								</Link>
 								<div className='flex items-center'>
 									<div className='hidden sm:ml-6 sm:block'>
 										<div className='flex space-x-6 '>

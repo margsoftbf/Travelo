@@ -5,7 +5,6 @@ import Navbar from '@/components/Navbar';
 export default function Home() {
 	return (
 		<main className='m-auto overflow-hidden'>
-			<Navbar />
 			<Hero />
 			<HeroPicks />
 		</main>

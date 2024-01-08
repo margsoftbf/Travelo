@@ -7,3 +7,8 @@ export { default as Destination } from './Destination.svg';
 export { default as LowestPrice } from './LowestPrice.svg';
 export { default as Receipt } from './Receipt.svg';
 export { default as BuildingsHero } from './BuildingsHero.svg';
+export { default as Calendar } from './Calendar.svg';
+export { default as Hiking } from './Hiking.svg';
+export { default as Location } from './Location.svg';
+export { default as Minus } from './Minus.svg';
+export { default as Plus } from './Plus.svg';
