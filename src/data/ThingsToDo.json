@@ -2730,6 +2730,2580 @@
 		"rating": 4,
 		"localName": "แพลทินัม แฟชั่น มอลล์",
 		"id": "1156821"
+	},
+	{
+		"id": "189683",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Nature & Parks"],
+		"name": "Seine River",
+		"locationString": "Paris, Ile-de-France",
+		"description": "Hop on a river cruise or stroll alongside this famous waterway—it flows through the heart of Paris and separates the city's left and right banks. ",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/1a/97/9b/5c/traveling-down-the-seine.jpg",
+		"photoCount": 12331,
+		"awards": [],
+		"rankingPosition": 7,
+		"rating": 4.5,
+		"rawRanking": 4.835286617279053,
+		"phone": null,
+		"address": "75001 Paris France",
+		"addressObj": {
+			"street1": "",
+			"street2": "",
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75001"
+		},
+		"localName": "La Seine",
+		"localAddress": null,
+		"localLangCode": "fr",
+		"email": null,
+		"latitude": 48.858776,
+		"longitude": 2.335496,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d189683-Reviews-Seine_River-Paris_Ile_de_France.html",
+		"website": null,
+		"rankingString": "#7 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "15621634",
+				"name": "6th Arr. - Luxembourg"
+			},
+			{
+				"id": "13209510",
+				"name": "Saint-Germain-l'Auxerrois"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "Louvre – Rivoli",
+				"localName": "Louvre – Rivoli",
+				"address": "8 Rue de l'Amiral de Coligny, 75001 Paris, France",
+				"localAddress": "8 Rue de l'Amiral de Coligny, 75001",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86061096191406,
+				"longitude": 2.3409740924835205,
+				"distance": 0.2797447983926719
+			},
+			{
+				"name": "Palais Royal – Musee du Louvre",
+				"localName": "Palais Royal – Musée du Louvre",
+				"address": "155 Rue Saint Honore, 75001 Paris, France",
+				"localAddress": "155 Rue Saint Honoré, 75001",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-7",
+						"lineName": "7",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.8629264831543,
+				"longitude": 2.336029052734375,
+				"distance": 0.28810705575451395
+			},
+			{
+				"name": "Pont Neuf",
+				"localName": "Pont Neuf",
+				"address": "18 Quai de la Megisserie, 75001 Paris, France",
+				"localAddress": "18 Quai de la Mégisserie, 75001",
+				"lines": [
+					{
+						"id": "paris-paris-metro-7",
+						"lineName": "7",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.858551025390625,
+				"longitude": 2.3420839309692383,
+				"distance": 0.3002127801375957
+			},
+			{
+				"name": "Saint-Germain-des-Pres",
+				"localName": "Saint-Germain-des-Prés",
+				"address": "157 Boulevard Saint-Germain, 75006 Paris, France",
+				"localAddress": "157 Boulevard Saint-Germain, 75006",
+				"lines": [
+					{
+						"id": "paris-paris-metro-4",
+						"lineName": "4",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85358428955078,
+				"longitude": 2.3338160514831543,
+				"distance": 0.36716664438698676
+			},
+			{
+				"name": "Mabillon",
+				"localName": "Mabillon",
+				"address": "5-13 Rue du Four, 75006 Paris, France",
+				"localAddress": "5-13 Rue du Four, 75006",
+				"lines": [
+					{
+						"id": "paris-paris-metro-10",
+						"lineName": "10",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85288619995117,
+				"longitude": 2.335421085357666,
+				"distance": 0.4074200210808741
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 119,
+			"count2": 191,
+			"count3": 1491,
+			"count4": 7214,
+			"count5": 16748
+		},
+		"numberOfReviews": 25764,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Parisiens-Seine-River-Sightseeing-Cruise%2Fd479-5756SIGHTSEEING%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=854ba63553bd3e9ef&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=189683&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$8.79",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Parisiens-Seine-River-Sightseeing-Cruise%2Fd479-5756SIGHTSEEING%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=854ba63553bd3e9ef&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=189683&clt=TD&from=api&nt=true",
+					"price": "$17.81",
+					"roundedUpPrice": "$18",
+					"offerType": null,
+					"title": "Paris Seine River Sightseeing Cruise with Commentary by Bateaux Parisiens",
+					"productCode": "5756SIGHTSEEING",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/41/2e/da.jpg",
+					"description": null,
+					"primaryCategory": "Day Cruises"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSeine-River-Cruise-Bateaux-Parisiens-Sightseeing-Cruise-with-Dinner-and-Live-Music%2Fd479-5836DINNERCRUISE%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=20024eea2ce5679e1&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=189683&clt=TD&from=api&nt=true",
+					"price": "$138.83",
+					"roundedUpPrice": "$139",
+					"offerType": null,
+					"title": "Bateaux Parisiens Seine River Gourmet Dinner & Sightseeing Cruise",
+					"productCode": "5836DINNERCRUISE",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/ee/9b/24.jpg",
+					"description": null,
+					"primaryCategory": "Luxury Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSparkling-Cruise-along-the-Seine-River-in-Paris%2Fd479-23561P20%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=fc786fae8e6f74822&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=189683&clt=TD&from=api&nt=true",
+					"price": "$32.29",
+					"roundedUpPrice": "$33",
+					"offerType": null,
+					"title": "Paris Sightseeing Cruise with Champagne by Bateaux Mouches",
+					"productCode": "23561P20",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/fb/db/b5.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Parisiens-Seine-River-Cruise-with-Lunch-and-Live-Music%2Fd479-5836LUNCHCRUISE%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=f7652e2e786efd00f&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=189683&clt=TD&from=api&nt=true",
+					"price": "$88.28",
+					"roundedUpPrice": "$89",
+					"offerType": null,
+					"title": "Bateaux Parisiens Seine River Gourmet Lunch & Sightseeing Cruise ",
+					"productCode": "5836LUNCHCRUISE",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/ee/ae/9c.jpg",
+					"description": null,
+					"primaryCategory": "Luxury Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Mouches-3-Hour-Seine-River-Cruise-Including-Dinner-and-Live-Music%2Fd479-23561P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=74d5f8cd5a475eb09&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=189683&clt=TD&from=api&nt=true",
+					"price": "$128.03",
+					"roundedUpPrice": "$129",
+					"offerType": null,
+					"title": "Paris Seine River Dinner Cruise with Live Music by Bateaux Mouches",
+					"productCode": "23561P3",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/11/df/24/bd.jpg",
+					"description": null,
+					"primaryCategory": "Dinner Cruises"
+				}
+			]
+		},
+		"subtype": ["Bodies of Water"]
+	},
+	{
+		"id": "188709",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Sights & Landmarks"],
+		"name": "Arc de Triomphe",
+		"locationString": "Paris, Ile-de-France",
+		"description": "The Arc de triomphe was begun in 1806, on the orders of Napoleon I to honour the victories of his Grande Armée. Inspired by the great arches of antiquity, the monument combines the commemorative with the symbolic and it has always played a major role in the national republican consciousness. Every evening, the flame is lit on the tomb of the Unknown Soldier from the Great War. An exhibition portrays the history and explains its symbolic importance, nationally as well as internationally. The terrace provides superb views both by day and night across the city and its great sweeping avenues.-Opening hours : April to September: from 10 a.m. to 11 p.m.; October to March: from 10 a.m. to 10.30 p.m.-Closed: 1st January, 1st May, 8th May (morning), 14th July (morning), 11th November (morning), 25th December-Entry fees: Adults = 9,5 €; Concessions = 6 €; Free admission: 18-25 years old* (citizens of one of the 27 countries of the EU or are non-European permanent residents of France) * excluding school groups",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/83/74/64/photo3jpg.jpg",
+		"photoCount": 31837,
+		"awards": [],
+		"rankingPosition": 6,
+		"rating": 4.5,
+		"rawRanking": 4.84271764755249,
+		"phone": "+33 1 55 37 73 77",
+		"address": "Place Charles de Gaulle, 75008 Paris France",
+		"addressObj": {
+			"street1": "Place Charles de Gaulle",
+			"street2": null,
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75008"
+		},
+		"localName": "Arc de Triomphe",
+		"localAddress": "Place Charles de Gaulle, Place de L'Étoile, 75008",
+		"localLangCode": "fr",
+		"email": null,
+		"latitude": 48.873787,
+		"longitude": 2.295047,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d188709-Reviews-Arc_de_Triomphe-Paris_Ile_de_France.html",
+		"website": "http://www.paris-arc-de-triomphe.fr/en/",
+		"rankingString": "#6 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "15621630",
+				"name": "8th Arr. - Elysee"
+			},
+			{
+				"id": "15621623",
+				"name": "Faubourg-du-Roule"
+			},
+			{
+				"id": "7236770",
+				"name": "Champs-Elysees"
+			},
+			{
+				"id": "15621642",
+				"name": "16th Arr. - Passy"
+			},
+			{
+				"id": "15621659",
+				"name": "Etoile"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "Charles de Gaulle – Etoile",
+				"localName": "Charles de Gaulle – Étoile",
+				"address": "156 Tunnel de l'Etoile, 75017 Neuilly-sur-Seine, France",
+				"localAddress": "156 Tunnel de l'Étoile, 75017",
+				"lines": [
+					{
+						"id": "paris-rer-a",
+						"lineName": "A",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.87393569946289,
+				"longitude": 2.2948989868164062,
+				"distance": 0.01229918112857047
+			},
+			{
+				"name": "Charles de Gaulle – Etoile",
+				"localName": "Charles de Gaulle – Étoile",
+				"address": "156 Tunnel de l'Etoile, 75017 Neuilly-sur-Seine, France",
+				"localAddress": "156 Tunnel de l'Étoile, 75017",
+				"lines": [
+					{
+						"id": "paris-rer-a",
+						"lineName": "A",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.87393569946289,
+				"longitude": 2.2948989868164062,
+				"distance": 0.01229918112857047
+			},
+			{
+				"name": "Charles de Gaulle – Etoile",
+				"localName": "Charles de Gaulle – Étoile",
+				"address": "156 Tunnel de l'Etoile, 75017 Paris, France",
+				"localAddress": "156 Tunnel de l'Étoile, 75017",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-2",
+						"lineName": "2",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-6",
+						"lineName": "6",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.87393569946289,
+				"longitude": 2.2948970794677734,
+				"distance": 0.012346917818577831
+			},
+			{
+				"name": "Kleber",
+				"localName": "Kléber",
+				"address": "13 Ave Kleber, 75016 Paris, France",
+				"localAddress": "13 Ave Kléber, 75016",
+				"lines": [
+					{
+						"id": "paris-paris-metro-6",
+						"lineName": "6",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.87147903442383,
+				"longitude": 2.2933249473571777,
+				"distance": 0.17782743809671483
+			},
+			{
+				"name": "George V",
+				"localName": "George V",
+				"address": "116 Av. des Champs-Elysees, 75008 Paris, France",
+				"localAddress": "116 Av. des Champs-Élysées, 75008",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.872013092041016,
+				"longitude": 2.300568103790283,
+				"distance": 0.2795488566178124
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 192,
+			"count2": 353,
+			"count3": 3503,
+			"count4": 14109,
+			"count5": 27851
+		},
+		"numberOfReviews": 46008,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FArc-de-Triomphe-and-Seine-River-Cruise%2Fd479-7832P70%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=11241678e84270350&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=188709&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$8.99",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FArc-de-Triomphe-and-Seine-River-Cruise%2Fd479-7832P70%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=11241678e84270350&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=188709&clt=TD&from=api&nt=true",
+					"price": "$37.74",
+					"roundedUpPrice": "$38",
+					"offerType": null,
+					"title": "Arc de Triomphe and Seine River Cruise ",
+					"productCode": "7832P70",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/10/5a/55/2d.jpg",
+					"description": null,
+					"primaryCategory": "Attraction Tickets"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSee-30-Plus-Top-Paris-Sights-in-1-Tour%2Fd479-131689P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bb814aa4674b2d90e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=188709&clt=TD&from=api&nt=true",
+					"price": "$70.97",
+					"roundedUpPrice": "$71",
+					"offerType": null,
+					"title": "See 30+ Top Paris Sights with a Fun Guide (Walking & Metro Tour)",
+					"productCode": "131689P1",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/37/9a/17.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FVersailles-Guided-Tour-with-Optional-Fountain-Show%2Fd479-2050VRS_VRG%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=02f9fb603138ad3be&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=188709&clt=TD&from=api&nt=true",
+					"price": "$103.55",
+					"roundedUpPrice": "$104",
+					"offerType": null,
+					"title": "Versailles Palace Guided Tour & Gardens Skip the Line from Paris",
+					"productCode": "2050VRS_VRG",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/24/fb/f4.jpg",
+					"description": null,
+					"primaryCategory": "Day Trips"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2F10-Top-Paris-Sights%2Fd479-131689P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=d12f06e1462d428bc&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=188709&clt=TD&from=api&nt=true",
+					"price": "$33.55",
+					"roundedUpPrice": "$34",
+					"offerType": null,
+					"title": "See 10+ Top Paris Sights, Fun Guide",
+					"productCode": "131689P3",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/a2/0e/a6.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FPrivate-Tour-2CV-Paris-City-Highlights-Tour%2Fd479-3907EST%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=015d12a0008a1585e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=188709&clt=TD&from=api&nt=true",
+					"price": "$127.47",
+					"roundedUpPrice": "$128",
+					"offerType": null,
+					"title": "Private tour Paris sightseeing 2 hours in Citroën 2CV",
+					"productCode": "3907EST",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/10/44/b3/2a.jpg",
+					"description": null,
+					"primaryCategory": "Private Sightseeing Tours"
+				}
+			]
+		},
+		"subtype": [
+			"Monuments & Statues",
+			"Architectural Buildings",
+			"Historic Sites"
+		]
+	},
+	{
+		"id": "188679",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Sights & Landmarks"],
+		"name": "Cathedrale Notre-Dame de Paris",
+		"locationString": "Paris, Ile-de-France",
+		"description": "The iconic Notre Dame Cathedral Paris—meaning ‘Our Lady of Paris’—is a masterpiece of French Gothic architecture. Built back in the 12th century, the important monument has witnessed many historical events. It has also inspired Victor Hugo’s story of the Hunchback of Notre-Dame. Outside the cathedral, you can admire its grand exterior which is framed by an elegant pair of bell towers, stained glass windows and an ornately decorated facade with grand statues.\n\nYou can also enter the cathedral for a small entrance fee to view Nio-Gothic artwork and furniture as well as join their weekly sessions. \n\n– Tripadvisor",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-s/00/12/6d/03/the-view-from-the-top.jpg",
+		"photoCount": 48032,
+		"awards": [],
+		"rankingPosition": 5,
+		"rating": 4.5,
+		"rawRanking": 4.868378639221191,
+		"phone": "+33 1 42 34 56 10",
+		"address": "6 Parvis Notre-Dame Place Jean-Paul II, 75004 Paris France",
+		"addressObj": {
+			"street1": "6 Parvis Notre-Dame",
+			"street2": "Place Jean-Paul II",
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75004"
+		},
+		"localName": "Cathédrale Notre-Dame de Paris",
+		"localAddress": null,
+		"localLangCode": "fr",
+		"email": "info@cathedraledeparis.com",
+		"latitude": 48.853,
+		"longitude": 2.3498,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d188679-Reviews-Cathedrale_Notre_Dame_de_Paris-Paris_Ile_de_France.html",
+		"website": "https://www.notredamedeparis.fr/",
+		"rankingString": "#5 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "7236764",
+				"name": "Ile de la Cite / Ile Saint-Louis"
+			},
+			{
+				"id": "15621629",
+				"name": "4th Arr. - Hotel-de-Ville"
+			},
+			{
+				"id": "15621562",
+				"name": "Notre-Dame"
+			},
+			{
+				"id": "15621648",
+				"name": "Ile de la Cite"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "St-Michel – Notre-Dame",
+				"localName": "St-Michel – Notre-Dame",
+				"address": "17 Quai Saint-Michel, 75005 Paris, France",
+				"localAddress": "17 Quai Saint-Michel, 75005",
+				"lines": [
+					{
+						"id": "paris-rer-b",
+						"lineName": "B",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.853450775146484,
+				"longitude": 2.3457300662994385,
+				"distance": 0.18783998711909125
+			},
+			{
+				"name": "Saint-Michel – Notre-Dame",
+				"localName": "Saint-Michel – Notre-Dame",
+				"address": "17 Quai Saint-Michel, 75005 Paris, France",
+				"localAddress": "17 Quai Saint-Michel, 75005",
+				"lines": [
+					{
+						"id": "paris-rer-b",
+						"lineName": "B",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-rer-c",
+						"lineName": "C",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.853450775146484,
+				"longitude": 2.3457300662994385,
+				"distance": 0.18783998711909125
+			},
+			{
+				"name": "St-Michel – Notre-Dame",
+				"localName": "St-Michel – Notre-Dame",
+				"address": "17 Quai Saint-Michel, 75005 Paris, France",
+				"localAddress": "17 Quai Saint-Michel, 75005",
+				"lines": [
+					{
+						"id": "paris-rer-b",
+						"lineName": "B",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.853450775146484,
+				"longitude": 2.3457300662994385,
+				"distance": 0.18783998711909125
+			},
+			{
+				"name": "Saint-Michel – Notre-Dame",
+				"localName": "Saint-Michel – Notre-Dame",
+				"address": "17 Quai Saint-Michel, 75005 Paris, France",
+				"localAddress": "17 Quai Saint-Michel, 75005",
+				"lines": [
+					{
+						"id": "paris-rer-b",
+						"lineName": "B",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-rer-c",
+						"lineName": "C",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.853450775146484,
+				"longitude": 2.3457300662994385,
+				"distance": 0.18783998711909125
+			},
+			{
+				"name": "Cite",
+				"localName": "Cité",
+				"address": "Allee Celestin Hennion, 75004 Paris, France",
+				"localAddress": "Allée Célestin Hennion, 75004",
+				"lines": [
+					{
+						"id": "paris-paris-metro-4",
+						"lineName": "4",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85555648803711,
+				"longitude": 2.347532033920288,
+				"distance": 0.2047188543795653
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 223,
+			"count2": 506,
+			"count3": 4030,
+			"count4": 17619,
+			"count5": 49271
+		},
+		"numberOfReviews": 71650,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSee-30-Plus-Top-Paris-Sights-in-1-Tour%2Fd479-131689P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bb814aa4674b2d90e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=188679&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$4.44",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSee-30-Plus-Top-Paris-Sights-in-1-Tour%2Fd479-131689P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bb814aa4674b2d90e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=188679&clt=TD&from=api&nt=true",
+					"price": "$70.97",
+					"roundedUpPrice": "$71",
+					"offerType": null,
+					"title": "See 30+ Top Paris Sights with a Fun Guide (Walking & Metro Tour)",
+					"productCode": "131689P1",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/37/9a/17.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FThe-Darkest-Secrets-of-Paris%2Fd479-123350P2%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=126b8199a9af54fe2&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=188679&clt=TD&from=api&nt=true",
+					"price": "$36.18",
+					"roundedUpPrice": "$37",
+					"offerType": null,
+					"title": "The Darkest Secrets of Paris",
+					"productCode": "123350P2",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/36/49/c5.jpg",
+					"description": null,
+					"primaryCategory": "Historical & Heritage Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FParis-Highlights-Full-Day-Tour%2Fd479-47475P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=7a49027f0ac66b349&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=188679&clt=TD&from=api&nt=true",
+					"price": "$152.39",
+					"roundedUpPrice": "$153",
+					"offerType": null,
+					"title": "Paris Full Day Tour: Includes Eiffel Tower, Notre Dame, and more",
+					"productCode": "47475P3",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/12/40/70/4a.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBig-Bus-Paris-Hop-On-Hop-Off-Tour%2Fd479-6602PARHOHO%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=7d516c39717d28ecb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=188679&clt=TD&from=api&nt=true",
+					"price": "$45.09",
+					"roundedUpPrice": "$46",
+					"offerType": null,
+					"title": "Big Bus Paris Hop-On Hop-Off Tour with Optional River Cruise",
+					"productCode": "6602PARHOHO",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/79/35/4a.jpg",
+					"description": null,
+					"primaryCategory": "Hop-on Hop-off Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSemi-Private-Guided-Walking-Tour-Latin-Quarter-Including-Notre-Dame-Interior%2Fd479-6353P16%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c6eb58489faadf86b&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=188679&clt=TD&from=api&nt=true",
+					"price": "$112.11",
+					"roundedUpPrice": "$113",
+					"offerType": null,
+					"title": "Latin Quarter Le Quartier Latin Guided Walking Tour - Semi-Private 8ppl Max",
+					"productCode": "6353P16",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/f2/c9/89.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				}
+			]
+		},
+		"subtype": [
+			"Architectural Buildings",
+			"Churches & Cathedrals",
+			"Historic Sites"
+		]
+	},
+	{
+		"id": "190685",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Sights & Landmarks"],
+		"name": "Basilique du Sacre-Coeur de Montmartre",
+		"locationString": "Paris, Ile-de-France",
+		"description": "This Montmartre landmark, a 19th-century basilica built by the French government following the Franco-Prussian War, features a large medieval dome that provides excellent views of the city.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/16/6c/c5/59/dsc-0074-effects-largejpg.jpg",
+		"photoCount": 30510,
+		"awards": [],
+		"rankingPosition": 9,
+		"rating": 4.5,
+		"rawRanking": 4.832737445831299,
+		"phone": "+33 1 53 41 89 00",
+		"address": "35 Rue du Chevalier-De-La-Barre, 75018 Paris France",
+		"addressObj": {
+			"street1": "35 Rue du Chevalier-De-La-Barre",
+			"street2": null,
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75018"
+		},
+		"localName": "Basilique du Sacré-Cœur de Montmartre",
+		"localAddress": "35 Rue du Chevalier-De-La-Barre, 75018",
+		"localLangCode": "fr",
+		"email": "basilique@sacre-coeur-montmartre.com",
+		"latitude": 48.886703,
+		"longitude": 2.343081,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d190685-Reviews-Basilique_du_Sacre_Coeur_de_Montmartre-Paris_Ile_de_France.html",
+		"website": "http://www.sacre-coeur-montmartre.com/english/",
+		"rankingString": "#9 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "15621643",
+				"name": "18th Arr. - Buttes-Montmartre"
+			},
+			{
+				"id": "7236768",
+				"name": "Montmartre"
+			},
+			{
+				"id": "15621620",
+				"name": "Clignancourt"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "Abbesses",
+				"localName": "Abbesses",
+				"address": "15 Rue des Abbesses, 75018 Paris, France",
+				"localAddress": "15 Rue des Abbesses, 75018",
+				"lines": [
+					{
+						"id": "paris-paris-metro-12",
+						"lineName": "12",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.88430404663086,
+				"longitude": 2.3385560512542725,
+				"distance": 0.26439570345559804
+			},
+			{
+				"name": "Anvers",
+				"localName": "Anvers",
+				"address": "72 Boulevard de Rochechouart, 75018 Paris, France",
+				"localAddress": "72 Boulevard de Rochechouart, 75018",
+				"lines": [
+					{
+						"id": "paris-paris-metro-2",
+						"lineName": "2",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.88284683227539,
+				"longitude": 2.3442490100860596,
+				"distance": 0.2720050203275129
+			},
+			{
+				"name": "Lamarck – Caulaincourt",
+				"localName": "Lamarck – Caulaincourt",
+				"address": "98 Rue Caulaincourt, 75018 Paris, France",
+				"localAddress": "98 Rue Caulaincourt, 75018",
+				"lines": [
+					{
+						"id": "paris-paris-metro-12",
+						"lineName": "12",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.88960266113281,
+				"longitude": 2.338510036468506,
+				"distance": 0.28885140777693896
+			},
+			{
+				"name": "Chateau Rouge",
+				"localName": "Château Rouge",
+				"address": "29-31 Boulevard Barbes, 75018 Paris, France",
+				"localAddress": "29-31 Boulevard Barbès, 75018",
+				"lines": [
+					{
+						"id": "paris-paris-metro-4",
+						"lineName": "4",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.88716125488281,
+				"longitude": 2.3494551181793213,
+				"distance": 0.29163650372152533
+			},
+			{
+				"name": "Barbes – Rochechouart",
+				"localName": "Barbès – Rochechouart",
+				"address": "157 Boulevard de Magenta, 75009 Paris, France",
+				"localAddress": "157 Boulevard de Magenta, 75009",
+				"lines": [
+					{
+						"id": "paris-paris-metro-2",
+						"lineName": "2",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-4",
+						"lineName": "4",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.88376235961914,
+				"longitude": 2.3495049476623535,
+				"distance": 0.3560361631936647
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 423,
+			"count2": 555,
+			"count3": 2311,
+			"count4": 10452,
+			"count5": 25634
+		},
+		"numberOfReviews": 39375,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FGuided-Tour-of-Sacre-Coeur-and-Montmartre%2Fd479-6839P20%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=af1149d00cd0f8484&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=190685&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$5.56",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FGuided-Tour-of-Sacre-Coeur-and-Montmartre%2Fd479-6839P20%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=af1149d00cd0f8484&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=190685&clt=TD&from=api&nt=true",
+					"price": "$22.27",
+					"roundedUpPrice": "$23",
+					"offerType": null,
+					"title": "Guided Tour of Sacré-Coeur and Montmartre",
+					"productCode": "6839P20",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/10/5f/67/a4.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSee-30-Plus-Top-Paris-Sights-in-1-Tour%2Fd479-131689P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bb814aa4674b2d90e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=190685&clt=TD&from=api&nt=true",
+					"price": "$70.97",
+					"roundedUpPrice": "$71",
+					"offerType": null,
+					"title": "See 30+ Top Paris Sights with a Fun Guide (Walking & Metro Tour)",
+					"productCode": "131689P1",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/37/9a/17.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FMontmartre-walking-tour-up-to-the-Sacre-Coeur-and-skip-the-line-to-Musee-Orsay%2Fd479-5746P29%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=310f9e3647ead446e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=190685&clt=TD&from=api&nt=true",
+					"price": "$50.92",
+					"roundedUpPrice": "$51",
+					"offerType": null,
+					"title": "Montmartre Walking Tour to the Sacre Coeur & Skip-the-Line to Musée d'Orsay",
+					"productCode": "5746P29",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/71/a0/63.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FPrivate-Guided-Walking-Tour-Montmartre-Including-Sacre-Coeur-Interior%2Fd479-6353P13%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=a2c57618945e32cec&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=190685&clt=TD&from=api&nt=true",
+					"price": "$112.11",
+					"roundedUpPrice": "$113",
+					"offerType": null,
+					"title": "Montmartre District and Sacre Coeur - Exclusive Guided Walking Tour ",
+					"productCode": "6353P13",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/f8/de/47.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2F10-Top-Paris-Sights%2Fd479-131689P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=d12f06e1462d428bc&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=190685&clt=TD&from=api&nt=true",
+					"price": "$33.55",
+					"roundedUpPrice": "$34",
+					"offerType": null,
+					"title": "See 10+ Top Paris Sights, Fun Guide",
+					"productCode": "131689P3",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/a2/0e/a6.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				}
+			]
+		},
+		"subtype": ["Churches & Cathedrals"]
+	},
+	{
+		"id": "188757",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Sights & Landmarks", "Museums"],
+		"name": "Louvre Museum",
+		"locationString": "Paris, Ile-de-France",
+		"description": "As one of the largest, oldest, and grandest museums in the world, the Louvre hosts a treasure trove of artworks spanning diverse cultures and periods of history. Marvel at the museum’s greatest hits: the Mona Lisa, the Venus de Milo, Winged Victory, and stunning collections of prized paintings and Greek and Roman statues. It’s not possible to see all of the museum in one visit, so be inspired to return for your next trip to Paris. \n\nBuy timed-entry tickets online to skip the lines as the museum is usually packed. You can also join a guided tour to enjoy a curated experience organized and led by an expert. \n\n– Tripadvisor",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/22/4f/70/dc/cour-napoleon-et-pyramide.jpg",
+		"photoCount": 80676,
+		"awards": [],
+		"rankingPosition": 15,
+		"rating": 4.5,
+		"rawRanking": 4.619372367858887,
+		"phone": "+33 1 40 20 53 17",
+		"address": "99 Rue de Rivoli, 75001 Paris France",
+		"addressObj": {
+			"street1": "99 Rue de Rivoli",
+			"street2": null,
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75001"
+		},
+		"localName": "Musée du Louvre",
+		"localAddress": "99 Rue de Rivoli, 75001",
+		"localLangCode": "fr",
+		"email": "info@louvre.fr",
+		"latitude": 48.861,
+		"longitude": 2.335833,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d188757-Reviews-Louvre_Museum-Paris_Ile_de_France.html",
+		"website": "http://www.louvre.fr",
+		"rankingString": "#15 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "7236762",
+				"name": "Louvre / Palais-Royal"
+			},
+			{
+				"id": "15621628",
+				"name": "1st Arr. - Louvre"
+			},
+			{
+				"id": "13209510",
+				"name": "Saint-Germain-l'Auxerrois"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "Palais Royal – Musee du Louvre",
+				"localName": "Palais Royal – Musée du Louvre",
+				"address": "155 Rue Saint Honore, 75001 Paris, France",
+				"localAddress": "155 Rue Saint Honoré, 75001",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-7",
+						"lineName": "7",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.8629264831543,
+				"longitude": 2.336029052734375,
+				"distance": 0.13354934239282537
+			},
+			{
+				"name": "Louvre – Rivoli",
+				"localName": "Louvre – Rivoli",
+				"address": "8 Rue de l'Amiral de Coligny, 75001 Paris, France",
+				"localAddress": "8 Rue de l'Amiral de Coligny, 75001",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86061096191406,
+				"longitude": 2.3409740924835205,
+				"distance": 0.23549288270032961
+			},
+			{
+				"name": "Pont Neuf",
+				"localName": "Pont Neuf",
+				"address": "18 Quai de la Megisserie, 75001 Paris, France",
+				"localAddress": "18 Quai de la Mégisserie, 75001",
+				"lines": [
+					{
+						"id": "paris-paris-metro-7",
+						"lineName": "7",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.858551025390625,
+				"longitude": 2.3420839309692383,
+				"distance": 0.33108061285239615
+			},
+			{
+				"name": "Pyramides",
+				"localName": "Pyramides",
+				"address": "20 Ave de l'Opera, 75001 Paris, France",
+				"localAddress": "20 Ave de l'Opéra, 75001",
+				"lines": [
+					{
+						"id": "paris-paris-metro-7",
+						"lineName": "7",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-14",
+						"lineName": "14",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.865821838378906,
+				"longitude": 2.334357976913452,
+				"distance": 0.34021123163921646
+			},
+			{
+				"name": "Tuileries",
+				"localName": "Tuileries",
+				"address": "206 Rue de Rivoli, 75001 Paris, France",
+				"localAddress": "206 Rue de Rivoli, 75001",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.864280700683594,
+				"longitude": 2.3301661014556885,
+				"distance": 0.3435015467413399
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 1065,
+			"count2": 1515,
+			"count3": 6195,
+			"count4": 21868,
+			"count5": 70941
+		},
+		"numberOfReviews": 101586,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSkip-the-Line-Louvre-Museum-Walking-Tour-including-Venus-de-Milo-and-Mona-Lisa%2Fd479-3731LOUVRE%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=a5646ab569dd03645&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=188757&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$5.57",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSkip-the-Line-Louvre-Museum-Walking-Tour-including-Venus-de-Milo-and-Mona-Lisa%2Fd479-3731LOUVRE%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=a5646ab569dd03645&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=188757&clt=TD&from=api&nt=true",
+					"price": "$70.14",
+					"roundedUpPrice": "$71",
+					"offerType": null,
+					"title": "Skip-the-Line: Louvre Museum Masterpieces Fully Guided Tour",
+					"productCode": "3731LOUVRE",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/11/d4/2d/42.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FLouvre-Museum-Entry-and-Cruise-Skip-the-Line-To-Mona-Lisa-Option%2Fd479-2050GLO%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c43b69a0993f7c92e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=188757&clt=TD&from=api&nt=true",
+					"price": "$54.24",
+					"roundedUpPrice": "$55",
+					"offerType": null,
+					"title": "Louvre Museum Entry & Seine Cruise Ticket withdrawal from Agency",
+					"productCode": "2050GLO",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/b2/86/ee.jpg",
+					"description": null,
+					"primaryCategory": "Museum Tickets & Passes"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FLouvre-Skip-The-Line-Tickets-with-A-Host-and-Choice-of-Itineraries%2Fd479-47475P8%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=d8aa0c473182f4929&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=188757&clt=TD&from=api&nt=true",
+					"price": "$45.64",
+					"roundedUpPrice": "$46",
+					"offerType": null,
+					"title": "Louvre Tours with Skip-the-Line Louvre Entry Ticket ",
+					"productCode": "47475P8",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/34/e8/2a.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2F15-Hour-Louvre-Museum-Must-See-Private-Guided-Tour%2Fd479-6159P12%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=9f903c0d1f04fd6b2&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=188757&clt=TD&from=api&nt=true",
+					"price": "$94.63",
+					"roundedUpPrice": "$95",
+					"offerType": null,
+					"title": "Paris Louvre Museum Must See Skip the Line Private and non Private",
+					"productCode": "6159P12",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/74/96/cf.jpg",
+					"description": null,
+					"primaryCategory": "Private Sightseeing Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FA-Day-in-Paris-Louvre-Reserved-Access-and-1-hour-Cruise%2Fd479-9205P15%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=f1139ffbb5e2465b0&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=188757&clt=TD&from=api&nt=true",
+					"price": "$52.32",
+					"roundedUpPrice": "$53",
+					"offerType": null,
+					"title": "A Day in Paris with Louvre Reserved Access Ticket & Cruise",
+					"productCode": "9205P15",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/01/ec/82.jpg",
+					"description": null,
+					"primaryCategory": "Attraction Tickets"
+				}
+			]
+		},
+		"subtype": [
+			"Architectural Buildings",
+			"Points of Interest & Landmarks",
+			"Art Museums"
+		]
+	},
+	{
+		"id": "188150",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Museums"],
+		"name": "Musee d'Orsay",
+		"locationString": "Paris, Ile-de-France",
+		"description": "Musée d'Orsay in Paris is a must-visit for art lovers and travelers alike. It's famous for its impressive collection of Impressionist and post-Impressionist art, making it one of the largest in the world. Housed in a stunning former railway station on the Seine, the museum is just as beautiful on the outside as it is on the inside. Don't miss the famous clock face, which is part of the museum's exhibition. \n\nFor an in-depth experience, you might want to join a private or group tour. Visit in the morning to beat the crowds and enjoy a quieter museum experience. \n\n– Tripadvisor",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-s/02/1c/ab/64/la-terrasse-lille-et.jpg",
+		"photoCount": 30175,
+		"awards": [],
+		"rankingPosition": 1,
+		"rating": 4.5,
+		"rawRanking": 5,
+		"phone": "+33 1 40 49 48 14",
+		"address": "1 Rue De La Legion d'Honneur, 75007 Paris France",
+		"addressObj": {
+			"street1": "1 Rue De La Legion d'Honneur",
+			"street2": null,
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75007"
+		},
+		"localName": "Musée d'Orsay",
+		"localAddress": "1 Rue De La Légion d'Honneur, 75007",
+		"localLangCode": "fr",
+		"email": "spa@musee-orsay.fr",
+		"latitude": 48.860035,
+		"longitude": 2.32685,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d188150-Reviews-Musee_d_Orsay-Paris_Ile_de_France.html",
+		"website": "http://www.musee-orsay.fr/",
+		"rankingString": "#1 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "7236767",
+				"name": "Tour Eiffel / Invalides"
+			},
+			{
+				"id": "15621671",
+				"name": "Faubourg Saint-Germain"
+			},
+			{
+				"id": "15621644",
+				"name": "7th Arr. - Palais-Bourbon"
+			},
+			{
+				"id": "15621563",
+				"name": "Saint-Thomas-d'Aquin"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "Musee d'Orsay",
+				"localName": "Musée d'Orsay",
+				"address": "8 Quai Anatole France, 75007 Paris, France",
+				"localAddress": "8 Quai Anatole France, 75007",
+				"lines": [
+					{
+						"id": "paris-rer-c",
+						"lineName": "C",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.860897064208984,
+				"longitude": 2.3253870010375977,
+				"distance": 0.08937652179882616
+			},
+			{
+				"name": "Solferino",
+				"localName": "Solférino",
+				"address": "223-225 Boulevard Saint-Germain, 75007 Paris, France",
+				"localAddress": "223-225 Boulevard Saint-Germain, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-12",
+						"lineName": "12",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85828399658203,
+				"longitude": 2.323270082473755,
+				"distance": 0.20299953892537564
+			},
+			{
+				"name": "Assemblee Nationale",
+				"localName": "Assemblée Nationale",
+				"address": "104 Rue de l'Universite, 75007 Paris, France",
+				"localAddress": "104 Rue de l'Université, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-12",
+						"lineName": "12",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86029815673828,
+				"longitude": 2.3211910724639893,
+				"distance": 0.2581612450830816
+			},
+			{
+				"name": "Rue du Bac",
+				"localName": "Rue du Bac",
+				"address": "4 Rue Paul-Louis Courier, 75007 Paris, France",
+				"localAddress": "4 Rue Paul-Louis Courier, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-12",
+						"lineName": "12",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.855953216552734,
+				"longitude": 2.3255739212036133,
+				"distance": 0.28824438223088805
+			},
+			{
+				"name": "Tuileries",
+				"localName": "Tuileries",
+				"address": "206 Rue de Rivoli, 75001 Paris, France",
+				"localAddress": "206 Rue de Rivoli, 75001",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.864280700683594,
+				"longitude": 2.3301661014556885,
+				"distance": 0.3301816342725773
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 303,
+			"count2": 340,
+			"count3": 1731,
+			"count4": 11608,
+			"count5": 53221
+		},
+		"numberOfReviews": 67204,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FParis-2-Hour-Private-Guided-Tour-to-Orsay-Museum%2Fd479-13405P5%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=0c6b6283213f7d91c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=188150&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$7.74",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FParis-2-Hour-Private-Guided-Tour-to-Orsay-Museum%2Fd479-13405P5%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=0c6b6283213f7d91c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=188150&clt=TD&from=api&nt=true",
+					"price": "$105.61",
+					"roundedUpPrice": "$106",
+					"offerType": null,
+					"title": "Private 2-Hour Guided Tour in Orsay Museum Paris",
+					"productCode": "13405P5",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/e6/af/d0.jpg",
+					"description": null,
+					"primaryCategory": "Private Sightseeing Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2F2-hour-Orsay-Private-tour%2Fd479-6159P13%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=4360545293eeebf1e&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=188150&clt=TD&from=api&nt=true",
+					"price": "$94.63",
+					"roundedUpPrice": "$95",
+					"offerType": null,
+					"title": "Musée d'Orsay Skip the Line Private and semi Private Tour",
+					"productCode": "6159P13",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/11/d8/36/71.jpg",
+					"description": null,
+					"primaryCategory": "Private Sightseeing Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2F2-Hour-Muse-dOrsay-with-Skip-the-Line-Access%2Fd479-46334P22%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=cbd1986e1f65742f8&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=188150&clt=TD&from=api&nt=true",
+					"price": "$71.16",
+					"roundedUpPrice": "$72",
+					"offerType": null,
+					"title": "Musée d'Orsay Skip-the-Line Impressionists Guided Tour",
+					"productCode": "46334P22",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/14/44/43.jpg",
+					"description": null,
+					"primaryCategory": "Literary, Art & Music Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBig-Bus-Paris-Hop-On-Hop-Off-Tour%2Fd479-6602PARHOHO%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=7d516c39717d28ecb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=188150&clt=TD&from=api&nt=true",
+					"price": "$45.09",
+					"roundedUpPrice": "$46",
+					"offerType": null,
+					"title": "Big Bus Paris Hop-On Hop-Off Tour with Optional River Cruise",
+					"productCode": "6602PARHOHO",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/79/35/4a.jpg",
+					"description": null,
+					"primaryCategory": "Hop-on Hop-off Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSkip-the-line-Semi-Private-Guided-Tour-Orsay-Museum%2Fd479-6353P9%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=8c03584dc2d888854&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=188150&clt=TD&from=api&nt=true",
+					"price": "$140.43",
+					"roundedUpPrice": "$141",
+					"offerType": null,
+					"title": "Musée d’Orsay Orsay Museum Tour - Semi-Private 8ppl Max Reserved Entry Included!",
+					"productCode": "6353P9",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/73/00/b4.jpg",
+					"description": null,
+					"primaryCategory": "Historical & Heritage Tours"
+				}
+			]
+		},
+		"subtype": ["Art Museums"]
+	},
+	{
+		"id": "292257",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Sights & Landmarks", "Other"],
+		"name": "Le Marais",
+		"locationString": "Paris, Ile-de-France",
+		"description": "Get lost in one of the most charming neighborhoods in Paris, brimming with unique boutiques and stylish art galleries. Besides its vibrant LGBTQIA+ community, Le Marais also has a rich Jewish heritage, with winding streets lined with historic medieval architecture. If you're looking for a night out, head to one of the many gay bars or clubs that the area is known for. \n\nTake a walking tour to discover fascinating insights about the neighborhood, or a food tour to have a taste of the area's vibrant culinary scene—travelers say the falafel is some of the best! Visit during the week for fewer crowds and wear comfortable walking shoes to navigate the neighborhood's cobblestone streets. \n\n– Tripadvisor",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/12/ad/0a/72/caption.jpg",
+		"photoCount": 2873,
+		"awards": [],
+		"rankingPosition": 4,
+		"rating": 4.5,
+		"rawRanking": 4.891580581665039,
+		"phone": "+33 9 52 89 24 05",
+		"address": "Le Marais 3e Arrondissement, 75003 Paris France",
+		"addressObj": {
+			"street1": "Le Marais",
+			"street2": "3e Arrondissement",
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75003"
+		},
+		"localName": "Le Marais Paris III",
+		"localAddress": "3e Arrondissement, 75003",
+		"localLangCode": "fr",
+		"email": null,
+		"latitude": 48.85879,
+		"longitude": 2.358595,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d292257-Reviews-Le_Marais-Paris_Ile_de_France.html",
+		"website": null,
+		"rankingString": "#4 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "15621598",
+				"name": "Saint-Gervais"
+			},
+			{
+				"id": "7236763",
+				"name": "Le Marais"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "Saint-Paul",
+				"localName": "Saint-Paul",
+				"address": "8 Rue de Rivoli, 75004 Paris, France",
+				"localAddress": "8 Rue de Rivoli, 75004",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85520935058594,
+				"longitude": 2.3607349395751953,
+				"distance": 0.266222698518759
+			},
+			{
+				"name": "Rambuteau",
+				"localName": "Rambuteau",
+				"address": "35 Rue Beaubourg, 75003 Paris, France",
+				"localAddress": "35 Rue Beaubourg, 75003",
+				"lines": [
+					{
+						"id": "paris-paris-metro-11",
+						"lineName": "11",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.8619270324707,
+				"longitude": 2.3538739681243896,
+				"distance": 0.30528329010110045
+			},
+			{
+				"name": "Hotel de Ville",
+				"localName": "Hôtel de Ville",
+				"address": "68 Rue de Rivoli, 75004 Paris, France",
+				"localAddress": "68 Rue de Rivoli, 75004",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-9",
+						"lineName": "9",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-11",
+						"lineName": "11",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85749435424805,
+				"longitude": 2.351789951324463,
+				"distance": 0.3224185927317042
+			},
+			{
+				"name": "Pont Marie",
+				"localName": "Pont Marie",
+				"address": "14 Quai de l'Hotel de ville, 75004 Paris, France",
+				"localAddress": "14 Quai de l'Hôtel de ville, 75004",
+				"lines": [
+					{
+						"id": "paris-paris-metro-7",
+						"lineName": "7",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85363006591797,
+				"longitude": 2.3572189807891846,
+				"distance": 0.3624578121602468
+			},
+			{
+				"name": "Saint-Sebastien – Froissart",
+				"localName": "Saint-Sébastien – Froissart",
+				"address": "4 Boulevard des Filles du Calvaire, 75011 Paris, France",
+				"localAddress": "4 Boulevard des Filles du Calvaire, 75011",
+				"lines": [
+					{
+						"id": "paris-paris-metro-8",
+						"lineName": "8",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86097717285156,
+				"longitude": 2.367223024368286,
+				"distance": 0.42074735819076425
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 48,
+			"count2": 82,
+			"count3": 530,
+			"count4": 3685,
+			"count5": 8626
+		},
+		"numberOfReviews": 12971,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FLe-Marais-Explore-The-Old-Paris%2Fd479-30791P283%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e80b929790a69963b&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=292257&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$8.90",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FLe-Marais-Explore-The-Old-Paris%2Fd479-30791P283%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e80b929790a69963b&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=292257&clt=TD&from=api&nt=true",
+					"price": "$70.97",
+					"roundedUpPrice": "$71",
+					"offerType": null,
+					"title": "Le Marais Private Walking Tour with a Local, Explore its Old World Charm ",
+					"productCode": "30791P283",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/10/77/c6/f7.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSemi-Private-Guided-Walking-Tour-Le-Marais-District-Jewish-Quarter%2Fd479-6353P26%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=f6bfc7ee643476e69&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=292257&clt=TD&from=api&nt=true",
+					"price": "$112.11",
+					"roundedUpPrice": "$113",
+					"offerType": null,
+					"title": "Le Marais District & Jewish Quarter Guided Walking Tour - Semi-Private 8ppl Max",
+					"productCode": "6353P26",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/16/d5/da.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FFall-in-love-with-Paris-in-3-hours%2Fd479-123350P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=725e1affa2d2bbdb3&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=292257&clt=TD&from=api&nt=true",
+					"price": "$166.99",
+					"roundedUpPrice": "$167",
+					"offerType": null,
+					"title": "Fall in love with Paris in 3 hours",
+					"productCode": "123350P1",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/0d/db/ae.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FPrivate-Shopping-Tour-with-a-Personal-Shopper%2Fd479-10392P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=2a729d33ed028edda&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=292257&clt=TD&from=api&nt=true",
+					"price": "$256.06",
+					"roundedUpPrice": "$257",
+					"offerType": null,
+					"title": "The Fashionista Experience: Personal Shopping and Styling Experience in Paris",
+					"productCode": "10392P3",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/e3/90/4a.jpg",
+					"description": null,
+					"primaryCategory": "Shopping Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FPrivate-Guided-Walking-Tour-Le-Marais-District-Jewish-Quarter%2Fd479-6353P25%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=c4d804d548c0a6be1&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=292257&clt=TD&from=api&nt=true",
+					"price": "$112.11",
+					"roundedUpPrice": "$113",
+					"offerType": null,
+					"title": "Le Marais District & Jewish Quarter - Exclusive Guided Walking Tour",
+					"productCode": "6353P25",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/16/d5/da.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				}
+			]
+		},
+		"subtype": ["Neighborhoods"]
+	},
+	{
+		"id": "188151",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Sights & Landmarks"],
+		"name": "Eiffel Tower",
+		"locationString": "Paris, Ile-de-France",
+		"description": "Completed in 1889, this colossal landmark, although initially hated by many Parisians, is now a famous symbol of French civic pride.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/1b/15/a3/d6/c-emeric-livinec-sete.jpg",
+		"photoCount": 103453,
+		"awards": [],
+		"rankingPosition": 14,
+		"rating": 4.5,
+		"rawRanking": 4.753162384033203,
+		"phone": "+33 892 70 12 39",
+		"address": "5 Avenue, 75007 Paris France",
+		"addressObj": {
+			"street1": "5 Avenue",
+			"street2": null,
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75007"
+		},
+		"localName": "La Tour Eiffel",
+		"localAddress": "5 Avenue, 75007",
+		"localLangCode": "fr",
+		"email": null,
+		"latitude": 48.858353,
+		"longitude": 2.294464,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d188151-Reviews-Eiffel_Tower-Paris_Ile_de_France.html",
+		"website": "https://www.toureiffel.paris/",
+		"rankingString": "#14 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "15621622",
+				"name": "Gros-Caillou"
+			},
+			{
+				"id": "7236767",
+				"name": "Tour Eiffel / Invalides"
+			},
+			{
+				"id": "15621644",
+				"name": "7th Arr. - Palais-Bourbon"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "Champ de Mars – Tour Eiffel",
+				"localName": "Champ de Mars – Tour Eiffel",
+				"address": "101 Quai Branly, 75015 Vanves, France",
+				"localAddress": "101 Quai Branly, 75015",
+				"lines": [
+					{
+						"id": "paris-rer-c",
+						"lineName": "C",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85501480102539,
+				"longitude": 2.2891509532928467,
+				"distance": 0.3343273034815846
+			},
+			{
+				"name": "Bir-Hakeim",
+				"localName": "Bir-Hakeim",
+				"address": "9 Boulevard de Grenelle, 75015 Paris, France",
+				"localAddress": "9 Boulevard de Grenelle, 75015",
+				"lines": [
+					{
+						"id": "paris-paris-metro-6",
+						"lineName": "6",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.853919982910156,
+				"longitude": 2.2893309593200684,
+				"distance": 0.38546708424545706
+			},
+			{
+				"name": "Passy",
+				"localName": "Passy",
+				"address": "3 Rue de l'Alboni, 75016 Paris, France",
+				"localAddress": "3 Rue de l'Alboni, 75016",
+				"lines": [
+					{
+						"id": "paris-paris-metro-6",
+						"lineName": "6",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85750198364258,
+				"longitude": 2.2857840061187744,
+				"distance": 0.3993823726970405
+			},
+			{
+				"name": "Pont de l'Alma",
+				"localName": "Pont de l'Alma",
+				"address": "1 Quai Branly, 75007 Neuilly-sur-Seine, France",
+				"localAddress": "1 Quai Branly, 75007",
+				"lines": [
+					{
+						"id": "paris-rer-c",
+						"lineName": "C",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86252975463867,
+				"longitude": 2.3010010719299316,
+				"distance": 0.4146965965731279
+			},
+			{
+				"name": "Trocadero",
+				"localName": "Trocadéro",
+				"address": "4 Ave Georges Mandel, 75116 Paris, France",
+				"localAddress": "4 Ave Georges Mandel, 75116",
+				"lines": [
+					{
+						"id": "paris-paris-metro-6",
+						"lineName": "6",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-9",
+						"lineName": "9",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86325454711914,
+				"longitude": 2.2863619327545166,
+				"distance": 0.5009053380473941
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 1380,
+			"count2": 1908,
+			"count3": 8720,
+			"count4": 29804,
+			"count5": 100282
+		},
+		"numberOfReviews": 142095,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FEiffel-Tower-Priority-Access%2Fd479-7845P7%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=571e5c5116c7363d2&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=188151&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$5.00",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FEiffel-Tower-Priority-Access%2Fd479-7845P7%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=571e5c5116c7363d2&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=188151&clt=TD&from=api&nt=true",
+					"price": "$32.29",
+					"roundedUpPrice": "$33",
+					"offerType": null,
+					"title": "Eiffel Tower with Host 2nd Floor or Summit option",
+					"productCode": "7845P7",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/74/ab/3e.jpg",
+					"description": null,
+					"primaryCategory": "Historical & Heritage Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSkip-The-Line-Eiffel-Tower-Tour-and-Summit-Access%2Fd479-9205P4%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=bed0fcdddbd126ee4&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=188151&clt=TD&from=api&nt=true",
+					"price": "$99.08",
+					"roundedUpPrice": "$100",
+					"offerType": null,
+					"title": "Eiffel Tower Reserved Entrance Tour with Summit by Elevator ",
+					"productCode": "9205P4",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/75/b0/4f.jpg",
+					"description": null,
+					"primaryCategory": "Historical & Heritage Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FGuided-Tour-Climb-of-Eiffel-Tower-Faster-than-Elevator-Entry%2Fd479-47475P1%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=57185f75df47c4b78&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=188151&clt=TD&from=api&nt=true",
+					"price": "$42.30",
+					"roundedUpPrice": "$43",
+					"offerType": null,
+					"title": "Paris Eiffel Tower Guided Climb Tour by Stairs",
+					"productCode": "47475P1",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6c/75/fe.jpg",
+					"description": null,
+					"primaryCategory": "Climbing"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSummit-Eiffel-Tower-Access-with-Host%2Fd479-7845P10%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=1947d5399124a6343&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=188151&clt=TD&from=api&nt=true",
+					"price": "$32.29",
+					"roundedUpPrice": "$33",
+					"offerType": null,
+					"title": "Eiffel Tower with Host Summit or 2nd Floor",
+					"productCode": "7845P10",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/74/aa/fc.jpg",
+					"description": null,
+					"primaryCategory": "Historical & Heritage Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FEiffel-Tower-Summit-Entry-and-City-of-Lights-Views-of-Iconic-Paris%2Fd479-7832P46%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=6b32343bf97eed0ea&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=188151&clt=TD&from=api&nt=true",
+					"price": "$88.95",
+					"roundedUpPrice": "$89",
+					"offerType": null,
+					"title": "Eiffel Tower Summit Entry & City of Lights Views of Iconic Paris",
+					"productCode": "7832P46",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/10/5a/6a/ab.jpg",
+					"description": null,
+					"primaryCategory": "Walking Tours"
+				}
+			]
+		},
+		"subtype": ["Points of Interest & Landmarks", "Observation Decks & Towers"]
+	},
+	{
+		"id": "265614",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Sights & Landmarks"],
+		"name": "Pont Alexandre III",
+		"locationString": "Paris, Ile-de-France",
+		"description": null,
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/17/08/4c/pont-alexandre-iii-et.jpg",
+		"photoCount": 7271,
+		"awards": [],
+		"rankingPosition": 3,
+		"rating": 4.5,
+		"rawRanking": 4.91017484664917,
+		"phone": null,
+		"address": "Pont Alexandre III Quai d'Orsay, 75008 Paris France",
+		"addressObj": {
+			"street1": "Pont Alexandre III",
+			"street2": "Quai d'Orsay",
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75008"
+		},
+		"localName": "Pont Alexandre-III",
+		"localAddress": null,
+		"localLangCode": "fr",
+		"email": null,
+		"latitude": 48.862846,
+		"longitude": 2.313418,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d265614-Reviews-Pont_Alexandre_III-Paris_Ile_de_France.html",
+		"website": null,
+		"rankingString": "#3 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "15621630",
+				"name": "8th Arr. - Elysee"
+			},
+			{
+				"id": "15621555",
+				"name": "Champs-Elysees Quartier"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "Invalides",
+				"localName": "Invalides",
+				"address": "6 Rue Robert Esnault-Pelterie, 75007 Paris, France",
+				"localAddress": "6 Rue Robert Esnault-Pelterie, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-8",
+						"lineName": "8",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-13",
+						"lineName": "13",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86203384399414,
+				"longitude": 2.3148889541625977,
+				"distance": 0.08740547169569744
+			},
+			{
+				"name": "Invalides",
+				"localName": "Invalides",
+				"address": "6 Rue Robert Esnault-Pelterie, 75007 Paris, France",
+				"localAddress": "6 Rue Robert Esnault-Pelterie, 75007",
+				"lines": [
+					{
+						"id": "paris-rer-c",
+						"lineName": "C",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86203384399414,
+				"longitude": 2.314889907836914,
+				"distance": 0.08743871188277194
+			},
+			{
+				"name": "Invalides",
+				"localName": "Invalides",
+				"address": "6 Rue Robert Esnault-Pelterie, 75007 Paris, France",
+				"localAddress": "6 Rue Robert Esnault-Pelterie, 75007",
+				"lines": [
+					{
+						"id": "paris-rer-c",
+						"lineName": "C",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"systemName": "RER",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_parisrer.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86203384399414,
+				"longitude": 2.314889907836914,
+				"distance": 0.08743871188277194
+			},
+			{
+				"name": "Champs-Elysees – Clemenceau",
+				"localName": "Champs-Élysées – Clemenceau",
+				"address": "9 Ave du General Eisenhower, 75008 Paris, France",
+				"localAddress": "9 Ave du Général Eisenhower, 75008",
+				"lines": [
+					{
+						"id": "paris-paris-metro-1",
+						"lineName": "1",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					},
+					{
+						"id": "paris-paris-metro-13",
+						"lineName": "13",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86750411987305,
+				"longitude": 2.3133089542388916,
+				"distance": 0.32221589763930525
+			},
+			{
+				"name": "La Tour-Maubourg",
+				"localName": "La Tour-Maubourg",
+				"address": "1 Ave de la Motte-Picquet, 75007 Paris, France",
+				"localAddress": "1 Ave de la Motte-Picquet, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-8",
+						"lineName": "8",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.857643127441406,
+				"longitude": 2.310537099838257,
+				"distance": 0.38304291071355884
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 36,
+			"count2": 34,
+			"count3": 653,
+			"count4": 4630,
+			"count5": 12095
+		},
+		"numberOfReviews": 17448,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FLunch-Seine-River-Cruise-with-3-Course-Gourmet-Meal%2Fd479-2050P247%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=a22d68cf2f0b77aa7&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=265614&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$5.57",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FLunch-Seine-River-Cruise-with-3-Course-Gourmet-Meal%2Fd479-2050P247%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=a22d68cf2f0b77aa7&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=265614&clt=TD&from=api&nt=true",
+					"price": "$79.66",
+					"roundedUpPrice": "$80",
+					"offerType": null,
+					"title": "Paris Seine River Gourmet Lunch Cruise with Champagne Option",
+					"productCode": "2050P247",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/94/7f/12.jpg",
+					"description": null,
+					"primaryCategory": "Day Cruises"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSegway-Paris-Express-Tour-12-POI-in-1-hour%2Fd479-133051P9%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=4e88cdeb13bee5373&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=265614&clt=TD&from=api&nt=true",
+					"price": "$43.42",
+					"roundedUpPrice": "$44",
+					"offerType": null,
+					"title": "Paris Segway Express Tour (12 monuments in 1 hour and 15 minutes)",
+					"productCode": "133051P9",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/b0/12/be.jpg",
+					"description": null,
+					"primaryCategory": "Historical & Heritage Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2F3-COURSE-DINNER-CRUISE-AT-LA-MARINA-DE-PARIS%2Fd479-2050P169%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=d0911fc842b8ddf83&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=265614&clt=TD&from=api&nt=true",
+					"price": "$111.33",
+					"roundedUpPrice": "$112",
+					"offerType": null,
+					"title": "Paris Seine River Sightseeing and Gourmet Dinner Cruise with 3 Course Menu",
+					"productCode": "2050P169",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/1a/0f/bf.jpg",
+					"description": null,
+					"primaryCategory": "Water Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Parisiens-Seine-River-Cruise-with-Lunch-and-Live-Music%2Fd479-5836LUNCHCRUISE%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=f7652e2e786efd00f&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=265614&clt=TD&from=api&nt=true",
+					"price": "$88.28",
+					"roundedUpPrice": "$89",
+					"offerType": null,
+					"title": "Bateaux Parisiens Seine River Gourmet Lunch & Sightseeing Cruise ",
+					"productCode": "5836LUNCHCRUISE",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/ee/ae/9c.jpg",
+					"description": null,
+					"primaryCategory": "Luxury Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSeine-River-Cruise-Bateaux-Parisiens-Sightseeing-Cruise-with-Dinner-and-Live-Music%2Fd479-5836DINNERCRUISE%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=20024eea2ce5679e1&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=265614&clt=TD&from=api&nt=true",
+					"price": "$138.83",
+					"roundedUpPrice": "$139",
+					"offerType": null,
+					"title": "Bateaux Parisiens Seine River Gourmet Dinner & Sightseeing Cruise",
+					"productCode": "5836DINNERCRUISE",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/ee/9b/24.jpg",
+					"description": null,
+					"primaryCategory": "Luxury Tours"
+				}
+			]
+		},
+		"subtype": ["Points of Interest & Landmarks", "Bridges"]
+	},
+	{
+		"id": "188149",
+		"type": "ATTRACTION",
+		"category": "attraction",
+		"subcategories": ["Museums"],
+		"name": "Musee Rodin",
+		"locationString": "Paris, Ile-de-France",
+		"description": "Located in this 18th-century hotel (Hotel Biron), Musee Rodin holds an impressive collection of works by this famous French sculptor and his circle as Camille Claudel. The museum also features an exquisit garden and a temporary exhibition hall.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/14/27/55/dc/la-facade-vu-depuis-le.jpg",
+		"photoCount": 7225,
+		"awards": [],
+		"rankingPosition": 8,
+		"rating": 4.5,
+		"rawRanking": 4.8341064453125,
+		"phone": "+33 1 44 18 61 10",
+		"address": "79 rue de Varenne close to Bois de Boulogne, 75007 Paris France",
+		"addressObj": {
+			"street1": "79 rue de Varenne",
+			"street2": "close to Bois de Boulogne",
+			"city": "Paris",
+			"state": null,
+			"country": "France",
+			"postalcode": "75007"
+		},
+		"localName": "Musée Rodin Paris VII",
+		"localAddress": "79 Rue de Varenne, close to Bois de Boulogne, 75007",
+		"localLangCode": "fr",
+		"email": "contact@musee-rodin.fr",
+		"latitude": 48.855587,
+		"longitude": 2.315836,
+		"webUrl": "https://www.tripadvisor.com/Attraction_Review-g187147-d188149-Reviews-Musee_Rodin-Paris_Ile_de_France.html",
+		"website": "http://www.musee-rodin.fr/",
+		"rankingString": "#8 of 3,547 things to do in Paris",
+		"rankingDenominator": "3547",
+		"neighborhoodLocations": [
+			{
+				"id": "7236767",
+				"name": "Tour Eiffel / Invalides"
+			},
+			{
+				"id": "15621671",
+				"name": "Faubourg Saint-Germain"
+			},
+			{
+				"id": "15621644",
+				"name": "7th Arr. - Palais-Bourbon"
+			},
+			{
+				"id": "15621624",
+				"name": "Invalides"
+			}
+		],
+		"nearestMetroStations": [
+			{
+				"name": "Varenne",
+				"localName": "Varenne",
+				"address": "102 Rue de Varenne, 75007 Paris, France",
+				"localAddress": "102 Rue de Varenne, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-13",
+						"lineName": "13",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85623550415039,
+				"longitude": 2.3149220943450928,
+				"distance": 0.061171175211432886
+			},
+			{
+				"name": "La Tour-Maubourg",
+				"localName": "La Tour-Maubourg",
+				"address": "1 Ave de la Motte-Picquet, 75007 Paris, France",
+				"localAddress": "1 Ave de la Motte-Picquet, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-8",
+						"lineName": "8",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.857643127441406,
+				"longitude": 2.310537099838257,
+				"distance": 0.27996747236964153
+			},
+			{
+				"name": "Saint-Francois-Xavier",
+				"localName": "Saint-François-Xavier",
+				"address": "Place Andre Tardieu, 75007 Paris, France",
+				"localAddress": "Place André Tardieu, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-13",
+						"lineName": "13",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.851627349853516,
+				"longitude": 2.3142430782318115,
+				"distance": 0.28332287676839213
+			},
+			{
+				"name": "Solferino",
+				"localName": "Solférino",
+				"address": "223-225 Boulevard Saint-Germain, 75007 Paris, France",
+				"localAddress": "223-225 Boulevard Saint-Germain, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-12",
+						"lineName": "12",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.85828399658203,
+				"longitude": 2.323270082473755,
+				"distance": 0.3863508750803128
+			},
+			{
+				"name": "Assemblee Nationale",
+				"localName": "Assemblée Nationale",
+				"address": "104 Rue de l'Universite, 75007 Paris, France",
+				"localAddress": "104 Rue de l'Université, 75007",
+				"lines": [
+					{
+						"id": "paris-paris-metro-12",
+						"lineName": "12",
+						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"systemName": "Métro",
+						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_paris.png",
+						"type": "Rapid Transit"
+					}
+				],
+				"latitude": 48.86029815673828,
+				"longitude": 2.3211910724639893,
+				"distance": 0.40692189598257444
+			}
+		],
+		"ancestorLocations": [
+			{
+				"id": "187147",
+				"name": "Paris",
+				"abbreviation": null,
+				"subcategory": "City"
+			},
+			{
+				"id": "187144",
+				"name": "Ile-de-France",
+				"abbreviation": null,
+				"subcategory": "Region"
+			},
+			{
+				"id": "187070",
+				"name": "France",
+				"abbreviation": null,
+				"subcategory": "Country"
+			}
+		],
+		"ratingHistogram": {
+			"count1": 50,
+			"count2": 152,
+			"count3": 720,
+			"count4": 3300,
+			"count5": 8489
+		},
+		"numberOfReviews": 12712,
+		"reviewTags": [],
+		"booking": {
+			"provider": "Viator",
+			"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FMusee-Rodin-Paris-Admission-Ticket%2Fd479-5045P46%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=1d1b87d0b996476bb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=188149&clt=TD&from=api&nt=true"
+		},
+		"offerGroup": {
+			"lowestPrice": "$9.00",
+			"offerList": [
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FMusee-Rodin-Paris-Admission-Ticket%2Fd479-5045P46%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=1d1b87d0b996476bb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=188149&clt=TD&from=api&nt=true",
+					"price": "$163.79",
+					"roundedUpPrice": "$164",
+					"offerType": null,
+					"title": "Rodin Museum Private Guided Tour with Skip the Line Admission",
+					"productCode": "5045P46",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/67/af/18.jpg",
+					"description": null,
+					"primaryCategory": "Attraction Tickets"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSkip-the-line-Private-Guided-Tour-Rodin-Museum%2Fd479-6353P23%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=885c7e6e80a8f146d&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=188149&clt=TD&from=api&nt=true",
+					"price": "$140.43",
+					"roundedUpPrice": "$141",
+					"offerType": null,
+					"title": "Skip-the-line Rodin Museum - Exclusive Guided Tour",
+					"productCode": "6353P23",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/73/00/a7.jpg",
+					"description": null,
+					"primaryCategory": "Private Sightseeing Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FEiffel-Tower-district-Food-tasting-Invalides-and-Rodins-gardens%2Fd479-6810EIFFELTOWER%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=10170d4169e07bb63&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=188149&clt=TD&from=api&nt=true",
+					"price": "$211.52",
+					"roundedUpPrice": "$212",
+					"offerType": null,
+					"title": "Private Eiffel Tower district walking tour with Rodin Museum",
+					"productCode": "6810EIFFELTOWER",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/73/cd/b0.jpg",
+					"description": null,
+					"primaryCategory": "Food Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FParis-the-unavoidable-tour-discover-the-monuments-of-Paris-by-Segway%2Fd479-133051P2%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=d6b9da80d22f61387&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=188149&clt=TD&from=api&nt=true",
+					"price": "$65.68",
+					"roundedUpPrice": "$66",
+					"offerType": null,
+					"title": "Paris: the unmissable Segway tour - Eiffel Tower, Invalides...",
+					"productCode": "133051P2",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/b0/10/b3.jpg",
+					"description": null,
+					"primaryCategory": "Segway Tours"
+				},
+				{
+					"url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FMONET-and-RODIN-PRIVATE-TOUR-Skip-the-line-and-Local-expert-guide%2Fd479-19551P59%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=172da82b14c096ba5&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=188149&clt=TD&from=api&nt=true",
+					"price": "$399.67",
+					"roundedUpPrice": "$400",
+					"offerType": null,
+					"title": "Monet & Rodin Skip the line Private Tour with a Local Expert Guide",
+					"productCode": "19551P59",
+					"partner": "Viator",
+					"imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0c/09/07/77.jpg",
+					"description": null,
+					"primaryCategory": "Cultural Tours"
+				}
+			]
+		},
+		"subtype": ["Specialty Museums"]
 	}
 	
 ]
