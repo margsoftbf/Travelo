@@ -133,6 +133,7 @@ const SearchBar = () => {
 				<div className='flex justify-center items-end mb-0.5 gap-3 '>
 					<button
 						typeof='submit'
+						aria-label='submit'
 						className='w-16 h-8 rounded-md bg-primary flex items-center justify-center flex-shrink-0 hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'
 					>
 						<FiSearch className='w-6 h-6 text-white' />
