@@ -58,7 +58,7 @@ const Hero = () => {
 					blurDataURL='/assets/hero/heroImage.webp'
 				/>
 			</div>
-			<div className='block mx-auto absolute -bottom-20 md:bottom-6 left-1/2 transform -translate-x-1/2 z-40'>
+			<div className='block mx-auto absolute bottom-2 md:bottom-6 left-1/2 transform -translate-x-1/2 z-40'>
 				<SearchBar />
 			</div>
 		</motion.div>
