@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { BuildingsHero, Cloud, Cloud2, Frame } from '../../public/assets/svg';
-import SearchBar from './SearchBar';
+import SearchBar from './SearchBar/SearchBar';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import { motion } from 'framer-motion';
 
