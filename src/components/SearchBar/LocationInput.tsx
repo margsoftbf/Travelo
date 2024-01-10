@@ -1,16 +1,7 @@
 import React from 'react';
 import { Location } from '../../../public/assets/svg';
+import { LocationInputProps } from '@/types/types';
 
-interface LocationInputProps {
-	query: string;
-	setQuery: React.Dispatch<React.SetStateAction<string>>;
-	suggestions: string[];
-	handleLocationChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-	handleSuggestionClick: (suggestion: string) => void;
-	errors: {
-		location: string;
-	};
-}
 
 const LocationInput: React.FC<LocationInputProps> = ({
 	query,

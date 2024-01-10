@@ -49,9 +49,10 @@ const Hero = () => {
 			<div className='hidden md:block w-1/2 relative'>
 				<Image
 					src='/assets/hero/heroImage.webp'
-					alt='Chef cooking in the kitchen'
+					alt='Some staff taked to beach.'
 					fill={true}
 					className='object-cover'
+					priority={true}
 					quality={100}
 					sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
 					placeholder='blur'

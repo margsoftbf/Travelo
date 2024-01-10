@@ -16,9 +16,6 @@ import { FaPhoneVolume } from 'react-icons/fa6';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import { motion } from 'framer-motion';
 
-function classNames(...classes: any) {
-	return classes.filter(Boolean).join(' ');
-}
 
 const Navbar = () => {
 	const router = useRouter();
@@ -40,7 +37,7 @@ const Navbar = () => {
 			<Disclosure as='nav' className=''>
 				{({ open }) => (
 					<>
-						<div className='mx-auto max-w-8xl px-4 sm:px-6 lg:px-0'>
+						<div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-0'>
 							<div className='flex h-16 items-center justify-between relative'>
 								<Link
 									href='/'

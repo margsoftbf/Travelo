@@ -1,11 +1,6 @@
 import React from 'react';
 import { Hiking } from '../../../public/assets/svg';
-
-interface TypeSelectProps {
-	type: string;
-	setType: React.Dispatch<React.SetStateAction<string>>;
-	hasError: boolean;
-}
+import { TypeSelectProps } from '@/types/types';
 
 const TypeSelect: React.FC<TypeSelectProps> = ({ type, setType, hasError }) => (
 	<div className='flex flex-col w-full mt-2 md:mt-0'>
@@ -21,7 +16,7 @@ const TypeSelect: React.FC<TypeSelectProps> = ({ type, setType, hasError }) => (
 			<select
 				id='typeSelect'
 				className={`block w-full text-[12px] rounded-md font-dmSans border-0 py-1 pr-10 text-myBlack ring-1 pl-2 ring-inset outline-none ring-gray-300 placeholder:text-myBlack sm:leading-6 appearance-none ${
-					hasError ? 'border-red-500 border' : 'border-0 border-gray-300'
+					hasError ? 'border-red-500' : 'border-0 border-gray-300'
 				}`}
 				value={type}
 				onChange={(e) => setType(e.target.value)}

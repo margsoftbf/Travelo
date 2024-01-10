@@ -12,3 +12,4 @@ export { default as Hiking } from './Hiking.svg';
 export { default as Location } from './Location.svg';
 export { default as Minus } from './Minus.svg';
 export { default as Plus } from './Plus.svg';
+export { default as Objects } from './Objects.svg';

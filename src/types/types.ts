@@ -164,3 +164,29 @@ export type Attraction = {
 	description: string;
 	rawRanking: number;
 };
+
+export interface DateRangePickerProps {
+	startDate: Date | null;
+	endDate: Date | null;
+	setDateRange: React.Dispatch<
+		React.SetStateAction<[Date | null, Date | null]>
+	>;
+	hasError: boolean;
+}
+
+export interface TypeSelectProps {
+	type: string;
+	setType: React.Dispatch<React.SetStateAction<string>>;
+	hasError: boolean;
+}
+
+export interface LocationInputProps {
+	query: string;
+	setQuery: React.Dispatch<React.SetStateAction<string>>;
+	suggestions: string[];
+	handleLocationChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+	handleSuggestionClick: (suggestion: string) => void;
+	errors: {
+		location: string;
+	};
+}
