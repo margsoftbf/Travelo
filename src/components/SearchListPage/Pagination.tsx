@@ -21,7 +21,7 @@ const Pagination: React.FC<PaginationProps> = ({
 
 	return (
 		<nav>
-			<ul className='pagination flex gap-2 items-center mt-2'>
+			<ul className='pagination flex gap-2 items-center mt-4'>
 				{currentPage > 1 && (
 					<li>
 						<button

@@ -2,7 +2,6 @@ import React from 'react';
 import { Location } from '../../../public/assets/svg';
 import { LocationInputProps } from '@/types/types';
 
-
 const LocationInput: React.FC<LocationInputProps> = ({
 	query,
 	setQuery,
@@ -10,7 +9,18 @@ const LocationInput: React.FC<LocationInputProps> = ({
 	handleLocationChange,
 	handleSuggestionClick,
 	errors,
+	variant,
 }) => {
+	const baseClass =
+		'block w-full text-[12px] rounded-md font-dmSans py-1 pr-10 text-myBlack ring-1 pl-2 ring-inset outline-none ring-gray-300 placeholder:text-myBlack sm:leading-6';
+
+	const variantClass =
+		variant === 'filter' ? 'ring-none placeholder:text-myBlack' : '';
+
+	const inputClass = `${baseClass} ${variantClass} ${
+		errors.location ? 'border-red-500 border' : 'border-0 border-gray-300'
+	}`;
+
 	return (
 		<div className='flex flex-col w-full relative'>
 			<label
@@ -27,11 +37,7 @@ const LocationInput: React.FC<LocationInputProps> = ({
 					id='location'
 					value={query}
 					onChange={handleLocationChange}
-					className={`block w-full text-[12px] rounded-md font-dmSans py-1 pr-10 text-myBlack ring-1 pl-2 ring-inset outline-none ring-gray-300 placeholder:text-myBlack sm:leading-6 ${
-						errors.location
-							? 'border-red-500 border'
-							: 'border-0 border-gray-300'
-					}`}
+					className={inputClass}
 					placeholder='Where to next'
 				/>
 				{suggestions.length > 0 && (

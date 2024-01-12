@@ -26,7 +26,7 @@ const TypeSelect: React.FC<TypeSelectProps> = ({ type, setType, hasError }) => (
 				</option>
 				<option value='Hotels'>Hotels</option>
 				<option value='Restaurants'>Restaurants</option>
-				<option value='Things to do'>Things to do</option>
+				<option value='Attractions'>Attractions</option>
 			</select>
 			<div className='pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2'>
 				<Hiking className='h-5 w-5 text-gray-400' aria-hidden='true' />

@@ -1,8 +1,6 @@
 const SearchBar = () => {
-    // Funkcja do obsługi zdarzenia wyszukiwania
     const handleSearch = (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      // Logika do obsługi wyszukiwania
     };
   
     return (

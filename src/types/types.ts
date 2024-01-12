@@ -189,4 +189,5 @@ export interface LocationInputProps {
 	errors: {
 		location: string;
 	};
+	variant: 'main' | 'filter';
 }

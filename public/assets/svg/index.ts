@@ -13,3 +13,4 @@ export { default as Location } from './Location.svg';
 export { default as Minus } from './Minus.svg';
 export { default as Plus } from './Plus.svg';
 export { default as Objects } from './Objects.svg';
+export { default as Background } from './Background.svg';

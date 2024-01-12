@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import 'react-datepicker/dist/react-datepicker.css';
 import hotelsData from '../../data/Hotels.json';
 import restaurantsData from '../../data/Restaurant.json';
-import thingsToDoData from '../../data/ThingsToDo.json';
+import attractionsData from '../../data/Attractions.json';
 import LocationInput from './LocationInput';
 import DateRangePicker from './DateRangePicker';
 import TypeSelect from './TypeSelect';
@@ -26,15 +26,20 @@ const SearchBar = () => {
 		type: '',
 		dateRange: '',
 	});
-	const allLocations = [...hotelsData, ...restaurantsData, ...thingsToDoData];
+	const allLocations = [...hotelsData, ...restaurantsData, ...attractionsData];
 	const [suggestions, setSuggestions] = useState<string[]>([]);
 
 	const filterData = (query: string): string[] => {
 		const uniqueCities = new Set<string>();
 
+		let exactMatch = false;
 		allLocations.forEach((item) => {
 			if (item.addressObj && item.addressObj.city) {
 				const city = item.addressObj.city;
+
+				if (city.toLowerCase() === query.toLowerCase()) {
+					exactMatch = true;
+				}
 
 				if (city.toLowerCase().includes(query.toLowerCase())) {
 					uniqueCities.add(city);
@@ -42,7 +47,7 @@ const SearchBar = () => {
 			}
 		});
 
-		return Array.from(uniqueCities);
+		return exactMatch ? [] : Array.from(uniqueCities);
 	};
 
 	const handleLocationChange = (
@@ -107,6 +112,7 @@ const SearchBar = () => {
 				handleLocationChange={handleLocationChange}
 				handleSuggestionClick={handleSuggestionClick}
 				errors={errors}
+				variant='main'
 			/>
 			<TypeSelect type={type} setType={setType} hasError={!!errors.type} />
 
