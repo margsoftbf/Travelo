@@ -1,5 +1,8 @@
 import React from 'react';
 import {
+	BuildingsHero,
+	Cloud,
+	Cloud2,
 	Destination,
 	HeroPicksBuildings,
 	LowestPrice,
@@ -24,16 +27,13 @@ const HeroPicks = () => {
 			}}
 			transition={{ duration: 0.8, type: 'ease-in' }}
 		>
-			<div className='absolute bottom-0 flex'>
-				<HeroPicksBuildings className='hidden md:block w-96 h-24 ' />
-				<HeroPicksBuildings className='hidden md:block w-96 h-24 ' />
-				<HeroPicksBuildings className='hidden md:block w-96 h-24 ' />
-				<HeroPicksBuildings className='hidden md:block w-96 h-24 ' />
-				<HeroPicksBuildings className='hidden md:block w-96 h-24 ' />
-				<HeroPicksBuildings className='hidden md:block w-96 h-24 ' />
-				<HeroPicksBuildings className='hidden md:block w-96 h-24 ' />
+			<div className='absolute bottom-0 flex opacity-20'>
+				<BuildingsHero className='w-[800px] h-[400px]' />
+				<BuildingsHero className='w-[800px] h-[400px]' />
+				<BuildingsHero className='w-[800px] h-[400px]' />
+				<BuildingsHero className='w-[800px] h-[400px]' />
 			</div>
-			<div className='max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center px-2 py-6 md:pt-6 md:pb-28 gap-4 md:gap-8'>
+			<div className='max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center px-2 py-6 md:pt-6 gap-4 md:gap-8'>
 				<div className='flex justify-center items-center gap-3 '>
 					<div className='w-12 h-12 rounded-full bg-primary flex items-center justify-center flex-shrink-0 hover:bg-myBlack duration-300 ease-in-out transition'>
 						<LowestPrice className='w-7 h-7 text-white' />

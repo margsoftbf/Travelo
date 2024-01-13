@@ -7,7 +7,7 @@ interface SortDropdownProps {
 
 const SortDropdown: React.FC<SortDropdownProps> = ({ onSortChange }) => {
 	return (
-		<div className=' bg-neutral flex items-center justify-center rounded-md relative md:order-2'>
+		<div className='hidden  bg-neutral md:flex items-center justify-center rounded-md relative md:order-2'>
 			<select
 				onChange={(e) => onSortChange(e.target.value)}
 				className='bg-neutral rounded-md text-softGrey font-dmSans text-[14px] font-semibold leading-relaxed outline-none cursor-pointer appearance-none py-1.5 pl-3 pr-10'

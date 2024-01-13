@@ -13,4 +13,7 @@ export { default as Location } from './Location.svg';
 export { default as Minus } from './Minus.svg';
 export { default as Plus } from './Plus.svg';
 export { default as Objects } from './Objects.svg';
+export { default as HeroTopTitle } from './HeroTopTitle.svg';
+export { default as HeroUnderline } from './HeroUnderline.svg';
 export { default as Background } from './Background.svg';
+export { default as Background2 } from './Background2.svg';

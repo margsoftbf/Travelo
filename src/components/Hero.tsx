@@ -1,16 +1,38 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { BuildingsHero, Cloud, Cloud2, Frame } from '../../public/assets/svg';
 import SearchBar from './SearchBar/SearchBar';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
+import { text } from 'stream/consumers';
+import { HeroTopTitle, HeroUnderline } from '../../public/assets/svg';
 
 const Hero = () => {
 	const { ref, controls } = useScrollAnimation();
 
+	const [currentIndex, setCurrentIndex] = useState(0);
+	const texts = [
+		{ title: 'Peace & Serenity', subtitle: 'Find Your Inner Calm' },
+		{ title: 'Adventure & Thrills', subtitle: 'Embrace The Excitement' },
+		{ title: 'Culture & Heritage', subtitle: 'Discover The Roots' },
+	];
+
+	const images = [
+		'/assets/hero/heroImageOne.webp',
+		'/assets/hero/heroImageTwo.webp',
+		'/assets/hero/heroImageThree.webp',
+	];
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setCurrentIndex((prevIndex) => (prevIndex + 1) % texts.length);
+		}, 5000);
+
+		return () => clearInterval(interval);
+	}, []);
+
 	return (
 		<motion.div
-			className='flex w-full h-[500px] md:h-[450px] lg:h-96 bg-myBlack relative'
+			className='flex flex-col  items-center w-full h-[500px] md:h-[450px] lg:h-96 bg-myBlack relative'
 			ref={ref}
 			animate={controls}
 			initial='hidden'
@@ -20,45 +42,63 @@ const Hero = () => {
 			}}
 			transition={{ duration: 0.8, type: 'ease-in' }}
 		>
-			<div className='max-w-8xl mx-auto flex absolute w-full z-50 left-1/2 -translate-x-1/2'>
-				<div className='w-full md:w-1/2 relative flex flex-col items-center justify-center mt-8 '>
-					<Frame className='w-32 h-20' />
-					<p className='text-primary font-coveredByGrace text-xl'>
-						Amazing places to relax
-					</p>
-					<p className='text-white  font-dmSans text-4xl xl:text-5xl uppercase font-bold text-center md:px-10 lg:px-20 xl:px-28'>
-						Travel Journey Begins Here
-					</p>
-				</div>
-			</div>
-			<div className='w-full md:w-1/2 relative'>
-				<div className='absolute bottom-0 flex'>
-					<BuildingsHero className='w-[800px] h-[400px]' />
-					<BuildingsHero className='w-[800px] h-[400px]' />
-					<BuildingsHero className='w-[800px] h-[400px]' />
-				</div>
-				<div className='absolute top-0 right-0 flex gap-12 mt-6'>
-					<Cloud className='w-40 h-20' />
-					<Cloud2 className='w-40 h-20 mt-20' />
-					<Cloud className='w-40 h-20' />
-					<Cloud2 className='w-40 h-20 mt-12' />
-					<Cloud className='w-40 h-20' />
-					<Cloud2 className='w-40 h-20 mt-20' />
-				</div>
-			</div>
-			<div className='hidden md:block w-1/2 relative'>
+			<motion.div
+				key={currentIndex}
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				exit={{ opacity: 0 }}
+				transition={{ duration: 1 }}
+				className='absolute top-0 left-0 w-full h-full'
+			>
 				<Image
-					src='/assets/hero/heroImage.webp'
-					alt='Some staff taked to beach.'
+					src={images[currentIndex]}
+					alt='Dynamic image'
 					fill={true}
 					className='object-cover'
-					priority={true}
 					quality={100}
-					sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
 					placeholder='blur'
-					blurDataURL='/assets/hero/heroImage.webp'
+					priority={true}
+					blurDataURL={images[currentIndex]}
 				/>
-			</div>
+			</motion.div>
+			<div className='absolute bg-myBlack w-full h-full z-20 opacity-60'></div>
+			<AnimatePresence>
+				<div className='relative z-30 flex flex-col items-center text-center mt-6'>
+					<motion.div
+						key={`SVG-${currentIndex}`}
+						initial={{ opacity: 0, y: -20 }}
+						animate={{ opacity: 1, y: 0 }}
+						exit={{ opacity: 0, y: 20 }}
+						transition={{ duration: 0.8, ease: 'easeInOut', delay: 0.4 }}
+					>
+						<HeroTopTitle className='w-12 h-12 left-1/2' />
+					</motion.div>
+					<motion.p
+						key={`title-${currentIndex}`}
+						initial={{ opacity: 0, y: -20 }}
+						animate={{ opacity: 1, y: 0 }}
+						exit={{ opacity: 0, y: 20 }}
+						transition={{ duration: 0.8, ease: 'easeInOut', delay: 0.6 }}
+						className='text-2xl md:text-3xl text-white font-coveredByGrace '
+					>
+						{texts[currentIndex].title}
+					</motion.p>
+					<motion.p
+						key={`subtitle-${currentIndex}`}
+						initial={{ opacity: 0, y: -20 }}
+						animate={{ opacity: 1, y: 0 }}
+						exit={{ opacity: 0, y: 20 }}
+						transition={{ duration: 0.8, ease: 'easeInOut', delay: 0.8 }}
+						className='text-4xl md:text-5xl lg:text-7xl text-white font-dmSans font-bold mt-3 '
+					>
+						{texts[currentIndex].subtitle.split(' ').slice(0, -1).join(' ')}
+						<span className='text-primary'>
+							{' ' + texts[currentIndex].subtitle.split(' ').slice(-1)}
+						</span>
+					</motion.p>
+				</div>
+			</AnimatePresence>
+
 			<div className='block mx-auto absolute bottom-2 md:bottom-6 left-1/2 transform -translate-x-1/2 z-40'>
 				<SearchBar />
 			</div>

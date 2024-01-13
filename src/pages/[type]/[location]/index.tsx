@@ -9,7 +9,7 @@ import Pagination from '@/components/SearchListPage/Pagination';
 import SortDropdown from '@/components/SearchListPage/SortDropdown';
 import ListingCard from '@/components/SearchListPage/ListingCard';
 import FilterBar from '@/components/SearchListPage/FilterBar';
-import { Background } from '../../../../public/assets/svg';
+import { Background, Background2 } from '../../../../public/assets/svg';
 
 function filterData<T extends { addressObj?: AddressObj }>(
 	data: T[],
@@ -103,10 +103,10 @@ const LocationPage = () => {
 	};
 
 	return (
-		<div className='relative overflow-hidden'>
-			<Background className='absolute w-[100vw] h-[100vh] m-0 p-0 -z-10' />
+		<div className='relative overflow-hidden pb-8'>
+			<Background2 className='absolute w-[100vw] h-[100vh] m-0 p-0 -z-10' />
 			<Hero />
-			<div className='max-w-6xl mx-auto lg:mt-6 z-20'>
+			<div className='max-w-7xl mx-auto lg:mt-6 z-20 px-2'>
 				<div className='flex flex-col items-center justify-center gap-2 w-full lg:flex-row lg:items-start'>
 					<div className='w-5/6 lg:w-2/6  mr-2 mt-12'>
 						<div className='flex flex-col justify-between py-4'>
@@ -121,13 +121,21 @@ const LocationPage = () => {
 							</p>
 							<SortDropdown onSortChange={handleSortChange} />
 						</div>
-						<ul className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-							{currentResults.map((item, index) => (
-								<li key={index} className='bg-neutral'>
-									<ListingCard item={item} />
-								</li>
-							))}
-						</ul>
+						{currentResults.length === 0 ? (
+							<div className='text-center mt-2'>
+								<span className='p-3 rounded-md bg-myBlack text-white font-dmSans text-base leading-5 font-semibold'>
+									Not Found
+								</span>
+							</div>
+						) : (
+							<ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+								{currentResults.map((item, index) => (
+									<li key={index}>
+										<ListingCard item={item} />
+									</li>
+								))}
+							</ul>
+						)}
 						<Pagination
 							resultsPerPage={resultsPerPage}
 							totalResults={results.length}
