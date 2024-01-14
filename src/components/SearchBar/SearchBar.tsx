@@ -24,7 +24,6 @@ const SearchBar = () => {
 	const [errors, setErrors] = useState({
 		location: '',
 		type: '',
-		dateRange: '',
 	});
 	const allLocations = [...hotelsData, ...restaurantsData, ...attractionsData];
 	const [suggestions, setSuggestions] = useState<string[]>([]);
@@ -86,10 +85,6 @@ const SearchBar = () => {
 			newErrors.type = 'Type is required';
 		}
 
-		if (!startDate || !endDate) {
-			newErrors.dateRange = 'Date range is required';
-		}
-
 		setErrors(newErrors);
 
 		const isFormValid =
@@ -117,19 +112,15 @@ const SearchBar = () => {
 			<TypeSelect type={type} setType={setType} hasError={!!errors.type} />
 
 			<div className='flex flex-col w-full mt-2 md:mt-0'>
-				<label
-					className={`text-xs font-dmSans ${
-						errors.dateRange ? 'text-red-500' : 'text-softGrey'
-					}`}
-				>
-					{errors.dateRange ? 'Date required' : 'Date Range'}
+				<label className={`text-xs font-dmSans text-softGrey`}>
+					Date Range
 				</label>
 				<div className='relative mt-1 rounded-md shadow-sm'>
 					<DateRangePicker
 						startDate={startDate}
 						endDate={endDate}
 						setDateRange={setDateRange}
-						hasError={!!errors.dateRange}
+						hasError={false}
 					/>
 				</div>
 			</div>

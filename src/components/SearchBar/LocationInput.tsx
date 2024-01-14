@@ -17,15 +17,13 @@ const LocationInput: React.FC<LocationInputProps> = ({
 	const variantClass =
 		variant === 'filter' ? 'ring-none placeholder:text-myBlack' : '';
 
-	const inputClass = `${baseClass} ${variantClass} ${
-		errors.location ? 'border-red-500 border' : 'border-0 border-gray-300'
-	}`;
+	const inputClass = `${baseClass} ${variantClass} `;
 
 	return (
 		<div className='flex flex-col w-full relative'>
 			<label
 				className={`text-xs font-dmSans ${
-					errors.location ? 'text-red-500' : 'text-softGrey'
+					errors.location ? 'text-red-500 font-bold' : 'text-softGrey'
 				}`}
 			>
 				{errors.location ? 'Location required' : 'Location'}

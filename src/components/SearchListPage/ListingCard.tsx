@@ -36,20 +36,19 @@ const ListingCard: React.FC<ListingCardProps> = ({ item }) => {
 							fill={true}
 							className='object-cover rounded-t-lg'
 							quality={100}
-							sizes='100vw'
+							sizes='(max-width: 768px) 100vw, (max-width: 1200px) 100vw'
 							placeholder='blur'
-							priority={true}
 							blurDataURL={item.image}
 						/>
-						<div className='absolute w-full h-full bg-black/20 z-10 rounded-t-lg group-hover:bg-black/80 transition duration-300 ease-in-out'></div>
+						<div className='absolute w-full h-full bg-black/10 z-10 rounded-t-lg group-hover:bg-black/60 transition duration-300 ease-in-out'></div>
 						<p className='absolute bg-black/60 rounded-full z-30 p-2 top-2 right-2 group-hover:bg-white group duration-300 transition ease-in-out'>
 							<HeartIcon className='w-4 h-4 text-white group-hover:text-black' />
 						</p>
-						{item.type === 'HOTEL' && (
-							<p className='absolute bg-primary hover:bg-black z-30 p-1 px-2 top-3 left-2  duration-300 transition ease-in-out text-[10px] text-white font-semibold font-dmSans rounded-md'>
-								10% Off
-							</p>
-						)}
+						<p className='absolute bg-primary hover:bg-black z-30 p-1 px-2 top-3 left-2  duration-300 transition ease-in-out text-[10px] text-white font-semibold font-dmSans rounded-md'>
+							{item.type === 'HOTEL' && '10% Off'}
+							{item.type === 'RESTAURANT' && 'Lunch Special'}
+							{item.type === 'ATTRACTION' && 'Group Offer'}
+						</p>
 					</>
 				)}
 			</div>
@@ -62,7 +61,7 @@ const ListingCard: React.FC<ListingCardProps> = ({ item }) => {
 						'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas iste impedit ad quae.'}
 				</p>
 				<div className='bg-neutral p-2 rounded-md mt-4 flex flex-col gap-2 group-hover:bg-primary transition duration-400 ease-in-out'>
-					<p className='flex items-center gap-1 font-dmSans text-xs font-medium leading-3 tracking-tight text-softGrey group-hover:text-white'>
+					<p className='flex items-center gap-1 font-dmSans text-xs font-medium leading-3 tracking-tight text-softGrey group-hover:text-white mt-2'>
 						<StarIcon className='w-4 h-4 text-primary group-hover:text-white ' />
 						<span>{item.rating}</span>
 						<span>({item.numberOfReviews} Reviews)</span>
@@ -78,25 +77,32 @@ const ListingCard: React.FC<ListingCardProps> = ({ item }) => {
 						<div className='flex flex-row gap-2  transition duration-300 ease-in-out'>
 							<p className='flex items-center font-dmSans text-xs font-medium  text-softGrey gap-1 group-hover:text-white'>
 								<ClockIcon className='w-4 h-4 text-primary group-hover:text-white' />
-								3 Day
+								{item.type === 'HOTEL' && '3 Day'}
+								{item.type === 'RESTAURANT' && '10:00-17:00'}
+								{item.type === 'ATTRACTION' && '10:00-20:00'}
 							</p>
 							<p className='flex items-center font-dmSans text-xs font-medium  text-softGrey gap-1 tracking-wider group-hover:text-white'>
 								<UserIcon className='w-4 h-4 text-primary group-hover:text-white' />
-								12+
+								{item.type === 'HOTEL' && '12+'}
+								{item.type === 'RESTAURANT' && '3+'}
+								{item.type === 'ATTRACTION' && '1+'}
 							</p>
 						</div>
 						<div className='group-hover transition duration-300 ease-in-out'>
-							{item.type === 'HOTEL' && 'priceRange' in item && (
+							{(item.type === 'HOTEL' || item.type === 'RESTAURANT') &&
+								'priceRange' in item && (
+									<p className='text-base font-bold tracking-tighter text-myBlack group-hover:text-white'>
+										{item.priceRange}
+									</p>
+								)}
+							{item.type === 'ATTRACTION' && 'offerGroup' in item && (
 								<p className='text-base font-bold tracking-tighter text-myBlack group-hover:text-white'>
-									{item.priceRange}
+									{(item as Attraction).offerGroup.offerList[0].price}
 								</p>
 							)}
 						</div>
 					</div>
 				</div>
-				{/* {item.type !== 'RESTAURANT' && (
-					<p className='text-sm font-semibold'>Price: ${item.rating}</p>
-				)} */}
 			</div>
 		</Link>
 	);

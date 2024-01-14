@@ -7,7 +7,7 @@ const TypeSelect: React.FC<TypeSelectProps> = ({ type, setType, hasError }) => (
 		<label
 			htmlFor='typeSelect'
 			className={`text-xs font-dmSans ${
-				hasError ? 'text-red-500' : 'text-softGrey'
+				hasError ? 'text-red-500 font-bold' : 'text-softGrey'
 			}`}
 		>
 			{hasError ? 'Type required' : 'Type'}

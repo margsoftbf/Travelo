@@ -10,6 +10,7 @@ import SortDropdown from '@/components/SearchListPage/SortDropdown';
 import ListingCard from '@/components/SearchListPage/ListingCard';
 import FilterBar from '@/components/SearchListPage/FilterBar';
 import { Background, Background2 } from '../../../../public/assets/svg';
+import LastMinute from '@/components/SearchListPage/LastMinute';
 
 function filterData<T extends { addressObj?: AddressObj }>(
 	data: T[],
@@ -109,8 +110,9 @@ const LocationPage = () => {
 			<div className='max-w-7xl mx-auto lg:mt-6 z-20 px-2'>
 				<div className='flex flex-col items-center justify-center gap-2 w-full lg:flex-row lg:items-start'>
 					<div className='w-5/6 lg:w-2/6  mr-2 mt-12'>
-						<div className='flex flex-col justify-between py-4'>
+						<div className='flex flex-col justify-between py-4 gap-4'>
 							<FilterBar />
+							<LastMinute />
 						</div>
 					</div>
 					<div className='w-5/6'>

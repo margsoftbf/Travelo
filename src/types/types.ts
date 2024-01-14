@@ -14,9 +14,9 @@ export type AddressObj = {
 	street1: string;
 	street2: string | null;
 	city: string;
-	state: string;
+	state: string | null;
 	country: string;
-	postalcode: string;
+	postalcode: string | null;
 };
 
 export type RatingHistogram = {
@@ -85,37 +85,58 @@ export type Offer = {
 };
 
 export type Hotel = {
-	roomTips: RoomTip[];
-	amenities: string[];
-	email: string | null;
-	addressObj: AddressObj;
-	locationString: string;
-	priceLevel: string;
-	rating: number;
-	subcategories: string[];
-	localName: string;
 	id: string;
-	description: string;
-	rawRanking: number;
-	numberOfRooms: number;
-	website: string;
-	offers: Offer[];
 	type: string;
-	categoryReviewScores: any[];
-	rankingPosition: number;
-	priceRange: string;
-	hotelClass: string;
-	webUrl: string;
 	category: string;
-	image: string;
-	localAddress: string;
-	phone: string;
-	rankingString: string;
-	address: string;
+	subcategories: string[];
 	name: string;
-	hotelClassAttribution: string;
+	locationString: string;
+	description: string;
+	image: string;
+	photoCount?: number;
+	awards: any[]; 
+	rankingPosition: number;
+	rating: number;
+	rawRanking: number;
+	phone: string | null;
+	address: string;
+	addressObj: AddressObj;
+	localName: string;
+	localAddress: string;
+	localLangCode: string;
+	email: string | null;
+	latitude: number;
+	longitude: number;
+	webUrl: string;
+	website: string;
+	rankingString: string;
+	rankingDenominator: string;
+	neighborhoodLocations: any[]; 
+	nearestMetroStations: any[]; 
+	ancestorLocations: {
+	  id: string;
+	  name: string;
+	  abbreviation: string | null;
+	  subcategory: string;
+	}[];
+	ratingHistogram: RatingHistogram;
 	numberOfReviews: number;
-};
+	reviewTags: string[];
+	hotelClass: string;
+	hotelClassAttribution: string;
+	amenities: string[];
+	numberOfRooms: number;
+	categoryReviewScores: {
+	  categoryName: string;
+	  score: number;
+	}[];
+	priceLevel?: string;
+	priceRange: string;
+	roomTips: RoomTip[];
+	checkInDate?: string;
+	checkOutDate?: string;
+	offers: Offer[];
+  };
 
 export type OfferListItem = {
 	url: string;
