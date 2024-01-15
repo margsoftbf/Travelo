@@ -73,7 +73,7 @@ export type RoomTip = {
 };
 
 export type Offer = {
-	pricePerNight: number;
+	pricePerNight?: number;
 	tax: number;
 	priceText: string;
 	taxesAndFeesText: string;

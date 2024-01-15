@@ -15,7 +15,7 @@ interface HotelHeaderProps {
 }
 
 const HotelHeader: React.FC<HotelHeaderProps> = ({ hotel }) => {
-	const pricePerNight = hotel.offers[0].pricePerNight;
+	const pricePerNight = hotel.offers[0]?.pricePerNight ?? 'N/A';
 
 	return (
 		<div className='bg-neutral w-full'>

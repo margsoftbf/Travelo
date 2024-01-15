@@ -51,7 +51,7 @@ const Offers: React.FC<OffersTableProps> = ({ offers }) => {
 								<span className='text-myBlack font-semibold group-hover:text-white'>
 									$
 								</span>
-								{offer.pricePerNight}
+								{offer.pricePerNight ? offer.pricePerNight : 'N/A'}
 							</td>
 						</tr>
 					))}
