@@ -16,7 +16,6 @@ import { FaPhoneVolume } from 'react-icons/fa6';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import { motion } from 'framer-motion';
 
-
 const Navbar = () => {
 	const router = useRouter();
 	const isHomePage = router.pathname === '/';
@@ -24,7 +23,7 @@ const Navbar = () => {
 
 	return (
 		<motion.div
-			className='bg-white sticky top-0 z-[250] header-underline'
+			className='bg-white sticky top-0 z-[250] header-underline lg:px-2'
 			ref={ref}
 			animate={controls}
 			initial='hidden'

@@ -11,9 +11,10 @@ import { ClockIcon } from '@heroicons/react/24/outline';
 
 interface ListingCardProps {
 	item: Hotel | Restaurant | Attraction;
+	isSimple?: boolean;
 }
 
-const ListingCard: React.FC<ListingCardProps> = ({ item }) => {
+const ListingCard: React.FC<ListingCardProps> = ({ item, isSimple = false  }) => {
 	const detailPageLink =
 		item.type === 'HOTEL'
 			? `/hotels/${item.id}`

@@ -12,7 +12,6 @@ const LastMinute = () => {
 			const selectedHotels = shuffled.slice(0, 3).map((hotel) => ({
 				...hotel,
 			}));
-			console.log(selectedHotels);
 			return selectedHotels;
 		};
 

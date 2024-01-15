@@ -9,7 +9,7 @@ import Pagination from '@/components/SearchListPage/Pagination';
 import SortDropdown from '@/components/SearchListPage/SortDropdown';
 import ListingCard from '@/components/SearchListPage/ListingCard';
 import FilterBar from '@/components/SearchListPage/FilterBar';
-import { Background, Background2 } from '../../../../public/assets/svg';
+import { Background2 } from '../../../../public/assets/svg';
 import LastMinute from '@/components/SearchListPage/LastMinute';
 
 function filterData<T extends { addressObj?: AddressObj }>(
