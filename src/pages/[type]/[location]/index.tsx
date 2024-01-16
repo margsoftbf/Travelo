@@ -42,17 +42,19 @@ export const getServerSideProps = async (
 		location: string;
 		type: string;
 	};
-
+	console.log('Location:', location, 'Type:', type);
 	let filteredResults: Hotel[] | Restaurant[] | Attraction[] = [];
 
 	if (!location || !type) {
-        console.log('Location or type is undefined');
-        return { props: { filteredResults: [] } };
-    }
+		console.log('Location or type is undefined');
+		return { props: { filteredResults: [] } };
+	}
 
 	switch (type) {
 		case 'Hotels':
+			console.log('Filtering hotels with location:', location);
 			filteredResults = filterData<Hotel>(hotelsData as Hotel[], location);
+			console.log('Filtered hotels:', filteredResults);
 			break;
 		case 'Restaurants':
 			filteredResults = filterData<Restaurant>(
@@ -71,7 +73,7 @@ export const getServerSideProps = async (
 			filteredResults = [];
 			break;
 	}
-	console.log('Filtered results:', filteredResults);
+	console.log('Returning filtered results to component:', filteredResults);
 	return { props: { filteredResults } };
 };
 
@@ -81,10 +83,13 @@ type LocationPageProps = {
 };
 
 const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
+	console.log('Filtered results in component:', filteredResults);
+
 	if (!filteredResults) {
         console.log('Filtered results are undefined');
         return <div>Error loading data</div>;
     }
+	
 	console.log('Filtered Results on render:', filteredResults);
 	const [currentPage, setCurrentPage] = useState(1);
 	const resultsPerPage = 6;
