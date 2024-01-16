@@ -1,24 +1,27 @@
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
-import { useState } from 'react';
+
+
 interface PaginationProps {
 	resultsPerPage: number;
 	totalResults: number;
+	currentPage?: number;
 	paginate: (pageNumber: number) => void;
 }
 
 const Pagination: React.FC<PaginationProps> = ({
 	resultsPerPage,
 	totalResults,
+	currentPage = 1,
 	paginate,
 }) => {
 	const pageCount = Math.ceil(totalResults / resultsPerPage);
-	const [currentPage, setCurrentPage] = useState(1);
+
+
 
 	const handlePaginate = (pageNumber: number) => {
-		setCurrentPage(pageNumber);
+		if (pageNumber < 1 || pageNumber > pageCount) return;
 		paginate(pageNumber);
-	};
-
+	  };
 	return (
 		<nav>
 			<ul className='pagination flex gap-2 items-center mt-4'>

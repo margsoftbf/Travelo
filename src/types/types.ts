@@ -94,7 +94,7 @@ export type Hotel = {
 	description: string;
 	image: string;
 	photoCount?: number;
-	awards: any[]; 
+	awards: any[];
 	rankingPosition: number;
 	rating: number;
 	rawRanking: number;
@@ -111,13 +111,13 @@ export type Hotel = {
 	website: string;
 	rankingString: string;
 	rankingDenominator: string;
-	neighborhoodLocations: any[]; 
-	nearestMetroStations: any[]; 
+	neighborhoodLocations: any[];
+	nearestMetroStations: any[];
 	ancestorLocations: {
-	  id: string;
-	  name: string;
-	  abbreviation: string | null;
-	  subcategory: string;
+		id: string;
+		name: string;
+		abbreviation: string | null;
+		subcategory: string;
 	}[];
 	ratingHistogram: RatingHistogram;
 	numberOfReviews: number;
@@ -127,8 +127,8 @@ export type Hotel = {
 	amenities: string[];
 	numberOfRooms: number;
 	categoryReviewScores: {
-	  categoryName: string;
-	  score: number;
+		categoryName: string;
+		score: number;
 	}[];
 	priceLevel?: string;
 	priceRange: string;
@@ -136,7 +136,7 @@ export type Hotel = {
 	checkInDate?: string;
 	checkOutDate?: string;
 	offers: Offer[];
-  };
+};
 
 export type OfferListItem = {
 	url: string;
@@ -212,3 +212,25 @@ export interface LocationInputProps {
 	};
 	variant: 'main' | 'filter';
 }
+
+export interface BookingDetails {
+	hotelId: string;
+	checkInDate: string;
+	checkOutDate: string;
+	adults: number;
+	children: number;
+	pricePerNight: number;
+}
+
+export interface CartState {
+	bookings: BookingDetails[];
+	totalPrice: number;
+}
+
+export const getNumberOfNights = (checkInDateString: string, checkOutDateString: string) => {
+	const checkInDate = new Date(checkInDateString);
+	const checkOutDate = new Date(checkOutDateString);
+	return Math.round(
+	  (checkOutDate.getTime() - checkInDate.getTime()) / (1000 * 3600 * 24)
+	);
+  };

@@ -3,8 +3,7 @@ import Image from 'next/image';
 import SearchBar from './SearchBar/SearchBar';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import { AnimatePresence, motion } from 'framer-motion';
-import { text } from 'stream/consumers';
-import { HeroTopTitle, HeroUnderline } from '../../public/assets/svg';
+import { HeroTopTitle } from '../../public/assets/svg';
 
 const Hero = () => {
 	const { ref, controls } = useScrollAnimation();
@@ -56,8 +55,9 @@ const Hero = () => {
 					fill={true}
 					className='object-cover'
 					quality={100}
+					sizes='(max-width: 768px) 768px, (max-width: 1200px) 1200px, 100vw'
 					placeholder='blur'
-					priority={true}
+					priority={currentIndex === 0}
 					blurDataURL={images[currentIndex]}
 				/>
 			</motion.div>

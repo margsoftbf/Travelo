@@ -9,11 +9,11 @@ const Rules = () => {
 			<div className='mt-2'>
 				<p className='font-semibold'>Room Rules</p>
 				<p className='flex items-center gap-1 font-dmSans text-xs mt-2 tracking-wide'>
-					<div className='w-2 h-2 bg-myBlack rounded-full'></div>
+					<span className='w-2 h-2 bg-myBlack rounded-full'></span>
 					No smoking, parties or events.
 				</p>
 				<p className='flex items-center gap-1 font-dmSans text-xs mt-2 tracking-wide'>
-					<div className='w-2 h-2 bg-myBlack rounded-full'></div>
+					<span className='w-2 h-2 bg-myBlack rounded-full'></span>
 					Check-in time from 2PM, check-out by 10AM
 				</p>
 			</div>

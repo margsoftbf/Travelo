@@ -11,6 +11,7 @@ import LastMinute from '@/components/SearchListPage/LastMinute';
 import Offers from '@/components/HotelPage/Offers';
 import Rules from '@/components/HotelPage/Rules';
 import SimilarHotels from '@/components/HotelPage/SimilarHotels';
+import BookingForm from '@/components/HotelPage/BookingForm';
 
 interface HotelDetailPageProps {
 	hotel: Hotel | null;
@@ -49,6 +50,7 @@ const HotelDetailPage = ({ hotel, similarHotels }: HotelDetailPageProps) => {
 						<SimilarHotels hotels={similarHotels} />
 					</div>
 					<div className='w-5/6 lg:w-2/6'>
+						<BookingForm hotel={hotel} />
 						<LastMinute />
 					</div>
 				</div>

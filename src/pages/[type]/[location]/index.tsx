@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import hotelsData from '../../../data/Hotels.json';
 import restaurantsData from '../../../data/Restaurant.json';
@@ -11,6 +10,7 @@ import ListingCard from '@/components/SearchListPage/ListingCard';
 import FilterBar from '@/components/SearchListPage/FilterBar';
 import { Background2 } from '../../../../public/assets/svg';
 import LastMinute from '@/components/SearchListPage/LastMinute';
+import { GetServerSidePropsContext } from 'next';
 
 function filterData<T extends { addressObj?: AddressObj }>(
 	data: T[],
@@ -24,59 +24,69 @@ function filterData<T extends { addressObj?: AddressObj }>(
 	});
 }
 
-type SearchResult = Hotel | Restaurant | Attraction;
+export const getServerSideProps = async (
+	context: GetServerSidePropsContext
+) => {
+	const { location, type } = context.query as {
+		location: string;
+		type: string;
+	};
+	console.log('Location:', location, 'Type:', type);
+	let filteredResults: Hotel[] | Restaurant[] | Attraction[] = [];
 
-const LocationPage = () => {
-	const router = useRouter();
-	const { location, type } = router.query;
+	switch (type) {
+		case 'Hotels':
+			filteredResults = filterData<Hotel>(hotelsData as Hotel[], location);
+			break;
+		case 'Restaurants':
+			filteredResults = filterData<Restaurant>(
+				restaurantsData as Restaurant[],
+				location
+			);
+			break;
+		case 'Attractions':
+			filteredResults = filterData<Attraction>(
+				attractionsData as Attraction[],
+				location
+			);
+			break;
+		default:
+			console.log('Error');
+			break;
+	}
+
+	return { props: { filteredResults } };
+};
+
+type SearchResult = Hotel | Restaurant | Attraction;
+type LocationPageProps = {
+	filteredResults: Hotel[] | Restaurant[] | Attraction[];
+};
+
+const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
 	const [currentPage, setCurrentPage] = useState(1);
 	const resultsPerPage = 6;
 	const [results, setResults] = useState<SearchResult[]>([]);
-	const totalResults = results.length;
+	const totalResults = filteredResults.length;
 	const indexOfFirstResult = (currentPage - 1) * resultsPerPage;
 	const indexOfLastResult = Math.min(
 		indexOfFirstResult + resultsPerPage,
 		totalResults
 	);
 
-	const currentResults = results.slice(indexOfFirstResult, indexOfLastResult);
+	useEffect(() => {
+		setResults(filteredResults.slice(indexOfFirstResult, indexOfLastResult));
+	  }, [currentPage, filteredResults]);
+
+	const currentResults = filteredResults.slice(
+		indexOfFirstResult,
+		indexOfLastResult
+	);
 
 	const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
-	useEffect(() => {
-		if (typeof location === 'string' && typeof type === 'string') {
-			let filteredResults: Hotel[] | Restaurant[] | Attraction[] = [];
-
-			switch (type) {
-				case 'Hotels':
-					filteredResults = filterData<Hotel>(
-						hotelsData as unknown as Hotel[],
-						location
-					);
-					break;
-				case 'Restaurants':
-					filteredResults = filterData<Restaurant>(
-						restaurantsData as unknown as Restaurant[],
-						location
-					);
-					break;
-				case 'Attractions':
-					filteredResults = filterData<Attraction>(
-						attractionsData as unknown as Attraction[],
-						location
-					);
-					break;
-				default:
-					console.log('Error');
-					break;
-			}
-
-			setResults(filteredResults);
-		}
-	}, [location, type]);
-
 	const handleSortChange = (sortType: string) => {
-		let sortedResults = [...results];
+		let sortedResults = [...filteredResults];
 		switch (sortType) {
 			case 'name':
 				sortedResults.sort((a, b) => a.name.localeCompare(b.name));
@@ -100,13 +110,15 @@ const LocationPage = () => {
 			default:
 				break;
 		}
-		setResults(sortedResults);
+		setResults(sortedResults.slice(0, resultsPerPage));
+		setCurrentPage(1);
 	};
 
 	return (
 		<div className='relative overflow-hidden pb-8'>
 			<Background2 className='absolute w-[100vw] h-[100vh] m-0 p-0 -z-10' />
 			<Hero />
+
 			<div className='max-w-7xl mx-auto lg:mt-6 z-20 px-2'>
 				<div className='flex flex-col items-center justify-center gap-2 w-full lg:flex-row lg:items-start'>
 					<div className='w-5/6 lg:w-2/6  mr-2 mt-12'>
@@ -140,7 +152,8 @@ const LocationPage = () => {
 						)}
 						<Pagination
 							resultsPerPage={resultsPerPage}
-							totalResults={results.length}
+							totalResults={totalResults}
+							currentPage={currentPage}
 							paginate={paginate}
 						/>
 					</div>
