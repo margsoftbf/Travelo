@@ -65,23 +65,17 @@ type LocationPageProps = {
 
 const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
 	const [currentPage, setCurrentPage] = useState(1);
-	const resultsPerPage = 6;
-	const [results, setResults] = useState<SearchResult[]>([]);
-	const totalResults = filteredResults.length;
+    const resultsPerPage = 6;
+    const totalResults = filteredResults.length;
+    const [currentResults, setCurrentResults] = useState<SearchResult[]>([]);
+
 	const indexOfFirstResult = (currentPage - 1) * resultsPerPage;
-	const indexOfLastResult = Math.min(
-		indexOfFirstResult + resultsPerPage,
-		totalResults
-	);
+    const indexOfLastResult = Math.min(indexOfFirstResult + resultsPerPage, totalResults);
 
-	useEffect(() => {
-		setResults(filteredResults.slice(indexOfFirstResult, indexOfLastResult));
-	  }, [currentPage, filteredResults]);
+    useEffect(() => {
+        setCurrentResults(filteredResults.slice(indexOfFirstResult, indexOfLastResult));
+    }, [currentPage, filteredResults, indexOfFirstResult, indexOfLastResult]);
 
-	const currentResults = filteredResults.slice(
-		indexOfFirstResult,
-		indexOfLastResult
-	);
 
 	const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
@@ -110,8 +104,8 @@ const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
 			default:
 				break;
 		}
-		setResults(sortedResults.slice(0, resultsPerPage));
 		setCurrentPage(1);
+        setCurrentResults(sortedResults.slice(0, resultsPerPage));
 	};
 
 	return (
