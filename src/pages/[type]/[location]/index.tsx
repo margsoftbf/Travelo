@@ -12,21 +12,32 @@ import { Background2 } from '../../../../public/assets/svg';
 import LastMinute from '@/components/SearchListPage/LastMinute';
 import { GetServerSidePropsContext } from 'next';
 
+console.log('Hotels data:', hotelsData);
+console.log('Restaurants data:', restaurantsData);
+console.log('Attractions data:', attractionsData);
+
 function filterData<T extends { addressObj?: AddressObj }>(
 	data: T[],
 	query: string
 ): T[] {
-	return data.filter((item) => {
+	console.log('Data to filter:', data);
+	console.log('Filter query:', query);
+
+	const filteredData = data.filter((item) => {
 		const city = item.addressObj?.city?.toLowerCase() || '';
 		const country = item.addressObj?.country?.toLowerCase() || '';
 		const queryLower = query.toLowerCase();
 		return city.includes(queryLower) || country.includes(queryLower);
 	});
+
+	console.log('Filtered data:', filteredData);
+	return filteredData;
 }
 
 export const getServerSideProps = async (
 	context: GetServerSidePropsContext
 ) => {
+	console.log('Context query:', context.query);
 	const { location, type } = context.query as {
 		location: string;
 		type: string;
@@ -51,10 +62,11 @@ export const getServerSideProps = async (
 			);
 			break;
 		default:
-			console.log('Error');
+			console.log('Error: Invalid type or location');
+			filteredResults = [];
 			break;
 	}
-
+	console.log('Filtered results:', filteredResults);
 	return { props: { filteredResults } };
 };
 
@@ -64,19 +76,24 @@ type LocationPageProps = {
 };
 
 const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
-	
+	console.log('Filtered Results on render:', filteredResults);
 	const [currentPage, setCurrentPage] = useState(1);
-    const resultsPerPage = 6;
-    const totalResults = filteredResults.length;
-    const [currentResults, setCurrentResults] = useState<SearchResult[]>([]);
+	const resultsPerPage = 6;
+	const totalResults = filteredResults.length;
+	const [currentResults, setCurrentResults] = useState<SearchResult[]>([]);
 
 	const indexOfFirstResult = (currentPage - 1) * resultsPerPage;
-    const indexOfLastResult = Math.min(indexOfFirstResult + resultsPerPage, totalResults);
+	const indexOfLastResult = Math.min(
+		indexOfFirstResult + resultsPerPage,
+		totalResults
+	);
 
-    useEffect(() => {
-        setCurrentResults(filteredResults.slice(indexOfFirstResult, indexOfLastResult));
-    }, [currentPage, filteredResults, indexOfFirstResult, indexOfLastResult]);
-
+	useEffect(() => {
+		console.log('Current page:', currentPage);
+		setCurrentResults(
+			filteredResults.slice(indexOfFirstResult, indexOfLastResult)
+		);
+	}, [currentPage, filteredResults, indexOfFirstResult, indexOfLastResult]);
 
 	const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
@@ -106,7 +123,7 @@ const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
 				break;
 		}
 		setCurrentPage(1);
-        setCurrentResults(sortedResults.slice(0, resultsPerPage));
+		setCurrentResults(sortedResults.slice(0, resultsPerPage));
 	};
 
 	return (
