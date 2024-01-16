@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { Provider } from 'react-redux';
 import { store } from '@/store/store';
+import ErrorBoundary from '@/components/ErrorBoundary';
 
 const DynamicNavbar = dynamic(() => import('@/components/Navbar'), {
 	loading: () => <p>Loading Navbar...</p>,
@@ -26,7 +27,9 @@ export default function App({ Component, pageProps }: AppProps) {
 			</Head>
 			<main className='m-auto'>
 				<DynamicNavbar />
-				<Component {...pageProps} />
+				<ErrorBoundary>
+					<Component {...pageProps} />
+				</ErrorBoundary>
 			</main>
 		</Provider>
 	);

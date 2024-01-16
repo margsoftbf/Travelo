@@ -31,7 +31,7 @@ export const getServerSideProps = async (
 		location: string;
 		type: string;
 	};
-	console.log('Location:', location, 'Type:', type);
+
 	let filteredResults: Hotel[] | Restaurant[] | Attraction[] = [];
 
 	switch (type) {
@@ -64,6 +64,7 @@ type LocationPageProps = {
 };
 
 const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
+	
 	const [currentPage, setCurrentPage] = useState(1);
     const resultsPerPage = 6;
     const totalResults = filteredResults.length;
