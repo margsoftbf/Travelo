@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import hotelsData from '../../../data/Hotels.json';
 import restaurantsData from '../../../data/Restaurant.json';
@@ -10,109 +11,72 @@ import ListingCard from '@/components/SearchListPage/ListingCard';
 import FilterBar from '@/components/SearchListPage/FilterBar';
 import { Background2 } from '../../../../public/assets/svg';
 import LastMinute from '@/components/SearchListPage/LastMinute';
-import { GetServerSidePropsContext } from 'next';
-
-console.log('Hotels data:', hotelsData);
-console.log('Restaurants data:', restaurantsData);
-console.log('Attractions data:', attractionsData);
 
 function filterData<T extends { addressObj?: AddressObj }>(
 	data: T[],
 	query: string
 ): T[] {
-	console.log('Data to filter:', data);
-	console.log('Filter query:', query);
-
-	const filteredData = data.filter((item) => {
+	return data.filter((item) => {
 		const city = item.addressObj?.city?.toLowerCase() || '';
 		const country = item.addressObj?.country?.toLowerCase() || '';
 		const queryLower = query.toLowerCase();
 		return city.includes(queryLower) || country.includes(queryLower);
 	});
-
-	console.log('Filtered data:', filteredData);
-	return filteredData.length > 0 ? filteredData : [];
 }
 
-export const getServerSideProps = async (
-	context: GetServerSidePropsContext
-) => {
-	console.log('Context query:', context.query);
-	const { location, type } = context.query as {
-		location: string;
-		type: string;
-	};
-	console.log('Location:', location, 'Type:', type);
-	if (!location || !type) {
-		console.log('Location or type is undefined');
-		return { props: { filteredResults: [] } };
-	}
-	let filteredResults: Hotel[] | Restaurant[] | Attraction[] = [];
-
-
-	switch (type) {
-		case 'Hotels':
-			console.log('Filtering hotels with location:', location);
-			filteredResults = filterData<Hotel>(hotelsData as Hotel[], location);
-			console.log('Filtered hotels:', filteredResults);
-			break;
-		case 'Restaurants':
-			filteredResults = filterData<Restaurant>(
-				restaurantsData as Restaurant[],
-				location
-			);
-			break;
-		case 'Attractions':
-			filteredResults = filterData<Attraction>(
-				attractionsData as Attraction[],
-				location
-			);
-			break;
-		default:
-			console.log('Error: Invalid type or location');
-			filteredResults = [];
-			break;
-	}
-	console.log('Returning filtered results to component:', filteredResults);
-	return { props: { filteredResults } };
-};
-
 type SearchResult = Hotel | Restaurant | Attraction;
-type LocationPageProps = {
-	filteredResults: Hotel[] | Restaurant[] | Attraction[];
-};
 
-const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
-	console.log('Filtered results in component:', filteredResults);
-
-	if (!filteredResults || filteredResults.length === 0) {
-		console.log('Filtered results are undefined or empty');
-		return <div>Error loading data</div>;
-		}
-
-	console.log('Filtered Results on render:', filteredResults);
+const LocationPage = () => {
+	const router = useRouter();
+	const { location, type } = router.query;
 	const [currentPage, setCurrentPage] = useState(1);
 	const resultsPerPage = 6;
-	const totalResults = filteredResults.length;
-	const [currentResults, setCurrentResults] = useState<SearchResult[]>([]);
-
+	const [results, setResults] = useState<SearchResult[]>([]);
+	const totalResults = results.length;
 	const indexOfFirstResult = (currentPage - 1) * resultsPerPage;
 	const indexOfLastResult = Math.min(
 		indexOfFirstResult + resultsPerPage,
 		totalResults
 	);
 
-	useEffect(() => {
-		console.log('Current page:', currentPage);
-		setCurrentResults(
-			filteredResults.slice(indexOfFirstResult, indexOfLastResult)
-		);
-	}, [currentPage, filteredResults, indexOfFirstResult, indexOfLastResult]);
+	const currentResults = results.slice(indexOfFirstResult, indexOfLastResult);
 
 	const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
+	useEffect(() => {
+		if (typeof location === 'string' && typeof type === 'string') {
+			let filteredResults: Hotel[] | Restaurant[] | Attraction[] = [];
+
+			switch (type) {
+				case 'Hotels':
+					filteredResults = filterData<Hotel>(
+						hotelsData as unknown as Hotel[],
+						location
+					);
+					break;
+				case 'Restaurants':
+					filteredResults = filterData<Restaurant>(
+						restaurantsData as unknown as Restaurant[],
+						location
+					);
+					break;
+				case 'Attractions':
+					filteredResults = filterData<Attraction>(
+						attractionsData as unknown as Attraction[],
+						location
+					);
+					break;
+				default:
+					console.log('Error');
+					break;
+			}
+
+			setResults(filteredResults);
+		}
+	}, [location, type]);
+
 	const handleSortChange = (sortType: string) => {
-		let sortedResults = [...filteredResults];
+		let sortedResults = [...results];
 		switch (sortType) {
 			case 'name':
 				sortedResults.sort((a, b) => a.name.localeCompare(b.name));
@@ -136,15 +100,13 @@ const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
 			default:
 				break;
 		}
-		setCurrentPage(1);
-		setCurrentResults(sortedResults.slice(0, resultsPerPage));
+		setResults(sortedResults);
 	};
 
 	return (
 		<div className='relative overflow-hidden pb-8'>
 			<Background2 className='absolute w-[100vw] h-[100vh] m-0 p-0 -z-10' />
 			<Hero />
-
 			<div className='max-w-7xl mx-auto lg:mt-6 z-20 px-2'>
 				<div className='flex flex-col items-center justify-center gap-2 w-full lg:flex-row lg:items-start'>
 					<div className='w-5/6 lg:w-2/6  mr-2 mt-12'>
@@ -178,8 +140,7 @@ const LocationPage: React.FC<LocationPageProps> = ({ filteredResults }) => {
 						)}
 						<Pagination
 							resultsPerPage={resultsPerPage}
-							totalResults={totalResults}
-							currentPage={currentPage}
+							totalResults={results.length}
 							paginate={paginate}
 						/>
 					</div>
