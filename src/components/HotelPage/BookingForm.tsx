@@ -146,7 +146,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 					</div>
 				</div>
 			</div>
-			<div className='flex flex-col w-full pb-2'>
+			<div className='flex flex-col w-full'>
 				<label
 					htmlFor='children'
 					className='text-xs font-dmSans text-softGrey font-semibold'

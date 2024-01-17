@@ -11,7 +11,6 @@ import ListingCard from '@/components/SearchListPage/ListingCard';
 import FilterBar from '@/components/SearchListPage/FilterBar';
 import { Background2 } from '../../../../public/assets/svg';
 import LastMinute from '@/components/SearchListPage/LastMinute';
-
 function filterData<T extends { addressObj?: AddressObj }>(
 	data: T[],
 	query: string
@@ -23,6 +22,8 @@ function filterData<T extends { addressObj?: AddressObj }>(
 		return city.includes(queryLower) || country.includes(queryLower);
 	});
 }
+
+
 
 type SearchResult = Hotel | Restaurant | Attraction;
 
