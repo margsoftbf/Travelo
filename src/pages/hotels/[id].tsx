@@ -49,7 +49,7 @@ const HotelDetailPage = ({ hotel, similarHotels }: HotelDetailPageProps) => {
 						<Rules />
 						<SimilarHotels hotels={similarHotels} />
 					</div>
-					<div className='w-5/6 lg:w-2/6'>
+					<div className='w-5/6 lg:w-2/6 flex flex-col gap-4'>
 						<BookingForm hotel={hotel} />
 						<LastMinute />
 					</div>
