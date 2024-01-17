@@ -11,7 +11,6 @@ import ListingCard from '@/components/SearchListPage/ListingCard';
 import FilterBar from '@/components/SearchListPage/FilterBar';
 import { Background2 } from '../../../../public/assets/svg';
 import LastMinute from '@/components/SearchListPage/LastMinute';
-import { GetStaticPaths, GetStaticProps } from 'next';
 
 function filterData<T extends { addressObj?: AddressObj }>(
 	data: T[],
@@ -25,30 +24,11 @@ function filterData<T extends { addressObj?: AddressObj }>(
 	});
 }
 
+type SearchResult = Hotel | Restaurant | Attraction;
 
-const getAllCities = (data: (Hotel | Restaurant | Attraction)[]): string[] => {
-	const cities = new Set<string>();
-	data.forEach(item => {
-	  if (item.addressObj && item.addressObj.city) {
-		cities.add(item.addressObj.city.toLowerCase());
-	  }
-	});
-	return Array.from(cities);
-  };
-
-  type LocationPageProps = {
-	location: string;
-	type: string;
-	hotels: Hotel[];
-	restaurants: Restaurant[];
-	attractions: Attraction[];
-  };
-
-  type SearchResult = Hotel | Restaurant | Attraction;
-
-const LocationPage: React.FC<LocationPageProps> = ({ location, type, hotels, restaurants, attractions }) => {
+const LocationPage = () => {
 	const router = useRouter();
-	// const { location, type } = router.query;
+	const { location, type } = router.query;
 	const [currentPage, setCurrentPage] = useState(1);
 	const resultsPerPage = 6;
 	const [results, setResults] = useState<SearchResult[]>([]);
@@ -169,31 +149,5 @@ const LocationPage: React.FC<LocationPageProps> = ({ location, type, hotels, res
 		</div>
 	);
 };
-
-export const getStaticPaths: GetStaticPaths = async () => {
-	const allCities = getAllCities([...hotelsData as Hotel[], ...restaurantsData as Restaurant[], ...attractionsData as Attraction[]]);
-	const paths = allCities.map(city => ({ params: { location: city, type: 'Hotels' } }));
-  
-	return { paths, fallback: 'blocking' };
-  };
-  
-  export const getStaticProps: GetStaticProps = async ({ params }) => {
-	const location = params?.location as string;
-	const type = params?.type as string;
-  
-	const filteredHotels = hotelsData.filter(hotel => hotel.addressObj?.city.toLowerCase() === location) as Hotel[];
-	const filteredRestaurants = restaurantsData.filter(restaurant => restaurant.addressObj?.city.toLowerCase() === location) as Restaurant[];
-	const filteredAttractions = attractionsData.filter(attraction => attraction.addressObj?.city.toLowerCase() === location) as Attraction[];
-  
-	return {
-	  props: {
-		location,
-		type,
-		hotels: filteredHotels,
-		restaurants: filteredRestaurants,
-		attractions: filteredAttractions,
-	  },
-	};
-  };
 
 export default LocationPage;
