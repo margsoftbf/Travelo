@@ -1,4 +1,5 @@
 import { GetServerSideProps } from 'next';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Hero from '@/components/SearchListPage/Hero';
 import FilterBar from '@/components/SearchListPage/FilterBar';
@@ -6,21 +7,19 @@ import LastMinute from '@/components/SearchListPage/LastMinute';
 import SortDropdown from '@/components/SearchListPage/SortDropdown';
 import Pagination from '@/components/SearchListPage/Pagination';
 import ListingCard from '@/components/SearchListPage/ListingCard';
-import hotelsData from '../../data/Hotels.json';
-import { Hotel } from '@/types/types';
+import attractionData from '../../data/Attractions.json';
+import { Attraction } from '@/types/types';
 import { Background2 } from '../../../public/assets/svg';
 
-
-interface HotelsPageProps {
-	hotels: Hotel[];
+interface AttractionPageProps {
+	attractions: Attraction[];
 	totalResults: number;
 	page: number;
 	resultsPerPage: number;
 }
 
-
-const HotelsPage: React.FC<HotelsPageProps> = ({
-	hotels,
+const AttractionPage: React.FC<AttractionPageProps> = ({
+	attractions,
 	totalResults,
 	page,
 	resultsPerPage,
@@ -28,7 +27,6 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 	const router = useRouter();
 	const indexOfFirstResult = (page - 1) * resultsPerPage + 1;
 	const indexOfLastResult = Math.min(page * resultsPerPage, totalResults);
-
 
 	const paginate = (pageNumber: number) => {
 		const currentPath = router.pathname;
@@ -68,7 +66,7 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 							</p>
 							<SortDropdown onSortChange={handleSortChange} />
 						</div>
-						{hotels.length === 0 ? (
+						{attractions.length === 0 ? (
 							<div className='text-center mt-2'>
 								<span className='p-3 rounded-md bg-myBlack text-white font-dmSans text-base leading-5 font-semibold'>
 									Not Found
@@ -76,7 +74,7 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 							</div>
 						) : (
 							<ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-								{hotels.map((item, index) => (
+								{attractions.map((item, index) => (
 									<li key={index}>
 										<ListingCard item={item} />
 									</li>
@@ -102,16 +100,17 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 	const sortBy = (context.query.sortBy as string) || 'name';
 	const resultsPerPage = 6;
 
-	const filteredHotels = hotelsData.filter(
-		(hotel) => hotel.addressObj?.city?.toLowerCase() === location.toLowerCase()
+	const filteredAttractions = attractionData.filter(
+		(attraction) =>
+			attraction.addressObj?.city?.toLowerCase() === location.toLowerCase()
 	);
 
 	switch (sortBy) {
 		case 'name':
-			filteredHotels.sort((a, b) => a.name.localeCompare(b.name));
+			filteredAttractions.sort((a, b) => a.name.localeCompare(b.name));
 			break;
 		case 'rating':
-			filteredHotels.sort((a, b) => {
+			filteredAttractions.sort((a, b) => {
 				if ('rating' in a && 'rating' in b) {
 					return b.rating - a.rating;
 				}
@@ -119,7 +118,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 			});
 			break;
 		case 'popularity':
-			filteredHotels.sort((a, b) => {
+			filteredAttractions.sort((a, b) => {
 				if ('numberOfReviews' in a && 'numberOfReviews' in b) {
 					return b.numberOfReviews - a.numberOfReviews;
 				}
@@ -130,16 +129,21 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 			break;
 	}
 
-	const totalResults = filteredHotels.length;
+	const totalResults = filteredAttractions.length;
 	const indexOfFirstResult = (page - 1) * resultsPerPage;
-	const currentResults = filteredHotels.slice(
+	const currentResults = filteredAttractions.slice(
 		indexOfFirstResult,
 		indexOfFirstResult + resultsPerPage
 	);
 
 	return {
-		props: { hotels: currentResults, totalResults, page, resultsPerPage },
+		props: {
+			attractions: currentResults,
+			totalResults,
+			page,
+			resultsPerPage,
+		},
 	};
 };
 
-export default HotelsPage;
+export default AttractionPage;

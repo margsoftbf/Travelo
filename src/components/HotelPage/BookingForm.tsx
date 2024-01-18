@@ -5,6 +5,7 @@ import { useDispatch } from 'react-redux';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { Calendar, Minus, Plus } from '../../../public/assets/svg';
+import moment from 'moment';
 
 interface BookingFormProps {
 	hotel: Hotel;
@@ -41,16 +42,22 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 	const [checkOutDate, setCheckOutDate] = useState('');
 	const [adults, setAdults] = useState(1);
 	const [children, setChildren] = useState(0);
+	const [rooms, setRooms] = useState(1);
 	const dispatch = useDispatch();
 
-	const calculateNights = (checkIn: string, checkOut: string) => {
-		const checkInDate = new Date(checkIn);
-		const checkOutDate = new Date(checkOut);
-		const timeDiff = checkOutDate.getTime() - checkInDate.getTime();
-		return timeDiff / (1000 * 3600 * 24);
+	const handleDateChange = (
+		date: Date | null,
+		setDate: (dateStr: string) => void
+	) => {
+		setDate(moment(date).format('YYYY-MM-DD'));
 	};
 
-	const totalPrice = calculateNights(checkInDate, checkOutDate) * pricePerNight;
+	const calculateNights = () => {
+		if (!checkInDate || !checkOutDate) return 0;
+		return moment(checkOutDate).diff(moment(checkInDate), 'days');
+	};
+
+	const totalPrice = calculateNights() * pricePerNight * rooms;
 
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
@@ -88,10 +95,10 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 					Check-in Date:
 				</label>
 				<DatePicker
-					selected={checkInDate ? new Date(checkInDate) : null}
-					onChange={(date: Date | null) =>
-						setCheckInDate(date ? date.toISOString().split('T')[0] : '')
+					selected={
+						checkInDate ? moment(checkInDate, 'YYYY-MM-DD').toDate() : null
 					}
+					onChange={(date) => handleDateChange(date, setCheckInDate)}
 					customInput={<CustomInput />}
 					dateFormat='yyyy-MM-dd'
 				/>
@@ -104,10 +111,10 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 					Check-out Date:
 				</label>
 				<DatePicker
-					selected={checkOutDate ? new Date(checkOutDate) : null}
-					onChange={(date: Date | null) =>
-						setCheckOutDate(date ? date.toISOString().split('T')[0] : '')
+					selected={
+						checkOutDate ? moment(checkOutDate, 'YYYY-MM-DD').toDate() : null
 					}
+					onChange={(date) => handleDateChange(date, setCheckOutDate)}
 					customInput={<CustomInput />}
 					dateFormat='yyyy-MM-dd'
 				/>
@@ -127,7 +134,9 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 							value={adults}
 							min='1'
 							className='flex-1 text-[12px] text-left border-0 py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-							onChange={(e) => setAdults(parseInt(e.target.value))}
+							onChange={(e) =>
+								setAdults(Math.max(1, Math.min(8, parseInt(e.target.value))))
+							}
 						/>
 						<div className='absolute inset-y-0 right-0 gap-1 flex items-center pr-2'>
 							<Minus
@@ -161,7 +170,9 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 							value={children}
 							min='1'
 							className='flex-1 text-[12px] text-left border-0 py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-							onChange={(e) => setChildren(parseInt(e.target.value))}
+							onChange={(e) =>
+								setChildren(Math.max(1, Math.min(8, parseInt(e.target.value))))
+							}
 						/>
 						<div className='absolute inset-y-0 right-0 gap-1 flex items-center pr-2'>
 							<Minus
@@ -180,6 +191,42 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 					</div>
 				</div>
 			</div>
+			<div className='flex flex-col w-full'>
+				<label
+					htmlFor='rooms'
+					className='text-xs font-dmSans text-softGrey font-semibold'
+				>
+					Rooms:
+				</label>
+				<div className='relative mt-1 rounded-md shadow-sm mb-4'>
+					<div className='flex border-2 rounded-md'>
+						<input
+							type='number'
+							id='rooms'
+							value={rooms}
+							min='1'
+							className='flex-1 text-[12px] text-left border-0 py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
+							onChange={(e) =>
+								setRooms(Math.max(1, Math.min(5, parseInt(e.target.value))))
+							}
+						/>
+						<div className='absolute inset-y-0 right-0 gap-1 flex items-center pr-2'>
+							<Minus
+								aria-label='Decrease guest number'
+								className='h-4 w-4 text-gray-400 cursor-pointer'
+								aria-hidden='true'
+								onClick={() => setRooms(rooms > 1 ? rooms - 1 : 1)}
+							/>
+							<Plus
+								aria-label='Increase guest number'
+								className='h-4 w-4 text-gray-400 cursor-pointer'
+								aria-hidden='true'
+								onClick={() => setRooms(rooms < 5 ? rooms + 1 : 5)}
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
 			<p className='font-dmSans font-medium text-softGrey'>
 				Total Price:{' '}
 				<span className='text-base font-bold text-myBlack'>
@@ -191,7 +238,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 				className='mt-8 w-full flex justify-center items-center p-2 gap-2 rounded-md bg-primary text-white hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'
 				aria-label='Add to booking'
 			>
-				Add to Booking
+				Add to Cart
 			</button>
 		</form>
 	);

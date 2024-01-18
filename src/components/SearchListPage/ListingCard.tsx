@@ -17,10 +17,10 @@ interface ListingCardProps {
 const ListingCard: React.FC<ListingCardProps> = ({ item, isSimple = false  }) => {
 	const detailPageLink =
 		item.type === 'HOTEL'
-			? `/hotels/${item.id}`
+			? `/hotel/${item.id}`
 			: item.type === 'RESTAURANT'
-			? `/restaurants/${item.id}`
-			: `/attractions/${item.id}`;
+			? `/restaurant/${item.id}`
+			: `/attraction/${item.id}`;
 
 	return (
 		<Link

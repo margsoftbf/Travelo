@@ -3,7 +3,7 @@ import { BuildingsHero, Cloud, Cloud2 } from '../../../public/assets/svg';
 
 const Hero = () => {
 	const router = useRouter();
-	const pageTitle = router.query.type;
+	const pageTitle = router.query.location;
 
 	return (
 		<div className='relative isolate flex px-6 lg:px-8 h-48 bg-myBlack overflow-hidden'>

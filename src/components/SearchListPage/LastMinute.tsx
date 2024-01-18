@@ -19,7 +19,7 @@ const LastMinute = () => {
 	}, []);
 
 	return (
-		<div className='p-4 border rounded shadow z-20 bg-white  space-y-3 relative flex flex-col gap-1'>
+		<div className='p-4 border rounded shadow z-10 bg-white  space-y-3 relative flex flex-col gap-1'>
 			<h2 className='text-myBlack font-dmSans text-xl font-bold leading-6 tracking-tight'>
 				Last Minute
 			</h2>

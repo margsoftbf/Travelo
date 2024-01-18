@@ -91,7 +91,8 @@ const SearchBar = () => {
 			!newErrors.location && !newErrors.type && !newErrors.dateRange;
 
 		if (isFormValid) {
-			router.push(`/hotels/${query}`);
+			const typePath = type.toLowerCase();
+			router.push(`/${typePath}/${query}`);
 		}
 	};
 

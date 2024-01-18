@@ -6,21 +6,19 @@ import LastMinute from '@/components/SearchListPage/LastMinute';
 import SortDropdown from '@/components/SearchListPage/SortDropdown';
 import Pagination from '@/components/SearchListPage/Pagination';
 import ListingCard from '@/components/SearchListPage/ListingCard';
-import hotelsData from '../../data/Hotels.json';
-import { Hotel } from '@/types/types';
+import restaurantsData from '../../data/Restaurant.json';
+import { Restaurant } from '@/types/types';
 import { Background2 } from '../../../public/assets/svg';
 
-
-interface HotelsPageProps {
-	hotels: Hotel[];
+interface RestaurantsPageProps {
+	restaurants: Restaurant[];
 	totalResults: number;
 	page: number;
 	resultsPerPage: number;
 }
 
-
-const HotelsPage: React.FC<HotelsPageProps> = ({
-	hotels,
+const RestaurantsPage: React.FC<RestaurantsPageProps> = ({
+	restaurants,
 	totalResults,
 	page,
 	resultsPerPage,
@@ -28,7 +26,6 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 	const router = useRouter();
 	const indexOfFirstResult = (page - 1) * resultsPerPage + 1;
 	const indexOfLastResult = Math.min(page * resultsPerPage, totalResults);
-
 
 	const paginate = (pageNumber: number) => {
 		const currentPath = router.pathname;
@@ -68,7 +65,7 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 							</p>
 							<SortDropdown onSortChange={handleSortChange} />
 						</div>
-						{hotels.length === 0 ? (
+						{restaurants.length === 0 ? (
 							<div className='text-center mt-2'>
 								<span className='p-3 rounded-md bg-myBlack text-white font-dmSans text-base leading-5 font-semibold'>
 									Not Found
@@ -76,7 +73,7 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 							</div>
 						) : (
 							<ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-								{hotels.map((item, index) => (
+								{restaurants.map((item, index) => (
 									<li key={index}>
 										<ListingCard item={item} />
 									</li>
@@ -102,25 +99,28 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 	const sortBy = (context.query.sortBy as string) || 'name';
 	const resultsPerPage = 6;
 
-	const filteredHotels = hotelsData.filter(
-		(hotel) => hotel.addressObj?.city?.toLowerCase() === location.toLowerCase()
+	const filteredRestaurants = restaurantsData.filter(
+		(restaurant) =>
+			restaurant.addressObj?.city?.toLowerCase() === location.toLowerCase()
 	);
 
 	switch (sortBy) {
 		case 'name':
-			filteredHotels.sort((a, b) => a.name.localeCompare(b.name));
+			filteredRestaurants.sort((a, b) =>
+				(a.name || '').localeCompare(b.name || '')
+			);
 			break;
 		case 'rating':
-			filteredHotels.sort((a, b) => {
-				if ('rating' in a && 'rating' in b) {
+			filteredRestaurants.sort((a, b) => {
+				if (a.rating && b.rating) {
 					return b.rating - a.rating;
 				}
 				return 0;
 			});
 			break;
 		case 'popularity':
-			filteredHotels.sort((a, b) => {
-				if ('numberOfReviews' in a && 'numberOfReviews' in b) {
+			filteredRestaurants.sort((a, b) => {
+				if (a.numberOfReviews && b.numberOfReviews) {
 					return b.numberOfReviews - a.numberOfReviews;
 				}
 				return 0;
@@ -130,16 +130,16 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 			break;
 	}
 
-	const totalResults = filteredHotels.length;
+	const totalResults = filteredRestaurants.length;
 	const indexOfFirstResult = (page - 1) * resultsPerPage;
-	const currentResults = filteredHotels.slice(
+	const currentResults = filteredRestaurants.slice(
 		indexOfFirstResult,
 		indexOfFirstResult + resultsPerPage
 	);
 
 	return {
-		props: { hotels: currentResults, totalResults, page, resultsPerPage },
+		props: { restaurants: currentResults, totalResults, page, resultsPerPage },
 	};
 };
 
-export default HotelsPage;
+export default RestaurantsPage;
