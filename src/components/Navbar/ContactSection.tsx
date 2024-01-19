@@ -1,14 +1,14 @@
 import { Menu } from '@headlessui/react';
 import { ShoppingBagIcon, UserCircleIcon } from '@heroicons/react/24/outline';
 import { FaPhoneVolume } from 'react-icons/fa6';
-import Cart from '../cart/Cart';
-import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 const ContactSection = () => {
-	const [isCartOpen, setIsCartOpen] = useState(false);
 
-	const toggleCart = () => {
-		setIsCartOpen(!isCartOpen);
+
+	const router = useRouter();
+	const goToCart = () => {
+		router.push('/cart');
 	};
 	return (
 		<div className='hidden lg:flex h-16 items-center justify-between relative'>
@@ -38,7 +38,7 @@ const ContactSection = () => {
 					</div>
 					<div className='flex items-center'>
 						<button
-							onClick={toggleCart}
+							onClick={goToCart}
 							type='button'
 							className='relative flex text-white hover:text-myBlackTwo ease-in-out duration-300 transition  text-sm outline-none'
 						>
@@ -57,7 +57,6 @@ const ContactSection = () => {
 						</Menu>
 					</div>
 				</div>
-				<Cart isCartOpen={isCartOpen} toggleCart={toggleCart} />
 			</div>
 		</div>
 	);

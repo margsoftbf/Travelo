@@ -18,7 +18,7 @@ const cartSlice = createSlice({
 				booking.checkOutDate
 			);
 			const priceForAllRooms =
-				numberOfNights * booking.pricePerNight * booking.rooms;
+				numberOfNights * booking.pricePerNight
 			state.totalPrice += priceForAllRooms;
 		},
 		removeBooking: (state, action: PayloadAction<string>) => {

@@ -100,7 +100,6 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 			adults,
 			children,
 			pricePerNight: selectedVendor.pricePerNight || 0,
-			rooms,
 		};
 		dispatch(addBooking(bookingDetails));
 	};
@@ -244,45 +243,9 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 					</div>
 				</div>
 			</div>
-			<div className='flex flex-col w-full'>
-				<label
-					htmlFor='rooms'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					Rooms:
-				</label>
-				<div className='relative mt-1 rounded-md mb-4'>
-					<div className='flex  rounded-md'>
-						<input
-							type='number'
-							id='rooms'
-							value={rooms}
-							min='1'
-							className='flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-							onChange={(e) =>
-								setRooms(Math.max(1, Math.min(5, parseInt(e.target.value))))
-							}
-						/>
-						<div className='absolute inset-y-0 right-0 gap-1 flex items-center pr-2'>
-							<Minus
-								aria-label='Decrease guest number'
-								className='h-4 w-4 text-gray-400 cursor-pointer'
-								aria-hidden='true'
-								onClick={() => setRooms(rooms > 1 ? rooms - 1 : 1)}
-							/>
-							<Plus
-								aria-label='Increase guest number'
-								className='h-4 w-4 text-gray-400 cursor-pointer'
-								aria-hidden='true'
-								onClick={() => setRooms(rooms < 5 ? rooms + 1 : 5)}
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
 			<p className='font-dmSans font-medium text-softGrey'>
 				Total Price:{' '}
-				<span className='text-base font-bold text-myBlack'>
+				<span className='text-xl font-bold text-myBlack'>
 					${isNaN(totalPrice) ? 0 : totalPrice.toFixed(2)}
 				</span>
 			</p>

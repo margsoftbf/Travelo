@@ -220,7 +220,6 @@ export interface BookingDetails {
 	adults: number;
 	children: number;
 	pricePerNight: number;
-	rooms: number;
 }
 
 export interface CartState {

@@ -38,7 +38,7 @@ const Navbar = () => {
 			transition={{ duration: 0.5, type: 'ease-in' }}
 		>
 			<Disclosure as='nav' className=''>
-				{({ open }) => (
+				{({ open, close }) => (
 					<>
 						<div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-0'>
 							<div className='flex h-16 items-center justify-between relative'>
@@ -66,7 +66,7 @@ const Navbar = () => {
 								</div>
 							</div>
 						</div>
-						<MobileMenu />
+						<MobileMenu close={close} />
 					</>
 				)}
 			</Disclosure>
