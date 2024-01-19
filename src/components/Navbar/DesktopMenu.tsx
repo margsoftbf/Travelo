@@ -10,7 +10,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({ isHomePage }) => {
 	return (
 		<div>
 			<div className='flex items-center'>
-				<div className='hidden sm:ml-6 sm:block'>
+				<div className='hidden lg:ml-6 lg:block'>
 					<div className='flex space-x-6 '>
 						{navigation.map((item) =>
 							isHomePage && !item.href.startsWith('/') ? (

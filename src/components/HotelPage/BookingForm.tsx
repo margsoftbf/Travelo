@@ -88,7 +88,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		const bookingDetails = {
-			hotelId: hotel.id,
+			hotelId: hotel.localName,
 			checkInDate: new Date(checkInDate).toISOString(),
 			checkOutDate: new Date(checkOutDate).toISOString(),
 			adults,

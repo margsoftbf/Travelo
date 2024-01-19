@@ -1,14 +1,11 @@
 import { Disclosure } from '@headlessui/react';
-import {
-	ShoppingBagIcon,
-	UserCircleIcon,
-} from '@heroicons/react/24/outline';
+import { ShoppingBagIcon, UserCircleIcon } from '@heroicons/react/24/outline';
 import { navigation } from '@/data/data';
 
 const MobileMenu = () => {
 	return (
 		<div>
-			<Disclosure.Panel className='sm:hidden '>
+			<Disclosure.Panel className='lg:hidden '>
 				<div className='space-y-1 px-2 pb-3 pt-2'>
 					{navigation.map((item) => (
 						<Disclosure.Button

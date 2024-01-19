@@ -1,14 +1,10 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { CartState, BookingDetails, getNumberOfNights } from '@/types/types';
 
-const isClient = typeof window === 'object';
-const persistedCartState = isClient ? localStorage.getItem('cart') : null;
-const initialState: CartState = persistedCartState
-	? JSON.parse(persistedCartState)
-	: {
-			bookings: [],
-			totalPrice: 0,
-	  };
+const initialState: CartState = {
+	bookings: [],
+	totalPrice: 0,
+};
 
 const cartSlice = createSlice({
 	name: 'cart',
@@ -24,7 +20,6 @@ const cartSlice = createSlice({
 			const priceForAllRooms =
 				numberOfNights * booking.pricePerNight * booking.rooms;
 			state.totalPrice += priceForAllRooms;
-			localStorage.setItem('cart', JSON.stringify(state));
 		},
 		removeBooking: (state, action: PayloadAction<string>) => {
 			const booking = state.bookings.find((b) => b.hotelId === action.payload);
@@ -36,15 +31,13 @@ const cartSlice = createSlice({
 			state.bookings = state.bookings.filter(
 				(booking) => booking.hotelId !== action.payload
 			);
-			localStorage.setItem('cart', JSON.stringify(state));
 		},
 		clearCart: (state) => {
 			state.bookings = [];
 			state.totalPrice = 0;
-			localStorage.removeItem('cart');
 		},
 	},
 });
 
-export const { addBooking, removeBooking } = cartSlice.actions;
+export const { addBooking, removeBooking, clearCart } = cartSlice.actions;
 export default cartSlice.reducer;

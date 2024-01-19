@@ -53,7 +53,7 @@ const Navbar = () => {
 								</Link>
 								<DesktopMenu isHomePage={isHomePage} />
 								<ContactSection />
-								<div className='-mr-2 flex sm:hidden'>
+								<div className='-mr-2 flex lg:hidden'>
 									<Disclosure.Button className='relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-myBlackTwo hover:text-white focus:outline-none '>
 										<span className='absolute -inset-0.5' />
 										<span className='sr-only'>Open main menu</span>

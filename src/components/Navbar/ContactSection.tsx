@@ -56,8 +56,8 @@ const ContactSection = () => {
 							</div>
 						</Menu>
 					</div>
-					{isCartOpen && <Cart />}
 				</div>
+				<Cart isCartOpen={isCartOpen} toggleCart={toggleCart} />
 			</div>
 		</div>
 	);
