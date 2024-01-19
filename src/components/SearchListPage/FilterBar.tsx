@@ -28,7 +28,6 @@ const FilterBar = () => {
 	});
 
 	const filterData = (query: string): string[] => {
-	
 		const uniqueCities = new Set<string>();
 		const allLocations = [
 			...hotelsData,
@@ -127,7 +126,7 @@ const FilterBar = () => {
 
 			<button
 				onClick={handleSubmit}
-				className='mt-8 w-full flex justify-center items-center p-2 gap-2 rounded-md bg-primary text-white hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'
+				className='mt-8 w-full flex justify-center items-center font-semibold p-2 gap-2 rounded-md bg-primary text-white hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'
 				aria-label='search'
 			>
 				<FiSearch className='w-5 h-5' />

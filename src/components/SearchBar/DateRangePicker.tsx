@@ -16,7 +16,7 @@ const CustomInput = forwardRef<
 		<input
 			ref={ref}
 			type='text'
-			className='block w-full'
+			className='block w-full text-[12px] '
 			value={value || ''}
 			readOnly
 			placeholder='Select date range'

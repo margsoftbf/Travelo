@@ -41,7 +41,7 @@ const Offers: React.FC<OffersTableProps> = ({ offers }) => {
 					{offers.map((offer, index) => (
 						<tr
 							key={index}
-							className='bg-gray-100 border-b group hover:bg-myBlack duration-300'
+							className='bg-gray-100 text-softGrey border-b group hover:bg-myBlack duration-300'
 						>
 							<td className='hidden sm:block px-6 py-4 line-clamp-1 font-dmSans group-hover:text-white'>{`${today} - ${tomorrow}`}</td>
 							<td className='px-6 py-4 font-dmSans group-hover:text-white'>

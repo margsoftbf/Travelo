@@ -24,10 +24,10 @@ const CustomInput = forwardRef<
 		<input
 			ref={ref}
 			type='text'
-			className='block w-full'
+			className='block w-full text-[12px] text-black placeholder:text-black'
 			value={value || ''}
 			readOnly
-			placeholder='Select date range'
+			placeholder='Select date'
 		/>
 		<div className='pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2'>
 			<Calendar className='h-4 w-4 text-gray-400' aria-hidden='true' />
@@ -36,26 +36,52 @@ const CustomInput = forwardRef<
 ));
 
 const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
-	const pricePerNight =
-		hotel.offers.length > 0 ? hotel.offers[0].pricePerNight ?? 0 : 0;
+	const [selectedVendor, setSelectedVendor] = useState(hotel.offers[0]);
 	const [checkInDate, setCheckInDate] = useState('');
 	const [checkOutDate, setCheckOutDate] = useState('');
 	const [adults, setAdults] = useState(1);
 	const [children, setChildren] = useState(0);
 	const [rooms, setRooms] = useState(1);
 	const dispatch = useDispatch();
+	const today = moment().startOf('day');
 
 	const handleDateChange = (
 		date: Date | null,
-		setDate: (dateStr: string) => void
+		setDate: (dateStr: string) => void,
+		isCheckInDate: boolean = false
 	) => {
-		setDate(moment(date).format('YYYY-MM-DD'));
+		if (!date) return;
+		const selectedDate = moment(date);
+
+		if (isCheckInDate) {
+			if (selectedDate.isBefore(today, 'day')) {
+				setDate(today.format('YYYY-MM-DD'));
+			} else {
+				setDate(selectedDate.format('YYYY-MM-DD'));
+			}
+		} else {
+			const minCheckoutDate = moment(checkInDate).add(1, 'days');
+			if (selectedDate.isSameOrBefore(minCheckoutDate, 'day')) {
+				setDate(minCheckoutDate.format('YYYY-MM-DD'));
+			} else {
+				setDate(selectedDate.format('YYYY-MM-DD'));
+			}
+		}
+	};
+
+	const handleVendorChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+		const selectedOffer = hotel.offers.find(
+			(offer) => offer.vendor === e.target.value
+		);
+		setSelectedVendor(selectedOffer || hotel.offers[0]);
 	};
 
 	const calculateNights = () => {
 		if (!checkInDate || !checkOutDate) return 0;
 		return moment(checkOutDate).diff(moment(checkInDate), 'days');
 	};
+
+	const pricePerNight = selectedVendor.pricePerNight ?? 0;
 
 	const totalPrice = calculateNights() * pricePerNight * rooms;
 
@@ -67,7 +93,8 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 			checkOutDate: new Date(checkOutDate).toISOString(),
 			adults,
 			children,
-			pricePerNight: hotel.offers[0]?.pricePerNight ?? 0,
+			pricePerNight: selectedVendor.pricePerNight || 0,
+			rooms,
 		};
 		dispatch(addBooking(bookingDetails));
 	};
@@ -89,6 +116,26 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 
 			<div className='flex flex-col w-full md:mt-0 '>
 				<label
+					htmlFor='vendor'
+					className='text-xs font-dmSans text-softGrey font-semibold'
+				>
+					Choose a vendor:
+				</label>
+				<select
+					id='vendor'
+					className='mt-1 flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
+					value={selectedVendor.vendor}
+					onChange={handleVendorChange}
+				>
+					{hotel.offers.map((offer, index) => (
+						<option key={index} value={offer.vendor}>
+							{offer.vendor} (${offer.pricePerNight})
+						</option>
+					))}
+				</select>
+			</div>
+			<div className='flex flex-col w-full md:mt-0 '>
+				<label
 					htmlFor='checkInDate'
 					className='text-xs font-dmSans text-softGrey font-semibold'
 				>
@@ -98,7 +145,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 					selected={
 						checkInDate ? moment(checkInDate, 'YYYY-MM-DD').toDate() : null
 					}
-					onChange={(date) => handleDateChange(date, setCheckInDate)}
+					onChange={(date) => handleDateChange(date, setCheckInDate, true)}
 					customInput={<CustomInput />}
 					dateFormat='yyyy-MM-dd'
 				/>
@@ -127,13 +174,13 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 					Adults:
 				</label>
 				<div className='relative mt-1 rounded-md shadow-sm'>
-					<div className='flex border-2 rounded-md'>
+					<div className='flex'>
 						<input
 							type='number'
 							id='adults'
 							value={adults}
 							min='1'
-							className='flex-1 text-[12px] text-left border-0 py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
+							className='flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
 							onChange={(e) =>
 								setAdults(Math.max(1, Math.min(8, parseInt(e.target.value))))
 							}
@@ -163,13 +210,13 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 					Children:
 				</label>
 				<div className='relative mt-1 rounded-md shadow-sm'>
-					<div className='flex border-2 rounded-md'>
+					<div className='flex'>
 						<input
 							type='number'
 							id='adults'
 							value={children}
-							min='1'
-							className='flex-1 text-[12px] text-left border-0 py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
+							min='0'
+							className='flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
 							onChange={(e) =>
 								setChildren(Math.max(1, Math.min(8, parseInt(e.target.value))))
 							}
@@ -198,14 +245,14 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 				>
 					Rooms:
 				</label>
-				<div className='relative mt-1 rounded-md shadow-sm mb-4'>
-					<div className='flex border-2 rounded-md'>
+				<div className='relative mt-1 rounded-md mb-4'>
+					<div className='flex  rounded-md'>
 						<input
 							type='number'
 							id='rooms'
 							value={rooms}
 							min='1'
-							className='flex-1 text-[12px] text-left border-0 py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
+							className='flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
 							onChange={(e) =>
 								setRooms(Math.max(1, Math.min(5, parseInt(e.target.value))))
 							}
@@ -236,7 +283,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 			<button
 				type='submit'
 				className='mt-8 w-full flex justify-center items-center p-2 gap-2 rounded-md bg-primary text-white hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'
-				aria-label='Add to booking'
+				aria-label='Add to Cart'
 			>
 				Add to Cart
 			</button>

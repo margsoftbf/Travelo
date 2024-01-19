@@ -10,14 +10,12 @@ import hotelsData from '../../data/Hotels.json';
 import { Hotel } from '@/types/types';
 import { Background2 } from '../../../public/assets/svg';
 
-
 interface HotelsPageProps {
 	hotels: Hotel[];
 	totalResults: number;
 	page: number;
 	resultsPerPage: number;
 }
-
 
 const HotelsPage: React.FC<HotelsPageProps> = ({
 	hotels,
@@ -28,7 +26,6 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 	const router = useRouter();
 	const indexOfFirstResult = (page - 1) * resultsPerPage + 1;
 	const indexOfLastResult = Math.min(page * resultsPerPage, totalResults);
-
 
 	const paginate = (pageNumber: number) => {
 		const currentPath = router.pathname;
@@ -54,13 +51,13 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 			<Hero />
 			<div className='max-w-7xl mx-auto lg:mt-6 z-20 px-2'>
 				<div className='flex flex-col items-center justify-center gap-2 w-full lg:flex-row lg:items-start'>
-					<div className='w-5/6 lg:w-2/6  mr-2 mt-12'>
-						<div className='flex flex-col justify-between py-4 gap-4'>
+					<div className='w-5/6 lg:w-2/6  mr-2 mt-12 order-2 lg:order-1'>
+						<div className='flex flex-col justify-between py-4 gap-4 '>
 							<FilterBar />
 							<LastMinute />
 						</div>
 					</div>
-					<div className='w-5/6'>
+					<div className='w-5/6 order-1'>
 						<div className='py-4 flex flex-col justify-between gap-2 items-start md:flex-row md:items-center w-full '>
 							<p className='text-myBlack font-dmSans text-base leading-5 font-semibold order-2 md:order-1'>
 								Showing {indexOfFirstResult}–{indexOfLastResult} of{' '}
@@ -75,7 +72,7 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 								</span>
 							</div>
 						) : (
-							<ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+							<ul className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6'>
 								{hotels.map((item, index) => (
 									<li key={index}>
 										<ListingCard item={item} />

@@ -14,7 +14,10 @@ interface ListingCardProps {
 	isSimple?: boolean;
 }
 
-const ListingCard: React.FC<ListingCardProps> = ({ item, isSimple = false  }) => {
+const ListingCard: React.FC<ListingCardProps> = ({
+	item,
+	isSimple = false,
+}) => {
 	const detailPageLink =
 		item.type === 'HOTEL'
 			? `/hotel/${item.id}`
@@ -37,7 +40,8 @@ const ListingCard: React.FC<ListingCardProps> = ({ item, isSimple = false  }) =>
 							fill={true}
 							className='object-cover rounded-t-lg'
 							quality={100}
-							sizes='(max-width: 768px) 100vw, (max-width: 1200px) 100vw'
+							priority={true}
+							sizes='(max-width: 768px) 250px, (max-width: 1200px) 250px, 400px'
 							placeholder='blur'
 							blurDataURL={item.image}
 						/>
@@ -92,7 +96,7 @@ const ListingCard: React.FC<ListingCardProps> = ({ item, isSimple = false  }) =>
 						<div className='group-hover transition duration-300 ease-in-out'>
 							{(item.type === 'HOTEL' || item.type === 'RESTAURANT') &&
 								'priceRange' in item && (
-									<p className='text-base font-bold tracking-tighter text-myBlack group-hover:text-white'>
+									<p className='text-base font-bold tracking-tighter text-myBlack group-hover:text-white line-clamp-1 pr-1'>
 										{item.priceRange}
 									</p>
 								)}

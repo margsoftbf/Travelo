@@ -14,7 +14,7 @@ const config: Config = {
 				plusJakarta: ['Plus Jakarta Sans', 'sans-serif'],
 			},
 			colors: {
-				primary: '#FF5956',
+				primary: '#CB4845',
 				myBlack: '#2D2330',
 				myBlackTwo: '#4A3E4E',
 				neutral: '#FAF5EE',

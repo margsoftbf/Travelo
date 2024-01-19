@@ -220,6 +220,7 @@ export interface BookingDetails {
 	adults: number;
 	children: number;
 	pricePerNight: number;
+	rooms: number;
 }
 
 export interface CartState {
@@ -227,10 +228,13 @@ export interface CartState {
 	totalPrice: number;
 }
 
-export const getNumberOfNights = (checkInDateString: string, checkOutDateString: string) => {
+export const getNumberOfNights = (
+	checkInDateString: string,
+	checkOutDateString: string
+) => {
 	const checkInDate = new Date(checkInDateString);
 	const checkOutDate = new Date(checkOutDateString);
 	return Math.round(
-	  (checkOutDate.getTime() - checkInDate.getTime()) / (1000 * 3600 * 24)
+		(checkOutDate.getTime() - checkInDate.getTime()) / (1000 * 3600 * 24)
 	);
-  };
+};
