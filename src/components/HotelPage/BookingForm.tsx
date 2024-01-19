@@ -36,7 +36,7 @@ const CustomInput = forwardRef<
 ));
 
 const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
-	const [selectedVendor, setSelectedVendor] = useState(hotel.offers[0]);
+	const [selectedVendor, setSelectedVendor] = useState(hotel.offers?.[0]);
 	const [checkInDate, setCheckInDate] = useState('');
 	const [checkOutDate, setCheckOutDate] = useState('');
 	const [adults, setAdults] = useState(1);
@@ -44,6 +44,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 	const [rooms, setRooms] = useState(1);
 	const dispatch = useDispatch();
 	const today = moment().startOf('day');
+
 
 	const handleDateChange = (
 		date: Date | null,
@@ -81,7 +82,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 		return moment(checkOutDate).diff(moment(checkInDate), 'days');
 	};
 
-	const pricePerNight = selectedVendor.pricePerNight ?? 0;
+	const pricePerNight = selectedVendor?.pricePerNight ?? 0;
 
 	const totalPrice = calculateNights() * pricePerNight * rooms;
 
