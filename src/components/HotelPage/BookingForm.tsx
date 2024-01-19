@@ -36,7 +36,7 @@ const CustomInput = forwardRef<
 ));
 
 const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
-	const [selectedVendor, setSelectedVendor] = useState(hotel.offers?.[0]);
+	const [selectedVendor, setSelectedVendor] = useState(hotel.offers[0]);
 	const [checkInDate, setCheckInDate] = useState('');
 	const [checkOutDate, setCheckOutDate] = useState('');
 	const [adults, setAdults] = useState(1);
@@ -45,6 +45,9 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 	const dispatch = useDispatch();
 	const today = moment().startOf('day');
 
+	if (!hotel.offers || hotel.offers.length === 0) {
+		return <div>Loading offers...</div>;
+	}
 
 	const handleDateChange = (
 		date: Date | null,
@@ -76,6 +79,8 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 		);
 		setSelectedVendor(selectedOffer || hotel.offers[0]);
 	};
+
+	const selectedVendorValue = selectedVendor?.vendor ?? 'defaultVendor';
 
 	const calculateNights = () => {
 		if (!checkInDate || !checkOutDate) return 0;
@@ -125,7 +130,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 				<select
 					id='vendor'
 					className='mt-1 flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-					value={selectedVendor.vendor}
+					value={selectedVendorValue}
 					onChange={handleVendorChange}
 				>
 					{hotel.offers.map((offer, index) => (

@@ -14,7 +14,6 @@ const Cart: React.FC<CartProps> = ({ isCartOpen, toggleCart }) => {
 		(state: RootState) => state.cart
 	);
 	const dispatch = useDispatch();
-	console.log(bookings.length);
 	return (
 		<Transition
 			show={isCartOpen}
