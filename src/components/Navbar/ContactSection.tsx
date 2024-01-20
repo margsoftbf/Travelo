@@ -1,11 +1,9 @@
 import { Menu } from '@headlessui/react';
-import { ShoppingBagIcon, UserCircleIcon } from '@heroicons/react/24/outline';
 import { FaPhoneVolume } from 'react-icons/fa6';
 import { useRouter } from 'next/router';
-
+import { MdShoppingCartCheckout } from 'react-icons/md';
+import { CgProfile } from 'react-icons/cg';
 const ContactSection = () => {
-
-
 	const router = useRouter();
 	const goToCart = () => {
 		router.push('/cart');
@@ -44,14 +42,14 @@ const ContactSection = () => {
 						>
 							<span className='absolute -inset-1.5' />
 							<span className='sr-only'>Go To Cart</span>
-							<ShoppingBagIcon className='h-7 w-7 ' aria-hidden='true' />
+							<MdShoppingCartCheckout className='h-7 w-7 ' aria-hidden='true' />
 						</button>
 						<Menu as='div' className='relative ml-3'>
 							<div>
 								<Menu.Button className='relative flex text-white hover:text-myBlackTwo ease-in-out duration-300 transition  text-sm outline-none'>
 									<span className='absolute -inset-1.5' />
 									<span className='sr-only'>Open user menu</span>
-									<UserCircleIcon className='h-7 w-7 ' aria-hidden='true' />
+									<CgProfile className='h-7 w-7 ' aria-hidden='true' />
 								</Menu.Button>
 							</div>
 						</Menu>

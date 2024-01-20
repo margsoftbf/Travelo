@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<meta name='description' content='Travelo - Travel & Trip' />
 				<link rel='icon' href='/favicon.ico' />
 				<meta httpEquiv='Content-Language' content='en' />
-				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 			</Head>
 			<main className='m-auto'>
 				<DynamicNavbar />

@@ -16,3 +16,4 @@ export { default as Objects } from './Objects.svg';
 export { default as HeroTopTitle } from './HeroTopTitle.svg';
 export { default as HeroUnderline } from './HeroUnderline.svg';
 export { default as Background2 } from './Background2.svg';
+export { default as Loading } from './Loading.svg';

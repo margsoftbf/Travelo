@@ -1,6 +1,6 @@
 import { addBooking } from '@/store/cartSlice';
 import { Hotel } from '@/types/types';
-import { useState, forwardRef } from 'react';
+import { useState, forwardRef, use } from 'react';
 import { useDispatch } from 'react-redux';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
@@ -24,7 +24,9 @@ const CustomInput = forwardRef<
 		<input
 			ref={ref}
 			type='text'
-			className='block w-full text-[12px] text-black placeholder:text-black'
+			className={`block w-full text-[12px] text-black placeholder:text-black outline-none ${
+				hasError ? 'border-red-500 ring-red-500' : 'border-gray-300 ring-gray-300'
+			}`}
 			value={value || ''}
 			readOnly
 			placeholder='Select date'
@@ -36,9 +38,12 @@ const CustomInput = forwardRef<
 ));
 
 const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
+	const [bookingAdded, setBookingAdded] = useState(false);
 	const [selectedVendor, setSelectedVendor] = useState(hotel.offers[0]);
 	const [checkInDate, setCheckInDate] = useState('');
 	const [checkOutDate, setCheckOutDate] = useState('');
+	const [checkInDateError, setCheckInDateError] = useState(false);
+	const [checkOutDateError, setCheckOutDateError] = useState(false);
 	const [adults, setAdults] = useState(1);
 	const [children, setChildren] = useState(0);
 	const [rooms, setRooms] = useState(1);
@@ -93,6 +98,22 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
+
+		setCheckInDateError(false);
+		setCheckOutDateError(false);
+
+		let isValid = true;
+		if (!checkInDate) {
+			setCheckInDateError(true);
+			isValid = false;
+		}
+		if (!checkOutDate) {
+			setCheckOutDateError(true);
+			isValid = false;
+		}
+
+		if (!isValid) return;
+
 		const bookingDetails = {
 			hotelId: hotel.localName,
 			checkInDate: new Date(checkInDate).toISOString(),
@@ -102,6 +123,8 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 			pricePerNight: selectedVendor.pricePerNight || 0,
 		};
 		dispatch(addBooking(bookingDetails));
+		setBookingAdded(true);
+		setTimeout(() => setBookingAdded(false), 3000);
 	};
 
 	return (
@@ -139,10 +162,14 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 					))}
 				</select>
 			</div>
-			<div className='flex flex-col w-full md:mt-0 '>
+			<div
+				className={`flex flex-col w-full md:mt-0 ${
+					checkInDateError ? 'text-red-500' : ''
+				}`}
+			>
 				<label
 					htmlFor='checkInDate'
-					className='text-xs font-dmSans text-softGrey font-semibold'
+					className={`text-xs font-dmSans text-softGrey font-semibold `}
 				>
 					Check-in Date:
 				</label>
@@ -151,11 +178,18 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 						checkInDate ? moment(checkInDate, 'YYYY-MM-DD').toDate() : null
 					}
 					onChange={(date) => handleDateChange(date, setCheckInDate, true)}
-					customInput={<CustomInput />}
+					customInput={<CustomInput hasError={checkInDateError}/>}
 					dateFormat='yyyy-MM-dd'
 				/>
+				{checkInDateError && (
+					<p className='text-red-500 text-xs italic'>Select Check In Date</p>
+				)}
 			</div>
-			<div className='flex flex-col w-full md:mt-0 '>
+			<div
+				className={`flex flex-col w-full md:mt-0 ${
+					checkOutDateError ? 'text-red-500' : ''
+				}`}
+			>
 				<label
 					htmlFor='checkOutDate'
 					className='text-xs font-dmSans text-softGrey font-semibold'
@@ -167,9 +201,12 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 						checkOutDate ? moment(checkOutDate, 'YYYY-MM-DD').toDate() : null
 					}
 					onChange={(date) => handleDateChange(date, setCheckOutDate)}
-					customInput={<CustomInput />}
+					customInput={<CustomInput hasError={checkOutDateError}/>}
 					dateFormat='yyyy-MM-dd'
 				/>
+				{checkOutDateError && (
+					<p className='text-red-500 text-xs italic'>Select Check Out Date</p>
+				)}
 			</div>
 			<div className='flex flex-col w-full'>
 				<label
@@ -256,6 +293,11 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 			>
 				Add to Cart
 			</button>
+			{bookingAdded && (
+				<div className='z-20 absolute bottom-16 left-1/2 -translate-x-1/2 p-4 w-48 text-center mb-4 text-sm text-green-700 bg-green-100 border border-green-400 rounded'>
+					Booking added to cart!
+				</div>
+			)}
 		</form>
 	);
 };

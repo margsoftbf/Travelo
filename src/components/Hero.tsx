@@ -92,7 +92,7 @@ const Hero = () => {
 						className='text-4xl md:text-5xl lg:text-7xl text-white font-dmSans font-bold mt-3 '
 					>
 						{texts[currentIndex].subtitle.split(' ').slice(0, -1).join(' ')}
-						<span className='text-primary'>
+						<span className='text-[#FF5956]'>
 							{' ' + texts[currentIndex].subtitle.split(' ').slice(-1)}
 						</span>
 					</motion.p>
