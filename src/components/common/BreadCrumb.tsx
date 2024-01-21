@@ -10,12 +10,12 @@ interface BreadCrumbProps {
 
 const BreadCrumb: React.FC<BreadCrumbProps> = ({ pathSegments }) => {
 	return (
-		<p className='bg-neutral p-1 rounded-md text-[14px] px-2'>
+		<span className='bg-myBlack/80 p-2 mt-2 rounded-md text-[14px] px-2'>
 			{pathSegments.map((item, index) => (
-				<span key={index} className='inline-flex items-center'>
+				<span key={index} className='inline-flex items-center font-dmSans'>
 					{item.current ? (
 						<span
-							className={`text-red-500 ${
+							className={`text-red-500 font-semibold ${
 								index < pathSegments.length - 1 ? 'mr-2' : ''
 							}`}
 						>
@@ -24,7 +24,7 @@ const BreadCrumb: React.FC<BreadCrumbProps> = ({ pathSegments }) => {
 					) : (
 						<Link
 							href={item.href || '#'}
-							className={`text-myBlack hover:text-primary ${
+							className={`text-white hover:text-red-500 ${
 								index < pathSegments.length - 1 ? 'mr-0' : ''
 							}`}
 						>
@@ -32,17 +32,11 @@ const BreadCrumb: React.FC<BreadCrumbProps> = ({ pathSegments }) => {
 						</Link>
 					)}
 					{index < pathSegments.length - 1 && (
-						<span
-							className={`mx-1 ${
-								item.current ? 'text-red-500' : 'text-myBlack'
-							}`}
-						>
-							/
-						</span>
+						<span className='mx-1 text-red-500 font-bold'>/</span>
 					)}
 				</span>
 			))}
-		</p>
+		</span>
 	);
 };
 

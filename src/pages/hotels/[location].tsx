@@ -9,6 +9,7 @@ import ListingCard from '@/components/SearchListPage/ListingCard';
 import hotelsData from '../../data/Hotels.json';
 import { Hotel } from '@/types/types';
 import { Background2 } from '../../../public/assets/svg';
+import BreadCrumb from '@/components/common/BreadCrumb';
 
 interface HotelsPageProps {
 	hotels: Hotel[];
@@ -45,10 +46,24 @@ const HotelsPage: React.FC<HotelsPageProps> = ({
 		});
 	};
 
+	const breadcrumbSegments = [
+		{ name: 'Home', href: '/', current: false },
+		{ name: 'Hotels', current: true },
+	];
+
+	const pageTitle = router.query.location;
+
 	return (
 		<div className='relative overflow-hidden pb-8'>
 			<Background2 className='absolute w-[100vw] h-[100vh] m-0 p-0 -z-10' />
-			<Hero />
+			<div className='py-6 w-full bg-neutral'>
+				<div className='flex flex-col justify-center items-center bg-neutral'>
+					<h1 className='text-myBlack  font-coveredByGrace text-6xl font-bold text-center tracking-widest'>
+						{pageTitle}
+					</h1>
+					<BreadCrumb pathSegments={breadcrumbSegments} />
+				</div>
+			</div>
 			<div className='max-w-7xl mx-auto lg:mt-6 z-20 px-2'>
 				<div className='flex flex-col items-center justify-center gap-2 w-full lg:flex-row lg:items-start'>
 					<div className='w-5/6 lg:w-2/6  mr-2 mt-12 order-2 lg:order-1'>

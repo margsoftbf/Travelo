@@ -95,6 +95,8 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 	const pricePerNight = selectedVendor?.pricePerNight ?? 0;
 
 	const totalPrice = calculateNights() * pricePerNight * rooms;
+	const numberOfNights = calculateNights();
+	const subtotal = numberOfNights * (selectedVendor?.pricePerNight ?? 0);
 
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
@@ -115,7 +117,9 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 		if (!isValid) return;
 
 		const bookingDetails = {
-			hotelId: hotel.localName,
+			hotelName: hotel.name,
+			hotelImage: hotel.image,
+			hotelLocation: hotel.locationString,
 			checkInDate: new Date(checkInDate).toISOString(),
 			checkOutDate: new Date(checkOutDate).toISOString(),
 			adults,

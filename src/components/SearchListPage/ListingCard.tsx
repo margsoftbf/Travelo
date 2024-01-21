@@ -41,7 +41,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
 							className='object-cover rounded-t-lg'
 							quality={100}
 							priority={true}
-							sizes='(max-width: 768px) 250px, (max-width: 1200px) 250px, 400px'
+							sizes='(max-width: 768px) 350px, (max-width: 1200px) 250px, 400px'
 							placeholder='blur'
 							blurDataURL={item.image}
 						/>

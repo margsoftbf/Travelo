@@ -27,6 +27,9 @@ const config: Config = {
 			maxWidth: {
 				'8xl': '1440px',
 			},
+			screens: {
+				xs: '475px',
+			},
 		},
 	},
 	plugins: [],

@@ -214,17 +214,24 @@ export interface LocationInputProps {
 }
 
 export interface BookingDetails {
-	hotelId: string;
+	bookingId?: string; 
+	hotelName: string;
+	hotelImage: string;
+	hotelLocation: string;
 	checkInDate: string;
 	checkOutDate: string;
 	adults: number;
 	children: number;
 	pricePerNight: number;
-}
+  }
+  
+  
 
 export interface CartState {
 	bookings: BookingDetails[];
 	totalPrice: number;
+	orderTotal: number;
+
 }
 
 export const getNumberOfNights = (
@@ -237,3 +244,17 @@ export const getNumberOfNights = (
 		(checkOutDate.getTime() - checkInDate.getTime()) / (1000 * 3600 * 24)
 	);
 };
+
+
+
+export interface PaymentFormDataTypes {
+	email: string;
+	nameOnCard: string;
+	cardNumber: string;
+	expirationDate: string;
+	cvc: string;
+	address: string;
+	city: string;
+	state: string;
+	postalCode: string;
+}
