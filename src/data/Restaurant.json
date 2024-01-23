@@ -3686,8 +3686,6 @@
 		"dietaryRestrictions": ["Lunch", "Dinner", "Drinks"],
 		"hours": {
 			"weekRanges": [
-				[],
-				[],
 				[
 					{
 						"open": 720,
@@ -3953,7 +3951,6 @@
 		"dietaryRestrictions": ["Lunch", "Dinner"],
 		"hours": {
 			"weekRanges": [
-				[],
 				[
 					{
 						"open": 720,
@@ -4903,8 +4900,6 @@
 		"dietaryRestrictions": ["Lunch", "Dinner"],
 		"hours": {
 			"weekRanges": [
-				[],
-				[],
 				[
 					{
 						"open": 750,
@@ -5889,554 +5884,6 @@
 		"ownersTopReasons": null
 	},
 	{
-		"id": "23728215",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [],
-		"name": "Isliyen BalIk",
-		"locationString": "Konyaalti, Antalya, Turkish Mediterranean Coast",
-		"description": "Antalya'nin Balıkçısı",
-		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2a/02/6b/78/amazing.jpg",
-		"photoCount": 76,
-		"awards": [],
-		"rankingPosition": 2,
-		"rating": 5,
-		"rawRanking": 3.7608752250671387,
-		"phone": "+90 541 527 07 47",
-		"address": "AltInkum Mah. Ataturk BulvarI Güçlü Apt. No:163, Konyaalti, Antalya 07070 Turkiye",
-		"addressObj": {
-			"street1": "AltInkum Mah. Ataturk BulvarI",
-			"street2": "Güçlü Apt. No:163",
-			"city": "Konyaalti",
-			"state": null,
-			"country": "Turkiye",
-			"postalcode": "07070"
-		},
-		"localName": "İşliyen Balık",
-		"localAddress": "Altınkum Mah. Atatürk Bulvarı, Güçlü Apt. No:163, 07070",
-		"localLangCode": "tr",
-		"email": "isliyenbalikevi1@gmail.com",
-		"latitude": 36.865143,
-		"longitude": 30.634119,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g23456196-d23728215-Reviews-Isliyen_BalIk-Konyaalti_Antalya_Turkish_Mediterranean_Coast.html",
-		"website": null,
-		"rankingString": "#2 of 44 places to eat in Konyaalti",
-		"rankingDenominator": "26",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-			{
-				"id": "23456196",
-				"name": "Konyaalti",
-				"abbreviation": null,
-				"subcategory": "City"
-			},
-			{
-				"id": "297962",
-				"name": "Antalya",
-				"abbreviation": null,
-				"subcategory": "Municipality"
-			},
-			{
-				"id": "297960",
-				"name": "Antalya Province",
-				"abbreviation": null,
-				"subcategory": "Province"
-			},
-			{
-				"id": "658661",
-				"name": "Turkish Mediterranean Coast",
-				"abbreviation": null,
-				"subcategory": "Region"
-			},
-			{
-				"id": "293969",
-				"name": "Turkiye",
-				"abbreviation": null,
-				"subcategory": "Country"
-			}
-		],
-		"ratingHistogram": {
-			"count1": 1,
-			"count2": 1,
-			"count3": 0,
-			"count4": 0,
-			"count5": 40
-		},
-		"numberOfReviews": 42,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": "$$ - $$$",
-		"priceRange": null,
-		"cuisines": [
-			"Seafood",
-			"Mediterranean",
-			"European",
-			"Asian",
-			"Healthy",
-			"Turkish",
-			"Vegan Options"
-		],
-		"mealTypes": ["Lunch", "Dinner"],
-		"dishes": ["Fish"],
-		"features": ["Reservations", "Table Service"],
-		"dietaryRestrictions": ["Lunch", "Dinner"],
-		"hours": {
-			"weekRanges": [
-				[
-					{
-						"open": 600,
-						"openHours": "10:00",
-						"close": 1410,
-						"closeHours": "23:30"
-					}
-				],
-				[
-					{
-						"open": 600,
-						"openHours": "10:00",
-						"close": 1410,
-						"closeHours": "23:30"
-					}
-				],
-				[
-					{
-						"open": 600,
-						"openHours": "10:00",
-						"close": 1410,
-						"closeHours": "23:30"
-					}
-				],
-				[
-					{
-						"open": 600,
-						"openHours": "10:00",
-						"close": 1410,
-						"closeHours": "23:30"
-					}
-				],
-				[
-					{
-						"open": 600,
-						"openHours": "10:00",
-						"close": 1410,
-						"closeHours": "23:30"
-					}
-				],
-				[
-					{
-						"open": 600,
-						"openHours": "10:00",
-						"close": 1410,
-						"closeHours": "23:30"
-					}
-				],
-				[
-					{
-						"open": 600,
-						"openHours": "10:00",
-						"close": 1410,
-						"closeHours": "23:30"
-					}
-				]
-			],
-			"timezone": "Europe/Istanbul"
-		},
-		"menuWebUrl": null,
-		"establishmentTypes": ["Restaurants"],
-		"ownersTopReasons": null
-	},
-	{
-		"id": "26327865",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": ["Sit down"],
-		"name": "Ala Aksam Restaurant",
-		"locationString": "Antalya, Turkish Mediterranean Coast",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-s/29/ce/82/2c/caption.jpg",
-		"photoCount": 63,
-		"awards": [],
-		"rankingPosition": 46,
-		"rating": 5,
-		"rawRanking": 3.852576971054077,
-		"phone": "+90 501 743 07 04",
-		"address": "Ataturk Cd. No:100, Antalya 07500 Turkiye",
-		"addressObj": {
-			"street1": "Ataturk Cd. No:100",
-			"street2": null,
-			"city": "Antalya",
-			"state": null,
-			"country": "Turkiye",
-			"postalcode": "07500"
-		},
-		"localName": "Ala Akşam Restaurant",
-		"localAddress": "Atatürk Cd. No:100, 07500",
-		"localLangCode": "tr",
-		"email": null,
-		"latitude": 36.872055,
-		"longitude": 31.005037,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g297962-d26327865-Reviews-Ala_Aksam_Restaurant-Antalya_Turkish_Mediterranean_Coast.html",
-		"website": null,
-		"rankingString": "#46 of 1,907 places to eat in Antalya",
-		"rankingDenominator": "1397",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-			{
-				"id": "297962",
-				"name": "Antalya",
-				"abbreviation": null,
-				"subcategory": "Municipality"
-			},
-			{
-				"id": "297960",
-				"name": "Antalya Province",
-				"abbreviation": null,
-				"subcategory": "Province"
-			},
-			{
-				"id": "658661",
-				"name": "Turkish Mediterranean Coast",
-				"abbreviation": null,
-				"subcategory": "Region"
-			},
-			{
-				"id": "293969",
-				"name": "Turkiye",
-				"abbreviation": null,
-				"subcategory": "Country"
-			}
-		],
-		"ratingHistogram": {
-			"count1": 0,
-			"count2": 0,
-			"count3": 0,
-			"count4": 0,
-			"count5": 30
-		},
-		"numberOfReviews": 30,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": "$$$$",
-		"priceRange": "$50 - $80,000",
-		"cuisines": ["Steakhouse", "Seafood", "Mediterranean", "Arabic", "Turkish"],
-		"mealTypes": ["Lunch", "Dinner", "Brunch", "Drinks"],
-		"dishes": [],
-		"features": [
-			"Reservations",
-			"Seating",
-			"Table Service",
-			"Outdoor Seating",
-			"Private Dining",
-			"Parking Available",
-			"Valet Parking",
-			"Highchairs Available",
-			"Wheelchair Accessible",
-			"Serves Alcohol",
-			"Full Bar",
-			"Wine and Beer",
-			"Accepts American Express",
-			"Accepts Mastercard",
-			"Accepts Visa",
-			"Digital Payments",
-			"Cash Only",
-			"Free Wifi",
-			"Accepts Credit Cards",
-			"Family style"
-		],
-		"dietaryRestrictions": ["Lunch", "Dinner", "Brunch", "Drinks"],
-		"hours": {
-			"weekRanges": [
-				[
-					{
-						"open": 780,
-						"openHours": "13:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 780,
-						"openHours": "13:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 780,
-						"openHours": "13:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 780,
-						"openHours": "13:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 780,
-						"openHours": "13:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 780,
-						"openHours": "13:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 780,
-						"openHours": "13:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				]
-			],
-			"timezone": "Europe/Istanbul"
-		},
-		"menuWebUrl": "https://ala-aksam.gomymenu.com/#/restaurants",
-		"establishmentTypes": ["Restaurants"],
-		"ownersTopReasons": {
-			"sectionHeader": "Top 3 Reasons to Eat Here",
-			"sponsoredBy": "Sponsored by: Ala Aksam Restaurant",
-			"topReasons": [
-				{
-					"header": "Best Steak",
-					"rank": 1,
-					"image_url": "https://media-cdn.tripadvisor.com/media/photo-s/29/ce/82/2c/caption.jpg",
-					"text": " Food was great and tasty",
-					"keyword": "food",
-					"isSearchTerm": true,
-					"linkText": "Read review",
-					"review": {
-						"rating": 5,
-						"screenName": "Eman1900",
-						"reviewId": 903690508
-					}
-				},
-				{
-					"header": "Exclusive Service",
-					"rank": 2,
-					"image_url": "https://media-cdn.tripadvisor.com/media/photo-s/29/b6/3d/7c/dry-aged-meat-slow-coock.jpg",
-					"text": "Excellent service, great experience, polite staf",
-					"keyword": "service",
-					"isSearchTerm": true,
-					"linkText": "Read review",
-					"review": {
-						"rating": 5,
-						"screenName": "Eman1900",
-						"reviewId": 903690508
-					}
-				},
-				{
-					"header": "Perfect Atmosphere",
-					"rank": 3,
-					"image_url": "https://media-cdn.tripadvisor.com/media/photo-s/29/b6/3d/7b/dry-aged-meat-slow-coock.jpg",
-					"text": "This is a new-ish restaurant but deffo has made its mark. ",
-					"keyword": "Perfect Atmosphere",
-					"isSearchTerm": true,
-					"linkText": "Read review",
-					"review": {
-						"rating": 5,
-						"screenName": "hizars2023",
-						"reviewId": 906436716
-					}
-				}
-			]
-		}
-	},
-	{
-		"id": "3174198",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": ["Sit down"],
-		"name": "Castle Cafe & Restaurant",
-		"locationString": "Antalya, Turkish Mediterranean Coast",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1f/e6/f9/7f/castle-roof-is-open-7.jpg",
-		"photoCount": 158,
-		"awards": [],
-		"rankingPosition": 48,
-		"rating": 4,
-		"rawRanking": 3.8332982063293457,
-		"phone": "+90 242 248 65 94",
-		"address": "KIlIncaslan Mah. HIdIrlIk Sok. No:46, Antalya 07100 Turkiye",
-		"addressObj": {
-			"street1": "KIlIncaslan Mah. HIdIrlIk Sok. No:46",
-			"street2": null,
-			"city": "Antalya",
-			"state": null,
-			"country": "Turkiye",
-			"postalcode": "07100"
-		},
-		"localName": "Castle Cafe & Restaurant",
-		"localAddress": "Kılınçaslan Mah. Hıdırlık Sok. No:48, 07100",
-		"localLangCode": "tr",
-		"email": null,
-		"latitude": 36.88149,
-		"longitude": 30.703371,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g297962-d3174198-Reviews-Castle_Cafe_Restaurant-Antalya_Turkish_Mediterranean_Coast.html",
-		"website": null,
-		"rankingString": "#48 of 1,907 places to eat in Antalya",
-		"rankingDenominator": "1397",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-			{
-				"id": "297962",
-				"name": "Antalya",
-				"abbreviation": null,
-				"subcategory": "Municipality"
-			},
-			{
-				"id": "297960",
-				"name": "Antalya Province",
-				"abbreviation": null,
-				"subcategory": "Province"
-			},
-			{
-				"id": "658661",
-				"name": "Turkish Mediterranean Coast",
-				"abbreviation": null,
-				"subcategory": "Region"
-			},
-			{
-				"id": "293969",
-				"name": "Turkiye",
-				"abbreviation": null,
-				"subcategory": "Country"
-			}
-		],
-		"ratingHistogram": {
-			"count1": 17,
-			"count2": 12,
-			"count3": 31,
-			"count4": 105,
-			"count5": 160
-		},
-		"numberOfReviews": 325,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": "$$ - $$$",
-		"priceRange": null,
-		"cuisines": [
-			"Bar",
-			"Cafe",
-			"Mediterranean",
-			"Turkish",
-			"European",
-			"Vegetarian Friendly",
-			"Vegan Options",
-			"Halal",
-			"Gluten Free Options"
-		],
-		"mealTypes": ["Breakfast", "Lunch", "Dinner", "Drinks"],
-		"dishes": [
-			"Pasta",
-			"Burger",
-			"Salad",
-			"Calamari",
-			"Salmon",
-			"Lamb",
-			"Pesto",
-			"Fish"
-		],
-		"features": [
-			"Reservations",
-			"Outdoor Seating",
-			"Seating",
-			"Highchairs Available",
-			"Serves Alcohol",
-			"Full Bar",
-			"Free Wifi",
-			"Table Service"
-		],
-		"dietaryRestrictions": ["Breakfast", "Lunch", "Dinner", "Drinks"],
-		"hours": {
-			"weekRanges": [
-				[
-					{
-						"open": 660,
-						"openHours": "11:00",
-						"close": 1470,
-						"closeHours": "00:30"
-					}
-				],
-				[
-					{
-						"open": 660,
-						"openHours": "11:00",
-						"close": 1470,
-						"closeHours": "00:30"
-					}
-				],
-				[
-					{
-						"open": 660,
-						"openHours": "11:00",
-						"close": 1470,
-						"closeHours": "00:30"
-					}
-				],
-				[
-					{
-						"open": 660,
-						"openHours": "11:00",
-						"close": 1470,
-						"closeHours": "00:30"
-					}
-				],
-				[
-					{
-						"open": 660,
-						"openHours": "11:00",
-						"close": 1470,
-						"closeHours": "00:30"
-					}
-				],
-				[
-					{
-						"open": 660,
-						"openHours": "11:00",
-						"close": 1470,
-						"closeHours": "00:30"
-					}
-				],
-				[
-					{
-						"open": 660,
-						"openHours": "11:00",
-						"close": 1470,
-						"closeHours": "00:30"
-					}
-				]
-			],
-			"timezone": "Europe/Istanbul"
-		},
-		"menuWebUrl": null,
-		"establishmentTypes": ["Restaurants"],
-		"ownersTopReasons": null
-	},
-	{
 		"id": "8628436",
 		"type": "RESTAURANT",
 		"category": "restaurant",
@@ -6805,173 +6252,6 @@
 						"openHours": "11:00",
 						"close": 1500,
 						"closeHours": "01:00"
-					}
-				]
-			],
-			"timezone": "Europe/Istanbul"
-		},
-		"menuWebUrl": null,
-		"establishmentTypes": ["Restaurants"],
-		"ownersTopReasons": null
-	},
-	{
-		"id": "26311579",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [],
-		"name": "Grace Sushi",
-		"locationString": "Antalya, Turkish Mediterranean Coast",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-o/29/b3/49/a8/caption.jpg",
-		"photoCount": 8,
-		"awards": [],
-		"rankingPosition": 47,
-		"rating": 5,
-		"rawRanking": 3.8421363830566406,
-		"phone": "+90 541 406 95 69",
-		"address": "merkeyalI mah l no : 6 imperial turkiz hotel 4th, Antalya 07990 Turkiye",
-		"addressObj": {
-			"street1": "merkeyalI mah l no : 6 imperial turkiz hotel 4th",
-			"street2": null,
-			"city": "Antalya",
-			"state": null,
-			"country": "Turkiye",
-			"postalcode": "07990"
-		},
-		"localName": "Grace Sushi",
-		"localAddress": "merkeyalı mah l no : 6 imperial türkiz hotel 4th, 07990",
-		"localLangCode": "tr",
-		"email": "tanzibayram@gmail.com",
-		"latitude": 36.599445,
-		"longitude": 30.569654,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g297962-d26311579-Reviews-Grace_Sushi-Antalya_Turkish_Mediterranean_Coast.html",
-		"website": null,
-		"rankingString": "#47 of 1,907 places to eat in Antalya",
-		"rankingDenominator": "1397",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-			{
-				"id": "297962",
-				"name": "Antalya",
-				"abbreviation": null,
-				"subcategory": "Municipality"
-			},
-			{
-				"id": "297960",
-				"name": "Antalya Province",
-				"abbreviation": null,
-				"subcategory": "Province"
-			},
-			{
-				"id": "658661",
-				"name": "Turkish Mediterranean Coast",
-				"abbreviation": null,
-				"subcategory": "Region"
-			},
-			{
-				"id": "293969",
-				"name": "Turkiye",
-				"abbreviation": null,
-				"subcategory": "Country"
-			}
-		],
-		"ratingHistogram": {
-			"count1": 0,
-			"count2": 0,
-			"count3": 0,
-			"count4": 0,
-			"count5": 30
-		},
-		"numberOfReviews": 30,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": "$$$$",
-		"priceRange": null,
-		"cuisines": ["Japanese", "Seafood", "Mediterranean", "Turkish", "Pub"],
-		"mealTypes": ["Lunch", "Dinner", "Late Night", "Drinks"],
-		"dishes": [],
-		"features": [
-			"Reservations",
-			"Outdoor Seating",
-			"Seating",
-			"Parking Available",
-			"Street Parking",
-			"Highchairs Available",
-			"Wheelchair Accessible",
-			"Serves Alcohol",
-			"Full Bar",
-			"Wine and Beer",
-			"Accepts Mastercard",
-			"Free Wifi",
-			"Accepts Credit Cards",
-			"Table Service",
-			"Live Music",
-			"Waterfront",
-			"Jazz Bar",
-			"Playgrounds",
-			"Family style",
-			"Non-smoking restaurants"
-		],
-		"dietaryRestrictions": ["Lunch", "Dinner", "Late Night", "Drinks"],
-		"hours": {
-			"weekRanges": [
-				[
-					{
-						"open": 840,
-						"openHours": "14:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 840,
-						"openHours": "14:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 840,
-						"openHours": "14:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 840,
-						"openHours": "14:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 840,
-						"openHours": "14:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 840,
-						"openHours": "14:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 840,
-						"openHours": "14:00",
-						"close": 1440,
-						"closeHours": "00:00"
 					}
 				]
 			],
@@ -7482,234 +6762,6 @@
 			],
 			"timezone": "Europe/Istanbul"
 		},
-		"menuWebUrl": null,
-		"establishmentTypes": ["Restaurants"],
-		"ownersTopReasons": null
-	},
-	{
-		"id": "23194857",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": ["Sit down"],
-		"name": "Querencia Restaurant",
-		"locationString": "Istanbul",
-		"description": "The place where one’s strength is drawn from, where one feels at home, where you are your most authentic self is here at Querencia Restaurant the heart of international & turkish cuisine . serving you the best quality in a great friendly warm atmospher welcom",
-		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1e/ff/1f/ef/hookah.jpg",
-		"photoCount": 257,
-		"awards": [],
-		"rankingPosition": 57,
-		"rating": 5,
-		"rawRanking": 4.824223041534424,
-		"phone": "+90 212 517 27 25",
-		"address": "Mimar Mehmet Aga Cd. No:23, Istanbul 34122 Turkiye",
-		"addressObj": {
-			"street1": "Mimar Mehmet Aga Cd. No:23",
-			"street2": null,
-			"city": "Istanbul",
-			"state": null,
-			"country": "Turkiye",
-			"postalcode": "34122"
-		},
-		"localName": "Querencia Restaurant",
-		"localAddress": "Mimar Mehmet Ağa Cd. No:23, 34122",
-		"localLangCode": "tr",
-		"email": "querencia26@hotmail.com",
-		"latitude": 41.013824,
-		"longitude": 28.937933,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293974-d23194857-Reviews-Querencia_Restaurant-Istanbul.html",
-		"website": "https://querenciarestaurant.business.site/?utm_source=gmb&utm_medium=referral",
-		"rankingString": "#57 of 17,062 places to eat in Istanbul",
-		"rankingDenominator": "10396",
-		"neighborhoodLocations": [
-			{
-				"id": "7811844",
-				"name": "Sultanahmet"
-			}
-		],
-		"nearestMetroStations": [
-			{
-				"name": "Fatih",
-				"localName": "Fatih",
-				"address": "Adnan Menderes Boulvard No:105, Istanbul 6890, Turkiye",
-				"localAddress": "Adnan Menderes Boulvard No:105, 6890",
-				"lines": [
-					{
-						"id": "ankara-ankara-metro-m3",
-						"lineName": "M3",
-						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"systemName": "Ankara Metro",
-						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"type": "Rapid Transit"
-					}
-				],
-				"latitude": 41.017860412597656,
-				"longitude": 28.93899154663086,
-				"distance": 0.28458234064125115
-			},
-			{
-				"name": "Emniyet Fatih",
-				"localName": "Emniyet Fatih",
-				"address": "Adnan Menderes Blv No:105, Istanbul 34093, Turkiye",
-				"localAddress": "Adnan Menderes Blv No:105, 34093",
-				"lines": [
-					{
-						"id": "istanbul-istanbul-metro-m1a",
-						"lineName": "M1a",
-						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"systemName": "Istanbul Metro",
-						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"type": "Subway"
-					},
-					{
-						"id": "istanbul-istanbul-metro-m1b",
-						"lineName": "M1b",
-						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"systemName": "Istanbul Metro",
-						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"type": "Subway"
-					}
-				],
-				"latitude": 41.01786422729492,
-				"longitude": 28.938989639282227,
-				"distance": 0.2848218968463503
-			},
-			{
-				"name": "Aksaray",
-				"localName": "Aksaray",
-				"address": "Adnan Menderes Blv No:5, Istanbul 34093, Turkiye",
-				"localAddress": "Adnan Menderes Blv No:5, 34093",
-				"lines": [
-					{
-						"id": "istanbul-istanbul-metro-m1a",
-						"lineName": "M1a",
-						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"systemName": "Istanbul Metro",
-						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"type": "Subway"
-					},
-					{
-						"id": "istanbul-istanbul-metro-m1b",
-						"lineName": "M1b",
-						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"systemName": "Istanbul Metro",
-						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"type": "Subway"
-					}
-				],
-				"latitude": 41.0111198425293,
-				"longitude": 28.948747634887695,
-				"distance": 0.5946511959152154
-			},
-			{
-				"name": "TopkapI UlubatlI",
-				"localName": "Topkapı Ulubatlı",
-				"address": "Adnan Menderes Blv, Istanbul 34093, Turkiye",
-				"localAddress": "Adnan Menderes Blv, 34093",
-				"lines": [
-					{
-						"id": "istanbul-istanbul-metro-m1a",
-						"lineName": "M1a",
-						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"systemName": "Istanbul Metro",
-						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"type": "Subway"
-					},
-					{
-						"id": "istanbul-istanbul-metro-m1b",
-						"lineName": "M1b",
-						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"systemName": "Istanbul Metro",
-						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"type": "Subway"
-					}
-				],
-				"latitude": 41.02359390258789,
-				"longitude": 28.9306697845459,
-				"distance": 0.7748088081205304
-			},
-			{
-				"name": "Vezneciler",
-				"localName": "Vezneciler",
-				"address": "Sirvanizade Sk 2-4, Istanbul 34134, Turkiye",
-				"localAddress": "Şirvanizade Sk 2-4, 34134",
-				"lines": [
-					{
-						"id": "istanbul-istanbul-metro-m2",
-						"lineName": "M2",
-						"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"systemName": "Istanbul Metro",
-						"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-						"type": "Subway"
-					}
-				],
-				"latitude": 41.01206970214844,
-				"longitude": 28.955230712890625,
-				"distance": 0.9109480653355191
-			}
-		],
-		"ancestorLocations": [
-			{
-				"id": "293974",
-				"name": "Istanbul",
-				"abbreviation": null,
-				"subcategory": "City"
-			},
-			{
-				"id": "293969",
-				"name": "Turkiye",
-				"abbreviation": null,
-				"subcategory": "Country"
-			}
-		],
-		"ratingHistogram": {
-			"count1": 1,
-			"count2": 4,
-			"count3": 1,
-			"count4": 5,
-			"count5": 430
-		},
-		"numberOfReviews": 441,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": null,
-		"priceLevel": "$$ - $$$",
-		"priceRange": "$18 - $290",
-		"cuisines": [
-			"Steakhouse",
-			"Bar",
-			"Mediterranean",
-			"Turkish",
-			"International",
-			"Vegetarian Friendly",
-			"Vegan Options"
-		],
-		"mealTypes": ["Breakfast", "Lunch", "Dinner", "Drinks"],
-		"dishes": ["Salad", "Lamb", "Fish"],
-		"features": [
-			"Takeout",
-			"Reservations",
-			"Outdoor Seating",
-			"Private Dining",
-			"Seating",
-			"Valet Parking",
-			"Television",
-			"Highchairs Available",
-			"Wheelchair Accessible",
-			"Serves Alcohol",
-			"Full Bar",
-			"Free Wifi",
-			"Accepts Credit Cards",
-			"Table Service",
-			"Street Parking",
-			"Wine and Beer",
-			"Digital Payments",
-			"Dog Friendly",
-			"Family style",
-			"Non-smoking restaurants"
-		],
-		"dietaryRestrictions": ["Breakfast", "Lunch", "Dinner", "Drinks"],
-		"hours": null,
 		"menuWebUrl": null,
 		"establishmentTypes": ["Restaurants"],
 		"ownersTopReasons": null
@@ -8603,80 +7655,6 @@
 		"ownersTopReasons": null
 	},
 	{
-		"id": "19481245",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": ["Sit down"],
-		"name": "42.5 Etli Ekmek",
-		"locationString": "Istanbul",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/31/1a/7e/photo0jpg.jpg",
-		"photoCount": 28,
-		"awards": [],
-		"rankingPosition": 1261,
-		"rating": 5,
-		"rawRanking": 3.304126739501953,
-		"phone": null,
-		"address": "Ataturk Mahallesi, Atapark Caddesi Trendist Sitesi B10 Blok Dukkan No:20, Atasehir, Istanbul 34758 Turkiye",
-		"addressObj": {
-			"street1": "Ataturk Mahallesi, Atapark Caddesi",
-			"street2": "Trendist Sitesi B10 Blok Dukkan No:20, Atasehir",
-			"city": "Istanbul",
-			"state": null,
-			"country": "Turkiye",
-			"postalcode": "34758"
-		},
-		"localName": "42.5 Etli Ekmek",
-		"localAddress": "Atatürk Mahallesi, Atapark Caddesi, Trendist Sitesi B10 Blok Dükkan No:20, Ataşehir, 34758",
-		"localLangCode": "tr",
-		"email": "42.5etliekmek@gmail.com",
-		"latitude": 40.98631,
-		"longitude": 29.13523,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293974-d19481245-Reviews-42_5_Etli_Ekmek-Istanbul.html",
-		"website": "https://www.facebook.com/425-etli-ekmek-665425477217945/",
-		"rankingString": "#1,261 of 17,062 places to eat in Istanbul",
-		"rankingDenominator": "10396",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-			{
-				"id": "293974",
-				"name": "Istanbul",
-				"abbreviation": null,
-				"subcategory": "City"
-			},
-			{
-				"id": "293969",
-				"name": "Turkiye",
-				"abbreviation": null,
-				"subcategory": "Country"
-			}
-		],
-		"ratingHistogram": {
-			"count1": 0,
-			"count2": 0,
-			"count3": 0,
-			"count4": 0,
-			"count5": 14
-		},
-		"numberOfReviews": 14,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": null,
-		"priceLevel": "$",
-		"priceRange": "$10 - $48",
-		"cuisines": ["Turkish"],
-		"mealTypes": [],
-		"dishes": [],
-		"features": [],
-		"dietaryRestrictions": [],
-		"hours": null,
-		"menuWebUrl": null,
-		"establishmentTypes": ["Restaurants"],
-		"ownersTopReasons": null
-	},
-	{
 		"id": "10664573",
 		"type": "RESTAURANT",
 		"category": "restaurant",
@@ -9340,183 +8318,6 @@
 		"ownersTopReasons": null
 	},
 	{
-		"id": "23483706",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [],
-		"name": "Tonnarello Scala",
-		"locationString": "Rome, Lazio",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-o/20/19/ee/a5/amatriciana.jpg",
-		"photoCount": 870,
-		"awards": [],
-		"rankingPosition": 65,
-		"rating": 5,
-		"rawRanking": 4.761578559875488,
-		"phone": "+39 06 580 6404",
-		"address": "Piazza della Scala 19 - 21, 00153 Rome Italy",
-		"addressObj": {
-			"street1": "Piazza della Scala 19 - 21",
-			"street2": null,
-			"city": "Rome",
-			"state": null,
-			"country": "Italy",
-			"postalcode": "00153"
-		},
-		"localName": "Tonnarello Scala",
-		"localAddress": "Piazza Della Scala 19 - 21, 00153",
-		"localLangCode": "it",
-		"email": null,
-		"latitude": 41.89097,
-		"longitude": 12.46812,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g187791-d23483706-Reviews-Tonnarello_Scala-Rome_Lazio.html",
-		"website": "http://tonnarello.it/",
-		"rankingString": "#65 of 12,636 places to eat in Rome",
-		"rankingDenominator": "11027",
-		"neighborhoodLocations": [
-			{
-				"id": "7230912",
-				"name": "Trastevere"
-			},
-			{
-				"id": "15621860",
-				"name": "Centro"
-			}
-		],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-			{
-				"id": "187791",
-				"name": "Rome",
-				"abbreviation": null,
-				"subcategory": "City"
-			},
-			{
-				"id": "187789",
-				"name": "Lazio",
-				"abbreviation": null,
-				"subcategory": "Region"
-			},
-			{
-				"id": "187768",
-				"name": "Italy",
-				"abbreviation": null,
-				"subcategory": "Country"
-			}
-		],
-		"ratingHistogram": {
-			"count1": 15,
-			"count2": 15,
-			"count3": 17,
-			"count4": 107,
-			"count5": 997
-		},
-		"numberOfReviews": 1151,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": "$$ - $$$",
-		"priceRange": null,
-		"cuisines": [
-			"Italian",
-			"Romana",
-			"Lazio",
-			"Central-Italian",
-			"Mediterranean",
-			"Vegetarian Friendly",
-			"Vegan Options"
-		],
-		"mealTypes": ["Lunch", "Dinner"],
-		"dishes": [
-			"Pasta",
-			"Lasagne",
-			"Salad",
-			"Calamari",
-			"Tiramisu",
-			"Mussels",
-			"Meatballs",
-			"Carbonara",
-			"Focaccia",
-			"Salmon",
-			"Cacio e pepe",
-			"Lamb",
-			"Pesto"
-		],
-		"features": [
-			"Seating",
-			"Serves Alcohol",
-			"Full Bar",
-			"Accepts Credit Cards",
-			"Table Service"
-		],
-		"dietaryRestrictions": ["Lunch", "Dinner"],
-		"hours": {
-			"weekRanges": [
-				[
-					{
-						"open": 690,
-						"openHours": "11:30",
-						"close": 1380,
-						"closeHours": "23:00"
-					}
-				],
-				[
-					{
-						"open": 690,
-						"openHours": "11:30",
-						"close": 1380,
-						"closeHours": "23:00"
-					}
-				],
-				[
-					{
-						"open": 690,
-						"openHours": "11:30",
-						"close": 1380,
-						"closeHours": "23:00"
-					}
-				],
-				[
-					{
-						"open": 690,
-						"openHours": "11:30",
-						"close": 1380,
-						"closeHours": "23:00"
-					}
-				],
-				[
-					{
-						"open": 690,
-						"openHours": "11:30",
-						"close": 1380,
-						"closeHours": "23:00"
-					}
-				],
-				[
-					{
-						"open": 690,
-						"openHours": "11:30",
-						"close": 1380,
-						"closeHours": "23:00"
-					}
-				],
-				[
-					{
-						"open": 690,
-						"openHours": "11:30",
-						"close": 1380,
-						"closeHours": "23:00"
-					}
-				]
-			],
-			"timezone": "Europe/Rome"
-		},
-		"menuWebUrl": null,
-		"establishmentTypes": ["Restaurants"],
-		"ownersTopReasons": null
-	},
-	{
 		"id": "3225834",
 		"type": "RESTAURANT",
 		"category": "restaurant",
@@ -10161,7 +8962,6 @@
 		"dietaryRestrictions": ["Lunch", "Dinner"],
 		"hours": {
 			"weekRanges": [
-				[],
 				[
 					{
 						"open": 720,
@@ -10930,7 +9730,6 @@
 		"dietaryRestrictions": ["Dinner", "Drinks"],
 		"hours": {
 			"weekRanges": [
-				[],
 				[
 					{
 						"open": 0,
@@ -12457,180 +11256,6 @@
 		"ownersTopReasons": null
 	},
 	{
-		"id": "25155462",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [],
-		"name": "Pizza Tua",
-		"locationString": "Miami Beach, Florida",
-		"description": "Italian Pizza & More , Best Taste Italian Cusine , Fresh Pasta , Great Wine Selection , Amazing Location In The Heart Of Best Shopping Way In Miami Beach .",
-		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2b/28/a4/32/caption.jpg",
-		"photoCount": 149,
-		"awards": [],
-		"rankingPosition": 36,
-		"rating": 5,
-		"rawRanking": 4.7300262451171875,
-		"phone": "+1 786-448-6232",
-		"address": "667 Lincoln Rd, Miami Beach, FL 33139-2915",
-		"addressObj": {
-			"street1": "667 Lincoln Rd",
-			"street2": null,
-			"city": "Miami Beach",
-			"state": "FL",
-			"country": "United States",
-			"postalcode": "33139-2915"
-		},
-		"localName": "Pizza Tua",
-		"localAddress": "667 Lincoln Rd, 33139-2915",
-		"localLangCode": "en-US",
-		"email": "marcocapri91@gmail.com",
-		"latitude": 25.79077,
-		"longitude": -80.135445,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g34439-d25155462-Reviews-Pizza_Tua-Miami_Beach_Florida.html",
-		"website": null,
-		"rankingString": "#36 of 988 places to eat in Miami Beach",
-		"rankingDenominator": "736",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-			{
-				"id": "34439",
-				"name": "Miami Beach",
-				"abbreviation": null,
-				"subcategory": "City"
-			},
-			{
-				"id": "28930",
-				"name": "Florida",
-				"abbreviation": "FL",
-				"subcategory": "State"
-			},
-			{
-				"id": "191",
-				"name": "United States",
-				"abbreviation": null,
-				"subcategory": "Country"
-			}
-		],
-		"ratingHistogram": {
-			"count1": 10,
-			"count2": 3,
-			"count3": 2,
-			"count4": 10,
-			"count5": 381
-		},
-		"numberOfReviews": 406,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": "$$ - $$$",
-		"priceRange": null,
-		"cuisines": [
-			"Italian",
-			"Northern-Italian",
-			"Central-Italian",
-			"Southern-Italian",
-			"Neapolitan",
-			"Campania",
-			"Pizza",
-			"Vegan Options"
-		],
-		"mealTypes": ["Lunch", "Dinner", "Brunch", "Late Night", "Drinks"],
-		"dishes": ["Pasta", "Lasagne", "Salad", "Pesto"],
-		"features": [
-			"Takeout",
-			"Reservations",
-			"Outdoor Seating",
-			"Seating",
-			"Highchairs Available",
-			"Wheelchair Accessible",
-			"Serves Alcohol",
-			"Free Wifi",
-			"Table Service",
-			"Street Parking",
-			"Free off-street parking",
-			"Full Bar",
-			"Wine and Beer",
-			"Digital Payments",
-			"Dog Friendly",
-			"Family style",
-			"Non-smoking restaurants",
-			"Gift Cards Available"
-		],
-		"dietaryRestrictions": [
-			"Lunch",
-			"Dinner",
-			"Brunch",
-			"Late Night",
-			"Drinks"
-		],
-		"hours": {
-			"weekRanges": [
-				[
-					{
-						"open": 720,
-						"openHours": "12:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 720,
-						"openHours": "12:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 720,
-						"openHours": "12:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 720,
-						"openHours": "12:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 720,
-						"openHours": "12:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 720,
-						"openHours": "12:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 720,
-						"openHours": "12:00",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				]
-			],
-			"timezone": "America/New_York"
-		},
-		"menuWebUrl": null,
-		"establishmentTypes": ["Restaurants"],
-		"ownersTopReasons": null
-	},
-	{
 		"id": "23188101",
 		"type": "RESTAURANT",
 		"category": "restaurant",
@@ -13018,174 +11643,6 @@
 				}
 			]
 		}
-	},
-	{
-		"id": "25184433",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": ["Sit down"],
-		"name": "Espanolita Miami Beach",
-		"locationString": "Miami Beach, Florida",
-		"description": "Spanish restaurant",
-		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2a/fb/b9/18/caption.jpg",
-		"photoCount": 149,
-		"awards": [],
-		"rankingPosition": 21,
-		"rating": 5,
-		"rawRanking": 4.810060501098633,
-		"phone": "+1 305-922-6755",
-		"address": "441 Espanola Way, Miami Beach, FL 33139-8124",
-		"addressObj": {
-			"street1": "441 Espanola Way",
-			"street2": null,
-			"city": "Miami Beach",
-			"state": "FL",
-			"country": "United States",
-			"postalcode": "33139-8124"
-		},
-		"localName": "Espanolita Miami Beach",
-		"localAddress": "441 Espanola Way, 33139-8124",
-		"localLangCode": "en-US",
-		"email": null,
-		"latitude": 25.78698,
-		"longitude": -80.13273,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g34439-d25184433-Reviews-Espanolita_Miami_Beach-Miami_Beach_Florida.html",
-		"website": null,
-		"rankingString": "#21 of 988 places to eat in Miami Beach",
-		"rankingDenominator": "736",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-			{
-				"id": "34439",
-				"name": "Miami Beach",
-				"abbreviation": null,
-				"subcategory": "City"
-			},
-			{
-				"id": "28930",
-				"name": "Florida",
-				"abbreviation": "FL",
-				"subcategory": "State"
-			},
-			{
-				"id": "191",
-				"name": "United States",
-				"abbreviation": null,
-				"subcategory": "Country"
-			}
-		],
-		"ratingHistogram": {
-			"count1": 3,
-			"count2": 2,
-			"count3": 8,
-			"count4": 17,
-			"count5": 327
-		},
-		"numberOfReviews": 357,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": "$$ - $$$",
-		"priceRange": "$20 - $50",
-		"cuisines": ["Steakhouse", "Seafood", "Spanish"],
-		"mealTypes": ["Lunch", "Dinner", "Late Night", "Drinks"],
-		"dishes": [
-			"Lobster",
-			"Paella",
-			"Shrimp",
-			"Tapas",
-			"Seafood Paella",
-			"Octopus"
-		],
-		"features": [
-			"Takeout",
-			"Reservations",
-			"Outdoor Seating",
-			"Seating",
-			"Highchairs Available",
-			"Wheelchair Accessible",
-			"Serves Alcohol",
-			"Full Bar",
-			"Free Wifi",
-			"Accepts Credit Cards",
-			"Table Service",
-			"Delivery",
-			"Street Parking",
-			"Free off-street parking",
-			"Wine and Beer",
-			"Digital Payments",
-			"BYOB",
-			"Dog Friendly",
-			"Family style",
-			"Sports bars"
-		],
-		"dietaryRestrictions": ["Lunch", "Dinner", "Late Night", "Drinks"],
-		"hours": {
-			"weekRanges": [
-				[
-					{
-						"open": 735,
-						"openHours": "12:15",
-						"close": 1425,
-						"closeHours": "23:45"
-					}
-				],
-				[
-					{
-						"open": 735,
-						"openHours": "12:15",
-						"close": 1425,
-						"closeHours": "23:45"
-					}
-				],
-				[
-					{
-						"open": 735,
-						"openHours": "12:15",
-						"close": 1425,
-						"closeHours": "23:45"
-					}
-				],
-				[
-					{
-						"open": 735,
-						"openHours": "12:15",
-						"close": 1425,
-						"closeHours": "23:45"
-					}
-				],
-				[
-					{
-						"open": 735,
-						"openHours": "12:15",
-						"close": 1425,
-						"closeHours": "23:45"
-					}
-				],
-				[
-					{
-						"open": 735,
-						"openHours": "12:15",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				],
-				[
-					{
-						"open": 735,
-						"openHours": "12:15",
-						"close": 1440,
-						"closeHours": "00:00"
-					}
-				]
-			],
-			"timezone": "America/New_York"
-		},
-		"menuWebUrl": null,
-		"establishmentTypes": ["Restaurants"],
-		"ownersTopReasons": null
 	},
 	{
 		"id": "21391046",
@@ -15082,8 +13539,6 @@
 		"dietaryRestrictions": ["Dinner", "Drinks"],
 		"hours": {
 			"weekRanges": [
-				[],
-				[],
 				[
 					{
 						"open": 1080,
@@ -17394,8 +15849,7 @@
 		],
 		"dietaryRestrictions": ["Dinner", "Late Night", "Drinks"],
 		"hours": {
-			"weekRanges": [
-				[],
+			"weekRanges": [				
 				[
 					{
 						"open": 1020,
@@ -19061,7 +17515,6 @@
 		"dietaryRestrictions": ["Lunch", "Dinner"],
 		"hours": {
 			"weekRanges": [
-				[],
 				[
 					{
 						"open": 720,
@@ -20708,7 +19161,6 @@
 		"dietaryRestrictions": ["Lunch", "Dinner"],
 		"hours": {
 			"weekRanges": [
-				[],
 				[
 					{
 						"open": 1140,
@@ -21008,8 +19460,6 @@
 		"dietaryRestrictions": ["Lunch", "Dinner", "Late Night", "Drinks"],
 		"hours": {
 			"weekRanges": [
-				[],
-				[],
 				[
 					{
 						"open": 1140,
@@ -22488,7 +20938,6 @@
 		"dietaryRestrictions": ["Lunch", "Dinner", "Drinks"],
 		"hours": {
 			"weekRanges": [
-				[],
 				[
 					{
 						"open": 810,
@@ -22782,9 +21231,6 @@
 		"dietaryRestrictions": ["Dinner", "Late Night", "Drinks"],
 		"hours": {
 			"weekRanges": [
-				[],
-				[],
-				[],
 				[
 					{
 						"open": 1140,
@@ -27176,8 +25622,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1140,
@@ -28290,8 +26734,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1110,
@@ -30227,7 +28669,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 360,
@@ -30494,8 +28935,6 @@
 		"dietaryRestrictions": [],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1080,
@@ -31350,8 +29789,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 660,
@@ -31644,7 +30081,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 690,
@@ -31913,8 +30349,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1020,
@@ -32184,7 +30618,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 720,
@@ -32491,8 +30924,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1020,
@@ -32745,8 +31176,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 960,
@@ -33133,8 +31562,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 765,
@@ -33543,7 +31970,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 1110,
@@ -33760,7 +32186,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 1110,
@@ -33769,9 +32194,6 @@
 				"closeHours": "01:00"
 			  }
 			],
-			[],
-			[],
-			[],
 			[
 			  {
 				"open": 750,
@@ -36064,191 +34486,6 @@
 		"ownersTopReasons": null
 	  },
 	  {
-		"id": "509121",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [
-		  "Sit down"
-		],
-		"name": "Sushi A Go Go",
-		"locationString": "Los Angeles, California",
-		"description": "Established in 1934, when a dozen local farmers parked their trucks on an open field (once a dairy farm) to sell fresh produce to local residents, the Market has remained true to its roots ever since. With nearly 100 dining, shopping and grocery opportunities, Farmers Market has something for everyone. More than seventy-five years later the Farmers Market remains the one stop shop for every visitor’s needs.",
-		"image": "https://media-cdn.tripadvisor.com/media/photo-o/06/b3/ec/7f/caption.jpg",
-		"photoCount": 131,
-		"awards": [],
-		"rankingPosition": 35,
-		"rating": 4.5,
-		"rawRanking": 4.259042263031006,
-		"phone": "+1 323-930-7874",
-		"address": "6333 W 3rd St Farmer's Market At 3rd Fairfax, Los Angeles, CA 90036-3109",
-		"addressObj": {
-		  "street1": "6333 W 3rd St",
-		  "street2": "Farmer's Market At 3rd Fairfax",
-		  "city": "Los Angeles",
-		  "state": "CA",
-		  "country": "United States",
-		  "postalcode": "90036-3109"
-		},
-		"localName": "Sushi A Go Go",
-		"localAddress": "6333 W 3rd St, Farmer's Market At 3rd Fairfax, 90036-3109",
-		"localLangCode": "en-US",
-		"email": null,
-		"latitude": 34.072453,
-		"longitude": -118.3598,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g32655-d509121-Reviews-Sushi_A_Go_Go-Los_Angeles_California.html",
-		"website": null,
-		"rankingString": "#35 of 12,157 places to eat in Los Angeles",
-		"rankingDenominator": "5999",
-		"neighborhoodLocations": [
-		  {
-			"id": "21228777",
-			"name": "Fairfax District"
-		  }
-		],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-		  {
-			"id": "32655",
-			"name": "Los Angeles",
-			"abbreviation": null,
-			"subcategory": "City"
-		  },
-		  {
-			"id": "28926",
-			"name": "California",
-			"abbreviation": "CA",
-			"subcategory": "State"
-		  },
-		  {
-			"id": "191",
-			"name": "United States",
-			"abbreviation": null,
-			"subcategory": "Country"
-		  }
-		],
-		"ratingHistogram": {
-		  "count1": 8,
-		  "count2": 15,
-		  "count3": 77,
-		  "count4": 275,
-		  "count5": 375
-		},
-		"numberOfReviews": 750,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": "$",
-		"priceRange": "$10 - $20",
-		"cuisines": [
-		  "Japanese",
-		  "International",
-		  "Vegetarian Friendly",
-		  "Gluten Free Options"
-		],
-		"mealTypes": [
-		  "Brunch",
-		  "Lunch",
-		  "Dinner",
-		  "Late Night"
-		],
-		"dishes": [
-		  "Burger",
-		  "Omelette",
-		  "Salad",
-		  "Crepes",
-		  "Tuna",
-		  "Toasts",
-		  "Beef",
-		  "Cakes",
-		  "Fish"
-		],
-		"features": [
-		  "Takeout",
-		  "Outdoor Seating",
-		  "Seating",
-		  "Wheelchair Accessible",
-		  "Parking Available",
-		  "Accepts American Express",
-		  "Accepts Mastercard",
-		  "Accepts Visa",
-		  "Accepts Discover",
-		  "Accepts Credit Cards"
-		],
-		"dietaryRestrictions": [
-		  "Brunch",
-		  "Lunch",
-		  "Dinner",
-		  "Late Night"
-		],
-		"hours": {
-		  "weekRanges": [
-			[
-			  {
-				"open": 600,
-				"openHours": "10:00",
-				"close": 1140,
-				"closeHours": "19:00"
-			  }
-			],
-			[
-			  {
-				"open": 540,
-				"openHours": "09:00",
-				"close": 1260,
-				"closeHours": "21:00"
-			  }
-			],
-			[
-			  {
-				"open": 540,
-				"openHours": "09:00",
-				"close": 1260,
-				"closeHours": "21:00"
-			  }
-			],
-			[
-			  {
-				"open": 540,
-				"openHours": "09:00",
-				"close": 1260,
-				"closeHours": "21:00"
-			  }
-			],
-			[
-			  {
-				"open": 540,
-				"openHours": "09:00",
-				"close": 1260,
-				"closeHours": "21:00"
-			  }
-			],
-			[
-			  {
-				"open": 540,
-				"openHours": "09:00",
-				"close": 1260,
-				"closeHours": "21:00"
-			  }
-			],
-			[
-			  {
-				"open": 540,
-				"openHours": "09:00",
-				"close": 1200,
-				"closeHours": "20:00"
-			  }
-			]
-		  ],
-		  "timezone": "America/Los_Angeles"
-		},
-		"menuWebUrl": null,
-		"establishmentTypes": [
-		  "Restaurants"
-		],
-		"ownersTopReasons": null
-	  },
-	  {
 		"id": "23717693",
 		"type": "RESTAURANT",
 		"category": "restaurant",
@@ -37397,215 +35634,6 @@
 		  "timezone": "Asia/Tokyo"
 		},
 		"menuWebUrl": "https://maidreamin.com/joy/menu.html",
-		"establishmentTypes": [
-		  "Restaurants"
-		],
-		"ownersTopReasons": null
-	  },
-	  {
-		"id": "1692134",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [
-		  "Sit down"
-		],
-		"name": "Sushiryori Inose",
-		"locationString": "Shinagawa, Tokyo, Tokyo Prefecture, Kanto",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/3d/9d/dc/semplicemente-fantastico.jpg",
-		"photoCount": 455,
-		"awards": [],
-		"rankingPosition": 2,
-		"rating": 5,
-		"rawRanking": 4.64470911026001,
-		"phone": "+81 3-3443-1719",
-		"address": "2-20-2 Higashigotanda 1f, Shinagawa Tokyo Prefecture",
-		"addressObj": {
-		  "street1": "2-20-2 Higashigotanda",
-		  "street2": "1f",
-		  "city": "Shinagawa",
-		  "state": "Tokyo Prefecture",
-		  "country": "Japan",
-		  "postalcode": null
-		},
-		"localName": "寿司料理 いの瀬",
-		"localAddress": "東五反田2-20-2ハイマウント御殿山1階",
-		"localLangCode": "ja",
-		"email": null,
-		"latitude": 35.624958,
-		"longitude": 139.73038,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g1066854-d1692134-Reviews-Sushiryori_Inose-Shinagawa_Tokyo_Tokyo_Prefecture_Kanto.html",
-		"website": null,
-		"rankingString": "#2 of 4,103 places to eat in Shinagawa",
-		"rankingDenominator": "2486",
-		"neighborhoodLocations": [
-		  {
-			"id": "20928861",
-			"name": "Shinagawa / Kamata / Haneda"
-		  },
-		  {
-			"id": "7278768",
-			"name": "Shinagawa / Gotanda"
-		  }
-		],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-		  {
-			"id": "1066854",
-			"name": "Shinagawa",
-			"abbreviation": null,
-			"subcategory": "Municipality"
-		  },
-		  {
-			"id": "298184",
-			"name": "Tokyo",
-			"abbreviation": null,
-			"subcategory": "Region"
-		  },
-		  {
-			"id": "1023181",
-			"name": "Tokyo Prefecture",
-			"abbreviation": null,
-			"subcategory": "State"
-		  },
-		  {
-			"id": "298156",
-			"name": "Kanto",
-			"abbreviation": null,
-			"subcategory": "Region"
-		  },
-		  {
-			"id": "294232",
-			"name": "Japan",
-			"abbreviation": null,
-			"subcategory": "Country"
-		  }
-		],
-		"ratingHistogram": {
-		  "count1": 7,
-		  "count2": 0,
-		  "count3": 3,
-		  "count4": 34,
-		  "count5": 235
-		},
-		"numberOfReviews": 279,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Closed Now",
-		"priceLevel": "$$ - $$$",
-		"priceRange": "$1,000 - $8,000",
-		"cuisines": [
-		  "Japanese",
-		  "Seafood",
-		  "Sushi",
-		  "Asian",
-		  "Gluten Free Options"
-		],
-		"mealTypes": [
-		  "Lunch",
-		  "Dinner"
-		],
-		"dishes": [
-		  "Tuna",
-		  "Sashimi",
-		  "Fish"
-		],
-		"features": [
-		  "Reservations",
-		  "Seating",
-		  "Serves Alcohol",
-		  "Table Service"
-		],
-		"dietaryRestrictions": [
-		  "Lunch",
-		  "Dinner"
-		],
-		"hours": {
-		  "weekRanges": [
-			[],
-			[
-			  {
-				"open": 690,
-				"openHours": "11:30",
-				"close": 780,
-				"closeHours": "13:00"
-			  },
-			  {
-				"open": 1080,
-				"openHours": "18:00",
-				"close": 1380,
-				"closeHours": "23:00"
-			  }
-			],
-			[
-			  {
-				"open": 690,
-				"openHours": "11:30",
-				"close": 780,
-				"closeHours": "13:00"
-			  },
-			  {
-				"open": 1080,
-				"openHours": "18:00",
-				"close": 1380,
-				"closeHours": "23:00"
-			  }
-			],
-			[
-			  {
-				"open": 690,
-				"openHours": "11:30",
-				"close": 780,
-				"closeHours": "13:00"
-			  },
-			  {
-				"open": 1080,
-				"openHours": "18:00",
-				"close": 1380,
-				"closeHours": "23:00"
-			  }
-			],
-			[
-			  {
-				"open": 690,
-				"openHours": "11:30",
-				"close": 780,
-				"closeHours": "13:00"
-			  },
-			  {
-				"open": 1080,
-				"openHours": "18:00",
-				"close": 1380,
-				"closeHours": "23:00"
-			  }
-			],
-			[
-			  {
-				"open": 690,
-				"openHours": "11:30",
-				"close": 780,
-				"closeHours": "13:00"
-			  },
-			  {
-				"open": 1080,
-				"openHours": "18:00",
-				"close": 1380,
-				"closeHours": "23:00"
-			  }
-			],
-			[
-			  {
-				"open": 1080,
-				"openHours": "18:00",
-				"close": 1380,
-				"closeHours": "23:00"
-			  }
-			]
-		  ],
-		  "timezone": "Asia/Tokyo"
-		},
-		"menuWebUrl": null,
 		"establishmentTypes": [
 		  "Restaurants"
 		],
@@ -39023,137 +37051,6 @@
 		"ownersTopReasons": null
 	  },
 	  {
-		"id": "10454409",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [
-		  "Sit down"
-		],
-		"name": "Cilantros",
-		"locationString": "Sandton, Greater Johannesburg, Gauteng",
-		"description": "A fresh urban and trendy new eatery based in the heart of Nelson Mandela Square. We aim to serve exceptionally well prepared food, influenced by the offerings ofEuropean cuisine and a dedicated passion to it. We offer a large variety of different dishes. From tapas and sandwiches, to pastas and grills. Join us for a delicious lunch or dinner experience.",
-		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/69/88/ac/lovely-place-to-eat-at.jpg",
-		"photoCount": 126,
-		"awards": [],
-		"rankingPosition": 22,
-		"rating": 4,
-		"rawRanking": 3.6847198009490967,
-		"phone": "+27 27 784 2510",
-		"address": "Nelson Mandela Square Corner Maude & 5th Streets, Sandton 2031 South Africa",
-		"addressObj": {
-		  "street1": null,
-		  "street2": "Nelson Mandela Square Corner Maude & 5th Streets",
-		  "city": "Sandton",
-		  "state": null,
-		  "country": "South Africa",
-		  "postalcode": "2031"
-		},
-		"localName": "Cilantros",
-		"localAddress": "Nelson Mandela Square Corner Maude & 5th Streets, 2031",
-		"localLangCode": "en-ZA",
-		"email": "nelsonmandelasquare@liberty.co.za",
-		"latitude": -26.107359,
-		"longitude": 28.05473,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g312586-d10454409-Reviews-Cilantros-Sandton_Greater_Johannesburg_Gauteng.html",
-		"website": "http://www.nelsonmandelasquare.co.za/libprop/content/en/nelson-mandela-square/nelson-mandela-square-store-search?oid=424&sn=Detail&pid=698",
-		"rankingString": "#22 of 619 places to eat in Sandton",
-		"rankingDenominator": "450",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-		  {
-			"id": "312586",
-			"name": "Sandton",
-			"abbreviation": null,
-			"subcategory": "Municipality"
-		  },
-		  {
-			"id": "1210028",
-			"name": "Greater Johannesburg",
-			"abbreviation": null,
-			"subcategory": "District"
-		  },
-		  {
-			"id": "312568",
-			"name": "Gauteng",
-			"abbreviation": null,
-			"subcategory": "Province"
-		  },
-		  {
-			"id": "293740",
-			"name": "South Africa",
-			"abbreviation": null,
-			"subcategory": "Country"
-		  }
-		],
-		"ratingHistogram": {
-		  "count1": 12,
-		  "count2": 13,
-		  "count3": 34,
-		  "count4": 93,
-		  "count5": 102
-		},
-		"numberOfReviews": 254,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": null,
-		"priceLevel": "$$ - $$$",
-		"priceRange": "$200 - $500",
-		"cuisines": [
-		  "Mediterranean",
-		  "European",
-		  "Grill",
-		  "Vegetarian Friendly",
-		  "Vegan Options",
-		  "Gluten Free Options"
-		],
-		"mealTypes": [
-		  "Lunch",
-		  "Dinner",
-		  "Brunch"
-		],
-		"dishes": [
-		  "Pasta",
-		  "Halloumi",
-		  "Burger",
-		  "Tapas",
-		  "Salad",
-		  "Tacos",
-		  "Calamari",
-		  "Salmon",
-		  "Prawns",
-		  "Beef",
-		  "Lamb",
-		  "Pesto",
-		  "Cakes",
-		  "Fish"
-		],
-		"features": [
-		  "Reservations",
-		  "Outdoor Seating",
-		  "Seating",
-		  "Parking Available",
-		  "Wheelchair Accessible",
-		  "Serves Alcohol",
-		  "Full Bar",
-		  "Free Wifi",
-		  "Table Service",
-		  "Highchairs Available"
-		],
-		"dietaryRestrictions": [
-		  "Lunch",
-		  "Dinner",
-		  "Brunch"
-		],
-		"hours": null,
-		"menuWebUrl": null,
-		"establishmentTypes": [
-		  "Restaurants"
-		],
-		"ownersTopReasons": null
-	  },
-	  {
 		"id": "9597977",
 		"type": "RESTAURANT",
 		"category": "restaurant",
@@ -40085,242 +37982,7 @@
 		],
 		"ownersTopReasons": null
 	  },
-	  {
-		"id": "8450055",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [],
-		"name": "Che Argentine Gril",
-		"locationString": "Johannesburg, Greater Johannesburg, Gauteng",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/97/64/12/photo2jpg.jpg",
-		"photoCount": 151,
-		"awards": [],
-		"rankingPosition": 22,
-		"rating": 4,
-		"rawRanking": 3.839911699295044,
-		"phone": "+27 11 268 2509",
-		"address": "303 Fox Street, Johannesburg 2193 South Africa",
-		"addressObj": {
-		  "street1": "303 Fox Street",
-		  "street2": null,
-		  "city": "Johannesburg",
-		  "state": null,
-		  "country": "South Africa",
-		  "postalcode": "2193"
-		},
-		"localName": "Che Argentine Gril",
-		"localAddress": "303 Fox Street, 2193",
-		"localLangCode": "en-ZA",
-		"email": null,
-		"latitude": -26.203724,
-		"longitude": 28.06116,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g312578-d8450055-Reviews-Che_Argentine_Gril-Johannesburg_Greater_Johannesburg_Gauteng.html",
-		"website": "http://cheargentinegrill.co.za",
-		"rankingString": "#22 of 1,591 places to eat in Johannesburg",
-		"rankingDenominator": "1043",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-		  {
-			"id": "312578",
-			"name": "Johannesburg",
-			"abbreviation": null,
-			"subcategory": "Municipality"
-		  },
-		  {
-			"id": "1210028",
-			"name": "Greater Johannesburg",
-			"abbreviation": null,
-			"subcategory": "District"
-		  },
-		  {
-			"id": "312568",
-			"name": "Gauteng",
-			"abbreviation": null,
-			"subcategory": "Province"
-		  },
-		  {
-			"id": "293740",
-			"name": "South Africa",
-			"abbreviation": null,
-			"subcategory": "Country"
-		  }
-		],
-		"ratingHistogram": {
-		  "count1": 9,
-		  "count2": 7,
-		  "count3": 21,
-		  "count4": 85,
-		  "count5": 120
-		},
-		"numberOfReviews": 242,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": null,
-		"priceLevel": "$$ - $$$",
-		"priceRange": null,
-		"cuisines": [
-		  "Steakhouse",
-		  "Latin",
-		  "Barbecue",
-		  "Argentinean",
-		  "South American",
-		  "Gluten Free Options"
-		],
-		"mealTypes": [
-		  "Lunch",
-		  "Dinner",
-		  "Brunch"
-		],
-		"dishes": [
-		  "Ribs",
-		  "Salad",
-		  "Beef",
-		  "Pork"
-		],
-		"features": [
-		  "Reservations",
-		  "Outdoor Seating",
-		  "Seating",
-		  "Wheelchair Accessible",
-		  "Serves Alcohol",
-		  "Full Bar",
-		  "Table Service"
-		],
-		"dietaryRestrictions": [
-		  "Lunch",
-		  "Dinner",
-		  "Brunch"
-		],
-		"hours": null,
-		"menuWebUrl": "http://cheargentinegrill.co.za/menu/",
-		"establishmentTypes": [
-		  "Restaurants"
-		],
-		"ownersTopReasons": null
-	  },
-	  {
-		"id": "6782161",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [
-		  "Sit down"
-		],
-		"name": "Perron Mexican Appreciation Society",
-		"locationString": "Johannesburg, Greater Johannesburg, Gauteng",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/13/ee/e7/pulled-pork-taco.jpg",
-		"photoCount": 49,
-		"awards": [],
-		"rankingPosition": 34,
-		"rating": 4,
-		"rawRanking": 3.650339126586914,
-		"phone": "+27 11 880 7296",
-		"address": "Cnr Oxford Road & Corlett Drive, Johannesburg 2193 South Africa",
-		"addressObj": {
-		  "street1": "Cnr Oxford Road & Corlett Drive",
-		  "street2": null,
-		  "city": "Johannesburg",
-		  "state": null,
-		  "country": "South Africa",
-		  "postalcode": "2193"
-		},
-		"localName": "Perron Mexican Appreciation Society",
-		"localAddress": "Cnr Oxford Road & Corlett Drive, 2193",
-		"localLangCode": "en-ZA",
-		"email": "info@perron.co.za",
-		"latitude": -26.135063,
-		"longitude": 28.0482,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g312578-d6782161-Reviews-Perron_Mexican_Appreciation_Society-Johannesburg_Greater_Johannesburg_Gauteng.html",
-		"website": "http://www.perron.co.za/",
-		"rankingString": "#34 of 1,591 places to eat in Johannesburg",
-		"rankingDenominator": "1043",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-		  {
-			"id": "312578",
-			"name": "Johannesburg",
-			"abbreviation": null,
-			"subcategory": "Municipality"
-		  },
-		  {
-			"id": "1210028",
-			"name": "Greater Johannesburg",
-			"abbreviation": null,
-			"subcategory": "District"
-		  },
-		  {
-			"id": "312568",
-			"name": "Gauteng",
-			"abbreviation": null,
-			"subcategory": "Province"
-		  },
-		  {
-			"id": "293740",
-			"name": "South Africa",
-			"abbreviation": null,
-			"subcategory": "Country"
-		  }
-		],
-		"ratingHistogram": {
-		  "count1": 2,
-		  "count2": 1,
-		  "count3": 20,
-		  "count4": 67,
-		  "count5": 52
-		},
-		"numberOfReviews": 142,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": null,
-		"priceLevel": "$$ - $$$",
-		"priceRange": null,
-		"cuisines": [
-		  "Mexican",
-		  "Vegetarian Friendly",
-		  "Vegan Options",
-		  "Gluten Free Options"
-		],
-		"mealTypes": [
-		  "Lunch",
-		  "Dinner",
-		  "Late Night"
-		],
-		"dishes": [
-		  "Burrito",
-		  "Tapas",
-		  "Fish Taco",
-		  "Tacos",
-		  "Chili",
-		  "Nachos",
-		  "Fish",
-		  "Pork"
-		],
-		"features": [
-		  "Reservations",
-		  "Seating",
-		  "Wheelchair Accessible",
-		  "Serves Alcohol",
-		  "Full Bar",
-		  "Outdoor Seating",
-		  "Table Service"
-		],
-		"dietaryRestrictions": [
-		  "Lunch",
-		  "Dinner",
-		  "Late Night"
-		],
-		"hours": null,
-		"menuWebUrl": "http://perron.co.za/wp-content/uploads/2019/04/Perron-Main-Menu-March-2019.pdf",
-		"establishmentTypes": [
-		  "Restaurants"
-		],
-		"ownersTopReasons": null
-	  },
+
 	  {
 		"id": "23033237",
 		"type": "RESTAURANT",
@@ -42157,7 +39819,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 1020,
@@ -42729,7 +40390,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 720,
@@ -44383,8 +42043,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1080,
@@ -44700,8 +42358,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1080,
@@ -45323,9 +42979,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
-			[],
 			[
 			  {
 				"open": 1140,
@@ -46168,8 +43821,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1080,
@@ -46488,8 +44139,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1080,
@@ -48196,9 +45845,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
-			[],
 			[
 			  {
 				"open": 1020,
@@ -48917,204 +46563,7 @@
 		],
 		"ownersTopReasons": null
 	  },
-	  {
-		"id": "23784203",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [
-		  "Sit down"
-		],
-		"name": "Trattoria da Chef Enrico",
-		"locationString": "Florence, Tuscany",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/24/15/a2/9b/caption.jpg",
-		"photoCount": 258,
-		"awards": [],
-		"rankingPosition": 45,
-		"rating": 5,
-		"rawRanking": 4.758439064025879,
-		"phone": "0559869208",
-		"address": "Via Matteo Palmieri Piazza di S. Pier Maggiore, 50122, Florence Italy",
-		"addressObj": {
-		  "street1": "Via Matteo Palmieri",
-		  "street2": "Piazza di S. Pier Maggiore",
-		  "city": "Florence",
-		  "state": null,
-		  "country": "Italy",
-		  "postalcode": "50122"
-		},
-		"localName": "Trattoria da Chef Enrico",
-		"localAddress": "Via Matteo Palmieri, Piazza di S. Pier Maggiore, 50122",
-		"localLangCode": "it",
-		"email": null,
-		"latitude": 43.77121,
-		"longitude": 11.26136,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g187895-d23784203-Reviews-Trattoria_da_Chef_Enrico-Florence_Tuscany.html",
-		"website": null,
-		"rankingString": "#45 of 2,674 places to eat in Florence",
-		"rankingDenominator": "2440",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [
-		  {
-			"name": "Alamanni-Stazione Santa Maria Novella",
-			"localName": "Alamanni-Stazione Santa Maria Novella",
-			"address": "Via Luigi Alamanni, 30, 50123 Mercatale di Val di Pesa, San Casciano in Val di Pesa, Italy",
-			"localAddress": "Via Luigi Alamanni, 30, 50123",
-			"lines": [
-			  {
-				"id": "florence-florence-tramway-network-t1",
-				"lineName": "T1",
-				"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"systemName": "Florence Tramway Network",
-				"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"type": "Tram"
-			  }
-			],
-			"latitude": 43.77798080444336,
-			"longitude": 11.246978759765625,
-			"distance": 0.8574948957375647
-		  }
-		],
-		"ancestorLocations": [
-		  {
-			"id": "187895",
-			"name": "Florence",
-			"abbreviation": null,
-			"subcategory": "Municipality"
-		  },
-		  {
-			"id": "2043770",
-			"name": "Province of Florence",
-			"abbreviation": null,
-			"subcategory": "Province"
-		  },
-		  {
-			"id": "187893",
-			"name": "Tuscany",
-			"abbreviation": null,
-			"subcategory": "Region"
-		  },
-		  {
-			"id": "187768",
-			"name": "Italy",
-			"abbreviation": null,
-			"subcategory": "Country"
-		  }
-		],
-		"ratingHistogram": {
-		  "count1": 2,
-		  "count2": 1,
-		  "count3": 6,
-		  "count4": 13,
-		  "count5": 243
-		},
-		"numberOfReviews": 265,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": "$$ - $$$",
-		"priceRange": "$15 - $60",
-		"cuisines": [
-		  "Central-Italian",
-		  "Italian",
-		  "Steakhouse",
-		  "Mediterranean",
-		  "Barbecue",
-		  "Tuscan",
-		  "Vegetarian Friendly"
-		],
-		"mealTypes": [
-		  "Lunch",
-		  "Dinner",
-		  "Drinks"
-		],
-		"dishes": [
-		  "Pasta",
-		  "Pesto"
-		],
-		"features": [
-		  "Reservations",
-		  "Private Dining",
-		  "Seating",
-		  "Highchairs Available",
-		  "Wheelchair Accessible",
-		  "Serves Alcohol",
-		  "Full Bar",
-		  "Free Wifi",
-		  "Accepts Credit Cards",
-		  "Table Service",
-		  "Wine and Beer",
-		  "BYOB",
-		  "Dog Friendly",
-		  "Family style",
-		  "Non-smoking restaurants"
-		],
-		"dietaryRestrictions": [
-		  "Lunch",
-		  "Dinner",
-		  "Drinks"
-		],
-		"hours": {
-		  "weekRanges": [
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1320,
-				"closeHours": "22:00"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1320,
-				"closeHours": "22:00"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1320,
-				"closeHours": "22:00"
-			  }
-			],
-			[],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1320,
-				"closeHours": "22:00"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1320,
-				"closeHours": "22:00"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1320,
-				"closeHours": "22:00"
-			  }
-			]
-		  ],
-		  "timezone": "Europe/Rome"
-		},
-		"menuWebUrl": "http://www.tripadvisor.com/MobileRestaurantMenu-g187895-d23784203-Trattoria_da_Chef_Enrico-Florence_Tuscany.html",
-		"establishmentTypes": [
-		  "Restaurants"
-		],
-		"ownersTopReasons": null
-	  },
+	  
 	  {
 		"id": "24165084",
 		"type": "RESTAURANT",
@@ -50678,7 +48127,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 420,
@@ -53561,9 +51009,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
-			[],
 			[
 			  {
 				"open": 810,
@@ -54194,262 +51639,6 @@
 		  "timezone": "Europe/Warsaw"
 		},
 		"menuWebUrl": "http://thaimeup.pl/menu/zupy",
-		"establishmentTypes": [
-		  "Restaurants"
-		],
-		"ownersTopReasons": null
-	  },
-	  {
-		"id": "24119528",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [],
-		"name": "Quattro Formaggi",
-		"locationString": "Warsaw, Mazovia Province, Central Poland",
-		"description": null,
-		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/25/11/2d/5a/caption.jpg",
-		"photoCount": 29,
-		"awards": [],
-		"rankingPosition": 559,
-		"rating": 5,
-		"rawRanking": 3.383229970932007,
-		"phone": "+48 538 410 029",
-		"address": "Chmielna 71 Varso Place, Warsaw 00-801 Poland",
-		"addressObj": {
-		  "street1": "Chmielna 71",
-		  "street2": "Varso Place",
-		  "city": "Warsaw",
-		  "state": null,
-		  "country": "Poland",
-		  "postalcode": "00-801"
-		},
-		"localName": "Quattro Formaggi",
-		"localAddress": null,
-		"localLangCode": "pl",
-		"email": "qfvarso@gmail.com",
-		"latitude": 52.22884,
-		"longitude": 20.99949,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g274856-d24119528-Reviews-Quattro_Formaggi-Warsaw_Mazovia_Province_Central_Poland.html",
-		"website": null,
-		"rankingString": "#559 of 3,830 places to eat in Warsaw",
-		"rankingDenominator": "3033",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [
-		  {
-			"name": "Warszawa Centralna",
-			"localName": "Warszawa Centralna",
-			"address": "Warsaw, Poland",
-			"localAddress": "",
-			"lines": [],
-			"latitude": 52.22880935668945,
-			"longitude": 21.003265380859375,
-			"distance": 0.15993603120058716
-		  },
-		  {
-			"name": "Rondo ONZ",
-			"localName": "Rondo ONZ",
-			"address": "Prosta 2, Warsaw 00-850, Poland",
-			"localAddress": "Prosta 2, 00-850",
-			"lines": [
-			  {
-				"id": "warsaw-warsaw-metro-m2",
-				"lineName": "M2",
-				"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"systemName": "Warsaw Metro",
-				"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"type": "Rapid Transit"
-			  }
-			],
-			"latitude": 52.232872009277344,
-			"longitude": 20.997425079345703,
-			"distance": 0.2923114198207771
-		  },
-		  {
-			"name": "Centrum",
-			"localName": "Centrum",
-			"address": "Aleje Jerozolimskie 46, Warsaw 00-204, Poland",
-			"localAddress": "Aleje Jerozolimskie 46, 00-204",
-			"lines": [
-			  {
-				"id": "warsaw-warsaw-metro-m1",
-				"lineName": "M1",
-				"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"systemName": "Warsaw Metro",
-				"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"type": "Rapid Transit"
-			  }
-			],
-			"latitude": 52.23044204711914,
-			"longitude": 21.01068115234375,
-			"distance": 0.4868812721750727
-		  },
-		  {
-			"name": "Swietokrzyska",
-			"localName": "Świętokrzyska",
-			"address": "Zielna 37, Warsaw 00-108, Poland",
-			"localAddress": "Zielna 37, 00-108",
-			"lines": [
-			  {
-				"id": "warsaw-warsaw-metro-m1",
-				"lineName": "M1",
-				"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"systemName": "Warsaw Metro",
-				"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"type": "Rapid Transit"
-			  },
-			  {
-				"id": "warsaw-warsaw-metro-m2",
-				"lineName": "M2",
-				"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"systemName": "Warsaw Metro",
-				"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"type": "Rapid Transit"
-			  }
-			],
-			"latitude": 52.235450744628906,
-			"longitude": 21.007665634155273,
-			"distance": 0.5736214435664303
-		  },
-		  {
-			"name": "Rondo Daszynskiego",
-			"localName": "Rondo Daszyńskiego",
-			"address": "Stacja Rondo Daszynskiego, Warsaw 00-869, Poland",
-			"localAddress": "Stacja Rondo Daszyńskiego, 00-869",
-			"lines": [
-			  {
-				"id": "warsaw-warsaw-metro-m2",
-				"lineName": "M2",
-				"lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"systemName": "Warsaw Metro",
-				"systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
-				"type": "Rapid Transit"
-			  }
-			],
-			"latitude": 52.2301025390625,
-			"longitude": 20.98346710205078,
-			"distance": 0.6844663329705143
-		  }
-		],
-		"ancestorLocations": [
-		  {
-			"id": "274856",
-			"name": "Warsaw",
-			"abbreviation": null,
-			"subcategory": "City"
-		  },
-		  {
-			"id": "2423096",
-			"name": "Mazovia Province",
-			"abbreviation": null,
-			"subcategory": "Province"
-		  },
-		  {
-			"id": "274820",
-			"name": "Central Poland",
-			"abbreviation": null,
-			"subcategory": "Region"
-		  },
-		  {
-			"id": "274723",
-			"name": "Poland",
-			"abbreviation": null,
-			"subcategory": "Country"
-		  }
-		],
-		"ratingHistogram": {
-		  "count1": 0,
-		  "count2": 0,
-		  "count3": 1,
-		  "count4": 1,
-		  "count5": 14
-		},
-		"numberOfReviews": 16,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": "Open Now",
-		"priceLevel": null,
-		"priceRange": null,
-		"cuisines": [
-		  "Italian",
-		  "Northern-Italian",
-		  "Central-Italian",
-		  "Southern-Italian"
-		],
-		"mealTypes": [
-		  "Lunch",
-		  "Dinner"
-		],
-		"dishes": [],
-		"features": [
-		  "Reservations"
-		],
-		"dietaryRestrictions": [
-		  "Lunch",
-		  "Dinner"
-		],
-		"hours": {
-		  "weekRanges": [
-			[
-			  {
-				"open": 780,
-				"openHours": "13:00",
-				"close": 1200,
-				"closeHours": "20:00"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1230,
-				"closeHours": "20:30"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1230,
-				"closeHours": "20:30"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1230,
-				"closeHours": "20:30"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1230,
-				"closeHours": "20:30"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1260,
-				"closeHours": "21:00"
-			  }
-			],
-			[
-			  {
-				"open": 720,
-				"openHours": "12:00",
-				"close": 1260,
-				"closeHours": "21:00"
-			  }
-			]
-		  ],
-		  "timezone": "Europe/Warsaw"
-		},
-		"menuWebUrl": null,
 		"establishmentTypes": [
 		  "Restaurants"
 		],
@@ -57474,7 +54663,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 780,
@@ -58830,8 +56018,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 720,
@@ -60356,157 +57542,6 @@
 		  "timezone": "Europe/Dublin"
 		},
 		"menuWebUrl": "http://www.wuff.ie/menus.html",
-		"establishmentTypes": [
-		  "Restaurants"
-		],
-		"ownersTopReasons": null
-	  },
-	  {
-		"id": "3540343",
-		"type": "RESTAURANT",
-		"category": "restaurant",
-		"subcategories": [
-		  "Sit down"
-		],
-		"name": "Michael's",
-		"locationString": "Dublin, County Dublin",
-		"description": "Award Winning Chef Proprietor Gareth Smith Cooks Everything From Scratch. The freshest seafood, mostly directly from the Local fishing boats. Hand Picked Dry Aged Meats from The Village Butcher Home-Made Pasta and over 70 Wines to Drink in or Take Away in our wine shop",
-		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/aa/96/9e/beef-sandwich.jpg",
-		"photoCount": 163,
-		"awards": [],
-		"rankingPosition": 47,
-		"rating": 4.5,
-		"rawRanking": 4.5537567138671875,
-		"phone": "+353 1 278 0377",
-		"address": "57 Deerpark Road Mount Merrion, Dublin D11 WY83 Ireland",
-		"addressObj": {
-		  "street1": "57 Deerpark Road",
-		  "street2": "Mount Merrion",
-		  "city": "Dublin",
-		  "state": null,
-		  "country": "Ireland",
-		  "postalcode": "D11 WY83"
-		},
-		"localName": "Michael's",
-		"localAddress": "57 Deerpark Road, Mount Merrion, D11 WY83",
-		"localLangCode": "en-IE",
-		"email": "info@michaels.ie",
-		"latitude": 53.296196,
-		"longitude": -6.213192,
-		"webUrl": "https://www.tripadvisor.com/Restaurant_Review-g186605-d3540343-Reviews-Michael_s-Dublin_County_Dublin.html",
-		"website": "http://www.michaels.ie",
-		"rankingString": "#47 of 2,992 places to eat in Dublin",
-		"rankingDenominator": "2521",
-		"neighborhoodLocations": [],
-		"nearestMetroStations": [],
-		"ancestorLocations": [
-		  {
-			"id": "186605",
-			"name": "Dublin",
-			"abbreviation": null,
-			"subcategory": "City"
-		  },
-		  {
-			"id": "186604",
-			"name": "County Dublin",
-			"abbreviation": null,
-			"subcategory": "County"
-		  },
-		  {
-			"id": "2231205",
-			"name": "Province of Leinster",
-			"abbreviation": null,
-			"subcategory": "Province"
-		  },
-		  {
-			"id": "186591",
-			"name": "Ireland",
-			"abbreviation": null,
-			"subcategory": "Country"
-		  }
-		],
-		"ratingHistogram": {
-		  "count1": 2,
-		  "count2": 13,
-		  "count3": 16,
-		  "count4": 41,
-		  "count5": 222
-		},
-		"numberOfReviews": 294,
-		"reviewTags": [],
-		"isClosed": false,
-		"isLongClosed": false,
-		"openNowText": null,
-		"priceLevel": "$$ - $$$",
-		"priceRange": null,
-		"cuisines": [
-		  "Irish",
-		  "Seafood",
-		  "Mediterranean",
-		  "European",
-		  "Vegetarian Friendly",
-		  "Vegan Options",
-		  "Gluten Free Options"
-		],
-		"mealTypes": [
-		  "Lunch",
-		  "Dinner",
-		  "Brunch"
-		],
-		"dishes": [
-		  "Pasta",
-		  "Cheesecake",
-		  "Crab",
-		  "Lobster",
-		  "Surf And Turf",
-		  "Salad",
-		  "Cobb Salad",
-		  "Mussels",
-		  "Meatballs",
-		  "Tagliatelle",
-		  "Arancini",
-		  "Cockle",
-		  "Scallops",
-		  "Halibut",
-		  "Clams",
-		  "Prawns",
-		  "Hake",
-		  "Seafood Platters",
-		  "Beef",
-		  "Duck",
-		  "Shellfish",
-		  "Lamb",
-		  "Antipasti",
-		  "Pesto",
-		  "Cakes",
-		  "Fish"
-		],
-		"features": [
-		  "Wheelchair Accessible",
-		  "Reservations",
-		  "Outdoor Seating",
-		  "Seating",
-		  "Parking Available",
-		  "Street Parking",
-		  "Free off-street parking",
-		  "Highchairs Available",
-		  "Serves Alcohol",
-		  "Accepts American Express",
-		  "Accepts Mastercard",
-		  "Accepts Visa",
-		  "Free Wifi",
-		  "Accepts Credit Cards",
-		  "Table Service",
-		  "BYOB",
-		  "Playgrounds"
-		],
-		"dietaryRestrictions": [
-		  "Lunch",
-		  "Dinner",
-		  "Brunch"
-		],
-		"hours": null,
-		"menuWebUrl": "http://www.michaels.ie/#menus",
 		"establishmentTypes": [
 		  "Restaurants"
 		],
@@ -63240,8 +60275,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 1020,
@@ -63501,9 +60534,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
-			[],
 			[
 			  {
 				"open": 990,
@@ -64160,7 +61190,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 690,
@@ -65506,7 +62535,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 720,
@@ -65795,9 +62823,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
-			[],
 			[
 			  {
 				"open": 720,
@@ -66381,8 +63406,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
-			[],
 			[
 			  {
 				"open": 720,
@@ -67098,7 +64121,6 @@
 		],
 		"hours": {
 		  "weekRanges": [
-			[],
 			[
 			  {
 				"open": 690,

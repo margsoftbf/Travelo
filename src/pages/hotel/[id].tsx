@@ -3,15 +3,15 @@ import hotelsData from '../../data/Hotels.json';
 import { Hotel } from '@/types/types';
 import Header from '@/components/HotelPage/Header';
 import Image from 'next/image';
-import Img from '@/components/HotelPage/Img';
-import Amenities from '@/components/HotelPage/Amenities';
-import About from '@/components/HotelPage/About';
+import About from '@/components/ui/About';
 import Reviews from '@/components/HotelPage/Reviews';
 import LastMinute from '@/components/SearchListPage/LastMinute';
 import Offers from '@/components/HotelPage/Offers';
 import Rules from '@/components/HotelPage/Rules';
 import SimilarHotels from '@/components/HotelPage/SimilarHotels';
 import BookingForm from '@/components/HotelPage/BookingForm';
+import ItemImage from '@/components/ui/ItemImage';
+import ListWithIcons from '@/components/ui/ListWithIcons';
 
 interface HotelDetailPageProps {
 	hotel: Hotel | null;
@@ -41,9 +41,9 @@ const HotelDetailPage = ({ hotel, similarHotels }: HotelDetailPageProps) => {
 			<div className='max-w-7xl mx-auto relative bg-white px-4 md:px-2'>
 				<div className='flex flex-col items-center justify-center gap-2 w-full lg:flex-row lg:items-start h-full py-4'>
 					<div className='w-5/6 flex flex-col  items-center justify-center gap-4'>
-						<Img hotel={hotel} />
-						<About hotel={hotel} />
-						<Amenities amenities={hotel.amenities} />
+						<ItemImage entity={{ image: hotel.image, name: hotel.name }} />
+						<About description={hotel.description} />
+						<ListWithIcons items={hotel.amenities} type='hotel' />
 						<Reviews tips={hotel.roomTips} />
 						<Offers offers={hotel.offers} />
 						<Rules />

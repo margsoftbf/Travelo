@@ -1,35 +1,50 @@
+import { Restaurant } from '@/types/types';
 import React from 'react';
 import {
 	StarIcon,
 	MapPinIcon,
 	PhoneIcon,
-	HomeIcon,
 	GlobeAmericasIcon,
+	ClockIcon,
 } from '@heroicons/react/24/solid';
-import HotelInfoItem from './HotelInfoItem';
-import { Hotel } from '@/types/types';
 import HeaderAttributItem from '../ui/HeaderAttributItem';
 
-interface HotelHeaderProps {
-	hotel: Hotel;
+
+interface RestaurantHeaderProps {
+	restaurant: Restaurant;
 }
 
-const HotelHeader: React.FC<HotelHeaderProps> = ({ hotel }) => {
-	const pricePerNight = hotel.offers[0]?.pricePerNight ?? 'N/A';
+interface WeekRange {
+	open: number;
+	openHours: string;
+	close: number;
+	closeHours: string;
+}
+
+interface HoursProps {
+	weekRanges: WeekRange[][];
+	timezone: string;
+}
+
+const RestaurantHeader: React.FC<RestaurantHeaderProps> = ({ restaurant }) => {
+	function formatHours(hours: HoursProps): string {
+		const dayHours = restaurant.hours.weekRanges[0][0];
+		return `${dayHours.openHours} - ${dayHours.closeHours}`;
+	}
 
 	return (
 		<div className='bg-neutral w-full'>
-			<div className=' max-w-7xl mx-auto flex flex-col items-center py-4 lg:flex-row gap-4'>
+			<div className='max-w-7xl mx-auto flex flex-col items-center py-4 lg:flex-row gap-4'>
 				<div className='lg:w-1/3 px-2'>
 					<h2 className='font-dmSans text-myBlack text-2xl font-bold tracking-tighter'>
-						{hotel.name}
+						{restaurant.name}
 					</h2>
 					<p className='font-dmSans'>
 						<span className='text-myBlack font-bold text-lg tracking-tighter'>
-							${pricePerNight}
+							{restaurant.priceRange}
 						</span>
 						<span className='text-softGrey font-semibold'>
-							{' / Per Person'}
+							{' / Price Range'}
 						</span>
 					</p>
 				</div>
@@ -39,21 +54,21 @@ const HotelHeader: React.FC<HotelHeaderProps> = ({ hotel }) => {
 							<MapPinIcon className='w-6 h-6 text-primary flex-shrink-0 group-hover:text-white transition duration-300 ease-in-out' />
 						}
 						label='Location'
-						value={hotel.locationString}
+						value={restaurant.locationString}
 					/>
 					<HeaderAttributItem
 						Icon={
 							<PhoneIcon className='w-6 h-6 text-primary flex-shrink-0 group-hover:text-white transition duration-300 ease-in-out' />
 						}
 						label='Phone Number'
-						value={hotel.phone}
+						value={restaurant.phone}
 					/>
 					<HeaderAttributItem
 						Icon={
-							<HomeIcon className='w-6 h-6 text-primary flex-shrink-0 group-hover:text-white transition duration-300 ease-in-out' />
+							<ClockIcon className='w-6 h-6 text-primary flex-shrink-0 group-hover:text-white transition duration-300 ease-in-out' />
 						}
-						label='Rooms available'
-						value={hotel.numberOfRooms}
+						label='Open hours'
+						value={formatHours(restaurant.hours)}
 					/>
 					<HeaderAttributItem
 						Icon={
@@ -62,9 +77,9 @@ const HotelHeader: React.FC<HotelHeaderProps> = ({ hotel }) => {
 						label='Website'
 						isClickable={true}
 						value={
-							hotel.website.length > 30
-								? `${hotel.website.slice(0, 30)}...`
-								: hotel.website
+							restaurant.website.length > 30
+								? `${restaurant.website.slice(0, 30)}...`
+								: restaurant.website
 						}
 					/>
 					<HeaderAttributItem
@@ -72,14 +87,14 @@ const HotelHeader: React.FC<HotelHeaderProps> = ({ hotel }) => {
 							<StarIcon className='w-6 h-6 text-primary flex-shrink-0 group-hover:text-white transition duration-300 ease-in-out' />
 						}
 						label='Ranking'
-						value={hotel.rankingString}
+						value={restaurant.rankingString}
 					/>
 					<HeaderAttributItem
 						Icon={
 							<StarIcon className='w-6 h-6 text-primary flex-shrink-0 group-hover:text-white transition duration-300 ease-in-out' />
 						}
 						label='Rating'
-						value={hotel.rating}
+						value={restaurant.rating}
 					/>
 				</div>
 			</div>
@@ -87,4 +102,4 @@ const HotelHeader: React.FC<HotelHeaderProps> = ({ hotel }) => {
 	);
 };
 
-export default HotelHeader;
+export default RestaurantHeader;

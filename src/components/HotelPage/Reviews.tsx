@@ -43,12 +43,12 @@ const Reviews: React.FC<RoomTipsProps> = ({ tips }) => {
 			<p className='text-myBlack font-dmSans text-2xl font-bold tracking-tighter'>
 				Reviews
 			</p>
-			<div className='flex flex-col gap-4 py-4'>
-				{tips.slice(0, showMore ? tips.length : 3).map((tip, index) => (
+			<div className='grid grid-cols-1 lg:grid-cols-2 gap-4 py-4'>
+				{tips.slice(0, showMore ? tips.length : 4).map((tip, index) => (
 					<div key={index} className='flex flex-row items-start gap-3 '>
 						<div className='mt-1'>
 							<div className='w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center'>
-								<span className=''>User</span>
+								<span className='text-xs font-semibold font-dmSans'>User</span>
 							</div>
 						</div>
 						<div className='flex flex-col'>
@@ -66,7 +66,7 @@ const Reviews: React.FC<RoomTipsProps> = ({ tips }) => {
 					</div>
 				))}
 			</div>
-			{tips.length > 3 && (
+			{tips.length > 4 && (
 				<button
 					onClick={toggleShowMore}
 					className='text-white text-xs font-semibold font-dmSans p-1 w-28 rounded-md mt-2 bg-myBlack hover:bg-primary duration-300'

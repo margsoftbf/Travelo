@@ -90,7 +90,8 @@ const FilterBar = () => {
 
 	const handleSubmit = () => {
 		if (validateForm()) {
-			router.push(`/${type}/${query}`);
+			const typePath = type.toLowerCase();
+			router.push(`/${typePath}/${query}`);
 		}
 	};
 
