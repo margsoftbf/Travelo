@@ -2,12 +2,17 @@ import React from 'react';
 import Link from 'next/link';
 
 interface ProceedToCheckoutProps {
-    totalPrice: number;
-    tax: number;
+	subtotal: number;
+	tax: number;
 	orderTotal: number;
 	onCheckout: () => void;
 }
-const ProceedToCheckout: React.FC<ProceedToCheckoutProps> = ({totalPrice, tax, orderTotal, onCheckout}) => {
+const ProceedToCheckout: React.FC<ProceedToCheckoutProps> = ({
+	subtotal,
+	tax,
+	orderTotal,
+	onCheckout,
+}) => {
 	return (
 		<div className='w-full md:w-1/2 mt-4 '>
 			<section
@@ -22,7 +27,7 @@ const ProceedToCheckout: React.FC<ProceedToCheckoutProps> = ({totalPrice, tax, o
 					<div className='flex items-center justify-between'>
 						<div className='text-sm text-gray-600'>Subtotal</div>
 						<div className='text-sm font-medium text-gray-900'>
-							${totalPrice.toFixed(2)}
+							${subtotal.toFixed(2)}
 						</div>
 					</div>
 					<div className='flex items-center justify-between border-t border-gray-200 pt-4'>
@@ -30,7 +35,7 @@ const ProceedToCheckout: React.FC<ProceedToCheckoutProps> = ({totalPrice, tax, o
 							<span>Tax estimate</span>
 						</div>
 						<div className='text-sm font-medium text-gray-900'>
-							${(totalPrice * tax).toFixed(2)}
+							${(subtotal * tax).toFixed(2)}
 						</div>
 					</div>
 					<div className='flex items-center justify-between border-t border-gray-200 pt-4'>

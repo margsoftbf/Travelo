@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '@/store/store';
 import { Background2 } from '../../public/assets/svg';
 import BreadCrumb from '@/components/common/BreadCrumb';
-import { PaymentFormDataTypes} from '@/types/types';
+import { PaymentFormDataTypes, getNumberOfNights } from '@/types/types';
 import { clearCart } from '@/store/cartSlice';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -11,13 +11,26 @@ import Form from '@/components/Checkout/Form';
 import MobileOrderSummary from '@/components/Checkout/MobileOrderSummary';
 import DesktopOrderSummary from '@/components/Checkout/DesktopOrderSummary';
 const CheckoutPage = () => {
-	const { bookings, totalPrice, orderTotal } = useSelector(
+	const { bookings, totalPrice, orderTotal, restaurantBooking } = useSelector(
 		(state: RootState) => state.cart
 	);
 	const [formSubmitted, setFormSubmitted] = useState(false);
 	const dispatch = useDispatch();
 	const taxes = 0.07;
 	const total = orderTotal;
+
+	const restaurantReservationPrice = 50;
+	const totalBookingPrice = bookings.reduce((acc, booking) => {
+		const numberOfNights = getNumberOfNights(
+			booking.checkInDate ?? '',
+			booking.checkOutDate ?? ''
+		);
+		return acc + numberOfNights * booking.pricePerNight;
+	}, 0);
+
+	const totalRestaurantBookingPrice =
+		restaurantBooking.length * restaurantReservationPrice;
+	const updatedTotalPrice = totalBookingPrice + totalRestaurantBookingPrice;
 
 	const initialFormData: PaymentFormDataTypes = {
 		email: '',
@@ -183,16 +196,18 @@ const CheckoutPage = () => {
 					<main className='lg:flex lg:min-h-full lg:flex-row-reverse lg:overflow-hidden'>
 						<section aria-labelledby='order-heading' className='lg:hidden'>
 							<MobileOrderSummary
+								restaurantBooking={restaurantBooking}
 								bookings={bookings}
-								totalPrice={totalPrice}
+								totalPrice={updatedTotalPrice}
 								orderTotal={orderTotal}
 								taxes={taxes}
 							/>
 						</section>
 						<div className='flex w-full justify-center gap-2 mt-4 '>
 							<DesktopOrderSummary
+								restaurantBooking={restaurantBooking}
 								bookings={bookings}
-								totalPrice={totalPrice}
+								totalPrice={updatedTotalPrice}
 								orderTotal={orderTotal}
 								taxes={taxes}
 							/>

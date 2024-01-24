@@ -1,14 +1,17 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { CartState, BookingDetails, getNumberOfNights } from '@/types/types';
+import {
+	CartState,
+	BookingDetails,
+	getNumberOfNights,
+	RestaurantBookingDetails,
+} from '@/types/types';
 import { v4 as uuidv4 } from 'uuid';
-
-
 
 const initialState: CartState = {
 	bookings: [],
 	totalPrice: 0,
 	orderTotal: 0,
-
+	restaurantBooking: [],
 };
 
 const cartSlice = createSlice({
@@ -67,8 +70,23 @@ const cartSlice = createSlice({
 			state.totalPrice = 0;
 		},
 		setOrderTotal: (state, action) => {
-			state.orderTotal = action.payload
-		}
+			state.orderTotal = action.payload;
+		},
+		addRestaurantBooking: (
+			state,
+			action: PayloadAction<RestaurantBookingDetails>
+		) => {
+			const newBooking = {
+				...action.payload,
+				bookingId: action.payload.bookingId || uuidv4(),
+			};
+			state.restaurantBooking.push(newBooking);
+		},
+		removeRestaurantBooking: (state, action: PayloadAction<string>) => {
+			state.restaurantBooking = state.restaurantBooking.filter(
+				(booking) => booking.bookingId !== action.payload
+			);
+		},
 	},
 });
 
@@ -78,6 +96,8 @@ export const {
 	updateAdults,
 	updateChildren,
 	clearCart,
-	setOrderTotal
+	setOrderTotal,
+	addRestaurantBooking,
+	removeRestaurantBooking,
 } = cartSlice.actions;
 export default cartSlice.reducer;

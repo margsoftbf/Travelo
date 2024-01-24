@@ -2,26 +2,32 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setOrderTotal } from '@/store/cartSlice';
 import { RootState } from '@/store/store';
 import { Background2 } from '../../public/assets/svg';
-import Link from 'next/link';
 import { useState } from 'react';
 import BreadCrumb from '@/components/common/BreadCrumb';
 import HotelsReservation from '@/components/Cart/HotelsReservation';
 import EmptyCart from '@/components/Cart/EmptyCart';
 import CouponForm from '@/components/Cart/CouponForm';
 import ProceedToCheckout from '@/components/Cart/ProceedToCheckout';
+import RestaurantReservation from '@/components/Cart/RestaurantReservation';
 
 const CartPage = () => {
-	const { bookings, totalPrice } = useSelector(
+	const { bookings, totalPrice, restaurantBooking } = useSelector(
 		(state: RootState) => state.cart
 	);
 	const dispatch = useDispatch();
 	const [couponApplied, setCouponApplied] = useState(false);
 	const tax = 0.07;
+	const restaurantBookingPrice = 50;
+	const totalRestaurantBookingPrice =
+		restaurantBooking.length * restaurantBookingPrice;
+	const updatedTotalPrice = totalPrice + totalRestaurantBookingPrice;
+
 	const discountRate = 0.2;
 	const discountedPrice = couponApplied
-		? totalPrice * (1 - discountRate)
-		: totalPrice;
+		? updatedTotalPrice * (1 - discountRate)
+		: updatedTotalPrice;
 	const orderTotal = discountedPrice + discountedPrice * tax;
+
 
 	const handleProceedToCheckout = () => {
 		dispatch(setOrderTotal(orderTotal));
@@ -55,16 +61,19 @@ const CartPage = () => {
 			</div>
 
 			<div className='mx-auto p-4 max-w-7xl bg-white'>
-				{bookings.length === 0 ? (
+				{bookings.length === 0 && restaurantBooking.length === 0 ? (
 					<EmptyCart />
 				) : (
 					<div className='relative'>
 						<div className=' mt-1 flow-root'>
-							<HotelsReservation />
+							<div className='flex flex-col gap-10'>
+								{bookings.length > 0 && <HotelsReservation />}
+								{restaurantBooking.length > 0 && <RestaurantReservation />}
+							</div>
 							<div className='subt flex relative flex-col md:flex-row justify-between'>
 								<CouponForm onApplyCoupon={handleCouponApply} />
 								<ProceedToCheckout
-									totalPrice={totalPrice}
+									subtotal={updatedTotalPrice}
 									tax={tax}
 									orderTotal={orderTotal}
 									onCheckout={handleProceedToCheckout}

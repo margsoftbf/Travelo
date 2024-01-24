@@ -11,6 +11,7 @@ import OpenHours from '@/components/RestaurantPage/OpenHours';
 import Rules from '@/components/RestaurantPage/Rules';
 import SimilarRestaurants from '@/components/RestaurantPage/SimilarRestaurants';
 import LastMinute from '@/components/SearchListPage/LastMinute';
+import ReservationForm from '@/components/RestaurantPage/ReservationForm';
 
 interface RestaurantDetailPageProps {
 	restaurant: Restaurant | null;
@@ -54,6 +55,7 @@ const RestaurantDetailPage = ({
 						<SimilarRestaurants restaurants={similarRestaurants} />
 					</div>
 					<div className='w-5/6 lg:w-2/6 flex flex-col gap-4'>
+						<ReservationForm restaurant={restaurant} />
 						<LastMinute />
 					</div>
 				</div>
@@ -78,6 +80,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
 	const id = context.params?.id as string;
+
 	const restaurant = restaurantsData.find((r: any) => r.id === id);
 
 	const similarRestaurants = restaurantsData

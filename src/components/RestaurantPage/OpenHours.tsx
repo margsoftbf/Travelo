@@ -7,9 +7,7 @@ interface OpenHoursProps {
 	}[][];
 }
 const OpenHours: React.FC<OpenHoursProps> = ({ weekRanges }) => {
-	if (weekRanges === undefined) {
-		return null;
-	}
+
 
 	const daysOfWeek = [
 		'Monday',
@@ -21,7 +19,6 @@ const OpenHours: React.FC<OpenHoursProps> = ({ weekRanges }) => {
 		'Sunday',
 	];
 
-	weekRanges.map((day) => console.log(day[2]));
 
 	return (
 		<div className='w-full mt-4 flex flex-col gap-2'>
