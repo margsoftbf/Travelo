@@ -31,7 +31,7 @@ const RestaurantDetailPage = ({
 			<div className='absolute w-full h-full -z-10'>
 				<Image
 					src='/assets/Background.png'
-					alt={restaurant.name}
+					alt='Background'
 					fill={true}
 					className='object-cover'
 					quality={100}
@@ -60,8 +60,6 @@ const RestaurantDetailPage = ({
 					</div>
 				</div>
 			</div>
-			<h1>{restaurant.name}</h1>
-			<p>{restaurant.description}</p>
 		</div>
 	);
 };

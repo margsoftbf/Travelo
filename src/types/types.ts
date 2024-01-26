@@ -240,11 +240,24 @@ export interface RestaurantBookingDetails {
 	price: number;
 }
 
+export interface AttractionBookingDetails {
+	bookingId?: string;
+	attractionName: string;
+	attractionImage: string;
+	attractionLocation: string;
+	selectedOffer: OfferListItem;
+	date: string;
+	numberOfPeople: number;
+	name: string; 
+	email: string;
+}
+
 export interface CartState {
 	bookings: BookingDetails[];
 	totalPrice: number;
 	orderTotal: number;
-	restaurantBooking: RestaurantBookingDetails[]
+	restaurantBooking: RestaurantBookingDetails[];
+	attractionBooking: AttractionBookingDetails[];
 }
 
 export const getNumberOfNights = (

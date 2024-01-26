@@ -4,6 +4,7 @@ import {
 	BookingDetails,
 	getNumberOfNights,
 	RestaurantBookingDetails,
+	AttractionBookingDetails,
 } from '@/types/types';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -12,6 +13,7 @@ const initialState: CartState = {
 	totalPrice: 0,
 	orderTotal: 0,
 	restaurantBooking: [],
+	attractionBooking: [],
 };
 
 const cartSlice = createSlice({
@@ -68,7 +70,10 @@ const cartSlice = createSlice({
 		clearCart: (state) => {
 			state.bookings = [];
 			state.totalPrice = 0;
-		},
+			state.orderTotal = 0; 
+			state.restaurantBooking = [];
+			state.attractionBooking = [];
+		  },
 		setOrderTotal: (state, action) => {
 			state.orderTotal = action.payload;
 		},
@@ -87,6 +92,21 @@ const cartSlice = createSlice({
 				(booking) => booking.bookingId !== action.payload
 			);
 		},
+		addAttractionBooking: (
+			state,
+			action: PayloadAction<AttractionBookingDetails>
+		) => {
+			const newBooking = {
+				...action.payload,
+				bookingId: action.payload.bookingId || uuidv4(),
+			};
+			state.attractionBooking.push(newBooking);
+		},
+		removeAttractionBooking: (state, action: PayloadAction<string>) => {
+			state.attractionBooking = state.attractionBooking.filter(
+				(booking) => booking.bookingId !== action.payload
+			);
+		},
 	},
 });
 
@@ -99,5 +119,7 @@ export const {
 	setOrderTotal,
 	addRestaurantBooking,
 	removeRestaurantBooking,
+	addAttractionBooking,
+	removeAttractionBooking,
 } = cartSlice.actions;
 export default cartSlice.reducer;

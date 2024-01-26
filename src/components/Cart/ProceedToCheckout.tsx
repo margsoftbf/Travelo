@@ -13,6 +13,7 @@ const ProceedToCheckout: React.FC<ProceedToCheckoutProps> = ({
 	orderTotal,
 	onCheckout,
 }) => {
+	console.log(orderTotal);
 	return (
 		<div className='w-full md:w-1/2 mt-4 '>
 			<section

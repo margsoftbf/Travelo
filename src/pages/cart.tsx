@@ -2,52 +2,67 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setOrderTotal } from '@/store/cartSlice';
 import { RootState } from '@/store/store';
 import { Background2 } from '../../public/assets/svg';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import BreadCrumb from '@/components/common/BreadCrumb';
 import HotelsReservation from '@/components/Cart/HotelsReservation';
 import EmptyCart from '@/components/Cart/EmptyCart';
 import CouponForm from '@/components/Cart/CouponForm';
 import ProceedToCheckout from '@/components/Cart/ProceedToCheckout';
 import RestaurantReservation from '@/components/Cart/RestaurantReservation';
+import AttractionReservation from '@/components/Cart/AttractionReservation';
 
 const CartPage = () => {
-	const { bookings, totalPrice, restaurantBooking } = useSelector(
-		(state: RootState) => state.cart
-	);
+	const { bookings, totalPrice, restaurantBooking, attractionBooking } =
+		useSelector((state: RootState) => state.cart);
 	const dispatch = useDispatch();
 	const [couponApplied, setCouponApplied] = useState(false);
 	const tax = 0.07;
+	const discountRate = 0.2;
 	const restaurantBookingPrice = 50;
+
+	const totalAttractionBookingPrice = attractionBooking.reduce(
+		(total, booking) => {
+			const price = parseFloat(booking.selectedOffer.price.replace('$', ''));
+			return total + price;
+		},
+		0
+	);
 	const totalRestaurantBookingPrice =
 		restaurantBooking.length * restaurantBookingPrice;
-	const updatedTotalPrice = totalPrice + totalRestaurantBookingPrice;
-
-	const discountRate = 0.2;
+	const updatedTotalPrice =
+		totalPrice + totalRestaurantBookingPrice + totalAttractionBookingPrice;
 	const discountedPrice = couponApplied
 		? updatedTotalPrice * (1 - discountRate)
 		: updatedTotalPrice;
-	const orderTotal = discountedPrice + discountedPrice * tax;
 
+	const orderTotal = couponApplied
+		? discountedPrice + discountedPrice * tax
+		: updatedTotalPrice + updatedTotalPrice * tax;
+
+	const calculateOrderTotal = () => {
+		const orderTotal = couponApplied
+			? discountedPrice + discountedPrice * tax
+			: updatedTotalPrice + updatedTotalPrice * tax;
+		dispatch(setOrderTotal(orderTotal));
+	};
+
+	useEffect(() => {
+		calculateOrderTotal();
+	}, [couponApplied, totalPrice, restaurantBooking, attractionBooking]);
 
 	const handleProceedToCheckout = () => {
-		dispatch(setOrderTotal(orderTotal));
+		calculateOrderTotal();
 	};
 
 	const handleCouponApply = (isApplied: boolean, discountRate: number) => {
 		setCouponApplied(isApplied);
-
-		const newDiscountedPrice = isApplied
-			? totalPrice * (1 - discountRate)
-			: totalPrice;
-		const newOrderTotal = newDiscountedPrice + newDiscountedPrice * tax;
-		setOrderTotal(newOrderTotal);
+		calculateOrderTotal();
 	};
 
 	const breadcrumbSegments = [
 		{ name: 'Home', href: '/', current: false },
 		{ name: 'Cart', current: true },
 	];
-
 	return (
 		<div className='relative overflow-hidden pb-8 '>
 			<Background2 className='absolute w-[100vw] h-[100vh] m-0 p-0 -z-10' />
@@ -61,7 +76,9 @@ const CartPage = () => {
 			</div>
 
 			<div className='mx-auto p-4 max-w-7xl bg-white'>
-				{bookings.length === 0 && restaurantBooking.length === 0 ? (
+				{bookings.length === 0 &&
+				restaurantBooking.length === 0 &&
+				attractionBooking.length === 0 ? (
 					<EmptyCart />
 				) : (
 					<div className='relative'>
@@ -69,6 +86,7 @@ const CartPage = () => {
 							<div className='flex flex-col gap-10'>
 								{bookings.length > 0 && <HotelsReservation />}
 								{restaurantBooking.length > 0 && <RestaurantReservation />}
+								{attractionBooking.length > 0 && <AttractionReservation />}
 							</div>
 							<div className='subt flex relative flex-col md:flex-row justify-between'>
 								<CouponForm onApplyCoupon={handleCouponApply} />

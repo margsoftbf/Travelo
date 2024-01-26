@@ -11,14 +11,24 @@ import Form from '@/components/Checkout/Form';
 import MobileOrderSummary from '@/components/Checkout/MobileOrderSummary';
 import DesktopOrderSummary from '@/components/Checkout/DesktopOrderSummary';
 const CheckoutPage = () => {
-	const { bookings, totalPrice, orderTotal, restaurantBooking } = useSelector(
-		(state: RootState) => state.cart
-	);
+	const {
+		bookings,
+		totalPrice,
+		orderTotal,
+		restaurantBooking,
+		attractionBooking,
+	} = useSelector((state: RootState) => state.cart);
 	const [formSubmitted, setFormSubmitted] = useState(false);
 	const dispatch = useDispatch();
 	const taxes = 0.07;
 	const total = orderTotal;
-
+	const totalAttractionBookingPrice = attractionBooking.reduce(
+		(total, booking) => {
+			const price = parseFloat(booking.selectedOffer.price.replace('$', ''));
+			return total + price;
+		},
+		0
+	);
 	const restaurantReservationPrice = 50;
 	const totalBookingPrice = bookings.reduce((acc, booking) => {
 		const numberOfNights = getNumberOfNights(
@@ -30,7 +40,10 @@ const CheckoutPage = () => {
 
 	const totalRestaurantBookingPrice =
 		restaurantBooking.length * restaurantReservationPrice;
-	const updatedTotalPrice = totalBookingPrice + totalRestaurantBookingPrice;
+	const updatedTotalPrice =
+		totalBookingPrice +
+		totalRestaurantBookingPrice +
+		totalAttractionBookingPrice;
 
 	const initialFormData: PaymentFormDataTypes = {
 		email: '',
@@ -151,6 +164,8 @@ const CheckoutPage = () => {
 		{ name: 'Home', href: '/', current: false },
 		{ name: 'Checkout', current: true },
 	];
+
+	console.log(orderTotal);
 	return (
 		<div className='relative overflow-hidden pb-8 font-dmSans'>
 			<Background2 className='absolute w-[100vw] h-[100vh] m-0 p-0 -z-10' />
@@ -197,6 +212,7 @@ const CheckoutPage = () => {
 						<section aria-labelledby='order-heading' className='lg:hidden'>
 							<MobileOrderSummary
 								restaurantBooking={restaurantBooking}
+								attractionBooking={attractionBooking}
 								bookings={bookings}
 								totalPrice={updatedTotalPrice}
 								orderTotal={orderTotal}
@@ -206,6 +222,7 @@ const CheckoutPage = () => {
 						<div className='flex w-full justify-center gap-2 mt-4 '>
 							<DesktopOrderSummary
 								restaurantBooking={restaurantBooking}
+								attractionBooking={attractionBooking}
 								bookings={bookings}
 								totalPrice={updatedTotalPrice}
 								orderTotal={orderTotal}

@@ -1,14 +1,14 @@
-import React, { useState, forwardRef } from 'react';
+import React, { forwardRef, useState } from 'react';
+import { useDispatch } from 'react-redux';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import moment from 'moment';
-import { useDispatch } from 'react-redux';
-import { Restaurant } from '@/types/types';
+import { Attraction, OfferListItem } from '@/types/types';
 import { Calendar, Minus, Plus } from '../../../public/assets/svg';
-import { addRestaurantBooking } from '@/store/cartSlice';
+import { addAttractionBooking } from '@/store/cartSlice';
 
 interface BookingFormProps {
-	restaurant: Restaurant;
+	attraction: Attraction;
 }
 
 const CustomInput = forwardRef<
@@ -39,24 +39,55 @@ const CustomInput = forwardRef<
 	</div>
 ));
 
-const ReservationForm: React.FC<BookingFormProps> = ({ restaurant }) => {
+const BookingFormAttraction: React.FC<BookingFormProps> = ({ attraction }) => {
+	const defaultOffer = {
+		price: '$100',
+		primaryCategory: 'Default Category',
+		url: '',
+		roundedUpPrice: '100',
+		offerType: 'Default Type',
+		title: 'Default Offer Title',
+		productCode: '111',
+		partner: '111',
+		imageUrl: '',
+		description: '',
+	};
+	const initialOfferIndex = 0;
+
+	const offerListAvailable =
+		attraction &&
+		attraction.offerGroup &&
+		attraction.offerGroup.offerList.length > 0;
+
+	const [bookingAdded, setBookingAdded] = useState(false);
+	const [selectedCategory, setSelectedCategory] = useState<string>(
+		offerListAvailable
+			? attraction.offerGroup.offerList[initialOfferIndex].primaryCategory
+			: defaultOffer.primaryCategory
+	);
+
+	const [selectedOfferIndex, setSelectedOfferIndex] =
+		useState(initialOfferIndex);
+	const selectedOffer = offerListAvailable
+		? attraction.offerGroup.offerList[selectedOfferIndex]
+		: defaultOffer;
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [selectedDate, setSelectedDate] = useState<Date | null>(null);
-	const [checkDateError, setDateError] = useState(false);
-	const [time, setTime] = useState('');
 	const [numberOfPeople, setNumberOfPeople] = useState(1);
-	const [location, setLocation] = useState('inside');
-	const [specialRequests, setSpecialRequests] = useState('');
-	const [bookingAdded, setBookingAdded] = useState(false);
+	const [checkDateError, setDateError] = useState(false);
 	const dispatch = useDispatch();
 	const today = moment().toDate();
+
 	const [errors, setErrors] = useState({
 		name: '',
 		email: '',
 		date: '',
-		time: '',
 	});
+
+	const handleOfferChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+		setSelectedOfferIndex(parseInt(e.target.value));
+	};
 
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
@@ -66,7 +97,6 @@ const ReservationForm: React.FC<BookingFormProps> = ({ restaurant }) => {
 		newErrors.name = name ? '' : 'Name is required';
 		newErrors.email = email.includes('@') ? '' : 'Invalid email';
 		newErrors.date = selectedDate ? '' : 'Date is required';
-		newErrors.time = time ? '' : 'Time is required';
 
 		setErrors(newErrors);
 
@@ -74,37 +104,62 @@ const ReservationForm: React.FC<BookingFormProps> = ({ restaurant }) => {
 
 		if (!isFormValid) return;
 
+		const selectedOffers: OfferListItem[] =
+			attraction.offerGroup.offerList.filter(
+				(offer) => offer.primaryCategory === selectedCategory
+			);
+
 		const bookingDetails = {
-			restaurantName: restaurant.name,
-			restaurantImage: restaurant.image,
-			restaurantLocation: restaurant.locationString,
+			attractionName: attraction.name,
+			attractionImage: attraction.image,
+			attractionLocation: attraction.locationString,
+			selectedOffer,
 			name,
 			email,
 			date: selectedDate ? selectedDate.toISOString() : '',
-			time,
 			numberOfPeople,
-			location,
-			specialRequests,
-			price: 50,
 		};
-		dispatch(addRestaurantBooking(bookingDetails));
+
+		dispatch(addAttractionBooking(bookingDetails));
 		setBookingAdded(true);
 		setTimeout(() => setBookingAdded(false), 3000);
 	};
-
 	return (
 		<form
 			onSubmit={handleSubmit}
 			className='p-4 border rounded shadow z-20 bg-white  space-y-3 relative flex flex-col '
 		>
 			<h2 className='text-myBlack font-dmSans text-xl font-bold leading-6 tracking-tight'>
-				Book a Table
+				Book a Tour
 			</h2>
 			<div className='border-b border-primary'></div>
-			<p className='font-dmSans font-medium text-softGrey'>
-				Price for reservation:{' '}
-				<span className='text-xl font-bold text-myBlack'>$50</span>
+			<p className='font-dmSans font-medium text-[14px] text-softGrey'>
+				Price for tour:{' '}
+				<span className='text-base font-bold text-myBlack'>
+					{selectedOffer.price}
+				</span>
 			</p>
+			<div className='flex flex-col w-full md:mt-0 '>
+				<label
+					htmlFor='offer'
+					className='text-xs font-dmSans text-softGrey font-semibold'
+				>
+					Choose an Offer:
+				</label>
+				<select
+					id='offer'
+					className='mt-1 flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
+					value={selectedOfferIndex}
+					onChange={handleOfferChange}
+				>
+					{attraction.offerGroup.offerList.map((offer, index) => (
+						<option key={index} value={index}>
+							{offer.primaryCategory} ({offer.price})
+						</option>
+					))}
+				</select>
+			</div>
+
 			<div className='flex flex-col w-full md:mt-0 '>
 				<label
 					htmlFor='name'
@@ -119,14 +174,15 @@ const ReservationForm: React.FC<BookingFormProps> = ({ restaurant }) => {
 				<input
 					type='text'
 					id='name'
-					value={name}
-					onChange={(e) => setName(e.target.value)}
 					placeholder='Your Name'
-					className={`mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1.5 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset  placeholder:text-xs placeholder:text-myBlack sm:text-sm sm:leading-6 ${
+					className={`mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset  placeholder:text-xs placeholder:text-myBlack sm:text-sm sm:leading-6 ${
 						errors.name ? 'ring-red-400' : 'ring-gray-300'
 					}`}
+					value={name}
+					onChange={(e) => setName(e.target.value)}
 				/>
 			</div>
+
 			<div className='flex flex-col w-full md:mt-0 '>
 				<label
 					htmlFor='email'
@@ -139,16 +195,17 @@ const ReservationForm: React.FC<BookingFormProps> = ({ restaurant }) => {
 					)}
 				</label>
 				<input
-					type='email'
 					id='email'
+					type='email'
 					value={email}
-					onChange={(e) => setEmail(e.target.value)}
 					placeholder='Your Email'
-					className={`mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1.5 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset  placeholder:text-xs placeholder:text-myBlack sm:text-sm sm:leading-6 ${
+					className={`mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset  placeholder:text-xs placeholder:text-myBlack sm:text-sm sm:leading-6 ${
 						errors.name ? 'ring-red-400' : 'ring-gray-300'
 					}`}
+					onChange={(e) => setEmail(e.target.value)}
 				/>
 			</div>
+
 			<div className='flex flex-col w-full md:mt-0 '>
 				<label
 					htmlFor='date'
@@ -161,46 +218,28 @@ const ReservationForm: React.FC<BookingFormProps> = ({ restaurant }) => {
 					)}
 				</label>
 				<DatePicker
-					id='date'
 					selected={selectedDate}
 					onChange={(date) => setSelectedDate(date)}
 					customInput={<CustomInput hasError={checkDateError} />}
-					dateFormat='yyyy-MM-dd'
 					minDate={today}
+					dateFormat='yyyy-MM-dd'
 				/>
 			</div>
-			<div className='flex flex-col w-full md:mt-0 '>
-				<label
-					htmlFor='time'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					{errors.time ? (
-						<p className='text-red-500 text-xs italic'>{errors.time}</p>
-					) : (
-						<p>Select Time</p>
-					)}
-				</label>
-				<input
-					type='time'
-					id='time'
-					value={time}
-					step='300'
-					onChange={(e) => setTime(e.target.value)}
-					className='mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1.5 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset ring-gray-300 placeholder:text-xs placeholder:text-text-myBlack sm:text-sm sm:leading-6'
-				/>
-			</div>
+
 			<div className='flex flex-col w-full'>
 				<label
 					htmlFor='people'
 					className='text-xs font-dmSans text-softGrey font-semibold'
 				>
-					Number of people
+					Number of People:
 				</label>
 				<div className='relative mt-1 rounded-md shadow-sm'>
 					<div className='flex'>
 						<input
-							type='number'
 							id='people'
+							type='number'
+							className='mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1.5 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset ring-gray-300 placeholder:text-xs placeholder:text-text-myBlack sm:text-sm sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
+							placeholder='Number of People'
 							value={numberOfPeople}
 							onChange={(e) =>
 								setNumberOfPeople(
@@ -208,8 +247,6 @@ const ReservationForm: React.FC<BookingFormProps> = ({ restaurant }) => {
 								)
 							}
 							min='1'
-							className='mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1.5 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset ring-gray-300 placeholder:text-xs placeholder:text-text-myBlack sm:text-sm sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-							placeholder='Number of People'
 						/>
 						<div className='absolute inset-y-0 right-0 gap-1 flex items-center pr-2'>
 							<Minus
@@ -232,42 +269,20 @@ const ReservationForm: React.FC<BookingFormProps> = ({ restaurant }) => {
 					</div>
 				</div>
 			</div>
-			<div className='flex flex-col w-full md:mt-0 '>
-				<label
-					htmlFor='location'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					Location
-				</label>
-				<select
-					id='location'
-					value={location}
-					onChange={(e) => setLocation(e.target.value)}
-					className='mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1.5 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset ring-gray-300 placeholder:text-xs placeholder:text-text-myBlack sm:text-sm sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-				>
-					<option value='inside'>Inside</option>
-					<option value='outside'>Outside</option>
-				</select>
-			</div>
-			<textarea
-				value={specialRequests}
-				onChange={(e) => setSpecialRequests(e.target.value)}
-				placeholder='Special Requests'
-				className='border rounded p-2'
-			/>
+
 			<button
 				type='submit'
 				className='mt-8 w-full flex justify-center items-center p-2 gap-2 rounded-md bg-primary text-white hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'
 			>
-				Book Table
+				Book Now
 			</button>
 			{bookingAdded && (
 				<div className='z-20 absolute bottom-16 left-1/2 -translate-x-1/2 p-4 w-48 text-center mb-4 text-sm text-green-700 bg-green-100 border border-green-400 rounded'>
-					Booking added!
+					Booking added to cart!
 				</div>
 			)}
 		</form>
 	);
 };
 
-export default ReservationForm;
+export default BookingFormAttraction;
