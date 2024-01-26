@@ -12,7 +12,7 @@ const LocationInput: React.FC<LocationInputProps> = ({
 	variant,
 }) => {
 	const baseClass =
-		'block w-full text-[12px] rounded-md font-dmSans py-1 pr-10 text-myBlack ring-1 pl-2 ring-inset outline-none ring-gray-300 placeholder:text-myBlack sm:leading-6';
+		'block w-full text-[12px] rounded-md font-dmSans py-2 pr-10 text-myBlack ring-1 pl-2 ring-inset outline-none ring-gray-300 placeholder:text-myBlack sm:leading-6';
 
 	const variantClass =
 		variant === 'filter' ? 'ring-none placeholder:text-myBlack' : '';
@@ -22,7 +22,7 @@ const LocationInput: React.FC<LocationInputProps> = ({
 	return (
 		<div className='flex flex-col w-full relative'>
 			<label
-				className={`text-xs font-dmSans ${
+				className={`text-xs font-dmSans absolute z-20 left-2.5 -top-1 bg-white ${
 					errors.location ? 'text-red-500 font-bold' : 'text-softGrey'
 				}`}
 			>

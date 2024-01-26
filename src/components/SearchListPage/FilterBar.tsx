@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import LocationInput from '../SearchBar/LocationInput';
-import 'react-datepicker/dist/react-datepicker.css';
 import { FiSearch } from 'react-icons/fi';
 import TypeSelect from '../SearchBar/TypeSelect';
-import DateRangePicker from '../SearchBar/DateRangePicker';
-import GuestsInput from '../SearchBar/GuestsInput';
 import { useRouter } from 'next/router';
 import hotelsData from '../../data/Hotels.json';
 import restaurantsData from '../../data/Restaurant.json';
@@ -15,12 +12,6 @@ const FilterBar = () => {
 	const [query, setQuery] = useState('');
 	const [suggestions, setSuggestions] = useState<string[]>([]);
 	const [type, setType] = useState('');
-	const [dateRange, setDateRange] = useState<[Date | null, Date | null]>([
-		null,
-		null,
-	]);
-	const [startDate, endDate] = dateRange;
-	const [guest, setGuest] = useState(1);
 
 	const [errors, setErrors] = useState({
 		location: '',
@@ -109,22 +100,7 @@ const FilterBar = () => {
 
 			<TypeSelect type={type} setType={setType} hasError={!!errors.type} />
 
-			<div className='flex flex-col w-full mt-2 md:mt-0'>
-				<label className={`text-xs font-dmSans text-softGrey `}>
-					Date Range
-				</label>
-				<div className='relative mt-1 rounded-md shadow-sm'>
-					<DateRangePicker
-						startDate={startDate}
-						endDate={endDate}
-						setDateRange={setDateRange}
-						hasError={false}
-					/>
-				</div>
-			</div>
-
-			<GuestsInput guest={guest} setGuest={setGuest} />
-
+			
 			<button
 				onClick={handleSubmit}
 				className='mt-8 w-full flex justify-center items-center font-semibold p-2 gap-2 rounded-md bg-primary text-white hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'

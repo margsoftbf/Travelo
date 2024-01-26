@@ -3,10 +3,10 @@ import { Hiking } from '../../../public/assets/svg';
 import { TypeSelectProps } from '@/types/types';
 
 const TypeSelect: React.FC<TypeSelectProps> = ({ type, setType, hasError }) => (
-	<div className='flex flex-col w-full mt-2 md:mt-0'>
+	<div className='flex flex-col w-full mt-2 md:mt-0 relative'>
 		<label
 			htmlFor='typeSelect'
-			className={`text-xs font-dmSans ${
+			className={`text-xs font-dmSans absolute z-20 left-2.5 -top-1 bg-white ${
 				hasError ? 'text-red-500 font-bold' : 'text-softGrey'
 			}`}
 		>
@@ -15,7 +15,7 @@ const TypeSelect: React.FC<TypeSelectProps> = ({ type, setType, hasError }) => (
 		<div className='relative mt-1 rounded-md shadow-sm'>
 			<select
 				id='typeSelect'
-				className={`block w-full text-[12px] rounded-md font-dmSans border-0 py-1 pr-10 text-myBlack ring-1 pl-2 ring-inset outline-none ring-gray-300 placeholder:text-myBlack sm:leading-6 appearance-none ${
+				className={`block w-full text-[12px] rounded-md font-dmSans border-0 py-2 pr-10 text-myBlack ring-1 pl-2 ring-inset outline-none ring-gray-300 placeholder:text-myBlack sm:leading-6 appearance-none ${
 					hasError ? 'border-red-500' : 'border-0 border-gray-300'
 				}`}
 				value={type}
