@@ -28,12 +28,9 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({ isHomePage }) => {
 							) : (
 								<Link
 									key={item.name}
-									href={`#${item.href}`}
+									href={item.href}
 									aria-label={item.name}
-									onClick={(e) => {
-										e.preventDefault();
-									}}
-									className='text-sm lg:text-base text-myBlackTwo font-semibold leading-6 font-openSans hover:text-primary ease-in-out duration-300 transition cursor-pointer'
+									className='text-sm lg:text-base text-softGrey font-semibold leading-6 font-openSans hover:text-primary ease-in-out duration-300 transition cursor-pointer'
 								>
 									{item.name}
 								</Link>

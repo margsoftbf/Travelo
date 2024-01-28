@@ -5,11 +5,12 @@ import {
 	HappyTraveller,
 	PositiveReviews,
 	TourComplete,
+	RightTopCorner,
 } from '../../public/assets/svg';
 import CountUp from 'react-countup';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import Image from 'next/image';
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { FaCheck } from 'react-icons/fa';
 const stats = [
 	{ id: 1, name: 'Happy traveller', value: '5489', icon: HappyTraveller },
@@ -28,6 +29,7 @@ const About = () => {
 
 	return (
 		<motion.div
+		id='about'
 			className='relative w-full mx-auto'
 			ref={ref}
 			animate={controls}
@@ -59,8 +61,9 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<div className='max-w-6xl mx-auto'>
-				<div className='grid grid-cols-2 gap-1 overflow-hidden rounded-2xl text-center md:grid-cols-4 -mt-6 mx-4 lg:-mt-14 mb-4'>
+			
+			<div className='max-w-6xl mx-auto relative bg-white'>
+				<div className='grid grid-cols-2 gap-1 overflow-hidden rounded-2xl text-center md:grid-cols-4 -mt-6 mx-4 lg:-mt-14 bg-white'>
 					{stats.map((stat) => (
 						<div
 							key={stat.id}
@@ -77,7 +80,8 @@ const About = () => {
 					))}
 				</div>
 			</div>
-			<div className='max-w-6xl  mx-auto flex w-full flex-col items-center md:flex-row justify-center gap-4 p-4'>
+
+			<div className='max-w-6xl  mx-auto flex w-full flex-col items-center md:flex-row justify-center gap-4 p-4 bg-white'>
 				<div className='relative w-80 h-full flex items-center justify-center lg:w-1/2'>
 					<div className='w-80 h-96 lg:w-96 lg:h-[500px] lg:ml-auto relative border-8 border-myBlack'>
 						<Image
@@ -93,23 +97,23 @@ const About = () => {
 						/>
 					</div>
 				</div>
-				<div className='flex flex-col gap-2 w-80 justify-center  h-full lg:w-1/2'>
-					<p className='font-coveredByGrace text-2xl lg:text-3xl text-primary'>
+				<div className='flex flex-col gap-2 w-80 justify-center  h-full md:w-full '>
+					<p className='font-coveredByGrace text-2xl md:text-3xl text-primary'>
 						Explore the world
 					</p>
-					<p className='font-dmSans text-3xl lg:text-5xl font-bold text-myBlack'>
+					<p className='font-dmSans text-3xl md:text-5xl font-bold text-myBlack'>
 						Great Opportunity For{' '}
 						<span className='font-coveredByGrace text-primary font-light'>
 							adventure
 						</span>{' '}
 						& Travels
 					</p>
-					<p className='font-dmSans text-softGrey text-[14px] lg:text-base tracking-tighter'>
+					<p className='font-dmSans text-softGrey text-[14px] md:text-base tracking-tighter'>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
 						exercitationem ipsam numquam nihil commodi earum nostrum corrupti
 						impedit. Nobis, unde.
 					</p>
-					<p className='font-dmSans text-myBlack text-[14px] lg:text-base font-semibold lg:mt-4'>
+					<p className='font-dmSans text-myBlack text-[14px] md:text-base font-semibold lg:mt-4'>
 						A Range Of Programs And Supports In The Disability Including:
 					</p>
 					<div className='flex flex-col gap-3'>
@@ -117,7 +121,7 @@ const About = () => {
 							<div className='w-4 h-4 rounded-full bg-primary flex items-center justify-center flex-shrink-0'>
 								<FaCheck className='w-2 h-2 text-white' />
 							</div>
-							<p className='font-dmSans text-softGrey text-xs lg:text-[14px]'>
+							<p className='font-dmSans text-softGrey text-xs md:text-[14px]'>
 								Discover Great Deals On Hotel Around The World
 							</p>
 						</div>
@@ -125,7 +129,7 @@ const About = () => {
 							<div className='w-4 h-4 rounded-full bg-primary flex items-center justify-center flex-shrink-0'>
 								<FaCheck className='w-2 h-2 text-white' />
 							</div>
-							<p className='font-dmSans text-softGrey text-xs lg:text-[14px]'>
+							<p className='font-dmSans text-softGrey text-xs md:text-[14px]'>
 								Our Tours Are Designed Withpeople
 							</p>
 						</div>

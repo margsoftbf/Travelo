@@ -296,7 +296,7 @@
 		"rating": 4.5,
 		"localName": "Radio City Music Hall",
 		"id": "110164",
-		"description": "Tours run daily starting at 9:30 AM",
+		"description": "Tours run daily starting at 9:30 AM, Tours run daily starting at 9:30 AM",
 		"rawRanking": 4.117940425872803
 	},
 	{
@@ -2208,7 +2208,7 @@
 		},
 		"subtype": ["Art Museums"]
 	},
-	
+
 	{
 		"id": "188151",
 		"type": "ATTRACTION",
@@ -5060,7 +5060,7 @@
 			"Shopping Malls"
 		]
 	},
-	
+
 	{
 		"id": "294552",
 		"type": "ATTRACTION",
@@ -8986,7 +8986,6 @@
 		"subtype": ["Parks"]
 	},
 
-	
 	{
 		"id": "12028413",
 		"type": "ATTRACTION",
@@ -12876,7 +12875,6 @@
 		},
 		"subtype": ["Churches & Cathedrals"]
 	},
-	
 
 	{
 		"id": "244481",
@@ -23393,7 +23391,6 @@
 		"subtype": ["Zoos"]
 	},
 
-	
 	{
 		"id": "195701",
 		"type": "ATTRACTION",

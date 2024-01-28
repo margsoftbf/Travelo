@@ -24,3 +24,5 @@ export { default as HappyTraveller } from './HappyTraveller.svg';
 export { default as PositiveReviews } from './PositiveReviews.svg';
 export { default as TourComplete } from './TourComplete.svg';
 export { default as Rectangle } from './Rectangle.svg';
+export { default as HexagonBackground } from './HexagonBackground.svg';
+export { default as RightTopCorner } from './RightTopCorner.svg';

@@ -1,23 +1,28 @@
 export const navigation = [
 	{
 		name: 'About Us',
-		href: '#',
+		href: 'about',
 		description: 'Learn more about our company',
 	},
 	{
 		name: 'Tour',
-		href: '#',
+		href: 'tour',
 		description: 'Check best tour of the world.',
 	},
 	{
 		name: 'Category',
-		href: '#',
+		href: 'category',
 		description: 'Check category like fishing, hiking, ski.',
 	},
 	{
 		name: 'Blog',
-		href: '#',
+		href: 'blog',
 		description: 'Check our blog.',
+	},
+	{
+		name: 'Cart',
+		href: '/cart',
+		description: 'Your cart.',
 	},
 	{ name: 'Contact Us', href: 'contact', description: 'Contact with us' },
 ];
