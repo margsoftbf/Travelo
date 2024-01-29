@@ -26,3 +26,8 @@ export { default as TourComplete } from './TourComplete.svg';
 export { default as Rectangle } from './Rectangle.svg';
 export { default as HexagonBackground } from './HexagonBackground.svg';
 export { default as RightTopCorner } from './RightTopCorner.svg';
+export { default as Cruises } from './Cruises.svg';
+export { default as Fishing } from './Fishing.svg';
+export { default as HikingCat } from './HikingCat.svg';
+export { default as Tent } from './Tent.svg';
+export { default as Trailers } from './Trailers.svg';

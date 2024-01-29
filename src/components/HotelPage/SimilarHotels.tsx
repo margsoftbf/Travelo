@@ -1,6 +1,6 @@
 import React from 'react';
 import { Hotel } from '@/types/types';
-import ListingCard from '../SearchListPage/ListingCard';
+import ListingCard from '../ui/ListingCard';
 
 interface SimilarHotelsProps {
 	hotels: Hotel[];

@@ -235,7 +235,7 @@ export interface RestaurantBookingDetails {
 	numberOfPeople: number;
 	location: string;
 	specialRequests?: string;
-	name: string; 
+	name: string;
 	email: string;
 	price: number;
 }
@@ -248,7 +248,7 @@ export interface AttractionBookingDetails {
 	selectedOffer: OfferListItem;
 	date: string;
 	numberOfPeople: number;
-	name: string; 
+	name: string;
 	email: string;
 }
 
@@ -281,4 +281,18 @@ export interface PaymentFormDataTypes {
 	city: string;
 	state: string;
 	postalCode: string;
+}
+
+export interface CategorySelectorTypes {
+	type: string;
+	id: string;
+	localName: string;
+	name: string;
+	description: string;
+	image: string;
+	mapImage: string;
+	rating: number;
+	numberOfReviews: number;
+	localAddress: string;
+	priceRange: string;
 }

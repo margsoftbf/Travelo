@@ -1,3 +1,18 @@
+import {
+	Cruises,
+	Fishing,
+	HikingCat,
+	Tent,
+	Trailers,
+} from '../../public/assets/svg';
+
+export const categories = [
+	{ name: 'Cruises', slug: 'cruises', icon: Cruises },
+	{ name: 'Fishing', slug: 'fishing', icon: Fishing },
+	{ name: 'Hiking', slug: 'hiking', icon: HikingCat },
+	{ name: 'Camping', slug: 'camping', icon: Tent },
+	{ name: 'Trailers', slug: 'trailers', icon: Trailers },
+];
 export const navigation = [
 	{
 		name: 'About Us',

@@ -6,7 +6,7 @@ import FilterBar from '@/components/SearchListPage/FilterBar';
 import LastMinute from '@/components/SearchListPage/LastMinute';
 import SortDropdown from '@/components/SearchListPage/SortDropdown';
 import Pagination from '@/components/SearchListPage/Pagination';
-import ListingCard from '@/components/SearchListPage/ListingCard';
+import ListingCard from '@/components/ui/ListingCard';
 import attractionData from '../../data/Attractions.json';
 import { Attraction } from '@/types/types';
 import { Background2 } from '../../../public/assets/svg';

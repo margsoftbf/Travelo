@@ -1,14 +1,10 @@
 # Travelo: Your Gateway to World Adventures
 
-Welcome to Travelo, a state-of-the-art travel platform that operates similarly to TripAdvisor. Our application is designed to revolutionize the way you search for vacations, adventures, restaurants, and hotels in the world's 100 most popular cities. With Travelo, you can effortlessly book your dream vacation or explore exciting new activities.
+Welcome to Travelo, a state-of-the-art travel platform that operates similarly to TripAdvisor. Our application is designed to revolutionize the way you search for vacations, adventures, restaurants, and hotels in the world's 50 most popular cities. With Travelo, you can effortlessly book your dream vacation or explore exciting new activities.
 
 ## Live Preview:
 
 https://travelo.marcingarski.com/
-
-## Screenshot
-
-![App Screenshoot](https://margsoftbf.github.io/Portfolio/assets/FusionFeast.webp)
 
 ## Download and Installation
 
@@ -17,6 +13,10 @@ https://travelo.marcingarski.com/
   npm i
   npm run dev
 ```
+
+## Screenshot
+
+![App Screenshoot](https://margsoftbf.github.io/Portfolio/assets/FusionFeast.webp)
 
 
 ## Technologies Used:

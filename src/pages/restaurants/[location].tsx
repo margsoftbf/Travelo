@@ -5,7 +5,7 @@ import FilterBar from '@/components/SearchListPage/FilterBar';
 import LastMinute from '@/components/SearchListPage/LastMinute';
 import SortDropdown from '@/components/SearchListPage/SortDropdown';
 import Pagination from '@/components/SearchListPage/Pagination';
-import ListingCard from '@/components/SearchListPage/ListingCard';
+import ListingCard from '@/components/ui/ListingCard';
 import restaurantsData from '../../data/Restaurant.json';
 import { Restaurant } from '@/types/types';
 import { Background2 } from '../../../public/assets/svg';
@@ -52,7 +52,6 @@ const RestaurantsPage: React.FC<RestaurantsPageProps> = ({
 	];
 
 	const pageTitle = router.query.location;
-
 
 	return (
 		<div className='relative overflow-hidden pb-8'>

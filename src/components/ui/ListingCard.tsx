@@ -1,5 +1,10 @@
 import Link from 'next/link';
-import { Hotel, Restaurant, Attraction } from '@/types/types';
+import {
+	Hotel,
+	Restaurant,
+	Attraction,
+	CategorySelectorTypes,
+} from '@/types/types';
 import Image from 'next/image';
 import {
 	HeartIcon,
@@ -10,7 +15,7 @@ import {
 import { ClockIcon } from '@heroicons/react/24/outline';
 
 interface ListingCardProps {
-	item: Hotel | Restaurant | Attraction;
+	item: Hotel | Restaurant | Attraction | CategorySelectorTypes;
 	isSimple?: boolean;
 }
 
@@ -51,6 +56,11 @@ const ListingCard: React.FC<ListingCardProps> = ({
 						</p>
 						<p className='absolute bg-primary hover:bg-black z-30 p-1 px-2 top-3 left-2  duration-300 transition ease-in-out text-[10px] text-white font-semibold font-dmSans rounded-md'>
 							{item.type === 'HOTEL' && '10% Off'}
+							{item.type === 'Cruises' && '10% Off'}
+							{item.type === 'Fishing' && 'Group Special'}
+							{item.type === 'Hiking' && '5% Off'}
+							{item.type === 'Camping' && '5% Off'}
+							{item.type === 'Trailers' && '5% Off'}
 							{item.type === 'RESTAURANT' && 'Lunch Special'}
 							{item.type === 'ATTRACTION' && 'Group Offer'}
 						</p>
@@ -83,18 +93,33 @@ const ListingCard: React.FC<ListingCardProps> = ({
 							<p className='flex items-center font-dmSans text-xs font-medium  text-softGrey gap-1 group-hover:text-white'>
 								<ClockIcon className='w-4 h-4 text-primary group-hover:text-white' />
 								{item.type === 'HOTEL' && '3 Day'}
+								{item.type === 'Cruises' && '8 Day - 10 Day'}
+								{item.type === 'Fishing' && '3 Day - 5 Day'}
+								{item.type === 'Hiking' && '1 Day - 3 Day'}
+								{item.type === 'Camping' && '1 Day - 3 Day'}
+								{item.type === 'Trailers' && '1 Day - 14 Day'}
 								{item.type === 'RESTAURANT' && '10:00-17:00'}
 								{item.type === 'ATTRACTION' && '10:00-20:00'}
 							</p>
 							<p className='flex items-center font-dmSans text-xs font-medium  text-softGrey gap-1 tracking-wider group-hover:text-white'>
 								<UserIcon className='w-4 h-4 text-primary group-hover:text-white' />
 								{item.type === 'HOTEL' && '12+'}
+								{item.type === 'Cruises' && '3+'}
+								{item.type === 'Fishing' && '8+'}
+								{item.type === 'Hiking' && '0+'}
+								{item.type === 'Trailers' && '0+'}
 								{item.type === 'RESTAURANT' && '3+'}
 								{item.type === 'ATTRACTION' && '1+'}
 							</p>
 						</div>
 						<div className='group-hover transition duration-300 ease-in-out'>
-							{(item.type === 'HOTEL' || item.type === 'RESTAURANT') &&
+							{(item.type === 'HOTEL' ||
+								item.type === 'RESTAURANT' ||
+								item.type === 'Cruises' ||
+								item.type === 'Fishing' ||
+								item.type === 'Hiking' ||
+								item.type === 'Camping' ||
+								item.type === 'Trailers') &&
 								'priceRange' in item && (
 									<p className='text-base font-bold tracking-tighter text-myBlack group-hover:text-white line-clamp-1 pr-1'>
 										{item.priceRange}

@@ -1,5 +1,5 @@
 import React from 'react';
-import ListingCard from '../SearchListPage/ListingCard';
+import ListingCard from '../ui/ListingCard';
 import { Attraction } from '@/types/types';
 
 interface SimilarAttractionsProps {
