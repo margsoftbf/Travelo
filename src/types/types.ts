@@ -287,6 +287,9 @@ export interface CategorySelectorTypes {
 	type: string;
 	id: string;
 	localName: string;
+	webUrl: string;
+	phone: string;
+	rankingString: string;
 	name: string;
 	description: string;
 	image: string;

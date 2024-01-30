@@ -28,7 +28,9 @@ const ListingCard: React.FC<ListingCardProps> = ({
 			? `/hotel/${item.id}`
 			: item.type === 'RESTAURANT'
 			? `/restaurant/${item.id}`
-			: `/attraction/${item.id}`;
+			: item.type === 'ATTRACTION'
+			? `/attraction/${item.id}`
+			: `/${item.type.toLowerCase()}/${item.id}`;
 
 	return (
 		<Link

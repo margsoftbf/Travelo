@@ -58,7 +58,7 @@ const AttractionDetailPage = ({
 					</div>
 				</div>
 			</div>
-		</div>
+		</div >
 	);
 };
 

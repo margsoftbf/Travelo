@@ -31,3 +31,7 @@ export { default as Fishing } from './Fishing.svg';
 export { default as HikingCat } from './HikingCat.svg';
 export { default as Tent } from './Tent.svg';
 export { default as Trailers } from './Trailers.svg';
+export { default as InstantBooking } from './InstantBooking.svg';
+export { default as LowPrice } from './LowPrice.svg';
+export { default as SafetyFirst } from './SafetyFirst.svg';
+export { default as TravelGuide } from './TravelGuide.svg';

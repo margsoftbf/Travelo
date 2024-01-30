@@ -1,5 +1,6 @@
 import About from '@/components/About';
 import CategorySelector from '@/components/CategorySelector';
+import ChooseUs from '@/components/ChooseUs';
 import MostFavouritePlace from '@/components/MostFavouritePlace';
 import dynamic from 'next/dynamic';
 
@@ -11,6 +12,7 @@ export default function Home() {
 			<Hero />
 			<About />
 			<MostFavouritePlace />
+			<ChooseUs />
 			<CategorySelector />
 		</main>
 	);

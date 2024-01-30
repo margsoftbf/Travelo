@@ -6,6 +6,10 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'media-cdn.tripadvisor.com',
             },
+            {
+                protocol: 'https',
+                hostname: 'cruise-images.tacdn.com',
+            },
         ],
     },
     webpack(config) {

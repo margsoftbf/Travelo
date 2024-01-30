@@ -6,6 +6,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { Calendar, Minus, Plus } from '../../../public/assets/svg';
 import moment from 'moment';
+import Link from 'next/link';
 
 interface BookingFormProps {
 	hotel: Hotel;
@@ -25,7 +26,9 @@ const CustomInput = forwardRef<
 			ref={ref}
 			type='text'
 			className={`block w-full text-[12px] text-black placeholder:text-black outline-none ${
-				hasError ? 'border-red-500 ring-red-500' : 'border-gray-300 ring-gray-300'
+				hasError
+					? 'border-red-500 ring-red-500'
+					: 'border-gray-300 ring-gray-300'
 			}`}
 			value={value || ''}
 			readOnly
@@ -182,7 +185,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 						checkInDate ? moment(checkInDate, 'YYYY-MM-DD').toDate() : null
 					}
 					onChange={(date) => handleDateChange(date, setCheckInDate, true)}
-					customInput={<CustomInput hasError={checkInDateError}/>}
+					customInput={<CustomInput hasError={checkInDateError} />}
 					dateFormat='yyyy-MM-dd'
 				/>
 				{checkInDateError && (
@@ -205,7 +208,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 						checkOutDate ? moment(checkOutDate, 'YYYY-MM-DD').toDate() : null
 					}
 					onChange={(date) => handleDateChange(date, setCheckOutDate)}
-					customInput={<CustomInput hasError={checkOutDateError}/>}
+					customInput={<CustomInput hasError={checkOutDateError} />}
 					dateFormat='yyyy-MM-dd'
 				/>
 				{checkOutDateError && (
@@ -292,7 +295,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
 			</p>
 			<button
 				type='submit'
-				className='mt-8 w-full flex justify-center items-center p-2 gap-2 rounded-md bg-primary text-white hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'
+				className='mt-8 w-full flex justify-center items-center p-2 gap-2 rounded-md font-semibold bg-primary text-white hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'
 				aria-label='Add to Cart'
 			>
 				Add to Cart

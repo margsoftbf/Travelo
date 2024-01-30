@@ -21,7 +21,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({ isHomePage }) => {
 									aria-label={item.name}
 									smooth={true}
 									offset={-60}
-									className='text-base font-semibold leading-6 text-softGrey font-openSans hover:text-primary ease-in-out duration-300 transition cursor-pointer '
+									className='text-base font-semibold leading-6 text-myBlack font-openSans hover:text-primary ease-in-out duration-300 transition cursor-pointer linkAni'
 								>
 									{item.name}
 								</ScrollLink>
@@ -30,7 +30,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({ isHomePage }) => {
 									key={item.name}
 									href={item.href}
 									aria-label={item.name}
-									className='text-sm lg:text-base text-softGrey font-semibold leading-6 font-openSans hover:text-primary ease-in-out duration-300 transition cursor-pointer'
+									className='text-sm lg:text-base text-myBlack font-semibold leading-6 font-openSans hover:text-primary ease-in-out duration-300 transition cursor-pointer linkAni'
 								>
 									{item.name}
 								</Link>
