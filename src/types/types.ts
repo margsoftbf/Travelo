@@ -299,3 +299,21 @@ export interface CategorySelectorTypes {
 	localAddress: string;
 	priceRange: string;
 }
+
+export interface BlogPostTypes {
+	id: number;
+	title: string;
+	href: string;
+	description: string;
+	imageUrl: string;
+	date: string;
+	comments: number;
+	datetime: string; 
+	category: { title: string; href: string };
+	author: {
+		name: string;
+		role: string;
+		href: string;
+		imageUrl: string;
+	};
+}

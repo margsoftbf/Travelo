@@ -1,4 +1,5 @@
 import About from '@/components/About';
+import Blog from '@/components/Blog';
 import CategorySelector from '@/components/CategorySelector';
 import ChooseUs from '@/components/ChooseUs';
 import MostFavouritePlace from '@/components/MostFavouritePlace';
@@ -14,6 +15,7 @@ export default function Home() {
 			<MostFavouritePlace />
 			<ChooseUs />
 			<CategorySelector />
+			<Blog />
 		</main>
 	);
 }

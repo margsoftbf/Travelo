@@ -35,3 +35,5 @@ export { default as InstantBooking } from './InstantBooking.svg';
 export { default as LowPrice } from './LowPrice.svg';
 export { default as SafetyFirst } from './SafetyFirst.svg';
 export { default as TravelGuide } from './TravelGuide.svg';
+export { default as Buildings2 } from './Buildings2.svg';
+export { default as Comments } from './Comments.svg';

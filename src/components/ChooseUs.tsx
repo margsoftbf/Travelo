@@ -7,9 +7,9 @@ import {
 	TourComplete,
 	RightTopCorner,
 	SafetyFirst,
-    LowPrice,
-    TravelGuide,
-    InstantBooking,
+	LowPrice,
+	TravelGuide,
+	InstantBooking,
 } from '../../public/assets/svg';
 import CountUp from 'react-countup';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
@@ -34,7 +34,7 @@ const ChooseUs = () => {
 	return (
 		<motion.div
 			id='about'
-			className='relative bg-neutral w-full mx-auto py-6'
+			className='relative bg-gradient-to-b from-neutral to-light w-full mx-auto py-6'
 			ref={ref}
 			animate={controls}
 			initial='hidden'

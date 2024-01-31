@@ -85276,6 +85276,4405 @@
 		"checkInDate": "2024-01-23",
 		"checkOutDate": "2024-01-24",
 		"offers": []
+	  },
+	  {
+		"id": "197204",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "La Malmaison Nice Boutique hotel",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "La Malmaison Nice is an ideal place for leasure and business stays. This charming hotel, inspired by the twenties, will seduce you with its warm environment and Art Deco design. Through a unique universe, at the same time Belle Epoque and contemporary, you will appreciate 46 rooms providing all the comfort and the modernity of an hotel recently renovated.",
+		"image": "https://media-cdn.tripadvisor.com/media/oyster/2600/0f/88/69/fd/superior-room--v16548459.jpg",
+		"photoCount": 247,
+		"awards": [],
+		"rankingPosition": 36,
+		"rating": 4.5,
+		"rawRanking": 4.258763790130615,
+		"phone": "+33 (0)4 93 87 62 56",
+		"address": "48 boulevard Victor Hugo, 06000 Nice France",
+		"addressObj": {
+		  "street1": "48 boulevard Victor Hugo",
+		  "street2": "",
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06000"
+		},
+		"localName": "La Malmaison Nice",
+		"localAddress": null,
+		"localLangCode": "fr",
+		"email": "contact@lamalmaisonnice.com",
+		"latitude": 43.698624,
+		"longitude": 7.260288,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d197204-Reviews-La_Malmaison_Nice_Boutique_hotel-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_.html",
+		"website": "http://www.lamalmaisonnice.com",
+		"rankingString": "#36 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [
+		  {
+			"id": "20484527",
+			"name": "Musiciens"
+		  }
+		],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 15,
+		  "count2": 10,
+		  "count3": 48,
+		  "count4": 141,
+		  "count5": 239
+		},
+		"numberOfReviews": 453,
+		"reviewTags": [],
+		"hotelClass": "4.0",
+		"hotelClassAttribution": "This property is classified according to Giata.",
+		"amenities": [
+		  "Internet",
+		  "Free Internet",
+		  "Free Wifi",
+		  "Room service",
+		  "Wheelchair access",
+		  "Bar/Lounge",
+		  "Pets Allowed",
+		  "Wifi",
+		  "Non-smoking rooms",
+		  "Business center",
+		  "Fitness center",
+		  "Air conditioning",
+		  "Multilingual Staff",
+		  "Minibar",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Private Balcony",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Housekeeping",
+		  "Baggage Storage",
+		  "Blackout Curtains",
+		  "Complimentary Tea",
+		  "English",
+		  "Complimentary Instant Cofffee",
+		  "French",
+		  "Hair Dryer",
+		  "Taxi Service",
+		  "Suites",
+		  "Arabic",
+		  "Bulgarian",
+		  "Express Check-in / Check-out",
+		  "Finnish",
+		  "24-Hour Front Desk",
+		  "German",
+		  "Italian",
+		  "Portuguese",
+		  "Paid Public Parking Nearby",
+		  "Romanian",
+		  "Russian",
+		  "Spanish",
+		  "Telephone",
+		  "Beach Access"
+		],
+		"numberOfRooms": 46,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.6
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.6
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.5
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 4.2
+		  }
+		],
+		"priceLevel": "$$",
+		"priceRange": "$81 - $132",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Great for watching the world go by\nWe found the room quiet\nBed and pillows very comfortable \nClean\nLovely staff\n",
+			"rating": "5",
+			"reviewId": "930690284",
+			"id": "930690284",
+			"createdTime": "2023-12-23T02:31:42-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "If renting a car head to the Hite companies at the train station, a 5 minute walk from the hotel. Parking was free overnight in the street.",
+			"rating": "4",
+			"reviewId": "921916602",
+			"id": "921916602",
+			"createdTime": "2023-10-18T13:20:31-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Use the tram from the airport",
+			"rating": "5",
+			"reviewId": "917202544",
+			"id": "917202544",
+			"createdTime": "2023-09-18T06:58:12-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "if you have a car, ask the front desk for a parking pass - it's convenient and less expensive than other nearby lots.",
+			"rating": "5",
+			"reviewId": "902387598",
+			"id": "902387598",
+			"createdTime": "2023-07-12T00:40:12-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Get the number 2 tram from the airport and get off at Alsace-Lorraine. Cost around €1.50pp and 5 min walk to the hotel!",
+			"rating": "5",
+			"reviewId": "893544312",
+			"id": "893544312",
+			"createdTime": "2023-06-05T06:02:20-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": []
+	  },
+	  {
+		"id": "482672",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Boscolo Nice Hotel&Spa",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "Découvrez pourquoi le Boscolo Nice Hotel&Spa  est l'hôtel préféré des voyageurs visitant Nice. Mélange idéal entre rapport qualité/prix et confort, il offre un cadre romantique avec une gamme de services conçus pour les voyageurs comme vous.\nLe Boscolo Nice Hotel&Spa est un hôtel romantique proposant des chambres équipées d'une télévision à écran plat, d'une climatisation et d'un mini-bar. Vous pouvez également compter sur un wi-fi gratuit pour rester connecté tout au long de votre séjour.\nL'hôtel dispose d'une conciergerie, d'un service de chambre et d'une terrasse sur le toit. La piscine et le petit déjeuner ont fait de l'hôtel sa grande popularité auprès des voyageurs visitant Nice. Pour les clients véhiculés, un parking est disponible.\nAgrémentez votre séjour au Boscolo d'une visite Place Masséna (0,4 km) et Cathedrale Sainte-Reparate (0,9 km), quelques-unes des meilleures attractions de Nice.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/29/34/2a/f1/lobby.jpg",
+		"photoCount": 1569,
+		"awards": [],
+		"rankingPosition": 60,
+		"rating": 4,
+		"rawRanking": 3.9495747089385986,
+		"phone": "+33 4 97 03 89 89",
+		"address": "12 Boulevard Victor Hugo, 06000 Nice France",
+		"addressObj": {
+		  "street1": "12 Boulevard Victor Hugo",
+		  "street2": null,
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06000"
+		},
+		"localName": "Hotel Boscolo Nice",
+		"localAddress": null,
+		"localLangCode": "fr",
+		"email": "reservations.nice@boscolocollection.com",
+		"latitude": 43.699955,
+		"longitude": 7.265708,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d482672-Reviews-Boscolo_Nice_Hotel_Spa-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+		"website": "https://boscolocollection.com/nice/",
+		"rankingString": "#60 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [
+		  {
+			"id": "20933752",
+			"name": "Centre"
+		  }
+		],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 120,
+		  "count2": 132,
+		  "count3": 284,
+		  "count4": 569,
+		  "count5": 1059
+		},
+		"numberOfReviews": 2164,
+		"reviewTags": [],
+		"hotelClass": "5.0",
+		"hotelClassAttribution": "This property is classified according to Giata.",
+		"amenities": [
+		  "Pool",
+		  "Suites",
+		  "Free Internet",
+		  "Free Wifi",
+		  "Internet",
+		  "Room service",
+		  "Wheelchair access",
+		  "Restaurant",
+		  "Bar/Lounge",
+		  "Spa",
+		  "Airport transportation",
+		  "Wifi",
+		  "Dry Cleaning",
+		  "Meeting rooms",
+		  "Hot Tub",
+		  "Non-smoking rooms",
+		  "Business center",
+		  "Fitness center",
+		  "Concierge",
+		  "Banquet Room",
+		  "Air conditioning",
+		  "Multilingual Staff",
+		  "Smoking rooms available",
+		  "Accessible rooms",
+		  "Refrigerator in room",
+		  "Minibar",
+		  "Conference Facilities",
+		  "Babysitting",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Rooftop Pool",
+		  "Heated pool",
+		  "Flatscreen TV",
+		  "Rooftop Terrace",
+		  "Breakfast Buffet",
+		  "Private Balcony",
+		  "Indoor pool",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Housekeeping",
+		  "Sauna",
+		  "Baggage Storage",
+		  "Bathrobes",
+		  "Breakfast in the Room",
+		  "Bridal Suite",
+		  "Doorperson",
+		  "English",
+		  "Facial Treatments",
+		  "Fitness / Spa Locker Rooms",
+		  "Foot Massage",
+		  "Complimentary Instant Cofffee",
+		  "French",
+		  "24-Hour Front Desk",
+		  "Full Body Massage",
+		  "Ironing Service",
+		  "Italian",
+		  "Massage",
+		  "Paid Private Parking Nearby",
+		  "Salon",
+		  "24-Hour Security",
+		  "Spanish",
+		  "Steam Room",
+		  "Taxi Service",
+		  "Beach Access"
+		],
+		"numberOfRooms": 112,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.5
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.4
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.1
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 3.8
+		  }
+		],
+		"priceLevel": "$$$",
+		"priceRange": "$190 - $254",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Don’t book taxis from the airport as the tram stop is right outside the hotel",
+			"rating": "4",
+			"reviewId": "923506193",
+			"id": "923506193",
+			"createdTime": "2023-10-29T09:22:16-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Breakfast at 40 Euros each is not worth it. Wander out to cafes 5 mins away for better food and experience.",
+			"rating": "4",
+			"reviewId": "923468279",
+			"id": "923468279",
+			"createdTime": "2023-10-29T05:33:28-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Stay somewhere else.",
+			"rating": "3",
+			"reviewId": "919955544",
+			"id": "919955544",
+			"createdTime": "2023-10-05T15:09:40-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Corner room was spacious.",
+			"rating": "5",
+			"reviewId": "917440122",
+			"id": "917440122",
+			"createdTime": "2023-09-19T16:10:01-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "No",
+			"rating": "2",
+			"reviewId": "914673472",
+			"id": "914673472",
+			"createdTime": "2023-09-03T13:16:56-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": []
+	  },
+	  {
+		"id": "263752",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Hotel Monsigny",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "Situé dans une zone piétonne du centre-ville, cet hôtel à l'ambiance détendue se trouve à 6 minutes à pied de la gare de Nice-CP, à 10 minutes du musée Marc-Chagall et à 2 km de la\npromenade des Anglais, au bord de la mer.\n\nLes chambres sobres disposent d'un accès Wi-Fi gratuit, d'une télévision à écran plat et d'une salle de bain en marbre. Pouvant accueillir jusqu'à 4 personnes, les chambres familiales sont en outre pourvues de lits superposés.\n\nLe petit-déjeuner buffet est proposé moyennant un supplément. L'établissement comprend un restaurant-bar contemporain. Il possède également un toit-terrasse ouvert en saison doté d'un bain à remous.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/5a/fb/15/facade-night.jpg",
+		"photoCount": 541,
+		"awards": [],
+		"rankingPosition": 43,
+		"rating": 4.5,
+		"rawRanking": 4.188305377960205,
+		"phone": "01133493882735",
+		"address": "17 avenue Malaussena, 06000 Nice France",
+		"addressObj": {
+		  "street1": "17 avenue Malaussena",
+		  "street2": "",
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06000"
+		},
+		"localName": "Hôtel Monsigny",
+		"localAddress": "17 Avenue Malaussena, 06000",
+		"localLangCode": "fr",
+		"email": "info@hotelmonsignynice.com",
+		"latitude": 43.70793,
+		"longitude": 7.263177,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d263752-Reviews-Hotel_Monsigny-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+		"website": "http://www.hotelmonsignynice.com",
+		"rankingString": "#43 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 36,
+		  "count2": 40,
+		  "count3": 101,
+		  "count4": 318,
+		  "count5": 566
+		},
+		"numberOfReviews": 1061,
+		"reviewTags": [],
+		"hotelClass": "3.0",
+		"hotelClassAttribution": "This property is classified according to Giata.",
+		"amenities": [
+		  "Internet",
+		  "Suites",
+		  "Free Internet",
+		  "Wheelchair access",
+		  "Restaurant",
+		  "Bar/Lounge",
+		  "Pets Allowed",
+		  "Wifi",
+		  "Public Wifi",
+		  "Free Wifi",
+		  "Hot Tub",
+		  "Non-smoking rooms",
+		  "Banquet Room",
+		  "Air conditioning",
+		  "Multilingual Staff",
+		  "Accessible rooms",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Rooftop Bar",
+		  "Flatscreen TV",
+		  "Rooftop Terrace",
+		  "Breakfast Buffet",
+		  "Private Balcony",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Housekeeping",
+		  "Baggage Storage",
+		  "Coffee Shop",
+		  "Desk",
+		  "English",
+		  "Complimentary Toiletries",
+		  "French",
+		  "24-Hour Front Desk",
+		  "German",
+		  "Hair Dryer",
+		  "Italian",
+		  "Newspaper",
+		  "Paid Private Parking On-site",
+		  "Paid Public Parking Nearby",
+		  "24-Hour Security",
+		  "Shared Lounge / TV Area",
+		  "Soundproof Rooms",
+		  "Spanish",
+		  "Taxi Service",
+		  "Telephone",
+		  "Conference Facilities",
+		  "Clothes Rack",
+		  "Free Wifi in the Business Center",
+		  "Happy Hour",
+		  "Private Bathrooms",
+		  "Walk-in Shower",
+		  "Wardrobe / Closet",
+		  "Beach Access"
+		],
+		"numberOfRooms": 101,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.5
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.6
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.4
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 4.3
+		  }
+		],
+		"priceLevel": "$",
+		"priceRange": "$61 - $98",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "We recommend the hotels’ breakfast. After having explored the area for breakfast options, we found this well worth the €14.-",
+			"rating": "5",
+			"reviewId": "926653193",
+			"id": "926653193",
+			"createdTime": "2023-11-20T03:04:18-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "If you want to enjoy the Rooftop, better stay before Sept 30th. Same goes for the lobby bar and restaurant. Best to go elsewhere for dining.",
+			"rating": "3",
+			"reviewId": "925287177",
+			"id": "925287177",
+			"createdTime": "2023-11-09T12:33:15-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Right hand side from the hotel there is a very good italien delicate shop\nChagall and Matisse museum is good\n",
+			"rating": "5",
+			"reviewId": "923999946",
+			"id": "923999946",
+			"createdTime": "2023-11-01T11:55:42-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Get the train to Monaco 5 mins walk from\nThe hotel.",
+			"rating": "5",
+			"reviewId": "923851060",
+			"id": "923851060",
+			"createdTime": "2023-10-31T10:43:04-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "I never saw the Jacuzzi on the roof used once, the drinks are priced ok when you can get tin there !",
+			"rating": "2",
+			"reviewId": "918844897",
+			"id": "918844897",
+			"createdTime": "2023-09-28T07:17:38-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 71,
+			"tax": 11,
+			"priceText": "$71",
+			"taxesAndFeesText": "$12",
+			"totalStayPriceText": "$83",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 85,
+			"tax": 12,
+			"priceText": "$85",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$98",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 61,
+			"tax": 16,
+			"priceText": "$61",
+			"taxesAndFeesText": "$16",
+			"totalStayPriceText": "$77",
+			"priceBeforeSale": null,
+			"provider": "Splitty",
+			"vendor": "Algotels",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "7932671",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Ibis Styles Nice Centre Gare",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "In the heart of Nice, the Ibis Styles Nice Centre Gare enjoys a great location. Our 135 rooms’ hotel welcomes you in a warm and cool atmosphere. Breakfast and Wi-Fi are included. Our comfortable, modern air-conditioned rooms have a private bathroom and are equipped with a flat-screen TV, all in a Miami style. Whether your stay is a family or business one, you’ll find what you’re looking for : family rooms, double or single ones. The plus of our hotel ? A peaceful patio. Less than a 10-minute walk away from the hotel, you can find the must-see places of the city: Place Massena, the Promenade des Anglais, the beach as well as Nice’s Old Town. Nice-Ville Train Station is less than 300m away from the hotel, and the line 2 of the tramway links the hotel directly to the airport. Let us add that the hotel is Cyclists Welcome certified, which means we provide adapted equipment for you and your bicycle.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-w/2a/a6/73/43/exterior-view.jpg",
+		"photoCount": 663,
+		"awards": [],
+		"rankingPosition": 24,
+		"rating": 4.5,
+		"rawRanking": 4.450899124145508,
+		"phone": "01133492006300",
+		"address": "3 avenue Durante, 06000 Nice France",
+		"addressObj": {
+		  "street1": "3 avenue Durante",
+		  "street2": null,
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06000"
+		},
+		"localName": "Ibis Styles Nice Centre Gare",
+		"localAddress": "3 - 5 Avenue Durante, 06000",
+		"localLangCode": "fr",
+		"email": "h9907-re@accor.com",
+		"latitude": 43.701397,
+		"longitude": 7.262384,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d7932671-Reviews-Ibis_Styles_Nice_Centre_Gare-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azu.html",
+		"website": "http://all.accor.com/hotel/9907/index.fr.shtml",
+		"rankingString": "#24 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 13,
+		  "count2": 15,
+		  "count3": 101,
+		  "count4": 582,
+		  "count5": 766
+		},
+		"numberOfReviews": 1477,
+		"reviewTags": [],
+		"hotelClass": "3.0",
+		"hotelClassAttribution": "This property is classified according to Accor Hotels.",
+		"amenities": [
+		  "Internet",
+		  "Free Internet",
+		  "Free Wifi",
+		  "Kids Activities",
+		  "Wheelchair access",
+		  "Pets Allowed",
+		  "Wifi",
+		  "Public Wifi",
+		  "Breakfast included",
+		  "Non-smoking rooms",
+		  "Business center",
+		  "Air conditioning",
+		  "Family Rooms",
+		  "Multilingual Staff",
+		  "Accessible rooms",
+		  "Babysitting",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Private Balcony",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Housekeeping",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "Express Check-in / Check-out",
+		  "English",
+		  "French",
+		  "24-Hour Front Desk",
+		  "Hair Dryer",
+		  "Italian",
+		  "Kid-Friendly Buffet",
+		  "Outdoor Furniture",
+		  "Paid Public Parking Nearby",
+		  "Spanish",
+		  "Taxi Service",
+		  "Telephone",
+		  "Blackout Curtains",
+		  "Board Games / Puzzles",
+		  "Bottled Water",
+		  "Cable / Satellite TV",
+		  "24-Hour Check-in",
+		  "Children's Television Networks",
+		  "Clothes Rack",
+		  "Coffee Shop",
+		  "Dutch",
+		  "German",
+		  "Highchairs Available",
+		  "Indoor Play Area for Children",
+		  "Interconnected room(s) available",
+		  "Laptop Safe",
+		  "Patio",
+		  "24-Hour Security",
+		  "Shared Lounge / TV Area",
+		  "Snack Bar",
+		  "Soundproof Rooms",
+		  "Strollers",
+		  "Walking Tours",
+		  "Beach Access"
+		],
+		"numberOfRooms": 135,
+		"categoryReviewScores": [],
+		"priceLevel": "$$",
+		"priceRange": "$92 - $141",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "If using the train down load tickets on Trainline , as it’s a nightmare queuing at Nice station for tickets",
+			"rating": "5",
+			"reviewId": "915714107",
+			"id": "915714107",
+			"createdTime": "2023-09-09T13:34:58-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Oh, they also have a water machine... so helpful  and convenient to refill bottles",
+			"rating": "5",
+			"reviewId": "901920610",
+			"id": "901920610",
+			"createdTime": "2023-07-10T04:58:18-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "There are two coffee machines in the breakfast lounge, not only one (do not queue at one, whilst the other is people-free!)",
+			"rating": "4",
+			"reviewId": "890984471",
+			"id": "890984471",
+			"createdTime": "2023-05-19T04:16:03-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Room with terrace ",
+			"rating": "5",
+			"reviewId": "849883087",
+			"id": "849883087",
+			"createdTime": "2022-07-25T14:57:48-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "No bar or pool but loads of places to eat and drink in the area or a few stops away on the tram. Close to station and tram.",
+			"rating": "5",
+			"reviewId": "849850449",
+			"id": "849850449",
+			"createdTime": "2022-07-25T10:59:00-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 88,
+			"tax": 13,
+			"priceText": "$89",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$102",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 87,
+			"tax": 13,
+			"priceText": "$87",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$100",
+			"priceBeforeSale": "$94",
+			"provider": "Accor",
+			"vendor": "ibis Styles",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 88,
+			"tax": 13,
+			"priceText": "$89",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$102",
+			"priceBeforeSale": null,
+			"provider": "HotelsCom2",
+			"vendor": "Hotels.com",
+			"canPayInInstallments": true
+		  }
+		]
+	  },
+	  {
+		"id": "25252263",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Hotel Khla Nice",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "NOUVELLE ADRESSE 3* DANS LE QUARTIER DE LA GARE L’Hôtel Khla est la nouvelle adresse 3* pour vos séjours au coeur de Nice proche de la gare Thiers, de la grande avenue commerçante Jean Médecin et de tous les atouts de Nissa la Bella. Facilement accessible et très bien desservi, le quartier de l’Hôtel Khla, est idéal pour poser vos valises et commencer à vivre la dolce vita niçoise. GRANDS ESPACES, LUMINOSITÉ ET CONFORT Poussez la porte de l’Hôtel Khla Nice et découvrez le tout nouveau design imaginé par la décoratrice Armelle Beslay de l’agence Interieur&exterieur. Mélange savoureux de textures, de lumières et de couleurs chaudes pour offrir une ambiance captivante. Le bâtiment art déco de l’Hôtel Khla abrite 68 chambres toutes dotées d’une nouvelle literie et d’équipements de haute qualité.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/28/1a/ee/3a/hotel-khla-nice.jpg",
+		"photoCount": 102,
+		"awards": [],
+		"rankingPosition": 74,
+		"rating": 4,
+		"rawRanking": 3.8053267002105713,
+		"phone": "01133492000850",
+		"address": "31 rue Paganini, 06000 Nice France",
+		"addressObj": {
+		  "street1": "31 rue Paganini",
+		  "street2": null,
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06000"
+		},
+		"localName": "Hôtel Khla Nice",
+		"localAddress": "31 Rue Paganini, 06000",
+		"localLangCode": "fr",
+		"email": "ebusiness@hotelkhla.com",
+		"latitude": 43.70429,
+		"longitude": 7.263642,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d25252263-Reviews-Hotel_Khla_Nice-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+		"website": "https://www.hotelkhla.com",
+		"rankingString": "#74 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 5,
+		  "count2": 7,
+		  "count3": 11,
+		  "count4": 21,
+		  "count5": 66
+		},
+		"numberOfReviews": 110,
+		"reviewTags": [],
+		"hotelClass": "3.0",
+		"hotelClassAttribution": "This property is classified according to Giata.",
+		"amenities": [
+		  "Free Wifi"
+		],
+		"numberOfRooms": 68,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.8
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.5
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 4.5
+		  }
+		],
+		"priceLevel": "$",
+		"priceRange": "$65 - $121",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Call the hotel and ask for real information about the room before booking.",
+			"rating": "2",
+			"reviewId": "919091202",
+			"id": "919091202",
+			"createdTime": "2023-09-30T01:03:24-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Near to train station ",
+			"rating": "4",
+			"reviewId": "891426395",
+			"id": "891426395",
+			"createdTime": "2023-05-22T03:45:00-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 64,
+			"tax": 10,
+			"priceText": "$64",
+			"taxesAndFeesText": "$11",
+			"totalStayPriceText": "$75",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 64,
+			"tax": 10,
+			"priceText": "$64",
+			"taxesAndFeesText": "$11",
+			"totalStayPriceText": "$75",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 54,
+			"tax": 12,
+			"priceText": "$54",
+			"taxesAndFeesText": "$12",
+			"totalStayPriceText": "$66",
+			"priceBeforeSale": "$64",
+			"provider": "Vio",
+			"vendor": "Vio.com",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "232365",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Hotel Suisse Nice",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "The Hotel Suisse is ideally situated between sea and sky. Constructed along Italian-style architectural lines, it enjoys a unique location. For a stay in Nice on the French Riviera, enjoy the comfort of the various rooms and their stunning panorama. With their clean, stylish lines, the suite and the rooms ensure comfort and well-being and offer a breathtaking view of the Baie des Anges. First thing in the morning, enjoy a full buffet breakfast in our lounge. In some rooms you will be able to enjoy it on the terrace. Then, you'll be able to head out to the beach, which is only a few metres' walk away (preferential conditions on the private beach of our partner). Just minutes from the city centre, the hotel allows you to easily explore the charms of the historic centre of Nice or the port. Upon your return, share a moment of conviviality in the bar as you sip the cocktail of the day.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/2a/66/98/3c/tradition.jpg",
+		"photoCount": 1119,
+		"awards": [],
+		"rankingPosition": 38,
+		"rating": 4,
+		"rawRanking": 4.231606483459473,
+		"phone": "01133492173900",
+		"address": "15 quai Rauba Capeu Promenade des Anglais, 06300 Nice France",
+		"addressObj": {
+		  "street1": "15 quai Rauba Capeu",
+		  "street2": "Promenade des Anglais",
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06300"
+		},
+		"localName": "Hotel Suisse Nice",
+		"localAddress": "15 quai Rauba Capeu, Promenade des Anglais, 06300",
+		"localLangCode": "fr",
+		"email": "hotel.suisse@hotels-ocre-azur.com",
+		"latitude": 43.694225,
+		"longitude": 7.279267,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d232365-Reviews-Hotel_Suisse_Nice-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+		"website": "http://www.hotel-nice-suisse.com",
+		"rankingString": "#38 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [
+		  {
+			"id": "20933753",
+			"name": "Old Town / Vieux Nice"
+		  }
+		],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 40,
+		  "count2": 45,
+		  "count3": 169,
+		  "count4": 592,
+		  "count5": 777
+		},
+		"numberOfReviews": 1623,
+		"reviewTags": [],
+		"hotelClass": "4.0",
+		"hotelClassAttribution": "This property is classified according to Giata.",
+		"amenities": [
+		  "Internet",
+		  "Free Internet",
+		  "Free Wifi",
+		  "Non-smoking rooms",
+		  "Room service",
+		  "Dry Cleaning",
+		  "Air conditioning",
+		  "Minibar",
+		  "Suites",
+		  "Bar/Lounge",
+		  "Wifi",
+		  "Business center",
+		  "Multilingual Staff",
+		  "Smoking rooms available",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Private Balcony",
+		  "Breakfast Available",
+		  "Housekeeping",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "English",
+		  "French",
+		  "24-Hour Front Desk",
+		  "Italian",
+		  "Newspaper",
+		  "Taxi Service",
+		  "Laundry Service",
+		  "Kids Stay Free",
+		  "Blackout Curtains",
+		  "Breakfast in the Room",
+		  "Bridal Suite",
+		  "24-Hour Check-in",
+		  "Children's Television Networks",
+		  "Clothes Rack",
+		  "Desk",
+		  "Electric Kettle",
+		  "Complimentary Toiletries",
+		  "German",
+		  "Gift Shop",
+		  "Hair Dryer",
+		  "Highchairs Available",
+		  "Ironing Service",
+		  "Laptop Safe",
+		  "Private Bathrooms",
+		  "Paid Public Parking Nearby",
+		  "Radio",
+		  "Russian",
+		  "Shoeshine",
+		  "Soundproof Rooms",
+		  "Spanish",
+		  "Telephone",
+		  "Wake Up Service / Alarm Clock",
+		  "Wardrobe / Closet",
+		  "Beach Access"
+		],
+		"numberOfRooms": 38,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.8
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.5
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.1
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 4
+		  }
+		],
+		"priceLevel": "$$$",
+		"priceRange": "$153 - $408",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Book a second floor view room - the balconies are the best!  My room had 2 French doors and a larger balcony.  Room was small but comfy bed.",
+			"rating": "5",
+			"reviewId": "925509779",
+			"id": "925509779",
+			"createdTime": "2023-11-11T07:43:04-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Ask if the price is firmly set.\n",
+			"rating": "4",
+			"reviewId": "910088608",
+			"id": "910088608",
+			"createdTime": "2023-08-13T12:11:26-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Lock your valuable items",
+			"rating": "3",
+			"reviewId": "905916255",
+			"id": "905916255",
+			"createdTime": "2023-07-27T02:51:53-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "dont expect a large breakfast room or a bat area it was miniscule",
+			"rating": "3",
+			"reviewId": "901482702",
+			"id": "901482702",
+			"createdTime": "2023-07-08T10:57:10-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "You can’t call an Uber from out front of the hotel. Pick up locations are a 5-10 min walk away.",
+			"rating": "5",
+			"reviewId": "898734856",
+			"id": "898734856",
+			"createdTime": "2023-06-28T17:30:50-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 173,
+			"tax": 23,
+			"priceText": "$173",
+			"taxesAndFeesText": "$24",
+			"totalStayPriceText": "$197",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 173,
+			"tax": 23,
+			"priceText": "$173",
+			"taxesAndFeesText": "$24",
+			"totalStayPriceText": "$197",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 125,
+			"tax": 12,
+			"priceText": "$125",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$138",
+			"priceBeforeSale": "$173",
+			"provider": "FindHotel",
+			"vendor": "Vio.com",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "21507177",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Hotel Byakko Nice",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "The Hotel Byakko Nice offers a warm welcome to allow you a pleasant stay in the capital of the French Riviera. In the heart of Nice but away from the heavy traffic. Located 5 minutes from the train station, 12 minutes from the sea and 10 minutes from the old town and Place Massena.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/28/da/7d/1e/hotel-byakko-nice.jpg",
+		"photoCount": 206,
+		"awards": [],
+		"rankingPosition": 30,
+		"rating": 4.5,
+		"rawRanking": 4.352970600128174,
+		"phone": "01133493621065",
+		"address": "6 rue Miron, 06000 Nice France",
+		"addressObj": {
+		  "street1": "6 rue Miron",
+		  "street2": null,
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06000"
+		},
+		"localName": "Hôtel Byakko Nice",
+		"localAddress": null,
+		"localLangCode": "fr",
+		"email": "booking@hotelbyakko.com",
+		"latitude": 43.705254,
+		"longitude": 7.267945,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d21507177-Reviews-Hotel_Byakko_Nice-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+		"website": "https://www.hotelbyakko.com/",
+		"rankingString": "#30 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 8,
+		  "count2": 10,
+		  "count3": 24,
+		  "count4": 114,
+		  "count5": 205
+		},
+		"numberOfReviews": 361,
+		"reviewTags": [],
+		"hotelClass": "3.0",
+		"hotelClassAttribution": "This property is classified according to Giata.",
+		"amenities": [
+		  "Internet",
+		  "Free Internet",
+		  "Pets Allowed",
+		  "Wifi",
+		  "Free Wifi",
+		  "Non-smoking rooms",
+		  "Concierge",
+		  "Air conditioning",
+		  "Family Rooms",
+		  "Multilingual Staff",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Breakfast Buffet",
+		  "Housekeeping",
+		  "Baggage Storage",
+		  "24-Hour Check-in",
+		  "English",
+		  "French",
+		  "24-Hour Front Desk",
+		  "Breakfast Available"
+		],
+		"numberOfRooms": 64,
+		"categoryReviewScores": [],
+		"priceLevel": "$",
+		"priceRange": "$58 - $107",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Avoid if you are a light sleeper...or bring ear plugs",
+			"rating": "5",
+			"reviewId": "925529825",
+			"id": "925529825",
+			"createdTime": "2023-11-11T10:59:30-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Private parking may be an issue",
+			"rating": "5",
+			"reviewId": "909006914",
+			"id": "909006914",
+			"createdTime": "2023-08-09T03:12:07-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Contact the hotel if you have booked a standard room to gain clarification of what amenities the room contains.",
+			"rating": "5",
+			"reviewId": "903861855",
+			"id": "903861855",
+			"createdTime": "2023-07-18T01:11:48-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "All good",
+			"rating": "5",
+			"reviewId": "894040120",
+			"id": "894040120",
+			"createdTime": "2023-06-08T09:44:51-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Ask for a room with a balcony to allow fresh air in your room. It made our tiny room feel much bigger. The hotel is so nice and clean. Enjoy",
+			"rating": "5",
+			"reviewId": "894017637",
+			"id": "894017637",
+			"createdTime": "2023-06-08T06:54:48-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 61,
+			"tax": 10,
+			"priceText": "$61",
+			"taxesAndFeesText": "$11",
+			"totalStayPriceText": "$72",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 61,
+			"tax": 10,
+			"priceText": "$61",
+			"taxesAndFeesText": "$11",
+			"totalStayPriceText": "$72",
+			"priceBeforeSale": null,
+			"provider": "HotelsCom2",
+			"vendor": "Hotels.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 57,
+			"tax": 4,
+			"priceText": "$58",
+			"taxesAndFeesText": "$4",
+			"totalStayPriceText": "$62",
+			"priceBeforeSale": "$61",
+			"provider": "WIHP",
+			"vendor": "Official Site",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "197194",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Hotel Nice Riviera",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "The 4 star Nice Riviera Hotel places you in the heart of Nice on the French Riviera, only a few minutes from the glorious beach and a short walk from the renowned Promenade des Anglais ; ideally placed whether you are visiting for pleasure or on business. The hotel also has a private underground parking (22€/day). The Nice Riviera Hotel's 120 attractive rooms welcome singles, couples and families. Guest rooms present a quality contemporary ambience with interiors of soft pastel tones, full-length window drapes and fabrics of warm rich colour on smooth bamboo parquet flooring and modern amenities for your comfort and convenience. A 65m² daylight conference room with A/V equipment can host 70 people. Each day starts with a rich buffet breakfast (15€/person) and you can find relaxation in the cafe lounge bar enjoying a free WiFi connection. The wellness area includes an indoor heated pool, sauna and a fitness corner to help you rejuvenate and revive the spirit (10€/person/hour).",
+		"image": "https://media-cdn.tripadvisor.com/media/oyster/2600/07/11/63/65/the-hotel--v4692610.jpg",
+		"photoCount": 510,
+		"awards": [],
+		"rankingPosition": 119,
+		"rating": 4,
+		"rawRanking": 3.446934938430786,
+		"phone": "+33 4 93 92 69 60",
+		"address": "45 rue Pastorelli, 06000 Nice France",
+		"addressObj": {
+		  "street1": "45 rue Pastorelli",
+		  "street2": "",
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06000"
+		},
+		"localName": "Hôtel Nice Riviera",
+		"localAddress": "45 - 47 rue Pastorelli, 06000",
+		"localLangCode": "fr",
+		"email": "info@nr.com.fr",
+		"latitude": 43.700096,
+		"longitude": 7.269629,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d197194-Reviews-Hotel_Nice_Riviera-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+		"website": "http://www.hotel-nice-riviera.com/fr",
+		"rankingString": "#119 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [
+		  {
+			"id": "20933752",
+			"name": "Centre"
+		  }
+		],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 97,
+		  "count2": 146,
+		  "count3": 355,
+		  "count4": 777,
+		  "count5": 517
+		},
+		"numberOfReviews": 1892,
+		"reviewTags": [],
+		"hotelClass": "4.0",
+		"hotelClassAttribution": "This property is classified according to Giata.",
+		"amenities": [
+		  "Pool",
+		  "Free Internet",
+		  "Free Wifi",
+		  "Business center",
+		  "Internet",
+		  "Suites",
+		  "Room service",
+		  "Wheelchair access",
+		  "Bar/Lounge",
+		  "Pets Allowed",
+		  "Spa",
+		  "Airport transportation",
+		  "Wifi",
+		  "Public Wifi",
+		  "Meeting rooms",
+		  "Hot Tub",
+		  "Non-smoking rooms",
+		  "Fitness center",
+		  "Laundry Service",
+		  "Concierge",
+		  "Banquet Room",
+		  "Air conditioning",
+		  "Multilingual Staff",
+		  "Accessible rooms",
+		  "Minibar",
+		  "Babysitting",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Heated pool",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Private Balcony",
+		  "Indoor pool",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Sauna",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "Coffee / Tea Maker",
+		  "Desk",
+		  "English",
+		  "Complimentary Toiletries",
+		  "French",
+		  "24-Hour Front Desk",
+		  "Hair Dryer",
+		  "Parking Garage",
+		  "Paid Private Parking On-site",
+		  "Taxi Service",
+		  "Coffee Shop",
+		  "Italian",
+		  "Massage",
+		  "Soundproof Rooms",
+		  "Telephone",
+		  "Beach Access"
+		],
+		"numberOfRooms": 120,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.6
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.1
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.2
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 3.9
+		  }
+		],
+		"priceLevel": "$$",
+		"priceRange": "$88 - $129",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "You will find several better hotel with lower stars",
+			"rating": "1",
+			"reviewId": "916633246",
+			"id": "916633246",
+			"createdTime": "2023-09-14T23:28:12-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Ask for a room facing the synagogue. The street is quiet and the view spiritually inspiring.",
+			"rating": "3",
+			"reviewId": "911108813",
+			"id": "911108813",
+			"createdTime": "2023-08-17T16:57:02-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Do Not stay there",
+			"rating": "1",
+			"reviewId": "875289327",
+			"id": "875289327",
+			"createdTime": "2023-01-16T03:00:58-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Io eviterei di andarci, scarsa pulizia e disonesta",
+			"rating": "1",
+			"reviewId": "874853537",
+			"id": "874853537",
+			"createdTime": "2023-01-12T04:29:10-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Pool costs extra, not many staff speak English and only French stations available, can be very noisy and many tour groups come and go.",
+			"rating": "2",
+			"reviewId": "867352294",
+			"id": "867352294",
+			"createdTime": "2022-11-05T11:45:06-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 61,
+			"tax": 12,
+			"priceText": "$61",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$74",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 68,
+			"tax": 13,
+			"priceText": "$69",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$82",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 53,
+			"tax": 16,
+			"priceText": "$53",
+			"taxesAndFeesText": "$16",
+			"totalStayPriceText": "$69",
+			"priceBeforeSale": null,
+			"provider": "Splitty",
+			"vendor": "Algotels",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "197225",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "La Villa Nice Victor Hugo",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "On Victor Hugo Boulevard, Hotel La Villa Nice Victor Hugo is right in the center of Nice, a 15-minute walk from the Vieux Nice district. It features contemporary guest rooms decorated in white and gray tones, along with elegant lounges and a bar which are open 24-hours a day. Near the sea, pedestrian and shopping areas, the historic quarter, restaurants and cafes, the hotel enjoys a perfect location for both business travelers and tourists.Hotel La Villa Nice Victor Hugo features free Wi-Fi and is within walking distance of the Promenade des Anglais. There is an underground public parking lot across the street from the hotel.Nice train station is a 10-minute walk away, and Nice-Cote-d'Azur Airport is 5 miles from the property.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/06/81/72/27/la-villa-nice-victor.jpg",
+		"photoCount": 354,
+		"awards": [],
+		"rankingPosition": 37,
+		"rating": 4.5,
+		"rawRanking": 4.2379655838012695,
+		"phone": "+33 4 93 87 15 00",
+		"address": "19 bis Boulevard Victor Hugo, 06000 Nice France",
+		"addressObj": {
+		  "street1": "19 bis Boulevard Victor Hugo",
+		  "street2": "",
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06000"
+		},
+		"localName": "La Villa Nice Victor Hugo",
+		"localAddress": null,
+		"localLangCode": "fr",
+		"email": "contact@hotel-villa-nice-centre.com",
+		"latitude": 43.699368,
+		"longitude": 7.264486,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d197225-Reviews-La_Villa_Nice_Victor_Hugo-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+		"website": "http://www.hotels-la-villa.com",
+		"rankingString": "#37 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [
+		  {
+			"id": "20933752",
+			"name": "Centre"
+		  }
+		],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 17,
+		  "count2": 16,
+		  "count3": 72,
+		  "count4": 405,
+		  "count5": 454
+		},
+		"numberOfReviews": 964,
+		"reviewTags": [],
+		"hotelClass": "2.0",
+		"hotelClassAttribution": "This property is classified according to Giata.",
+		"amenities": [
+		  "Free Internet",
+		  "Bar/Lounge",
+		  "Wifi",
+		  "Free Wifi",
+		  "Wheelchair access",
+		  "Non-smoking rooms",
+		  "Air conditioning",
+		  "Multilingual Staff",
+		  "Refrigerator in room",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "Complimentary Tea",
+		  "English",
+		  "Complimentary Instant Cofffee",
+		  "Complimentary Toiletries",
+		  "French",
+		  "24-Hour Front Desk",
+		  "Hair Dryer",
+		  "Telephone",
+		  "Accessible rooms",
+		  "Blackout Curtains",
+		  "Desk",
+		  "German",
+		  "Italian",
+		  "Laptop Safe",
+		  "Paid Public Parking Nearby",
+		  "Wake Up Service / Alarm Clock",
+		  "Beach Access"
+		],
+		"numberOfRooms": 47,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.7
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.7
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.4
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 4.3
+		  }
+		],
+		"priceLevel": "$$",
+		"priceRange": "$81 - $184",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Ask for a room with a view of the street",
+			"rating": "4",
+			"reviewId": "928019101",
+			"id": "928019101",
+			"createdTime": "2023-11-30T20:01:47-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Pick another prooerty",
+			"rating": "2",
+			"reviewId": "921962196",
+			"id": "921962196",
+			"createdTime": "2023-10-18T23:25:33-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "It’s very limited service/ help because they are under staffed with in my opinion. The location is\nGreat!",
+			"rating": "4",
+			"reviewId": "916885165",
+			"id": "916885165",
+			"createdTime": "2023-09-16T10:55:41-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "We took a cab from the airport, but it’s a quick walk from the train station.",
+			"rating": "5",
+			"reviewId": "893667040",
+			"id": "893667040",
+			"createdTime": "2023-06-06T00:37:42-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Close to absolutely everything. Quiet street right in the heart of old town  ",
+			"rating": "4",
+			"reviewId": "886373480",
+			"id": "886373480",
+			"createdTime": "2023-04-15T13:52:42-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 72,
+			"tax": 11,
+			"priceText": "$72",
+			"taxesAndFeesText": "$12",
+			"totalStayPriceText": "$84",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 72,
+			"tax": 11,
+			"priceText": "$72",
+			"taxesAndFeesText": "$12",
+			"totalStayPriceText": "$84",
+			"priceBeforeSale": null,
+			"provider": "HotelsCom2",
+			"vendor": "Hotels.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 57,
+			"tax": 9,
+			"priceText": "$58",
+			"taxesAndFeesText": "$9",
+			"totalStayPriceText": "$67",
+			"priceBeforeSale": "$86",
+			"provider": "Agoda",
+			"vendor": "Agoda.com",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "263754",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Hotel La Perouse Nice",
+		"locationString": "Nice, French Riviera - Cote d'Azur, Provence-Alpes-Cote d'Azur",
+		"description": "The hidden trasure of Nice, facing the Mediterranean Sea in a peaceful atmosphere, even if we are in the very center of the city.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/29/94/a0/12/hotel-la-perouse.jpg",
+		"photoCount": 1115,
+		"awards": [],
+		"rankingPosition": 25,
+		"rating": 4.5,
+		"rawRanking": 4.400646209716797,
+		"phone": "+33 4 93 62 34 63",
+		"address": "11 Quai Rauba Capeu, 06300 Nice France",
+		"addressObj": {
+		  "street1": "11 Quai Rauba Capeu",
+		  "street2": "",
+		  "city": "Nice",
+		  "state": null,
+		  "country": "France",
+		  "postalcode": "06300"
+		},
+		"localName": "Hotel La Pérouse",
+		"localAddress": "11 Quai Rauba Capeu, 06300",
+		"localLangCode": "fr",
+		"email": "lp@hotel-la-perouse.com",
+		"latitude": 43.693993,
+		"longitude": 7.279214,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g187234-d263754-Reviews-Hotel_La_Perouse_Nice-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+		"website": "http://www.hotel-la-perouse.com/fr",
+		"rankingString": "#25 of 213 hotels in Nice",
+		"rankingDenominator": "213",
+		"neighborhoodLocations": [
+		  {
+			"id": "20933753",
+			"name": "Old Town / Vieux Nice"
+		  }
+		],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "187234",
+			"name": "Nice",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "187216",
+			"name": "French Riviera - Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187208",
+			"name": "Provence-Alpes-Cote d'Azur",
+			"abbreviation": null,
+			"subcategory": "Region"
+		  },
+		  {
+			"id": "187070",
+			"name": "France",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 44,
+		  "count2": 61,
+		  "count3": 147,
+		  "count4": 461,
+		  "count5": 1107
+		},
+		"numberOfReviews": 1820,
+		"reviewTags": [],
+		"hotelClass": "4.0",
+		"hotelClassAttribution": "This property is classified according to Giata.",
+		"amenities": [
+		  "Pool",
+		  "Suites",
+		  "Free Internet",
+		  "Free Wifi",
+		  "Fitness center",
+		  "Internet",
+		  "Room service",
+		  "Wheelchair access",
+		  "Restaurant",
+		  "Bar/Lounge",
+		  "Spa",
+		  "Airport transportation",
+		  "Wifi",
+		  "Public Wifi",
+		  "Dry Cleaning",
+		  "Meeting rooms",
+		  "Hot Tub",
+		  "Non-smoking rooms",
+		  "Laundry Service",
+		  "Concierge",
+		  "Air conditioning",
+		  "Multilingual Staff",
+		  "Minibar",
+		  "Babysitting",
+		  "Non-smoking hotel",
+		  "Heated pool",
+		  "Flatscreen TV",
+		  "Rooftop Terrace",
+		  "Breakfast Buffet",
+		  "Poolside Bar",
+		  "Private Balcony",
+		  "Outdoor pool",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "English",
+		  "French",
+		  "24-Hour Front Desk",
+		  "Hair Dryer",
+		  "Pool / Beach Towels",
+		  "Sun Terrace",
+		  "Sun Umbrellas",
+		  "Taxi Service",
+		  "Telephone",
+		  "Wake Up Service / Alarm Clock",
+		  "Safe",
+		  "Sauna",
+		  "Breakfast in the Room",
+		  "Bridal Suite",
+		  "Currency Exchange",
+		  "German",
+		  "Italian",
+		  "Newspaper",
+		  "Paid Public Parking Nearby",
+		  "Romanian",
+		  "Solarium",
+		  "Steam Room",
+		  "Valet Parking",
+		  "Beach Access"
+		],
+		"numberOfRooms": 53,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.8
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.6
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.5
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 4
+		  }
+		],
+		"priceLevel": "$$$$",
+		"priceRange": "$203 - $430",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Dont be fooled by photos of Room types. They are very small!",
+			"rating": "3",
+			"reviewId": "919059944",
+			"id": "919059944",
+			"createdTime": "2023-09-29T18:36:58-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Uber tricky around here; drivers couldn’t get exact address for drop off: pick up ",
+			"rating": "5",
+			"reviewId": "914882440",
+			"id": "914882440",
+			"createdTime": "2023-09-04T16:48:09-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "No parking",
+			"rating": "5",
+			"reviewId": "910479731",
+			"id": "910479731",
+			"createdTime": "2023-08-15T02:56:51-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Worth getting a sea view",
+			"rating": "5",
+			"reviewId": "905551286",
+			"id": "905551286",
+			"createdTime": "2023-07-25T12:02:24-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Full sea view rooms with terrace are lovely - though pricey",
+			"rating": "5",
+			"reviewId": "904094895",
+			"id": "904094895",
+			"createdTime": "2023-07-18T23:31:47-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 232,
+			"tax": 29,
+			"priceText": "$232",
+			"taxesAndFeesText": "$30",
+			"totalStayPriceText": "$262",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 260,
+			"tax": 32,
+			"priceText": "$260",
+			"taxesAndFeesText": "$32",
+			"totalStayPriceText": "$293",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 172,
+			"tax": 22,
+			"priceText": "$172",
+			"taxesAndFeesText": "$22",
+			"totalStayPriceText": "$194",
+			"priceBeforeSale": null,
+			"provider": "FindHotel",
+			"vendor": "Vio.com",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "234259",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Novotel Zurich City-West",
+		"locationString": "Zurich",
+		"description": "The Novotel Zurich City West is a 4 star hotel with 144 rooms, divided into 3 categories. The executive rooms have just been renovated, in May 2019. The hpotel is located in the fashionable Zurich West area. Close to Hardbrucke train station, Escher Wyss Platz tram station and the Technopark. A few minutes from the main railway station and the old city by tramor train. Very good connection to the airport, the stop is Hardbrucke which is 5 minutes walk from the hotel. There is a direct train to and from the airport every 30 minutes The hotel offers six modern conference rooms with natural light. An indoor swimming pool, fitness area, bar, kids corner, Escape room and a restaurant with terrace complete the package. Pay parking garage and airport shuttle (fees apply).",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-w/2a/8b/93/c9/exterior.jpg",
+		"photoCount": 523,
+		"awards": [],
+		"rankingPosition": 68,
+		"rating": 4,
+		"rawRanking": 3.836272716522217,
+		"phone": "+41 44 276 22 00",
+		"address": "Schiffbaustrasse 13 Am Turbinenplatz, Zurich 8005 Switzerland",
+		"addressObj": {
+		  "street1": "Schiffbaustrasse 13",
+		  "street2": "Am Turbinenplatz",
+		  "city": "Zurich",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8005"
+		},
+		"localName": "Novotel Zürich City West",
+		"localAddress": null,
+		"localLangCode": "de-CH",
+		"email": "h2731@accor.com",
+		"latitude": 47.389175,
+		"longitude": 8.516656,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g188113-d234259-Reviews-Novotel_Zurich_City_West-Zurich.html",
+		"website": "http://www.novotel.com/2731",
+		"rankingString": "#68 of 146 hotels in Zurich",
+		"rankingDenominator": "146",
+		"neighborhoodLocations": [
+		  {
+			"id": "20484988",
+			"name": "Escher Wyss"
+		  }
+		],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 50,
+		  "count2": 89,
+		  "count3": 280,
+		  "count4": 761,
+		  "count5": 460
+		},
+		"numberOfReviews": 1640,
+		"reviewTags": [],
+		"hotelClass": "4.0",
+		"hotelClassAttribution": "This property is officially classified according to Hotelstars Union standards.",
+		"amenities": [
+		  "Internet",
+		  "Room service",
+		  "Free Internet",
+		  "Wifi",
+		  "Free Wifi",
+		  "Meeting rooms",
+		  "Wheelchair access",
+		  "Non-smoking rooms",
+		  "Family Rooms",
+		  "Multilingual Staff",
+		  "Kids Activities",
+		  "Public Wifi",
+		  "Dry Cleaning",
+		  "Banquet Room",
+		  "Air conditioning",
+		  "Pool",
+		  "Suites",
+		  "Restaurant",
+		  "Bar/Lounge",
+		  "Airport transportation",
+		  "Business center",
+		  "Fitness center",
+		  "Laundry Service",
+		  "Concierge",
+		  "Accessible rooms",
+		  "Minibar",
+		  "Conference Facilities",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Heated pool",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Indoor pool",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Housekeeping",
+		  "Kids Stay Free",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "Blackout Curtains",
+		  "24-Hour Check-in",
+		  "Express Check-in / Check-out",
+		  "English",
+		  "24-Hour Front Desk",
+		  "German",
+		  "Hair Dryer",
+		  "Kids' Meals",
+		  "Newspaper",
+		  "Pets Allowed",
+		  "Bathrobes",
+		  "Breakfast in the Room",
+		  "Cable / Satellite TV",
+		  "Children's Television Networks",
+		  "Children's Playground",
+		  "Coffee Shop",
+		  "Complimentary Tea",
+		  "Desk",
+		  "Dining Area",
+		  "Electric Kettle",
+		  "Fitness / Spa Locker Rooms",
+		  "Complimentary Instant Cofffee",
+		  "Complimentary Toiletries",
+		  "Complimentary Welcome Drink",
+		  "French",
+		  "Game Room",
+		  "Highchairs Available",
+		  "Indoor Play Area for Children",
+		  "Interconnected room(s) available",
+		  "Italian",
+		  "Kids' Outdoor Play Equipment",
+		  "Laptop Safe",
+		  "Outdoor Dining Area",
+		  "Outdoor Furniture",
+		  "Parking Garage",
+		  "Patio",
+		  "Polish",
+		  "Pool / Beach Towels",
+		  "Private Bathrooms",
+		  "Paid Private Parking On-site",
+		  "Radio",
+		  "Seating Area",
+		  "Secured Parking",
+		  "Slovak",
+		  "Snack Bar",
+		  "Sofa",
+		  "Sofa Bed",
+		  "Soundproof Rooms",
+		  "Spanish",
+		  "Strollers",
+		  "Sun Terrace",
+		  "Table Tennis",
+		  "Taxi Service",
+		  "Telephone",
+		  "Umbrella",
+		  "Vending Machine",
+		  "Wake Up Service / Alarm Clock",
+		  "Wardrobe / Closet",
+		  "Wine / Champagne"
+		],
+		"numberOfRooms": 144,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 3.8
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.3
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 3.8
+		  }
+		],
+		"priceLevel": "$$$",
+		"priceRange": "$187 - $281",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Check twice the payment for the room so the don‘t charge you twice",
+			"rating": "2",
+			"reviewId": "931874343",
+			"id": "931874343",
+			"createdTime": "2024-01-01T00:34:33-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Unexpectedly helpful staffs specifically Alessia,Cara .......reasonably OK with available amenities, Excellent location",
+			"rating": "5",
+			"reviewId": "928230815",
+			"id": "928230815",
+			"createdTime": "2023-12-02T23:38:24-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Don’t pay for early check in",
+			"rating": "1",
+			"reviewId": "919554489",
+			"id": "919554489",
+			"createdTime": "2023-10-02T22:20:04-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Ask for higher floors, especially 5th. The view is good and it is far quieter at the top.",
+			"rating": "4",
+			"reviewId": "891715018",
+			"id": "891715018",
+			"createdTime": "2023-05-24T01:52:59-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "The hotel should inform customers regarding the renovation and construction before booking\nAnd should reduce price",
+			"rating": "3",
+			"reviewId": "880187902",
+			"id": "880187902",
+			"createdTime": "2023-02-26T03:29:25-05:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": []
+	  },
+	  {
+		"id": "236106",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Saint Georges Hotel",
+		"locationString": "Zurich",
+		"description": "Cosy hotel with a personal atmosphere. Standard rooms. Extremely quiet downtown location, just 10 minutes walk from the center and train station. Great public transportation in all directions. From the airport take the train S2 or S24 to Zürich Wiedikon (CHF 7.-). The journey takes about 15 minutes. Then go straight into the Schimmelstraße and take the third street on the left (Hallwylstrasse). After 100 meters you will find our hotel on the right side of the street - it’s only 5 minutes walking distance. The easiest way to reach us is by public transportation. From Zurich main station take the tram no. 14 direction Triemli or no. 3 direction Albisrieden and get off at the stop „Stauffacher“. From there, turn left into Stauffacherstrasse and take the second street on the right. Turn into Hallwylstrasse and after approx. 100 m you will see the hotel is on the corner - it´s approx. 5 minutes walking distance.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/c5/6a/bf/hotel-st-georges.jpg",
+		"photoCount": 126,
+		"awards": [],
+		"rankingPosition": 78,
+		"rating": 4,
+		"rawRanking": 3.664708137512207,
+		"phone": "+41 44 241 11 44",
+		"address": "Weberstrasse 11, Zurich 8004 Switzerland",
+		"addressObj": {
+		  "street1": "Weberstrasse 11",
+		  "street2": "",
+		  "city": "Zurich",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8004"
+		},
+		"localName": "Saint Georges Hotel",
+		"localAddress": null,
+		"localLangCode": "de-CH",
+		"email": "info@saintgeorges-hotel.ch",
+		"latitude": 47.3708,
+		"longitude": 8.528126,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g188113-d236106-Reviews-Saint_Georges_Hotel-Zurich.html",
+		"website": "http://www.saintgeorges-hotel.ch",
+		"rankingString": "#78 of 146 hotels in Zurich",
+		"rankingDenominator": "146",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [
+		  {
+			"name": "Zurich Central Station",
+			"localName": "Hauptbahnhof Zurich",
+			"address": "Zurich, Switzerland",
+			"localAddress": "",
+			"lines": [],
+			"latitude": 47.37805938720703,
+			"longitude": 8.539822578430176,
+			"distance": 0.7431958458202067
+		  }
+		],
+		"ancestorLocations": [
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 4,
+		  "count2": 7,
+		  "count3": 26,
+		  "count4": 72,
+		  "count5": 59
+		},
+		"numberOfReviews": 168,
+		"reviewTags": [],
+		"hotelClass": "0.0",
+		"amenities": [
+		  "Internet",
+		  "Wifi",
+		  "Free Wifi",
+		  "Multilingual Staff",
+		  "Non-smoking hotel",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Housekeeping",
+		  "Baggage Storage",
+		  "Desk",
+		  "English",
+		  "Pets Allowed",
+		  "Laundry Service",
+		  "Breakfast Available",
+		  "Cable / Satellite TV",
+		  "French",
+		  "German",
+		  "Paid Public Parking Nearby",
+		  "Paid Public Parking On-site",
+		  "Shared Lounge / TV Area",
+		  "Snack Bar",
+		  "Taxi Service",
+		  "Wake Up Service / Alarm Clock",
+		  "Wardrobe / Closet"
+		],
+		"numberOfRooms": 44,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.2
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.2
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.1
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 3.8
+		  }
+		],
+		"priceLevel": "$$",
+		"priceRange": "$120 - $177",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Use the on-line check-in; really useful to save time.\n",
+			"rating": "4",
+			"reviewId": "911080143",
+			"id": "911080143",
+			"createdTime": "2023-08-17T12:41:31-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Direct transfer to Zurich Flughafen (airport) via Weidikon train station",
+			"rating": "4",
+			"reviewId": "843322319",
+			"id": "843322319",
+			"createdTime": "2022-06-17T22:56:04-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Better to chose rooms with private shower. it cost a bit more but it is worth it",
+			"rating": "5",
+			"reviewId": "722247952",
+			"id": "722247952",
+			"createdTime": "2019-10-29T03:30:42-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Rooms with shared facilities are cheaper.",
+			"rating": "4",
+			"reviewId": "718536636",
+			"id": "718536636",
+			"createdTime": "2019-10-15T04:47:50-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Away from common toilet!",
+			"rating": "4",
+			"reviewId": "692200111",
+			"id": "692200111",
+			"createdTime": "2019-07-23T17:17:18-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 209,
+			"tax": 16,
+			"priceText": "$210",
+			"taxesAndFeesText": "$16",
+			"totalStayPriceText": "$226",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 209,
+			"tax": 16,
+			"priceText": "$210",
+			"taxesAndFeesText": "$16",
+			"totalStayPriceText": "$226",
+			"priceBeforeSale": null,
+			"provider": "HotelsCom2",
+			"vendor": "Hotels.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 163,
+			"tax": 14,
+			"priceText": "$164",
+			"taxesAndFeesText": "$14",
+			"totalStayPriceText": "$178",
+			"priceBeforeSale": "$210",
+			"provider": "Agoda",
+			"vendor": "Agoda.com",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "206012",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Hotel Montana Zurich",
+		"locationString": "Zurich",
+		"description": "Das Hotel Montana Zürich liegt 300 Meter vom Hauptbahnhof Zürich entfernt, in einer ruhigen Seitenstraße in der Nähe der Sihl. Es bietet stilvolle Zimmer und kostenfreies WLAN. Alle Zimmer verfügen über elegante, moderne Möbel, einen Flachbild-Sat-TV, Tee- und Kaffeekocher, einen Safe, ein Direktwahltelefon mit Anrufbeantworter und ein Badezimmer. Das Restaurant serviert ein herzhaftes Frühstücksbuffet . Das Hotel Montana verfügt auch über eine Tiefgarage und eine 24-Stunden-Rezeption. Das Zentrum von Zürich und die Einkaufsmeile Bahnhofstrasse sind nur 10 Gehminuten entfernt. Alle Sehenswürdigkeiten und Attraktionen von Zürich sind bequem zu Fuss oder mit den öffentlichen Verkehrsmitteln erreichbar.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/9b/aa/4d/hotel-montana.jpg",
+		"photoCount": 459,
+		"awards": [],
+		"rankingPosition": 83,
+		"rating": 4,
+		"rawRanking": 3.56355881690979,
+		"phone": "+41 43 366 60 00",
+		"address": "Konradstrasse 39, Zurich 8005 Switzerland",
+		"addressObj": {
+		  "street1": "Konradstrasse 39",
+		  "street2": "",
+		  "city": "Zurich",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8005"
+		},
+		"localName": "Hotel Montana",
+		"localAddress": "Konradstrasse 39, 8005",
+		"localLangCode": "de-CH",
+		"email": "reservation@hotelmontana.ch",
+		"latitude": 47.380848,
+		"longitude": 8.535355,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g188113-d206012-Reviews-Hotel_Montana_Zurich-Zurich.html",
+		"website": "http://hotelmontana-zurich.com/",
+		"rankingString": "#83 of 146 hotels in Zurich",
+		"rankingDenominator": "146",
+		"neighborhoodLocations": [
+		  {
+			"id": "20484990",
+			"name": "Gewerbeschule"
+		  }
+		],
+		"nearestMetroStations": [
+		  {
+			"name": "Zurich Central Station",
+			"localName": "Hauptbahnhof Zurich",
+			"address": "Zurich, Switzerland",
+			"localAddress": "",
+			"lines": [],
+			"latitude": 47.37805938720703,
+			"longitude": 8.539822578430176,
+			"distance": 0.28460241151966703
+		  }
+		],
+		"ancestorLocations": [
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 72,
+		  "count2": 61,
+		  "count3": 250,
+		  "count4": 583,
+		  "count5": 283
+		},
+		"numberOfReviews": 1249,
+		"reviewTags": [],
+		"hotelClass": "0.0",
+		"amenities": [
+		  "Internet",
+		  "Free Internet",
+		  "Wifi",
+		  "Free Wifi",
+		  "Wheelchair access",
+		  "Breakfast included",
+		  "Non-smoking rooms",
+		  "Laundry Service",
+		  "Multilingual Staff",
+		  "Accessible rooms",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Housekeeping",
+		  "Baggage Storage",
+		  "Complimentary Tea",
+		  "English",
+		  "Complimentary Instant Cofffee",
+		  "24-Hour Front Desk",
+		  "German",
+		  "Hair Dryer",
+		  "Kid-Friendly Buffet",
+		  "Parking",
+		  "Bath / Shower",
+		  "Express Check-in / Check-out",
+		  "Desk",
+		  "Dutch",
+		  "French",
+		  "Italian",
+		  "Private Bathrooms",
+		  "Paid Private Parking On-site",
+		  "Taxi Service",
+		  "Telephone",
+		  "Wardrobe / Closet"
+		],
+		"numberOfRooms": 74,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.5
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.3
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 3.7
+		  }
+		],
+		"priceLevel": "$$",
+		"priceRange": "$120 - $192",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Avoid this Hotel",
+			"rating": "1",
+			"reviewId": "923901912",
+			"id": "923901912",
+			"createdTime": "2023-10-31T20:54:50-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Don’t bother with this hotel unless you have no other option, I appreciate Zurich is expensive but our request for two single beds ignored",
+			"rating": "2",
+			"reviewId": "921540804",
+			"id": "921540804",
+			"createdTime": "2023-10-16T03:25:36-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Hot and no ventilation ",
+			"rating": "2",
+			"reviewId": "919974039",
+			"id": "919974039",
+			"createdTime": "2023-10-05T20:37:18-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Pay a bit more and get something with aircon",
+			"rating": "3",
+			"reviewId": "916408615",
+			"id": "916408615",
+			"createdTime": "2023-09-13T10:09:11-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "It's super hot and stuffy in room despite having fans and window opened. It's summer btw, so do avoid this hotel during this period. ",
+			"rating": "1",
+			"reviewId": "905385120",
+			"id": "905385120",
+			"createdTime": "2023-07-24T20:12:04-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": []
+	  },
+	  {
+		"id": "497299",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Movenpick Hotel Zurich-Airport",
+		"locationString": "Opfikon, Zurich",
+		"description": "The first-class Movenpick Hotel Zurich-Airport is the perfect hotel to stay at during your trip to Zurich, whether it's for business or leisure. The accommodation has 333 modern bedrooms to choose from and a variety of fine restaurants. Our fully equipped conference rooms with top notch facilities make our hotel the ideal venue to hold your meetings and conferences for up to 400 participants. The hotel runs a free shuttle bus to and from the airport, which is only minutes away. Quick connections to both the airport and the city centre make the Movenpick Hotel Zurich-Airport the perfect choice for exploring the city of Zurich and its surroundings.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-w/1d/9e/d4/4d/exterior-view.jpg",
+		"photoCount": 571,
+		"awards": [],
+		"rankingPosition": 6,
+		"rating": 4,
+		"rawRanking": 3.641633987426758,
+		"phone": "+41 44 808 88 88",
+		"address": "Walter Mittelholzerstrasse 8, Opfikon, Zurich 8152 Switzerland",
+		"addressObj": {
+		  "street1": "Walter Mittelholzerstrasse 8",
+		  "street2": null,
+		  "city": "Opfikon",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8152"
+		},
+		"localName": "Mövenpick Hotel Zürich-Airport",
+		"localAddress": null,
+		"localLangCode": "de-CH",
+		"email": "hotel.zurich.airport@moevenpick.com",
+		"latitude": 47.4396,
+		"longitude": 8.568679,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g227102-d497299-Reviews-Movenpick_Hotel_Zurich_Airport-Opfikon_Zurich.html",
+		"website": "http://www.movenpick.com/zuerich-airport",
+		"rankingString": "#6 of 9 hotels in Opfikon",
+		"rankingDenominator": "9",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "227102",
+			"name": "Opfikon",
+			"abbreviation": null,
+			"subcategory": "City"
+		  },
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 112,
+		  "count2": 131,
+		  "count3": 335,
+		  "count4": 929,
+		  "count5": 932
+		},
+		"numberOfReviews": 2439,
+		"reviewTags": [],
+		"hotelClass": "4.0",
+		"hotelClassAttribution": "This property is officially classified according to Hotelstars Union standards.",
+		"amenities": [
+		  "Fitness center",
+		  "Restaurant",
+		  "Business center",
+		  "Room service",
+		  "Wheelchair access",
+		  "Shuttle Bus Service",
+		  "Bar/Lounge",
+		  "Internet",
+		  "Wifi",
+		  "Free Internet",
+		  "Airport transportation",
+		  "Free Wifi",
+		  "Dry Cleaning",
+		  "Meeting rooms",
+		  "Non-smoking rooms",
+		  "Laundry Service",
+		  "Concierge",
+		  "Banquet Room",
+		  "Air conditioning",
+		  "Family Rooms",
+		  "Multilingual Staff",
+		  "Accessible rooms",
+		  "Minibar",
+		  "Conference Facilities",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Parking",
+		  "Free airport transportation",
+		  "Free Shuttle or Taxi Services",
+		  "Facilities for Disabled Guests",
+		  "Housekeeping",
+		  "Baggage Storage",
+		  "Breakfast in the Room",
+		  "24-Hour Check-in",
+		  "English",
+		  "24-Hour Front Desk",
+		  "German",
+		  "Hair Dryer",
+		  "Ironing Service",
+		  "Taxi Service",
+		  "ATM On Site",
+		  "Express Check-in / Check-out",
+		  "Currency Exchange",
+		  "Free Wired Internet in the Business Center",
+		  "French",
+		  "Paid Private Parking On-site",
+		  "Spanish",
+		  "VIP Room Facilities"
+		],
+		"numberOfRooms": 333,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.3
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.5
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.2
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 4
+		  }
+		],
+		"priceLevel": "$$",
+		"priceRange": "$128 - $217",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Be ready for a 2* stay.",
+			"rating": "2",
+			"reviewId": "929131558",
+			"id": "929131558",
+			"createdTime": "2023-12-10T22:55:37-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Don’t come here",
+			"rating": "1",
+			"reviewId": "929007153",
+			"id": "929007153",
+			"createdTime": "2023-12-09T21:35:26-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Book a different hotel",
+			"rating": "1",
+			"reviewId": "928045192",
+			"id": "928045192",
+			"createdTime": "2023-12-01T02:33:54-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Do not visit the Hotel in the summer.",
+			"rating": "1",
+			"reviewId": "913155572",
+			"id": "913155572",
+			"createdTime": "2023-08-26T21:04:03-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Buy your own water from super market",
+			"rating": "3",
+			"reviewId": "909185538",
+			"id": "909185538",
+			"createdTime": "2023-08-09T18:46:29-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": []
+	  },
+	  {
+		"id": "10375123",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Placid Hotel Design & Lifestyle Zurich",
+		"locationString": "Zurich",
+		"description": "The Placid Hotel Design & Lifestyle Zurich: perfect for cosmopolites, business travellers and leisure seekers. A hub for countless threads that converge and separate again. Urban lifestyle, modern design, authentic encounters. Though deeply rooted in the Altstetten quarter, it is still open to the world.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/29/09/17/39/suite-bettansicht.jpg",
+		"photoCount": 544,
+		"awards": [],
+		"rankingPosition": 39,
+		"rating": 4,
+		"rawRanking": 4.138584613800049,
+		"phone": "01141582049090",
+		"address": "Buckhauserstrasse 36, Zurich 8048 Switzerland",
+		"addressObj": {
+		  "street1": "Buckhauserstrasse 36",
+		  "street2": null,
+		  "city": "Zurich",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8048"
+		},
+		"localName": "Placid Hotel Zurich",
+		"localAddress": "Buckhauserstrasse 36, 8048",
+		"localLangCode": "de-CH",
+		"email": "info@placid.ch",
+		"latitude": 47.38362,
+		"longitude": 8.492512,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g188113-d10375123-Reviews-Placid_Hotel_Design_Lifestyle_Zurich-Zurich.html",
+		"website": "https://www.placid.ch/en",
+		"rankingString": "#39 of 146 hotels in Zurich",
+		"rankingDenominator": "146",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 13,
+		  "count2": 15,
+		  "count3": 43,
+		  "count4": 113,
+		  "count5": 192
+		},
+		"numberOfReviews": 376,
+		"reviewTags": [],
+		"hotelClass": "4.0",
+		"hotelClassAttribution": "This property is officially classified according to Hotelstars Union standards.",
+		"amenities": [
+		  "Internet",
+		  "Kids Activities",
+		  "Suites",
+		  "Room service",
+		  "Free Internet",
+		  "Wheelchair access",
+		  "Restaurant",
+		  "Bar/Lounge",
+		  "Pets Allowed",
+		  "Airport transportation",
+		  "Wifi",
+		  "Public Wifi",
+		  "Free Wifi",
+		  "Dry Cleaning",
+		  "Meeting rooms",
+		  "Non-smoking rooms",
+		  "Business center",
+		  "Fitness center",
+		  "Multilingual Staff",
+		  "Accessible rooms",
+		  "Babysitting",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Housekeeping",
+		  "Kids Club",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "Bicycle Rental",
+		  "Coffee Shop",
+		  "Coffee / Tea Maker",
+		  "English",
+		  "German",
+		  "Ironing Service",
+		  "Shoeshine",
+		  "Laundry Service",
+		  "Banquet Room",
+		  "Conference Facilities",
+		  "Electric vehicle charging station",
+		  "Air Purifier",
+		  "Allergy-free Room",
+		  "Bathrobes",
+		  "Bicycle Tours",
+		  "Bicycles Available",
+		  "Blackout Curtains",
+		  "Bottled Water",
+		  "Breakfast in the Room",
+		  "Bridal Suite",
+		  "Cable / Satellite TV",
+		  "24-Hour Check-in",
+		  "Express Check-in / Check-out",
+		  "Children's Television Networks",
+		  "Children's Playground",
+		  "Complimentary Tea",
+		  "Currency Exchange",
+		  "Desk",
+		  "Dining Area",
+		  "Doorperson",
+		  "Electric Kettle",
+		  "Executive Lounge Access",
+		  "Extra Long Beds",
+		  "First Aid Kit",
+		  "Complimentary Toiletries",
+		  "Free Wifi in the Business Center",
+		  "Free Wired Internet in the Business Center",
+		  "French",
+		  "24-Hour Front Desk",
+		  "Hair Dryer",
+		  "Happy Hour",
+		  "Highchairs Available",
+		  "Hiking",
+		  "Indoor Play Area for Children",
+		  "Infirmary",
+		  "Interconnected room(s) available",
+		  "Iron",
+		  "Italian",
+		  "Kids' Meals",
+		  "Kids' Outdoor Play Equipment",
+		  "Laptop Safe",
+		  "Mountain View",
+		  "Newspaper",
+		  "Outdoor Dining Area",
+		  "Outdoor Furniture",
+		  "Parking Garage",
+		  "Picnic Area",
+		  "Private Bathrooms",
+		  "Private Check-in / Check-out",
+		  "Paid Private Parking On-site",
+		  "Paid Public Parking Nearby",
+		  "Paid Public Parking On-site",
+		  "Radio",
+		  "Seating Area",
+		  "Secured Parking",
+		  "Separate Dining Area",
+		  "Separate Living Room",
+		  "Shared Lounge / TV Area",
+		  "Snack Bar",
+		  "Sofa",
+		  "Sofa Bed",
+		  "Soundproof Rooms",
+		  "Spanish",
+		  "Special Diet Menus",
+		  "Street Parking",
+		  "Strollers",
+		  "Sun Deck",
+		  "Sun Loungers / Beach Chairs",
+		  "Sun Terrace",
+		  "Sun Umbrellas",
+		  "Table Tennis",
+		  "Taxi Service",
+		  "Telephone",
+		  "Umbrella",
+		  "Wake Up Service / Alarm Clock",
+		  "Walk-in Shower",
+		  "Walking Tours",
+		  "Wardrobe / Closet",
+		  "Wine / Champagne",
+		  "Photo Copier / Fax In Business Center"
+		],
+		"numberOfRooms": 115,
+		"categoryReviewScores": [],
+		"priceLevel": "$$",
+		"priceRange": "$124 - $180",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Great connections via Bus and Tram - both only steps away ... Hardbrücke area has some terrific restaurants as well.",
+			"rating": "5",
+			"reviewId": "914814901",
+			"id": "914814901",
+			"createdTime": "2023-09-04T08:15:43-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Vraag direct om een fan voor op de kamer. Het hotel ligt in een gebied dat in ontwikkeling is waar veel werkzaamheden zijn",
+			"rating": "3",
+			"reviewId": "903907259",
+			"id": "903907259",
+			"createdTime": "2023-07-18T04:17:55-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Don't book here if you aren't a couple.",
+			"rating": "4",
+			"reviewId": "903429397",
+			"id": "903429397",
+			"createdTime": "2023-07-16T06:18:39-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "There is parking available but we didn’t need that.",
+			"rating": "5",
+			"reviewId": "873089652",
+			"id": "873089652",
+			"createdTime": "2022-12-28T09:52:17-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "underfloor heating is warm so ask reception how to open the windows as it what not obvious initially that they did open.",
+			"rating": "5",
+			"reviewId": "871647836",
+			"id": "871647836",
+			"createdTime": "2022-12-13T14:59:35-05:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 193,
+			"tax": 15,
+			"priceText": "$193",
+			"taxesAndFeesText": "$15",
+			"totalStayPriceText": "$208",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 193,
+			"tax": 15,
+			"priceText": "$193",
+			"taxesAndFeesText": "$15",
+			"totalStayPriceText": "$208",
+			"priceBeforeSale": null,
+			"provider": "HotelsCom2",
+			"vendor": "Hotels.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 192,
+			"tax": 15,
+			"priceText": "$193",
+			"taxesAndFeesText": "$15",
+			"totalStayPriceText": "$208",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "23283797",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "MEININGER Hotel Zurich Greencity",
+		"locationString": "Zurich",
+		"description": "Hotel",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/26/12/b1/b3/meininger-hotel-zurich.jpg",
+		"photoCount": 82,
+		"awards": [],
+		"rankingPosition": 109,
+		"rating": 3.5,
+		"rawRanking": 3.2157769203186035,
+		"phone": null,
+		"address": "Maneggstrasse 41, Zurich 8041 Switzerland",
+		"addressObj": {
+		  "street1": "Maneggstrasse 41",
+		  "street2": null,
+		  "city": "Zurich",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8041"
+		},
+		"localName": "MEININGER Hotel Zürich Greencity",
+		"localAddress": null,
+		"localLangCode": "de-CH",
+		"email": "zuerich-greencity@meininger-hotels.com",
+		"latitude": 47.341156,
+		"longitude": 8.519914,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g188113-d23283797-Reviews-MEININGER_Hotel_Zurich_Greencity-Zurich.html",
+		"website": "https://www.meininger-hotels.com/en/hotels/zurich/hotel-zurich-greencity/",
+		"rankingString": "#109 of 146 hotels in Zurich",
+		"rankingDenominator": "146",
+		"neighborhoodLocations": [
+		  {
+			"id": "20484995",
+			"name": "Wollishofen"
+		  }
+		],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 6,
+		  "count2": 1,
+		  "count3": 8,
+		  "count4": 13,
+		  "count5": 13
+		},
+		"numberOfReviews": 41,
+		"reviewTags": [],
+		"hotelClass": "0.0",
+		"amenities": [
+		  "Bar/Lounge",
+		  "Free Wifi",
+		  "Non-smoking rooms",
+		  "Breakfast Buffet",
+		  "Internet",
+		  "Free Internet",
+		  "Wheelchair access",
+		  "Pets Allowed",
+		  "Wifi",
+		  "Family Rooms",
+		  "Self-Serve Laundry",
+		  "Non-smoking hotel",
+		  "Flatscreen TV",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Housekeeping",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "Cable / Satellite TV",
+		  "24-Hour Check-in",
+		  "Desk",
+		  "English",
+		  "Complimentary Toiletries",
+		  "24-Hour Front Desk",
+		  "Game Room",
+		  "German",
+		  "Hair Dryer",
+		  "Outdoor Furniture",
+		  "Private Bathrooms",
+		  "Paid Private Parking On-site",
+		  "Shared Kitchen",
+		  "Shared Lounge / TV Area",
+		  "Snack Bar",
+		  "Soundproof Rooms",
+		  "Vending Machine",
+		  "Walk-in Shower",
+		  "Washing Machine"
+		],
+		"numberOfRooms": 174,
+		"categoryReviewScores": [],
+		"priceLevel": "$$",
+		"priceRange": "$76 - $141",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Food delivery as well as eat out options are limited around this hotel. Better plan to cook.",
+			"rating": "4",
+			"reviewId": "899395579",
+			"id": "899395579",
+			"createdTime": "2023-07-01T01:06:52-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "For breakfast I would suggest going to a cafe on the corner by the train stop instead of doing their breakfast; same price better variety",
+			"rating": "5",
+			"reviewId": "893778344",
+			"id": "893778344",
+			"createdTime": "2023-06-06T13:52:48-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Value for family stay. ",
+			"rating": "4",
+			"reviewId": "845496516",
+			"id": "845496516",
+			"createdTime": "2022-06-30T09:54:25-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "No room airport, warm room in summer",
+			"rating": "3",
+			"reviewId": "843308379",
+			"id": "843308379",
+			"createdTime": "2022-06-17T20:23:20-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 128,
+			"tax": 12,
+			"priceText": "$129",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$142",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 128,
+			"tax": 12,
+			"priceText": "$129",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$142",
+			"priceBeforeSale": null,
+			"provider": "Priceline",
+			"vendor": "Priceline",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 73,
+			"tax": 8,
+			"priceText": "$74",
+			"taxesAndFeesText": "$8",
+			"totalStayPriceText": "$82",
+			"priceBeforeSale": "$129",
+			"provider": "WIHP",
+			"vendor": "Official Site",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "230880",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "ibis Zurich City West",
+		"locationString": "Zurich",
+		"description": "The ibis Zurich City West hotel is located in a stylish district of Zurich, close to the motorway and 100 m from the Technopark business centre, 9 km from the airport, 10 min from the main railway station and the city-center. The hotel offers newly renovated, modern, air-conditioned, comfortable rooms as well as a restaurant (open from Monday to Friday), a terrace area, a bar serving light meals 24 hours and private undercover pay parking. Guests will appreciate our free WiFi Internet access.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-w/24/ff/54/7f/exterior-view.jpg",
+		"photoCount": 362,
+		"awards": [],
+		"rankingPosition": 74,
+		"rating": 4,
+		"rawRanking": 3.7501718997955322,
+		"phone": "+41 44 276 21 00",
+		"address": "Schiffbaustrasse 11, Zurich 8005 Switzerland",
+		"addressObj": {
+		  "street1": "Schiffbaustrasse 11",
+		  "street2": "",
+		  "city": "Zurich",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8005"
+		},
+		"localName": "ibis Zurich City West",
+		"localAddress": null,
+		"localLangCode": "de-CH",
+		"email": "h2942@accor.com",
+		"latitude": 47.38879,
+		"longitude": 8.51695,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g188113-d230880-Reviews-Ibis_Zurich_City_West-Zurich.html",
+		"website": "http://www.ibis.com/2942",
+		"rankingString": "#74 of 146 hotels in Zurich",
+		"rankingDenominator": "146",
+		"neighborhoodLocations": [
+		  {
+			"id": "20484988",
+			"name": "Escher Wyss"
+		  }
+		],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 31,
+		  "count2": 67,
+		  "count3": 288,
+		  "count4": 602,
+		  "count5": 244
+		},
+		"numberOfReviews": 1232,
+		"reviewTags": [],
+		"hotelClass": "3.0",
+		"hotelClassAttribution": "This property is officially classified according to Hotelstars Union standards.",
+		"amenities": [
+		  "Restaurant",
+		  "Internet",
+		  "Free Internet",
+		  "Wifi",
+		  "Free Wifi",
+		  "Non-smoking rooms",
+		  "Air conditioning",
+		  "Multilingual Staff",
+		  "Accessible rooms",
+		  "Non-smoking hotel",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Housekeeping",
+		  "Express Check-in / Check-out",
+		  "English",
+		  "24-Hour Front Desk",
+		  "German",
+		  "Paid Private Parking On-site",
+		  "Snack Bar",
+		  "Public Wifi",
+		  "Dry Cleaning",
+		  "Laundry Service",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "Blackout Curtains",
+		  "Desk",
+		  "Filipino",
+		  "French",
+		  "Interconnected room(s) available",
+		  "Italian",
+		  "Portuguese",
+		  "Radio",
+		  "Spanish",
+		  "Telephone",
+		  "Umbrella",
+		  "Vending Machine",
+		  "Wake Up Service / Alarm Clock",
+		  "Wardrobe / Closet"
+		],
+		"numberOfRooms": 155,
+		"categoryReviewScores": [],
+		"priceLevel": "$$",
+		"priceRange": "$130 - $169",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Advantage is, this is  close to tram Station.",
+			"rating": "4",
+			"reviewId": "926784593",
+			"id": "926784593",
+			"createdTime": "2023-11-21T05:30:27-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "My gracious comments are based solely on my experience with Amina.",
+			"rating": "5",
+			"reviewId": "926341707",
+			"id": "926341707",
+			"createdTime": "2023-11-17T09:56:26-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "When you arrive please talk to Nicole",
+			"rating": "5",
+			"reviewId": "914399396",
+			"id": "914399396",
+			"createdTime": "2023-09-02T03:15:46-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Even if drove a car to get to Zurich, use public transit between this place & the major tourist sites.",
+			"rating": "3",
+			"reviewId": "895019356",
+			"id": "895019356",
+			"createdTime": "2023-06-14T07:15:05-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Choose the Ibis styles not the Ibis budget!",
+			"rating": "3",
+			"reviewId": "866070213",
+			"id": "866070213",
+			"createdTime": "2022-10-26T10:31:51-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 165,
+			"tax": 14,
+			"priceText": "$165",
+			"taxesAndFeesText": "$14",
+			"totalStayPriceText": "$180",
+			"priceBeforeSale": null,
+			"provider": "Accor",
+			"vendor": "ibis",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 165,
+			"tax": 14,
+			"priceText": "$165",
+			"taxesAndFeesText": "$14",
+			"totalStayPriceText": "$180",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 154,
+			"tax": 13,
+			"priceText": "$154",
+			"taxesAndFeesText": "$14",
+			"totalStayPriceText": "$168",
+			"priceBeforeSale": "$180",
+			"provider": "FindHotel",
+			"vendor": "Vio.com",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "23519202",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Ruby Mimi",
+		"locationString": "Zurich",
+		"description": "A stone’s throw from the River Limmat, Zurich’s old town and the city’s top shopping streets, Ruby Mimi is a great starting point for first-time visitors and old friends. It’s also just a few minutes’ walk from the main station. For window-shoppers or shop-til-you-droppers, Bahnhofstrasse is the place to be. Flanked by high street names and designer labels, there’s something for every budget and style. For history-lovers, a short stroll south along the river will take you to the cobbled streets and quaint old buildings of the Altstadt. As well as lots of photo ops, you’ll find excellent restaurants and cosy coffee shops to keep your energy up. For a slightly boozy, sugary taste of Switzerland, an indulgent slice of zuger kirschtorte should hit the spot. If it’s the outdoors you’re after, Zurich also delivers. The lake is a 15-minute walk from Mimi, or a short hop on the tram. Otherwise, head for the hills with a hike up nearby Uetliberg. (There’s also a train, if that sounds like hard work.) Zurich’s main station is a five-minute walk from Mimi’s front door, from where the airport’s just ten minutes by train or S-Bahn.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/22/25/fa/a1/ruby-mimi-hotel-zurich.jpg",
+		"photoCount": 158,
+		"awards": [],
+		"rankingPosition": 96,
+		"rating": 4,
+		"rawRanking": 3.4097087383270264,
+		"phone": "+49 89 125095240",
+		"address": "Beatenplatz 4, Zurich 8001 Switzerland",
+		"addressObj": {
+		  "street1": "Beatenplatz 4",
+		  "street2": null,
+		  "city": "Zurich",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8001"
+		},
+		"localName": "Ruby Mimi",
+		"localAddress": "Beatenplatz 4, 8001",
+		"localLangCode": "de-CH",
+		"email": "mimi@ruby-hotels.com",
+		"latitude": 47.376236,
+		"longitude": 8.541163,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g188113-d23519202-Reviews-Ruby_Mimi-Zurich.html",
+		"website": "https://www.ruby-hotels.com/hotels-destinations/zurich/ruby-mimi",
+		"rankingString": "#96 of 146 hotels in Zurich",
+		"rankingDenominator": "146",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [
+		  {
+			"name": "Zurich Central Station",
+			"localName": "Hauptbahnhof Zurich",
+			"address": "Zurich, Switzerland",
+			"localAddress": "",
+			"lines": [],
+			"latitude": 47.37805938720703,
+			"longitude": 8.539822578430176,
+			"distance": 0.14089932448917902
+		  }
+		],
+		"ancestorLocations": [
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 18,
+		  "count2": 12,
+		  "count3": 20,
+		  "count4": 25,
+		  "count5": 62
+		},
+		"numberOfReviews": 137,
+		"reviewTags": [],
+		"hotelClass": "0.0",
+		"amenities": [
+		  "Bar/Lounge",
+		  "Free Wifi",
+		  "Non-smoking rooms",
+		  "Air conditioning",
+		  "Safe",
+		  "Housekeeping",
+		  "Internet",
+		  "Free Internet",
+		  "Wheelchair access",
+		  "Wifi",
+		  "Meeting rooms",
+		  "Accessible rooms",
+		  "Non-smoking hotel",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Breakfast Available",
+		  "Parking",
+		  "Facilities for Disabled Guests",
+		  "Bicycle Rental",
+		  "Blackout Curtains",
+		  "Cable / Satellite TV",
+		  "24-Hour Check-in",
+		  "Express Check-in / Check-out",
+		  "Complimentary Tea",
+		  "Desk",
+		  "English",
+		  "Extra Long Beds",
+		  "First Aid Kit",
+		  "24-Hour Front Desk",
+		  "Laptop Safe",
+		  "Private Bathrooms",
+		  "Paid Public Parking On-site",
+		  "Radio",
+		  "Snack Bar",
+		  "Soundproof Rooms",
+		  "Vending Machine",
+		  "Walk-in Shower",
+		  "Wine / Champagne"
+		],
+		"numberOfRooms": 202,
+		"categoryReviewScores": [],
+		"priceLevel": "$$$",
+		"priceRange": "$184 - $278",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "We had a WOW room, good size for a Swiss hotel, even had a balcony. Visit the galley for the nice tea and coffee selection.",
+			"rating": "5",
+			"reviewId": "934524498",
+			"id": "934524498",
+			"createdTime": "2024-01-17T12:36:13-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Pop over to the train station for breakfast.",
+			"rating": "4",
+			"reviewId": "925037395",
+			"id": "925037395",
+			"createdTime": "2023-11-08T07:14:07-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "If you’re claustrophobic- avoid!",
+			"rating": "3",
+			"reviewId": "915199994",
+			"id": "915199994",
+			"createdTime": "2023-09-06T11:23:27-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "There is a small  ‘movie’ theatre on the first level. Maybe 8-10 big chairs to lounge in, it’s cool. Nightly pre-assigned movies.",
+			"rating": "5",
+			"reviewId": "913340563",
+			"id": "913340563",
+			"createdTime": "2023-08-27T16:27:21-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Ask for larger rooms.",
+			"rating": "5",
+			"reviewId": "912631884",
+			"id": "912631884",
+			"createdTime": "2023-08-24T07:35:28-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 403,
+			"tax": 23,
+			"priceText": "$404",
+			"taxesAndFeesText": "$23",
+			"totalStayPriceText": "$427",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 403,
+			"tax": 15,
+			"priceText": "$404",
+			"taxesAndFeesText": "$15",
+			"totalStayPriceText": "$419",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 351,
+			"tax": 13,
+			"priceText": "$352",
+			"taxesAndFeesText": "$13",
+			"totalStayPriceText": "$365",
+			"priceBeforeSale": null,
+			"provider": "Agoda",
+			"vendor": "Agoda.com",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "21260540",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Hyatt Regency Zurich Airport The Circle",
+		"locationString": "Zurich",
+		"description": "Hyatt Regency Zurich is just a few steps from the terminals and within the new “Circle” district – an urban location with various shops, restaurants, the iconic Convention Center and an extensive park. The comfortable rooms and suites with views of the park or the Circle are inspired by Swiss design. Experience 24/7 fitness centre, sauna with relaxation area, fine Levante food and drinks with a view of the Circle at Babel restaurant and Iris bar. A direct connection takes you to the city centre or Lake Zurich in just a few minutes.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/28/15/f6/d7/exterior.jpg",
+		"photoCount": 273,
+		"awards": [],
+		"rankingPosition": 16,
+		"rating": 4.5,
+		"rawRanking": 4.471087455749512,
+		"phone": "+41 44 592 12 34",
+		"address": "The Circle 41, Zurich 8058 Switzerland",
+		"addressObj": {
+		  "street1": "The Circle 41",
+		  "street2": null,
+		  "city": "Zurich",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8058"
+		},
+		"localName": "Hyatt Regency Zurich Airport The Circle",
+		"localAddress": null,
+		"localLangCode": "de-CH",
+		"email": "hyattregency.zurich@hyatt.com",
+		"latitude": 47.449875,
+		"longitude": 8.565496,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g188113-d21260540-Reviews-Hyatt_Regency_Zurich_Airport_The_Circle-Zurich.html",
+		"website": "http://www.hyattregencyzurichairportthecircle.com",
+		"rankingString": "#16 of 146 hotels in Zurich",
+		"rankingDenominator": "146",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [],
+		"ancestorLocations": [
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 21,
+		  "count2": 11,
+		  "count3": 25,
+		  "count4": 73,
+		  "count5": 442
+		},
+		"numberOfReviews": 572,
+		"reviewTags": [],
+		"hotelClass": "4.0",
+		"hotelClassAttribution": "This property is officially classified according to Hotelstars Union standards.",
+		"amenities": [
+		  "Internet",
+		  "Suites",
+		  "Free Internet",
+		  "Wheelchair access",
+		  "Restaurant",
+		  "Bar/Lounge",
+		  "Spa",
+		  "Wifi",
+		  "Free Wifi",
+		  "Dry Cleaning",
+		  "Meeting rooms",
+		  "Non-smoking rooms",
+		  "Business center",
+		  "Fitness center",
+		  "Laundry Service",
+		  "Air conditioning",
+		  "Multilingual Staff",
+		  "Accessible rooms",
+		  "Non-smoking hotel",
+		  "Safe",
+		  "Breakfast Buffet",
+		  "Breakfast Available",
+		  "Housekeeping",
+		  "Bath / Shower",
+		  "Room service",
+		  "Pets Allowed",
+		  "Concierge",
+		  "Banquet Room",
+		  "Minibar",
+		  "Conference Facilities",
+		  "Flatscreen TV",
+		  "Parking",
+		  "Sauna",
+		  "Air Purifier",
+		  "Arabic",
+		  "Baggage Storage",
+		  "Bathrobes",
+		  "Blackout Curtains",
+		  "Bottled Water",
+		  "Breakfast in the Room",
+		  "Cable / Satellite TV",
+		  "24-Hour Check-in",
+		  "Chinese",
+		  "Clothes Rack",
+		  "Coffee / Tea Maker",
+		  "Convenience Store",
+		  "Currency Exchange",
+		  "Desk",
+		  "Dining Area",
+		  "Electric Kettle",
+		  "English",
+		  "Executive Lounge Access",
+		  "First Aid Kit",
+		  "Complimentary Toiletries",
+		  "French",
+		  "24-Hour Front Desk",
+		  "German",
+		  "Hair Dryer",
+		  "Interconnected room(s) available",
+		  "Iron",
+		  "Ironing Service",
+		  "Italian",
+		  "Landmark View",
+		  "Laptop Safe",
+		  "Newspaper",
+		  "Outdoor Dining Area",
+		  "Parking Garage",
+		  "Private Bathrooms",
+		  "Paid Private Parking On-site",
+		  "Paid Public Parking Nearby",
+		  "Radio",
+		  "Russian",
+		  "Seating Area",
+		  "24-Hour Security",
+		  "Secured Parking",
+		  "Separate Dining Area",
+		  "Separate Living Room",
+		  "Soundproof Rooms",
+		  "Spanish",
+		  "Taxi Service",
+		  "Telephone",
+		  "Valet Parking",
+		  "VIP Room Facilities",
+		  "Wake Up Service / Alarm Clock",
+		  "Walk-in Shower",
+		  "Wardrobe / Closet",
+		  "Photo Copier / Fax In Business Center"
+		],
+		"numberOfRooms": 255,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.8
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.9
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.6
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 4.3
+		  }
+		],
+		"priceLevel": "$$$",
+		"priceRange": "$237 - $312",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "The location is at the airport, so 5 stars for airport location, but only 1-star for location to old town, which requires a cab or train.",
+			"rating": "5",
+			"reviewId": "919805636",
+			"id": "919805636",
+			"createdTime": "2023-10-04T13:14:13-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Very nice breakfast if you are going to be leaving later in the morning.",
+			"rating": "5",
+			"reviewId": "918246399",
+			"id": "918246399",
+			"createdTime": "2023-09-24T15:28:30-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Ask for 8th floor if you want to be on the same floor as the gym.",
+			"rating": "5",
+			"reviewId": "917147709",
+			"id": "917147709",
+			"createdTime": "2023-09-18T01:26:28-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Bring a fan!",
+			"rating": "3",
+			"reviewId": "907067733",
+			"id": "907067733",
+			"createdTime": "2023-07-31T13:28:11-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "When setting the AC make sure to lower the temp to 68 degrees and turn the fan to manual highest setting.",
+			"rating": "5",
+			"reviewId": "902985598",
+			"id": "902985598",
+			"createdTime": "2023-07-14T09:06:10-04:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 295,
+			"tax": 19,
+			"priceText": "$295",
+			"taxesAndFeesText": "$19",
+			"totalStayPriceText": "$314",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 295,
+			"tax": 19,
+			"priceText": "$295",
+			"taxesAndFeesText": "$19",
+			"totalStayPriceText": "$314",
+			"priceBeforeSale": null,
+			"provider": "HotelsCom2",
+			"vendor": "Hotels.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 306,
+			"tax": 8,
+			"priceText": "$306",
+			"taxesAndFeesText": "$8",
+			"totalStayPriceText": "$314",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  }
+		]
+	  },
+	  {
+		"id": "233015",
+		"type": "HOTEL",
+		"category": "hotel",
+		"subcategories": [
+		  "Hotel"
+		],
+		"name": "Hotel Bistrol Zurich",
+		"locationString": "Zurich",
+		"description": "Hotel offers modern facilities and amenities; centrally located, convenient for city exploring; staff is multilingual.",
+		"image": "https://media-cdn.tripadvisor.com/media/photo-o/12/ff/30/43/20180512-153814-largejpg.jpg",
+		"photoCount": 395,
+		"awards": [],
+		"rankingPosition": 65,
+		"rating": 4,
+		"rawRanking": 3.891704797744751,
+		"phone": "+41 44 258 44 44",
+		"address": "Stampfenbachstrasse 34, Zurich 8006 Switzerland",
+		"addressObj": {
+		  "street1": "Stampfenbachstrasse 34",
+		  "street2": "",
+		  "city": "Zurich",
+		  "state": null,
+		  "country": "Switzerland",
+		  "postalcode": "8006"
+		},
+		"localName": "Bristol Hotel Zürich",
+		"localAddress": null,
+		"localLangCode": "de-CH",
+		"email": "info@hotelbristol.ch",
+		"latitude": 47.3793,
+		"longitude": 8.5436,
+		"webUrl": "https://www.tripadvisor.com/Hotel_Review-g188113-d233015-Reviews-Hotel_Bistrol_Zurich-Zurich.html",
+		"website": "http://www.hotelbristol.ch/",
+		"rankingString": "#65 of 146 hotels in Zurich",
+		"rankingDenominator": "146",
+		"neighborhoodLocations": [],
+		"nearestMetroStations": [
+		  {
+			"name": "Zurich Central Station",
+			"localName": "Hauptbahnhof Zurich",
+			"address": "Zurich, Switzerland",
+			"localAddress": "",
+			"lines": [],
+			"latitude": 47.37805938720703,
+			"longitude": 8.539822578430176,
+			"distance": 0.19662002495606634
+		  }
+		],
+		"ancestorLocations": [
+		  {
+			"id": "188113",
+			"name": "Zurich",
+			"abbreviation": null,
+			"subcategory": "Municipality"
+		  },
+		  {
+			"id": "188111",
+			"name": "Canton of Zurich",
+			"abbreviation": null,
+			"subcategory": "Canton"
+		  },
+		  {
+			"id": "188045",
+			"name": "Switzerland",
+			"abbreviation": null,
+			"subcategory": "Country"
+		  }
+		],
+		"ratingHistogram": {
+		  "count1": 28,
+		  "count2": 51,
+		  "count3": 264,
+		  "count4": 667,
+		  "count5": 333
+		},
+		"numberOfReviews": 1343,
+		"reviewTags": [],
+		"hotelClass": "3.0",
+		"hotelClassAttribution": "This property is officially classified according to Hotelstars Union standards.",
+		"amenities": [
+		  "Internet",
+		  "Free Internet",
+		  "Wifi",
+		  "Free Wifi",
+		  "Wheelchair access",
+		  "Breakfast included",
+		  "Non-smoking rooms",
+		  "Laundry Service",
+		  "Multilingual Staff",
+		  "Non-smoking hotel",
+		  "Flatscreen TV",
+		  "Breakfast Buffet",
+		  "Baggage Storage",
+		  "Bath / Shower",
+		  "24-Hour Check-in",
+		  "Desk",
+		  "English",
+		  "French",
+		  "24-Hour Front Desk",
+		  "German",
+		  "Hair Dryer",
+		  "24-Hour Security",
+		  "Taxi Service",
+		  "Telephone",
+		  "Safe",
+		  "Parking",
+		  "Italian",
+		  "Spanish",
+		  "Vending Machine",
+		  "Wake Up Service / Alarm Clock"
+		],
+		"numberOfRooms": 56,
+		"categoryReviewScores": [
+		  {
+			"categoryName": "Location",
+			"score": 4.5
+		  },
+		  {
+			"categoryName": "Cleanliness",
+			"score": 4.3
+		  },
+		  {
+			"categoryName": "Service",
+			"score": 4.2
+		  },
+		  {
+			"categoryName": "Value",
+			"score": 3.8
+		  }
+		],
+		"priceLevel": "$$",
+		"priceRange": "$132 - $221",
+		"roomTips": [
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "As a solo traveller would like to say I felt very safe in the hotel and the surrounding area.  Large Co-op nearby which was very useful.",
+			"rating": "5",
+			"reviewId": "933403660",
+			"id": "933403660",
+			"createdTime": "2024-01-10T02:44:48-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "The \"all-inclusive\" package included breakfast and a mini fridge with beverages that was restocked each morning. Beer, water, soda",
+			"rating": "5",
+			"reviewId": "923206493",
+			"id": "923206493",
+			"createdTime": "2023-10-27T08:05:27-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Ask for room  on top floor if you want to avoid the chance of a stinky neighbor.",
+			"rating": "5",
+			"reviewId": "892040036",
+			"id": "892040036",
+			"createdTime": "2023-05-26T08:13:45-04:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "It’s just on the other side of the river from the Haupt Bahnhof but you can see it until you are pretty close up. A 10 minute walk.",
+			"rating": "5",
+			"reviewId": "880966973",
+			"id": "880966973",
+			"createdTime": "2023-03-04T11:10:36-05:00"
+		  },
+		  {
+			"user": null,
+			"type": "room_tip",
+			"text": "Ask for a room to have as less soundproof as possible if you want to sleep well. Better to have breakfast near the hotel, there area several bars with good quality food.",
+			"rating": "3",
+			"reviewId": "868084981",
+			"id": "868084981",
+			"createdTime": "2022-11-11T15:26:42-05:00"
+		  }
+		],
+		"checkInDate": "2024-01-23",
+		"checkOutDate": "2024-01-24",
+		"offers": [
+		  {
+			"pricePerNight": 266,
+			"tax": 18,
+			"priceText": "$266",
+			"taxesAndFeesText": "$18",
+			"totalStayPriceText": "$284",
+			"priceBeforeSale": null,
+			"provider": "Expedia",
+			"vendor": "Expedia.com",
+			"canPayInInstallments": true
+		  },
+		  {
+			"pricePerNight": 266,
+			"tax": 18,
+			"priceText": "$266",
+			"taxesAndFeesText": "$18",
+			"totalStayPriceText": "$284",
+			"priceBeforeSale": null,
+			"provider": "BookingCom",
+			"vendor": "Booking.com",
+			"canPayInInstallments": false
+		  },
+		  {
+			"pricePerNight": 208,
+			"tax": 33,
+			"priceText": "$208",
+			"taxesAndFeesText": "$33",
+			"totalStayPriceText": "$241",
+			"priceBeforeSale": "$266",
+			"provider": "Splitty",
+			"vendor": "Algotels",
+			"canPayInInstallments": false
+		  }
+		]
 	  }
 	  
 ]

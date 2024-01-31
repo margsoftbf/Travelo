@@ -6,6 +6,7 @@ import {
 	PositiveReviews,
 	TourComplete,
 	RightTopCorner,
+	BuildingsHero,
 } from '../../public/assets/svg';
 import CountUp from 'react-countup';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
@@ -29,7 +30,7 @@ const About = () => {
 
 	return (
 		<motion.div
-		id='about'
+			id='about'
 			className='relative w-full mx-auto'
 			ref={ref}
 			animate={controls}
@@ -40,7 +41,8 @@ const About = () => {
 			}}
 			transition={{ duration: 1.2, type: 'ease-in' }}
 		>
-			<div className='bg-neutral relative z-10'>
+			<BuildingsHero className='w-[2500px] h-[1250px] bottom-0 absolute opacity-40 -z-10' />
+			<div className='bg-gradient-to-b from-neutral to-white relative z-10'>
 				<div className='max-w-4xl mx-auto flex flex-col md:flex-row md:items-center gap-2 md:gap-6 px-4 pt-6 pb-10 lg:py-6 lg:pb-20'>
 					<div className=''>
 						<Mountain className='w-16 h-16' />
@@ -61,8 +63,8 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			
-			<div className='max-w-6xl mx-auto relative bg-white'>
+
+			<div className='max-w-6xl mx-auto relative '>
 				<div className='grid grid-cols-2 gap-1 overflow-hidden rounded-2xl text-center md:grid-cols-4 -mt-6 mx-4 lg:-mt-14 bg-white'>
 					{stats.map((stat) => (
 						<div
@@ -81,9 +83,9 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className='max-w-6xl  mx-auto flex w-full flex-col items-center md:flex-row justify-center gap-4 p-4 bg-white'>
-				<div className='relative w-80 h-full flex items-center justify-center lg:w-1/2'>
-					<div className='w-80 h-96 lg:w-96 lg:h-[500px] lg:ml-auto relative border-8 border-myBlack'>
+			<div className='max-w-6xl  mx-auto flex w-full flex-col items-center md:flex-row justify-center gap-4 p-4 '>
+				<div className='relative w-80 h-full flex items-center justify-center lg:w-1/2 '>
+					<div className='w-80 h-96 lg:w-96 lg:h-[500px] lg:ml-auto relative border-8 border-myBlack '>
 						<Image
 							src='/assets/about-us-photo.webp'
 							alt='Dynamic image'
@@ -97,7 +99,7 @@ const About = () => {
 						/>
 					</div>
 				</div>
-				<div className='flex flex-col gap-2 w-80 justify-center  h-full md:w-full '>
+				<div className='flex flex-col gap-2 w-80 justify-center  h-full md:w-full bg-wite z-50'>
 					<p className='font-coveredByGrace text-2xl md:text-3xl text-primary'>
 						Explore the world
 					</p>
