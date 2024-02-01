@@ -28,7 +28,7 @@ const LastMinute = () => {
 				{randomHotels.map((hotel, index) => (
 					<Link
 						key={index}
-						href={`/hotels/${hotel.id}`}
+						href={`/hotel/${hotel.id}`}
 						passHref
 						className='flex flex-row gap-2 relative border-b py-3 group'
 					>
