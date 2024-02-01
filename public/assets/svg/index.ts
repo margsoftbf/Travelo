@@ -37,3 +37,6 @@ export { default as SafetyFirst } from './SafetyFirst.svg';
 export { default as TravelGuide } from './TravelGuide.svg';
 export { default as Buildings2 } from './Buildings2.svg';
 export { default as Comments } from './Comments.svg';
+export { default as Object } from './Object.svg';
+export { default as TestimonialBackground } from './TestimonialBackground.svg';
+export { default as Apostrophe } from './Apostrophe.svg';

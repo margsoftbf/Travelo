@@ -35,7 +35,7 @@ const MostFavouritePlace = () => {
 					</p>
 				</div>
 			</div>
-			<div className='max-w-6xl mx-auto flex items-center justify-center w-full -mt-10'>
+			<div className='max-w-6xl mx-auto flex items-center justify-center w-full -mt-10 px-2'>
 				<div className='grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4'>
 					{attractionData.slice(0, 4).map((place) => (
 						<div key={place.id} className='p-2'>

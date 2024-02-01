@@ -77,7 +77,7 @@ const Blog = () => {
 											{post.author.name}
 										</div>
 									</div>
-									<div className='flex items-center text-myBlack font-medium pl-2'>
+									<div className='hidden md:flex items-center text-myBlack font-medium pl-2'>
 										<Comments className='w-5 h-5' />
 										<p className='pl-2'>{post.comments} comments</p>
 									</div>

@@ -308,7 +308,7 @@ export interface BlogPostTypes {
 	imageUrl: string;
 	date: string;
 	comments: number;
-	datetime: string; 
+	datetime: string;
 	category: { title: string; href: string };
 	author: {
 		name: string;
@@ -316,4 +316,14 @@ export interface BlogPostTypes {
 		href: string;
 		imageUrl: string;
 	};
+}
+
+export interface TestimonialsProps {
+	id: number;
+	name: string;
+	title: string;
+	text: string;
+	personImg: string;
+	personImgAlt: string;
+	rating: number;
 }

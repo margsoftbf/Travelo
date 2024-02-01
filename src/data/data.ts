@@ -165,3 +165,42 @@ export const blogPosts: BlogPostTypes[] = [
 		},
 	},
 ];
+import { TestimonialsProps } from '@/types/types';
+export const testimonials: TestimonialsProps[] = [
+	{
+		id: 1,
+		name: 'Mark Webber',
+		title: 'Tourist',
+		text: "Exploring the heart of the city was an eye-opening experience! The vibrant street life, the stunning architecture, and the welcoming locals made every moment unforgettable. Our guide's insights into the hidden gems of the city added a unique depth to our adventure. Can't wait to return!",
+		personImg: '/assets/people/avatar-mark-webber.webp',
+		personImgAlt: 'Mark Webber picture',
+		rating: 5,
+	},
+	{
+		id: 2,
+		name: 'Angela Gray',
+		title: 'Tourist',
+		text: 'Our journey through the lush landscapes and serene beaches was nothing short of magical. Each day brought a new discovery, from hidden coves to exotic local cuisines. The highlight was the sunset kayak trip, guided by experts who shared fascinating stories about the local culture.',
+		personImg: '/assets/people/avatar-angela-gray.webp',
+		personImgAlt: 'Angela Gray picture',
+		rating: 5,
+	},
+	{
+		id: 3,
+		name: 'Anna Kim',
+		title: 'Tourist',
+		text: 'The hiking trip to the ancient ruins was a journey back in time. The trails were challenging but incredibly rewarding, with breathtaking views and mystical ruins waiting to be explored. Our guide was knowledgeable and passionate, making history come alive with every step.',
+		personImg: '/assets/people/avatar-anna-kim.webp',
+		personImgAlt: 'Anna Kim picture',
+		rating: 5,
+	},
+	{
+		id: 4,
+		name: 'Kimberly Smith',
+		title: 'Tourist',
+		text: 'Embarking on the culinary tour was a feast for the senses! We savored dishes from bustling street markets to gourmet restaurants, each bite a revelation of flavors. The cooking class with a local chef was a highlight, offering hands-on experience in preparing traditional dishes.',
+		personImg: '/assets/people/avatar-kimberly-smith.webp',
+		personImgAlt: 'Kimberly Smith picture',
+		rating: 5,
+	},
+];
