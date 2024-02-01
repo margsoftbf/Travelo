@@ -3,6 +3,7 @@ import Blog from '@/components/Blog';
 import CategorySelector from '@/components/CategorySelector';
 import ChooseUs from '@/components/ChooseUs';
 import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 import Gallery from '@/components/Gallery';
 import MostFavouritePlace from '@/components/MostFavouritePlace';
 import Testimonial from '@/components/Testimonial';
@@ -22,6 +23,7 @@ export default function Home() {
 			<Testimonial />
 			<Gallery />
 			<Contact />
+			<Footer />
 		</main>
 	);
 }

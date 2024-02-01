@@ -1,10 +1,5 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
-import {
-	BuildingOffice2Icon,
-	EnvelopeIcon,
-	PhoneIcon,
-} from '@heroicons/react/24/outline';
-
+import { Object } from '../../public/assets/svg';
 import { ContactDataTypes } from '@/types/types';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import { motion } from 'framer-motion';
@@ -84,6 +79,10 @@ const Contact = () => {
 			}}
 			transition={{ duration: 1.2, type: 'ease-in' }}
 		>
+			<div className='flex flex-row justify-end items-end'>
+				<Object className='w-1/2 h-full absolute top-0 left-0' />
+				<Object className='w-1/2 h-full absolute bottom-0 right-0' />
+			</div>
 			<div className='max-w-8xl mx-auto relative'>
 				<div className='max-w-4xl mx-auto flex flex-col justify-center items-center gap-2 pt-6 pb-4 px-6'>
 					<p className='font-dmSans font-bold text-base text-primary tracking-wider'>
@@ -240,70 +239,6 @@ const Contact = () => {
 				</form>
 				{isFormSubmitted && <div>Your message has been sent!</div>}
 			</div>
-			{/* <div className='mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-2'>
-				<div className='relative px-6 pb-20 pt-12 lg:static lg:px-8'>
-					<div className='mx-auto max-w-xl lg:mx-0 lg:max-w-lg'>
-						<div className='flex gap-2 relative'>
-							<h2 className='font-lemonada text-myOrange font-dmSans font-semibold'>
-								Contact Us
-							</h2>
-						</div>
-						<p className='mt-6 text-4xl font-coveredByGrace  text-myBlack font-bakilda'>
-							Have Any Question? We Are Here to Listen From You
-						</p>
-						<p className='mt-6 text-sm  text-myGray font-openSans'>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-							deleniti? Est perspiciatis suscipit porro rem. Nam velit eius ea!
-							Sunt architecto mollitia ad officiis neque quas voluptas delectus
-							expedita saepe.
-						</p>
-						<div className='mt-10 space-y-8 text-base leading-7 text-myBlack'>
-							<div className='flex gap-x-4 items-center'>
-								<div className='flex items-center justify-center bg-primary rounded-full w-9 h-9'>
-									<span className='sr-only'>Address</span>
-									<BuildingOffice2Icon
-										className='h-6 w-6 text-white'
-										aria-hidden='true'
-									/>
-								</div>
-								<div className='text-myBlack'>
-									12 Central Park
-									<br />
-									New York, NY 90726
-								</div>
-							</div>
-							<div className='flex gap-x-4 items-center'>
-								<div className='flex items-center justify-center bg-primary rounded-full w-9 h-9'>
-									<span className='sr-only'>Telephone</span>
-									<PhoneIcon
-										className='h-6 w-6 text-white'
-										aria-hidden='true'
-									/>
-								</div>
-								<div>
-									<a className='text-myBlack' href='tel:+1 (555) 234-5678'>
-										+1 (555) 234-5678
-									</a>
-								</div>
-							</div>
-							<div className='flex gap-x-4 items-center'>
-								<div className='flex items-center justify-center bg-primary rounded-full w-9 h-9'>
-									<span className='sr-only'>Email</span>
-									<EnvelopeIcon
-										className='h-7 w-6 text-white'
-										aria-hidden='true'
-									/>
-								</div>
-								<div>
-									<a className='text-myBlack' href='mailto:hello@example.com'>
-										hello@example.com
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> */}
 		</motion.div>
 	);
 };
