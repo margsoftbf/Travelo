@@ -26,7 +26,7 @@ const Gallery = () => {
 
 	return (
 		<motion.div
-			className='mx-auto w-full m-2 p-8 bg-myBlack'
+			className='mx-auto w-full p-8 bg-myBlack'
 			ref={ref}
 			animate={controls}
 			initial='hidden'
@@ -34,7 +34,7 @@ const Gallery = () => {
 				visible: { opacity: 1, y: 0 },
 				hidden: { opacity: 0, y: 50 },
 			}}
-			transition={{ duration: 1.5, type: 'ease-in' }}
+			transition={{ duration: 1.2, type: 'ease-in' }}
 		>
 			<Swiper
 				spaceBetween={30}
@@ -73,7 +73,7 @@ const Gallery = () => {
 			>
 				{images.map((src, index) => (
 					<SwiperSlide key={index}>
-						<div className='w-56 h-56 relative'>
+						<div className='w-56 h-56 relative '>
 							<Image
 								src={src}
 								alt={`Gallery image ${index + 1}`}

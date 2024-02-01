@@ -327,3 +327,11 @@ export interface TestimonialsProps {
 	personImgAlt: string;
 	rating: number;
 }
+
+export interface ContactDataTypes {
+    firstName: string;
+    lastName: string;
+    email: string;
+    phoneNumber: string;
+    message: string;
+}
