@@ -42,7 +42,7 @@ const Blog = () => {
 						ARTICLES
 					</p>
 					<p className='font-dmSans text-3xl font-bold text-center text-myBlack'>
-						Latest News & Articles from the Blog Posts
+						Latest News & Articles from the Blog Postss
 					</p>
 				</div>
 				<div className='mx-auto mt-2 flex flex-wrap justify-center gap-8 p-4 lg:gap-x-8'>
