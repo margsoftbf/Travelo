@@ -5,7 +5,7 @@ import ListingCard from '../ui/ListingCard';
 interface SimilarHotelsProps {
 	hotels: Hotel[];
 }
-const SimilarHotels: React.FC<SimilarHotelsProps> = ({ hotels }) => {
+const SimilarHotels = ({ hotels }: SimilarHotelsProps) => {
 	return (
 		<div>
 			<h2 className='text-myBlack font-dmSans text-2xl font-bold tracking-tighter'>

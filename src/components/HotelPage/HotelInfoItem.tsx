@@ -7,12 +7,12 @@ interface HotelInfoItemProps {
 	isClickable?: boolean;
 }
 
-const HotelInfoItem: React.FC<HotelInfoItemProps> = ({
+const HotelInfoItem = ({
 	Icon,
 	label,
 	value,
 	isClickable
-}) => {
+}: HotelInfoItemProps) => {
 	return (
 		<div
 			className={`flex items-center gap-2 ${

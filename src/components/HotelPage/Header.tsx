@@ -6,7 +6,6 @@ import {
 	HomeIcon,
 	GlobeAmericasIcon,
 } from '@heroicons/react/24/solid';
-import HotelInfoItem from './HotelInfoItem';
 import { Hotel } from '@/types/types';
 import HeaderAttributItem from '../ui/HeaderAttributItem';
 
@@ -14,7 +13,7 @@ interface HotelHeaderProps {
 	hotel: Hotel;
 }
 
-const HotelHeader: React.FC<HotelHeaderProps> = ({ hotel }) => {
+const HotelHeader = ({ hotel }: HotelHeaderProps) => {
 	const pricePerNight = hotel.offers[0]?.pricePerNight ?? 'N/A';
 
 	return (

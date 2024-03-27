@@ -1,43 +1,16 @@
 import { addBooking } from '@/store/cartSlice';
 import { Hotel } from '@/types/types';
-import { useState, forwardRef } from 'react';
+import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import { Calendar, Minus, Plus } from '../../../public/assets/svg';
 import moment from 'moment';
+import VendorSelector from './BookingFormHelpers/VendorSelector';
+import DateHotelSelector from './BookingFormHelpers/DateHotelSelector';
+import NumberInput from './BookingFormHelpers/NumberInput';
 
 interface BookingFormProps {
 	hotel: Hotel;
 }
-
-const CustomInput = forwardRef<
-	HTMLInputElement,
-	{ value?: string; onClick?: () => void; hasError?: boolean }
->(({ value, onClick, hasError }, ref) => (
-	<div
-		className={`relative w-full text-[12px] rounded-md py-1 mt-1 pr-10 font-dmSans text-myBlack ring-1 pl-2 ring-inset outline-none ring-gray-300 placeholder:text-myBlack sm:leading-6 ${
-			hasError ? 'border-red-500 border' : ''
-		}`}
-		onClick={onClick}
-	>
-		<input
-			ref={ref}
-			type='text'
-			className={`block w-full text-[12px] text-black placeholder:text-black outline-none ${
-				hasError
-					? 'border-red-500 ring-red-500'
-					: 'border-gray-300 ring-gray-300'
-			}`}
-			value={value || ''}
-			readOnly
-			placeholder='Select date'
-		/>
-		<div className='pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2'>
-			<Calendar className='h-4 w-4 text-gray-400' aria-hidden='true' />
-		</div>
-	</div>
-));
 
 const BookingForm = ({ hotel }: BookingFormProps) => {
 	const [bookingAdded, setBookingAdded] = useState(false);
@@ -97,8 +70,6 @@ const BookingForm = ({ hotel }: BookingFormProps) => {
 	const pricePerNight = selectedVendor?.pricePerNight ?? 0;
 
 	const totalPrice = calculateNights() * pricePerNight * rooms;
-	const numberOfNights = calculateNights();
-	const subtotal = numberOfNights * (selectedVendor?.pricePerNight ?? 0);
 
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
@@ -147,145 +118,37 @@ const BookingForm = ({ hotel }: BookingFormProps) => {
 				<span className='text-xl font-bold text-myBlack'>${pricePerNight}</span>
 				/ night
 			</p>
-
-			<div className='flex flex-col w-full md:mt-0 '>
-				<label
-					htmlFor='vendor'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					Choose a vendor:
-				</label>
-				<select
-					id='vendor'
-					className='mt-1 flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-					value={selectedVendorValue}
-					onChange={handleVendorChange}
-				>
-					{hotel.offers.map((offer, index) => (
-						<option key={index} value={offer.vendor}>
-							{offer.vendor} (${offer.pricePerNight})
-						</option>
-					))}
-				</select>
-			</div>
-			<div
-				className={`flex flex-col w-full md:mt-0 ${
-					checkInDateError ? 'text-red-500' : ''
-				}`}
-			>
-				<label
-					htmlFor='checkInDate'
-					className={`text-xs font-dmSans text-softGrey font-semibold `}
-				>
-					Check-in Date:
-				</label>
-				<DatePicker
-					selected={
-						checkInDate ? moment(checkInDate, 'YYYY-MM-DD').toDate() : null
-					}
-					onChange={(date) => handleDateChange(date, setCheckInDate, true)}
-					customInput={<CustomInput hasError={checkInDateError} />}
-					dateFormat='yyyy-MM-dd'
-				/>
-				{checkInDateError && (
-					<p className='text-red-500 text-xs italic'>Select Check In Date</p>
-				)}
-			</div>
-			<div
-				className={`flex flex-col w-full md:mt-0 ${
-					checkOutDateError ? 'text-red-500' : ''
-				}`}
-			>
-				<label
-					htmlFor='checkOutDate'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					Check-out Date:
-				</label>
-				<DatePicker
-					selected={
-						checkOutDate ? moment(checkOutDate, 'YYYY-MM-DD').toDate() : null
-					}
-					onChange={(date) => handleDateChange(date, setCheckOutDate)}
-					customInput={<CustomInput hasError={checkOutDateError} />}
-					dateFormat='yyyy-MM-dd'
-				/>
-				{checkOutDateError && (
-					<p className='text-red-500 text-xs italic'>Select Check Out Date</p>
-				)}
-			</div>
-			<div className='flex flex-col w-full'>
-				<label
-					htmlFor='adults'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					Adults:
-				</label>
-				<div className='relative mt-1 rounded-md shadow-sm'>
-					<div className='flex'>
-						<input
-							type='number'
-							id='adults'
-							value={adults}
-							min='1'
-							className='flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-							onChange={(e) =>
-								setAdults(Math.max(1, Math.min(8, parseInt(e.target.value))))
-							}
-						/>
-						<div className='absolute inset-y-0 right-0 gap-1 flex items-center pr-2'>
-							<Minus
-								aria-label='Decrease guest number'
-								className='h-4 w-4 text-gray-400 cursor-pointer'
-								aria-hidden='true'
-								onClick={() => setAdults(adults > 1 ? adults - 1 : 1)}
-							/>
-							<Plus
-								aria-label='Increase guest number'
-								className='h-4 w-4 text-gray-400 cursor-pointer'
-								aria-hidden='true'
-								onClick={() => setAdults(adults < 8 ? adults + 1 : 8)}
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className='flex flex-col w-full'>
-				<label
-					htmlFor='children'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					Children:
-				</label>
-				<div className='relative mt-1 rounded-md shadow-sm'>
-					<div className='flex'>
-						<input
-							type='number'
-							id='adults'
-							value={children}
-							min='0'
-							className='flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-							onChange={(e) =>
-								setChildren(Math.max(1, Math.min(8, parseInt(e.target.value))))
-							}
-						/>
-						<div className='absolute inset-y-0 right-0 gap-1 flex items-center pr-2'>
-							<Minus
-								aria-label='Decrease guest number'
-								className='h-4 w-4 text-gray-400 cursor-pointer'
-								aria-hidden='true'
-								onClick={() => setChildren(children > 1 ? children - 1 : 0)}
-							/>
-							<Plus
-								aria-label='Increase guest number'
-								className='h-4 w-4 text-gray-400 cursor-pointer'
-								aria-hidden='true'
-								onClick={() => setChildren(children < 8 ? children + 1 : 8)}
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
+			<VendorSelector
+				offers={hotel.offers}
+				selectedVendor={selectedVendorValue}
+				onVendorChange={handleVendorChange}
+			/>
+			<DateHotelSelector
+				checkInDate={checkInDate}
+				checkOutDate={checkOutDate}
+				setCheckInDate={setCheckInDate}
+				setCheckOutDate={setCheckOutDate}
+				checkInDateError={checkInDateError}
+				checkOutDateError={checkOutDateError}
+				handleDateChange={handleDateChange}
+			/>
+			<NumberInput
+				label='Adults'
+				id='adults'
+				value={adults}
+				setValue={setAdults}
+				min={1}
+				max={8}
+			/>
+			<NumberInput
+				label='Children'
+				id='children'
+				value={children}
+				setValue={setChildren}
+				min={1}
+				max={8}
+			/>
+			
 			<p className='font-dmSans font-medium text-softGrey'>
 				Total Price:{' '}
 				<span className='text-xl font-bold text-myBlack'>

@@ -12,7 +12,7 @@ interface RoomTipsProps {
 	tips: ReviewsTip[];
 }
 
-const Reviews: React.FC<RoomTipsProps> = ({ tips }) => {
+const Reviews = ({ tips }: RoomTipsProps) => {
 	const [showMore, setShowMore] = useState(false);
 
 	const renderStars = (rating: string) => {

@@ -19,10 +19,10 @@ interface ListingCardProps {
 	isSimple?: boolean;
 }
 
-const ListingCard: React.FC<ListingCardProps> = ({
+const ListingCard = ({
 	item,
 	isSimple = false,
-}) => {
+}: ListingCardProps) => {
 	const detailPageLink =
 		item.type === 'HOTEL'
 			? `/hotel/${item.id}`
