@@ -1,22 +1,14 @@
 import { useSelector, useDispatch } from 'react-redux';
-import {
-	removeBooking,
-	updateAdults,
-	updateChildren,
-} from '@/store/cartSlice';
+import { removeBooking, updateAdults, updateChildren } from '@/store/cartSlice';
 import { RootState } from '@/store/store';
 import moment from 'moment';
 import { getNumberOfNights } from '@/types/types';
-
+import TableHead from './HotelReservations/TableHead';
+import QuantityAdjuster from './HotelReservations/QuantityAdjuster';
 
 const HotelsReservation = () => {
-    
-	const { bookings} = useSelector(
-		(state: RootState) => state.cart
-	);
+	const { bookings } = useSelector((state: RootState) => state.cart);
 	const dispatch = useDispatch();
-
-
 
 	const handleAdultsChange = (bookingId: string, change: number) => {
 		const booking = bookings.find((b) => b.bookingId === bookingId);
@@ -45,52 +37,7 @@ const HotelsReservation = () => {
 			</h2>
 			<div className='inline-block min-w-full py-2 align-middle px-2 sm:px-6 lg:px-8'>
 				<table className='min-w-full divide-y divide-gray-300 border-b'>
-					<thead>
-						<tr>
-							<th
-								scope='col'
-								className='py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0'
-							>
-								Item
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900 hidden md:table-cell'
-							>
-								Check-in Date
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900 hidden md:table-cell'
-							>
-								Check-out Date
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900 hidden lg:table-cell'
-							>
-								Adults
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900 hidden lg:table-cell'
-							>
-								Children
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900'
-							>
-								Price
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900'
-							>
-								Remove
-							</th>
-						</tr>
-					</thead>
+					<TableHead />
 					<tbody className='divide-y divide-gray-200 bg-white'>
 						{bookings.map((booking) => {
 							const numberOfNights = getNumberOfNights(
@@ -120,74 +67,36 @@ const HotelsReservation = () => {
 											</div>
 										</div>
 									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500 hidden md:table-cell'>
-										<div className='text-myBlack font-semibold lg:text-base'>
-											{moment(booking.checkInDate).format('DD MMM YYYY')}
-										</div>
+									<td className='whitespace-nowrap px-3 py-5 text-sm text-myBlack font-semibold lg:text-base hidden md:table-cell'>
+										{moment(booking.checkInDate).format('DD MMM YYYY')}
 									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500 hidden md:table-cell'>
-										<div className='text-myBlack font-semibold lg:text-base'>
-											{moment(booking.checkOutDate).format('DD MMM YYYY')}
-										</div>
+									<td className='whitespace-nowrap px-3 py-5 text-sm text-myBlack font-semibold lg:text-base hidden md:table-cell'>
+										{moment(booking.checkOutDate).format('DD MMM YYYY')}
 									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500 hidden lg:table-cell'>
-										<div className='text-myBlack font-semibold w-20 h-8 wrapper flex items-center justify-center rounded-md  border'>
-											<button
-												className='w-full text-center font-medium font-dmSans text-xl'
-												onClick={() => {
-													if (booking.bookingId) {
-														handleAdultsChange(booking.bookingId, -1);
-													}
-												}}
-											>
-												-
-											</button>
-											<span className='w-full text-center font-medium font-dmSans text-base border-r-2 border-l-2'>
-												{booking.adults}
-											</span>
-											<button
-												className='w-full text-center font-medium font-dmSans text-xl'
-												onClick={() => {
-													if (booking.bookingId) {
-														handleAdultsChange(booking.bookingId, 1);
-													}
-												}}
-											>
-												+
-											</button>
-										</div>
+									<td className='whitespace-nowrap px-3 py-5 text-sm  hidden lg:table-cell'>
+										<QuantityAdjuster
+											value={booking.adults}
+											onDecrement={() =>
+												handleAdultsChange(booking.bookingId || '', -1)
+											}
+											onIncrement={() =>
+												handleAdultsChange(booking.bookingId || '', 1)
+											}
+										/>
 									</td>
 									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500 hidden lg:table-cell'>
-										<div className='text-myBlack font-semibold w-20 h-8 wrapper flex items-center justify-center rounded-md  border'>
-											<button
-												className='w-full text-center font-medium font-dmSans text-xl'
-												onClick={() => {
-													if (booking.bookingId) {
-														handleChildrenChange(booking.bookingId, -1);
-													}
-												}}
-											>
-												-
-											</button>
-											<span className='w-full text-center font-medium font-dmSans text-base border-r-2 border-l-2'>
-												{booking.children}
-											</span>
-											<button
-												className='w-full text-center font-medium font-dmSans text-xl'
-												onClick={() => {
-													if (booking.bookingId) {
-														handleChildrenChange(booking.bookingId, 1);
-													}
-												}}
-											>
-												+
-											</button>
-										</div>
+										<QuantityAdjuster
+											value={booking.children}
+											onDecrement={() =>
+												handleChildrenChange(booking.bookingId || '', -1)
+											}
+											onIncrement={() =>
+												handleChildrenChange(booking.bookingId || '', 1)
+											}
+										/>
 									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500'>
-										<div className='text-myBlack font-semibold lg:text-base'>
-											${subtotal.toFixed(2)}
-										</div>
+									<td className='whitespace-nowrap px-3 py-5 text-sm text-myBlack font-semibold lg:text-base'>
+										${subtotal.toFixed(2)}
 									</td>
 									<td className='whitespace-nowrap px-3 py-5 text-sm text-red-500'>
 										<button
@@ -212,4 +121,4 @@ const HotelsReservation = () => {
 	);
 };
 
-export default HotelsReservation
+export default HotelsReservation;

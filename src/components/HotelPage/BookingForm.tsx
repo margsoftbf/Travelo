@@ -1,12 +1,11 @@
 import { addBooking } from '@/store/cartSlice';
 import { Hotel } from '@/types/types';
-import { useState, forwardRef, use } from 'react';
+import { useState, forwardRef } from 'react';
 import { useDispatch } from 'react-redux';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { Calendar, Minus, Plus } from '../../../public/assets/svg';
 import moment from 'moment';
-import Link from 'next/link';
 
 interface BookingFormProps {
 	hotel: Hotel;
@@ -40,7 +39,7 @@ const CustomInput = forwardRef<
 	</div>
 ));
 
-const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
+const BookingForm = ({ hotel }: BookingFormProps) => {
 	const [bookingAdded, setBookingAdded] = useState(false);
 	const [selectedVendor, setSelectedVendor] = useState(hotel.offers[0]);
 	const [checkInDate, setCheckInDate] = useState('');

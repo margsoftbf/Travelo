@@ -21,7 +21,7 @@ const getTomorrowDate = () => {
 	return tomorrow.toISOString().split('T')[0];
 };
 
-const Offers: React.FC<AttractionOffersProps> = ({ attraction }) => {
+const Offers = ({ attraction }: AttractionOffersProps) => {
 	const tomorrow = getTomorrowDate();
 
 	if (!attraction) {

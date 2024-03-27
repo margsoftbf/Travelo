@@ -4,8 +4,10 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import moment from 'moment';
 import { Attraction, OfferListItem } from '@/types/types';
-import { Calendar, Minus, Plus } from '../../../public/assets/svg';
+import { Calendar } from '../../../public/assets/svg';
 import { addAttractionBooking } from '@/store/cartSlice';
+import InputField from './BookingForm/InputField';
+import NumberSelector from './BookingForm/NumberSelector';
 
 interface BookingFormProps {
 	attraction: Attraction;
@@ -39,7 +41,7 @@ const CustomInput = forwardRef<
 	</div>
 ));
 
-const BookingFormAttraction: React.FC<BookingFormProps> = ({ attraction }) => {
+const BookingFormAttraction = ({ attraction }: BookingFormProps) => {
 	const defaultOffer = {
 		price: '$100',
 		primaryCategory: 'Default Category',
@@ -159,52 +161,27 @@ const BookingFormAttraction: React.FC<BookingFormProps> = ({ attraction }) => {
 					))}
 				</select>
 			</div>
+		
 
-			<div className='flex flex-col w-full md:mt-0 '>
-				<label
-					htmlFor='name'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					{errors.name ? (
-						<p className='text-red-500 text-xs italic'>{errors.name}</p>
-					) : (
-						<p>Name</p>
-					)}
-				</label>
-				<input
-					type='text'
-					id='name'
-					placeholder='Your Name'
-					className={`mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset  placeholder:text-xs placeholder:text-myBlack sm:text-sm sm:leading-6 ${
-						errors.name ? 'ring-red-400' : 'ring-gray-300'
-					}`}
-					value={name}
-					onChange={(e) => setName(e.target.value)}
-				/>
-			</div>
+			<InputField
+				id='name'
+				type='text'
+				placeholder='Your Name'
+				label={errors.name ? 'Name is required' : 'Name'}
+				value={name}
+				onChange={(e) => setName(e.target.value)}
+				error={errors.name}
+			/>
 
-			<div className='flex flex-col w-full md:mt-0 '>
-				<label
-					htmlFor='email'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					{errors.email ? (
-						<p className='text-red-500 text-xs italic'>{errors.email}</p>
-					) : (
-						<p>Email</p>
-					)}
-				</label>
-				<input
-					id='email'
-					type='email'
-					value={email}
-					placeholder='Your Email'
-					className={`mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset  placeholder:text-xs placeholder:text-myBlack sm:text-sm sm:leading-6 ${
-						errors.name ? 'ring-red-400' : 'ring-gray-300'
-					}`}
-					onChange={(e) => setEmail(e.target.value)}
-				/>
-			</div>
+			<InputField
+				id='email'
+				type='text'
+				placeholder='Your Email'
+				label={errors.email ? 'Email is required' : 'Email'}
+				value={email}
+				onChange={(e) => setEmail(e.target.value)}
+				error={errors.email}
+			/>
 
 			<div className='flex flex-col w-full md:mt-0 '>
 				<label
@@ -225,50 +202,13 @@ const BookingFormAttraction: React.FC<BookingFormProps> = ({ attraction }) => {
 					dateFormat='yyyy-MM-dd'
 				/>
 			</div>
-
-			<div className='flex flex-col w-full'>
-				<label
-					htmlFor='people'
-					className='text-xs font-dmSans text-softGrey font-semibold'
-				>
-					Number of People:
-				</label>
-				<div className='relative mt-1 rounded-md shadow-sm'>
-					<div className='flex'>
-						<input
-							id='people'
-							type='number'
-							className='mt-1 block w-full text-xs rounded-md border-0  pl-2  py-1.5 font-dmSans text-myBlack shadow-sm outline-none ring-1 ring-inset ring-gray-300 placeholder:text-xs placeholder:text-text-myBlack sm:text-sm sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
-							placeholder='Number of People'
-							value={numberOfPeople}
-							onChange={(e) =>
-								setNumberOfPeople(
-									Math.max(1, Math.min(8, parseInt(e.target.value)))
-								)
-							}
-							min='1'
-						/>
-						<div className='absolute inset-y-0 right-0 gap-1 flex items-center pr-2'>
-							<Minus
-								aria-label='Decrease guest number'
-								className='h-4 w-4 text-gray-400 cursor-pointer'
-								aria-hidden='true'
-								onClick={() =>
-									setNumberOfPeople(numberOfPeople > 1 ? numberOfPeople - 1 : 1)
-								}
-							/>
-							<Plus
-								aria-label='Increase guest number'
-								className='h-4 w-4 text-gray-400 cursor-pointer'
-								aria-hidden='true'
-								onClick={() =>
-									setNumberOfPeople(numberOfPeople < 8 ? numberOfPeople + 1 : 8)
-								}
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
+			<NumberSelector
+				id='people'
+				value={numberOfPeople}
+				min={1}
+				max={8}
+				onChange={setNumberOfPeople}
+			/>
 
 			<button
 				type='submit'

@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Disclosure } from '@headlessui/react';
-import moment from 'moment';
 import {
-	getNumberOfNights,
 	BookingDetails,
 	RestaurantBookingDetails,
 	AttractionBookingDetails,
 } from '@/types/types';
-import { removeBooking, removeRestaurantBooking, removeAttractionBooking } from '@/store/cartSlice';
-import { useDispatch } from 'react-redux';
+import HotelBookingItem from './Summary/HotelBookingItem';
+import RestaurantBookingItem from './Summary/RestaurantBookingItem';
+import AttractionBookingItem from './Summary/AttractionBookingItem';
 
 interface MobileOrderSummaryProps {
 	bookings: BookingDetails[];
@@ -19,16 +18,14 @@ interface MobileOrderSummaryProps {
 	taxes: number;
 }
 
-const MobileOrderSummary: React.FC<MobileOrderSummaryProps> = ({
+const MobileOrderSummary = ({
 	bookings,
 	attractionBooking,
 	restaurantBooking,
 	totalPrice,
 	orderTotal,
 	taxes,
-}) => {
-	const dispatch = useDispatch();
-
+}: MobileOrderSummaryProps) => {
 
 	return (
 		<Disclosure
@@ -58,148 +55,21 @@ const MobileOrderSummary: React.FC<MobileOrderSummaryProps> = ({
 							role='list'
 							className='divide-y divide-gray-200 border-b border-gray-200 overflow-y-auto max-h-72'
 						>
-							{bookings.map((booking) => {
-								const numberOfNights = getNumberOfNights(
-									booking.checkInDate ?? '',
-									booking.checkOutDate ?? ''
-								);
-								const subtotal = numberOfNights * booking.pricePerNight;
-								return (
-									<li
-										key={booking.bookingId}
-										className='flex space-x-6 py-6 my-2'
-									>
-										<img
-											src={booking.hotelImage}
-											alt='Hotel image'
-											className='hidden xs:block h-32 w-32 flex-none rounded-md bg-gray-200 object-cover object-center'
-										/>
-										<div className='flex flex-col justify-between space-y-4'>
-											<div className='space-y-1 text-sm font-medium'>
-												<h3 className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>Hotel: </span>
-													{booking.hotelName}
-												</h3>
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Location:{' '}
-													</span>
-													{booking.hotelLocation}
-												</p>
-
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Check In Date:{' '}
-													</span>
-													{moment(booking.checkInDate).format('DD MMM YYYY')}
-												</p>
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Check Out Date:{' '}
-													</span>
-													{moment(booking.checkOutDate).format('DD MMM YYYY')}
-												</p>
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Total price:{' '}
-													</span>
-													${subtotal.toFixed(2)}
-												</p>
-											</div>
-										</div>
-									</li>
-								);
-							})}
-							{restaurantBooking.map((booking) => {
-								return (
-									<li
-										key={booking.bookingId}
-										className='flex space-x-6 py-6 my-2'
-									>
-										<img
-											src={booking.restaurantImage}
-											alt='Hotel image'
-											className='hidden xs:block h-32 w-32 flex-none rounded-md bg-gray-200 object-cover object-center'
-										/>
-										<div className='flex flex-col justify-between space-y-4'>
-											<div className='space-y-1 text-sm font-medium'>
-												<h3 className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>Restaurant: </span>
-													{booking.restaurantName}
-												</h3>
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Location:{' '}
-													</span>
-													{booking.restaurantLocation}
-												</p>
-
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Check In Date:{' '}
-													</span>
-													{moment(booking.date).format('DD MMM YYYY')}
-												</p>
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>Name: </span>
-													{booking.name}
-												</p>
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Total price:{' '}
-													</span>
-													${booking.price.toFixed(2)}
-												</p>
-											</div>
-										</div>
-									</li>
-								);
-							})}
-							{attractionBooking.map((booking) => {
-								return (
-									<li
-										key={booking.bookingId}
-										className='flex space-x-6 py-6 my-2'
-									>
-										<img
-											src={booking.attractionImage}
-											alt='Hotel image'
-											className='hidden xs:block h-32 w-32 flex-none rounded-md bg-gray-200 object-cover object-center'
-										/>
-										<div className='flex flex-col justify-between space-y-4'>
-											<div className='space-y-1 text-sm font-medium'>
-												<h3 className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>Attraction: </span>
-													{booking.attractionName}
-												</h3>
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Location:{' '}
-													</span>
-													{booking.attractionLocation}
-												</p>
-
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Check In Date:{' '}
-													</span>
-													{moment(booking.date).format('DD MMM YYYY')}
-												</p>
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>Name: </span>
-													{booking.name}
-												</p>
-												<p className='text-myBlack line-clamp-1'>
-													<span className='text-softGrey text-xs'>
-														Total price:{' '}
-													</span>
-													{booking.selectedOffer.price}
-												</p>
-											</div>
-										</div>
-									</li>
-								);
-							})}
+							{bookings.map((booking) => (
+								<HotelBookingItem key={booking.bookingId} booking={booking} />
+							))}
+							{restaurantBooking.map((booking) => (
+								<RestaurantBookingItem
+									key={booking.bookingId}
+									booking={booking}
+								/>
+							))}
+							{attractionBooking.map((booking) => (
+								<AttractionBookingItem
+									key={booking.bookingId}
+									booking={booking}
+								/>
+							))}
 						</ul>
 
 						<div className='mt-10 space-y-6 text-sm font-medium text-gray-500'>

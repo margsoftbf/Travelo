@@ -71,6 +71,7 @@ const Contact = () => {
 		<motion.div
 			className='relative w-full mx-auto bg-neutral'
 			ref={ref}
+			id='contact'
 			animate={controls}
 			initial='hidden'
 			variants={{

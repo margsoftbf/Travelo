@@ -73,17 +73,19 @@ const Gallery = () => {
 			>
 				{images.map((src, index) => (
 					<SwiperSlide key={index}>
-						<div className='w-56 h-56 relative '>
-							<Image
-								src={src}
-								alt={`Gallery image ${index + 1}`}
-								fill={true}
-								className='w-full h-full rounded-md hover:opacity-80 transition duration-300 ease-in-out border border-softGrey object-cover relative'
-								sizes='(max-width: 350px) 350px, (max-width: 500px) 500px, (max-width: 768px) 768px, (max-width: 1200px) 1200px'
-							/>
-							<div className='absolute top-0 left-0 w-full h-full rounded-md bg-black/80 opacity-0 hover:opacity-100 flex justify-center items-center transition duration-300 ease-in-out'>
-								<div className='p-2 bg-white rounded-xl cursor-pointer'>
-									<FaInstagram className='text-black text-4xl bg-white' />
+						<div className='flex justify-center items-center w-full '>
+							<div className='w-56 h-56 relative'>
+								<Image
+									src={src}
+									alt={`Gallery image ${index + 1}`}
+									fill={true}
+									className='w-full h-full rounded-md hover:opacity-80 transition duration-300 ease-in-out border border-softGrey object-cover relative'
+									sizes='(max-width: 350px) 350px, (max-width: 500px) 500px, (max-width: 768px) 768px, (max-width: 1200px) 1200px'
+								/>
+								<div className='absolute top-0 left-0 w-full h-full rounded-md bg-black/80 opacity-0 hover:opacity-100 flex justify-center items-center transition duration-300 ease-in-out'>
+									<div className='p-2 bg-white rounded-xl cursor-pointer'>
+										<FaInstagram className='text-black text-4xl bg-white' />
+									</div>
 								</div>
 							</div>
 						</div>

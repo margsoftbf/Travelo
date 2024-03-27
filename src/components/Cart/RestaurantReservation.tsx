@@ -3,11 +3,14 @@ import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '@/store/store';
 import { removeRestaurantBooking } from '@/store/cartSlice';
 import moment from 'moment';
+import TableHead from './RestaurantReservations/TableHead';
 
 const RestaurantReservation = () => {
 	const { restaurantBooking } = useSelector((state: RootState) => state.cart);
 	const dispatch = useDispatch();
 
+	const rowClasses =
+		'whitespace-nowrap px-3 py-5 text-sm text-myBlack font-semibold lg:text-base';
 	return (
 		<div className='-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8'>
 			<h2 className='mx-8 relative font-dmSans font-bold text-myBlack border-b border-b-primary text-xl'>
@@ -15,58 +18,7 @@ const RestaurantReservation = () => {
 			</h2>
 			<div className='inline-block min-w-full py-2 align-middle px-2 sm:px-6 lg:px-8'>
 				<table className='min-w-full divide-y divide-gray-300 border-b'>
-					<thead>
-						<tr>
-							<th
-								scope='col'
-								className='py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0'
-							>
-								Place
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900 hidden md:table-cell'
-							>
-								Date
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900 hidden lg:table-cell'
-							>
-								Time
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900 hidden lg:table-cell'
-							>
-								Name
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900 hidden lg:table-cell'
-							>
-								Email
-							</th>
-							<th
-								scope='col'
-								className=' px-3 py-3.5 text-left text-sm font-semibold text-gray-900'
-							>
-								People
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900'
-							>
-								Price
-							</th>
-							<th
-								scope='col'
-								className='px-3 py-3.5 text-left text-sm font-semibold text-gray-900'
-							>
-								Remove
-							</th>
-						</tr>
-					</thead>
+					<TableHead />
 					<tbody className='divide-y divide-gray-200 bg-white'>
 						{restaurantBooking.map((booking) => {
 							return (
@@ -90,36 +42,20 @@ const RestaurantReservation = () => {
 											</div>
 										</div>
 									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500 hidden md:table-cell'>
-										<div className='text-myBlack font-semibold lg:text-base'>
-											{moment(booking.date).format('DD MMM YYYY')}
-										</div>
+									<td className={`${rowClasses} hidden md:table-cell`}>
+										{moment(booking.date).format('DD MMM YYYY')}
 									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500 hidden md:table-cell'>
-										<div className='text-myBlack font-semibold lg:text-base'>
-											{booking.time}
-										</div>
+									<td className={`${rowClasses} hidden md:table-cell`}>
+										{booking.time}
 									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500 hidden lg:table-cell'>
-										<div className='text-myBlack font-semibold lg:text-base'>
-											{booking.name}
-										</div>
+									<td className={`${rowClasses} hidden lg:table-cell`}>
+										{booking.name}
 									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500 hidden lg:table-cell'>
-										<div className='text-myBlack font-semibold lg:text-base'>
-											{booking.email}
-										</div>
+									<td className={`${rowClasses} hidden lg:table-cell`}>
+										{booking.email}
 									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500'>
-										<div className='text-myBlack font-semibold lg:text-base'>
-											{booking.numberOfPeople}
-										</div>
-									</td>
-									<td className='whitespace-nowrap px-3 py-5 text-sm text-gray-500'>
-										<div className='text-myBlack font-semibold lg:text-base'>
-											${booking.price}
-										</div>
-									</td>
+									<td className={`${rowClasses}`}>{booking.numberOfPeople}</td>
+									<td className={`${rowClasses}`}>${booking.price}</td>
 									<td className='whitespace-nowrap px-3 py-5 text-sm text-red-500'>
 										<button
 											onClick={() => {

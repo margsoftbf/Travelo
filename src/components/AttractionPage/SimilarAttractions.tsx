@@ -5,9 +5,9 @@ import { Attraction } from '@/types/types';
 interface SimilarAttractionsProps {
 	attractions: Attraction[];
 }
-const SimilarAttractions: React.FC<SimilarAttractionsProps> = ({
+const SimilarAttractions = ({
 	attractions,
-}) => {
+}: SimilarAttractionsProps) => {
 	return (
 		<div>
 			<h2 className='text-myBlack font-dmSans text-2xl font-bold tracking-tighter'>

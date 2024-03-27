@@ -28,6 +28,7 @@ const Blog = () => {
 		<motion.div
 			className='relative w-full mx-auto'
 			ref={ref}
+			id='blog'
 			animate={controls}
 			initial='hidden'
 			variants={{

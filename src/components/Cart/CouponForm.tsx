@@ -5,7 +5,7 @@ interface CouponFormProps {
     onApplyCoupon: (isApplied: boolean, discountRate: number) => void;
   }
 
-const CouponForm: React.FC<CouponFormProps> = ({onApplyCoupon}) => {
+const CouponForm = ({onApplyCoupon}: CouponFormProps) => {
   
 
 	const [couponCode, setCouponCode] = useState('');

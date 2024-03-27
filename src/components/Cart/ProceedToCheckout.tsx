@@ -7,13 +7,13 @@ interface ProceedToCheckoutProps {
 	orderTotal: number;
 	onCheckout: () => void;
 }
-const ProceedToCheckout: React.FC<ProceedToCheckoutProps> = ({
+const ProceedToCheckout = ({
 	subtotal,
 	tax,
 	orderTotal,
 	onCheckout,
-}) => {
-	console.log(orderTotal);
+}: ProceedToCheckoutProps) => {
+
 	return (
 		<div className='w-full md:w-1/2 mt-4 '>
 			<section

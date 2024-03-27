@@ -13,7 +13,7 @@ interface AttractionHeaderProps {
 	attraction: Attraction;
 }
 
-const AttractionHeader: React.FC<AttractionHeaderProps> = ({ attraction }) => {
+const AttractionHeader = ({ attraction }: AttractionHeaderProps) => {
 	return (
 		<div className='bg-neutral w-full'>
 			<div className='max-w-7xl mx-auto flex flex-col items-center py-4 lg:flex-row gap-4'>

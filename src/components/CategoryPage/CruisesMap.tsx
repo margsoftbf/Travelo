@@ -5,7 +5,7 @@ interface CruisesMapProps {
 	mapImageUrl: string;
 }
 
-const CruisesMap: React.FC<CruisesMapProps> = ({ mapImageUrl }) => {
+const CruisesMap = ({ mapImageUrl }: CruisesMapProps) => {
 	if (!mapImageUrl) return null;
 	return (
 		<div className='w-full mt-4 relative flex flex-col justify-start gap-4'>
