@@ -5,6 +5,7 @@ import ChooseUs from '@/components/ChooseUs';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Gallery from '@/components/Gallery';
+import MostFavouriteHotels from '@/components/MostFavouriteHotels';
 import MostFavouritePlace from '@/components/MostFavouritePlace';
 import Testimonial from '@/components/Testimonial';
 import dynamic from 'next/dynamic';
@@ -18,6 +19,7 @@ export default function Home() {
 			<About />
 			<MostFavouritePlace />
 			<ChooseUs />
+			<MostFavouriteHotels />
 			<CategorySelector />
 			<Blog />
 			<Testimonial />

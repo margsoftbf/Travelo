@@ -1,7 +1,5 @@
 import { GetServerSideProps } from 'next';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
-import Hero from '@/components/SearchListPage/Hero';
 import FilterBar from '@/components/SearchListPage/FilterBar';
 import LastMinute from '@/components/SearchListPage/LastMinute';
 import SortDropdown from '@/components/SearchListPage/SortDropdown';
