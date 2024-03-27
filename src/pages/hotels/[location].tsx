@@ -18,12 +18,12 @@ interface HotelsPageProps {
 	resultsPerPage: number;
 }
 
-const HotelsPage: React.FC<HotelsPageProps> = ({
+const HotelsPage = ({
 	hotels,
 	totalResults,
 	page,
 	resultsPerPage,
-}) => {
+}: HotelsPageProps) => {
 	const router = useRouter();
 	const indexOfFirstResult = (page - 1) * resultsPerPage + 1;
 	const indexOfLastResult = Math.min(page * resultsPerPage, totalResults);

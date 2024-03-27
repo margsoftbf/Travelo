@@ -1,32 +1,13 @@
 import React from 'react';
 import {
-	Mountain,
-	Awwards,
-	HappyTraveller,
-	PositiveReviews,
-	TourComplete,
-	RightTopCorner,
 	SafetyFirst,
 	LowPrice,
 	TravelGuide,
 	InstantBooking,
 } from '../../public/assets/svg';
-import CountUp from 'react-countup';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { FaCheck } from 'react-icons/fa';
-const stats = [
-	{ id: 1, name: 'Happy traveller', value: '5489', icon: HappyTraveller },
-	{
-		id: 2,
-		name: 'Positive Reviews',
-		value: '972%',
-		icon: PositiveReviews,
-	},
-	{ id: 3, name: 'Tour Complete', value: '190+', icon: TourComplete },
-	{ id: 4, name: 'Awards Winning', value: '327', icon: Awwards },
-];
 
 const ChooseUs = () => {
 	const { ref, controls } = useScrollAnimation();

@@ -2,7 +2,7 @@ import React from 'react';
 import { Hiking } from '../../../public/assets/svg';
 import { TypeSelectProps } from '@/types/types';
 
-const TypeSelect: React.FC<TypeSelectProps> = ({ type, setType, hasError }) => (
+const TypeSelect = ({ type, setType, hasError }: TypeSelectProps) => (
 	<div className='flex flex-col w-full mt-2 md:mt-0 relative'>
 		<label
 			htmlFor='typeSelect'

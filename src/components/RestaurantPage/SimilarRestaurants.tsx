@@ -6,9 +6,9 @@ interface SimilarRestaurantProps {
 	restaurants: Restaurant[];
 }
 
-const SimilarRestaurants: React.FC<SimilarRestaurantProps> = ({
+const SimilarRestaurants = ({
 	restaurants,
-}) => {
+}: SimilarRestaurantProps) => {
 	return (
 		<div>
 			<h2 className='text-myBlack font-dmSans text-2xl font-bold tracking-tighter'>

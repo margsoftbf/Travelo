@@ -18,12 +18,12 @@ interface RestaurantsPageProps {
 	resultsPerPage: number;
 }
 
-const RestaurantsPage: React.FC<RestaurantsPageProps> = ({
+const RestaurantsPage = ({
 	restaurants,
 	totalResults,
 	page,
 	resultsPerPage,
-}) => {
+}: RestaurantsPageProps) => {
 	const router = useRouter();
 	const indexOfFirstResult = (page - 1) * resultsPerPage + 1;
 	const indexOfLastResult = Math.min(page * resultsPerPage, totalResults);

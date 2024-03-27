@@ -5,7 +5,7 @@ interface ListWithIconsProps {
 	type: 'hotel' | 'restaurant';
 }
 
-const ListWithIcons: React.FC<ListWithIconsProps> = ({ items, type }) => {
+const ListWithIcons = ({ items, type }: ListWithIconsProps) => {
 	const [showMore, setShowMore] = useState(false);
 
 	const title = type === 'hotel' ? 'Amenities' : 'Features';

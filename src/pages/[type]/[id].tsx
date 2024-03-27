@@ -15,7 +15,7 @@ interface DetailPageProps {
 	data: CategorySelectorTypes;
 }
 
-const DetailPage: React.FC<DetailPageProps> = ({ data }) => {
+const DetailPage = ({ data }: DetailPageProps) => {
 	return (
 		<div className='relative overflow-hidden'>
 			<div className='absolute w-full h-full -z-10'>

@@ -26,7 +26,7 @@ interface HoursProps {
 	timezone: string;
 }
 
-const RestaurantHeader: React.FC<RestaurantHeaderProps> = ({ restaurant }) => {
+const RestaurantHeader = ({ restaurant }: RestaurantHeaderProps) => {
 	function formatHours(hours: HoursProps): string {
 		const dayHours = restaurant.hours.weekRanges[0][0];
 		return `${dayHours.openHours} - ${dayHours.closeHours}`;

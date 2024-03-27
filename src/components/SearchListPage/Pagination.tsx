@@ -7,12 +7,12 @@ interface PaginationProps {
 	paginate: (pageNumber: number) => void;
 }
 
-const Pagination: React.FC<PaginationProps> = ({
+const Pagination = ({
 	resultsPerPage,
 	totalResults,
 	currentPage = 1,
 	paginate,
-}) => {
+}: PaginationProps) => {
 	const pageCount = Math.ceil(totalResults / resultsPerPage);
 
 	const handlePaginate = (pageNumber: number) => {

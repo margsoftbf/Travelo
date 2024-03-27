@@ -7,12 +7,12 @@ interface HeaderAttributItemProps {
 	isClickable?: boolean;
 }
 
-const HeaderAttributItem: React.FC<HeaderAttributItemProps> = ({
+const HeaderAttributItem = ({
 	Icon,
 	label,
 	value,
 	isClickable
-}) => {
+}: HeaderAttributItemProps) => {
 	return (
 		<div
 			className={`flex items-center gap-2 ${

@@ -6,7 +6,7 @@ interface OpenHoursProps {
 		closeHours: string;
 	}[][];
 }
-const OpenHours: React.FC<OpenHoursProps> = ({ weekRanges }) => {
+const OpenHours = ({ weekRanges }: OpenHoursProps) => {
 
 
 	const daysOfWeek = [

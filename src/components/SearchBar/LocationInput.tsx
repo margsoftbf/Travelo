@@ -2,7 +2,7 @@ import React from 'react';
 import { Location } from '../../../public/assets/svg';
 import { LocationInputProps } from '@/types/types';
 
-const LocationInput: React.FC<LocationInputProps> = ({
+const LocationInput = ({
 	query,
 	setQuery,
 	suggestions,
@@ -10,7 +10,7 @@ const LocationInput: React.FC<LocationInputProps> = ({
 	handleSuggestionClick,
 	errors,
 	variant,
-}) => {
+}: LocationInputProps) => {
 	const baseClass =
 		'block w-full text-[12px] rounded-md font-dmSans py-2 pr-10 text-myBlack ring-1 pl-2 ring-inset outline-none ring-gray-300 placeholder:text-myBlack sm:leading-6';
 

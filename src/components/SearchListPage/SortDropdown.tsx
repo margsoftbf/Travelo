@@ -5,7 +5,7 @@ interface SortDropdownProps {
 	onSortChange: (sortType: string) => void;
 }
 
-const SortDropdown: React.FC<SortDropdownProps> = ({ onSortChange }) => {
+const SortDropdown = ({ onSortChange }: SortDropdownProps) => {
 	return (
 		<div className='hidden  bg-neutral md:flex items-center justify-center rounded-md relative md:order-2'>
 			<label htmlFor='sortSelect' className='sr-only'>

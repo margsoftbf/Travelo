@@ -19,12 +19,12 @@ interface AttractionPageProps {
 	resultsPerPage: number;
 }
 
-const AttractionPage: React.FC<AttractionPageProps> = ({
+const AttractionPage = ({
 	attractions,
 	totalResults,
 	page,
 	resultsPerPage,
-}) => {
+}: AttractionPageProps) => {
 	const router = useRouter();
 	const indexOfFirstResult = (page - 1) * resultsPerPage + 1;
 	const indexOfLastResult = Math.min(page * resultsPerPage, totalResults);

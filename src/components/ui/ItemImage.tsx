@@ -8,7 +8,7 @@ interface ItemImageProps {
 	  };
 }
 
-const ItemImage: React.FC<ItemImageProps> = ({ entity }) => {
+const ItemImage = ({ entity }: ItemImageProps) => {
 	return (
 		<div className='w-full  relative flex gap-4 justify-center items-center'>
 			<div className='w-full h-60 lg:h-72 relative group'>
