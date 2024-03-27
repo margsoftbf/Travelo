@@ -145,7 +145,7 @@ const BookingForm = ({ hotel }: BookingFormProps) => {
 				id='children'
 				value={children}
 				setValue={setChildren}
-				min={1}
+				min={0}
 				max={8}
 			/>
 			

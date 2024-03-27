@@ -32,7 +32,7 @@ const NumberInput = ({
 						type='number'
 						id={id}
 						value={value}
-						min='1'
+						min={min}
 						className='flex-1 text-[12px] text-left border-2 rounded-md py-1 font-dmSans text-myBlack ring-inset outline-none pl-2 placeholder:text-text-myBlack sm:leading-6 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none'
 						onChange={(e) =>
 							setValue(Math.max(1, Math.min(8, parseInt(e.target.value))))
