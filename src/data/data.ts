@@ -12,7 +12,6 @@ import {
 	FaGithub,
 	FaYoutube,
 } from 'react-icons/fa';
-import { ComponentPropsWithoutRef } from 'react';
 
 export const categories = [
 	{ name: 'Cruises', slug: 'cruises', icon: Cruises },
@@ -42,11 +41,11 @@ export const navigation = [
 		href: 'blog',
 		description: 'Check our blog.',
 	},
-	{
-		name: 'Cart',
-		href: '/cart',
-		description: 'Your cart.',
-	},
+	// {
+	// 	name: 'Cart',
+	// 	href: '/cart',
+	// 	description: 'Your cart.',
+	// },
 	{ name: 'Contact Us', href: 'contact', description: 'Contact with us' },
 ];
 

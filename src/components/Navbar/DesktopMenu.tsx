@@ -6,7 +6,7 @@ interface DesktopMenuProps {
 	isHomePage: boolean;
 }
 
-const DesktopMenu: React.FC<DesktopMenuProps> = ({ isHomePage }) => {
+const DesktopMenu = ({ isHomePage }: DesktopMenuProps) => {
 	return (
 		<div>
 			<div className='flex items-center'>

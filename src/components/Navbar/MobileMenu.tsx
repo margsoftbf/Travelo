@@ -3,11 +3,13 @@ import { navigation } from '@/data/data';
 import { useRouter } from 'next/router';
 import { MdShoppingCartCheckout } from 'react-icons/md';
 import { CgProfile } from 'react-icons/cg';
+import { useState } from 'react';
+import LoginModal from '../Auth/LoginModal';
 interface MobileMenuProps {
 	close: () => void;
 }
 
-const MobileMenu: React.FC<MobileMenuProps> = ({ close }) => {
+const MobileMenu = ({ close }: MobileMenuProps) => {
 	const router = useRouter();
 	const goToCart = () => {
 		router.push('/cart');
@@ -18,6 +20,12 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ close }) => {
 		router.push(path);
 		close();
 	};
+
+	
+	const [modalOpen, setModalOpen] = useState<boolean>(false);
+	const openModal = () => setModalOpen(true);
+	const closeModal = () => setModalOpen(false);
+
 
 	return (
 		<div>
@@ -41,10 +49,11 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ close }) => {
 						<div className='bg-myBlack hover:bg-primary ease-in-out duration-300 transition w-10 h-10 flex items-center justify-center rounded-full'>
 							<button
 								type='button'
+								onClick={openModal}
 								className='relative flex text-white  ease-in-out duration-300 transition  text-sm outline-none'
 							>
 								<span className='absolute -inset-1.5' />
-								<span className='sr-only'>Go To Cart</span>
+								<span className='sr-only'>Go To Profile</span>
 								<CgProfile className='h-7 w-7 ' aria-hidden='true' />
 							</button>
 						</div>
@@ -64,6 +73,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ close }) => {
 						</div>
 					</div>
 				</div>
+				<LoginModal isOpen={modalOpen} closeModal={closeModal}/>
 			</Disclosure.Panel>
 		</div>
 	);

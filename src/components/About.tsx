@@ -5,7 +5,6 @@ import {
 	HappyTraveller,
 	PositiveReviews,
 	TourComplete,
-	RightTopCorner,
 	BuildingsHero,
 } from '../../public/assets/svg';
 import CountUp from 'react-countup';
