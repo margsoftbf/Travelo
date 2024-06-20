@@ -12,6 +12,7 @@ import SimilarHotels from '@/components/HotelPage/SimilarHotels';
 import BookingForm from '@/components/HotelPage/BookingForm';
 import ItemImage from '@/components/ui/ItemImage';
 import ListWithIcons from '@/components/ui/ListWithIcons';
+import HelpBooking from '@/components/SearchListPage/HelpBooking';
 
 interface HotelDetailPageProps {
 	hotel: Hotel | null;
@@ -39,8 +40,8 @@ const HotelDetailPage = ({ hotel, similarHotels }: HotelDetailPageProps) => {
 			</div>
 			<Header hotel={hotel} />
 			<div className='max-w-7xl mx-auto relative bg-white px-4 md:px-2'>
-				<div className='flex flex-col items-center justify-center gap-2 w-full lg:flex-row lg:items-start h-full py-4'>
-					<div className='w-5/6 flex flex-col  items-center justify-center gap-4'>
+				<div className='flex flex-col lg:flex-row items-center justify-center lg:items-start gap-4 w-full h-full py-4 relative'>
+					<div className='w-full px-4 lg:w-4/6 flex flex-col items-center justify-center gap-4'>
 						<ItemImage entity={{ image: hotel.image, name: hotel.name }} />
 						<About description={hotel.description} />
 						<ListWithIcons items={hotel.amenities} type='hotel' />
@@ -49,8 +50,9 @@ const HotelDetailPage = ({ hotel, similarHotels }: HotelDetailPageProps) => {
 						<Rules />
 						<SimilarHotels hotels={similarHotels} />
 					</div>
-					<div className='w-5/6 lg:w-2/6 flex flex-col gap-4'>
+					<div className='w-full lg:w-2/6 flex flex-col gap-4'>
 						<BookingForm hotel={hotel} />
+						<HelpBooking />
 						<LastMinute />
 					</div>
 				</div>

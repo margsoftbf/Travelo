@@ -17,17 +17,19 @@ interface DateHotelSelectorProps {
 	) => void;
 }
 
-const DateHotelSelector = ({ checkInDate,
-    checkOutDate,
-    setCheckInDate,
-    setCheckOutDate,
-    checkInDateError,
-    checkOutDateError,
-    handleDateChange}: DateHotelSelectorProps) => {
+const DateHotelSelector = ({
+	checkInDate,
+	checkOutDate,
+	setCheckInDate,
+	setCheckOutDate,
+	checkInDateError,
+	checkOutDateError,
+	handleDateChange,
+}: DateHotelSelectorProps) => {
 	return (
 		<div>
 			<div
-				className={`flex flex-col w-full md:mt-0 ${
+				className={`flex flex-col w-full md:mt-0 md:mb-2 ${
 					checkInDateError ? 'text-red-500' : ''
 				}`}
 			>

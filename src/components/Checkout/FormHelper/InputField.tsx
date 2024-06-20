@@ -37,7 +37,7 @@ const InputField = ({
 				value={value}
 				onChange={onChange}
 				onInput={onInput}
-				className={`block w-full rounded-md text-xs px-2 py-2 shadow-sm outline-none sm:text-sm ${
+				className={`block w-full rounded-md text-xs px-2 py-2 shadow-sm outline-none sm:text-sm ring-[#d6cdc1] ring-1  ${
 					error ? 'border-red-500' : 'border-gray-300'
 				}`}
 			/>

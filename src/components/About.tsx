@@ -12,6 +12,8 @@ import useScrollAnimation from '@/hooks/useScrollAnimation';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaCheck } from 'react-icons/fa';
+import { Link as ScrollLink } from 'react-scroll';
+
 const stats = [
 	{ id: 1, name: 'Happy traveller', value: '5489', icon: HappyTraveller },
 	{
@@ -56,9 +58,15 @@ const About = () => {
 						</p>
 					</div>
 					<div className='md:ml-auto z-30'>
-						<button className='w-36 h-10 mt-2 font-dmSans font-semibold rounded-md bg-primary flex items-center text-white p-2 justify-center flex-shrink-0 hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'>
+						<ScrollLink
+							to='tour'
+							smooth={true}
+							offset={-50}
+							duration={500}
+							className='w-36 h-10 mt-2 font-dmSans font-semibold rounded-md bg-primary flex items-center text-white p-2 justify-center flex-shrink-0 hover:bg-myBlack duration-300 ease-in-out transition cursor-pointer'
+						>
 							Find More
-						</button>
+						</ScrollLink>
 					</div>
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 import { categories } from '@/data/data';
 import React, { useState } from 'react';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import categoryData from '@/data/CategorySelector.json';
 import ListingCard from './ui/ListingCard';
 const CategorySelector = () => {
@@ -11,6 +11,11 @@ const CategorySelector = () => {
 	const filteredData = categoryData.filter(
 		(item) => item.type.toLowerCase() === selectedCategory
 	);
+
+	const cardVariants = {
+		hidden: { opacity: 0, y: 20 },
+		visible: { opacity: 1, y: 0 },
+	};
 
 	return (
 		<motion.div
@@ -53,13 +58,23 @@ const CategorySelector = () => {
 					))}
 				</div>
 				<div className='max-w-6xl mx-auto flex items-center justify-center w-full  px-4 md:px-0'>
-					<div className='grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4'>
-						{filteredData.map((item) => (
-							<div key={item.id} className='p-2 mt-4'>
-								<ListingCard item={item} />
-							</div>
-						))}
-					</div>
+					<AnimatePresence>
+						<div className='grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4'>
+							{filteredData.map((item) => (
+								<motion.div
+									key={item.id}
+									className='p-2 mt-4'
+									variants={cardVariants}
+									initial='hidden'
+									animate='visible'
+									exit='hidden'
+									transition={{ duration: 0.5 }}
+								>
+									<ListingCard item={item} />
+								</motion.div>
+							))}
+						</div>
+					</AnimatePresence>
 				</div>
 			</div>
 		</motion.div>
