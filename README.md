@@ -12,10 +12,19 @@ https://travelo.marcingarski.com/
 
 ## Download and Installation
 
+## Standard Installation
 ```bash
   git clone https://github.com/margsoftbf/Travelo.git
   npm i
   npm run dev
+```
+
+## Docker Installation
+
+```bash
+  git clone https://github.com/margsoftbf/Travelo.git
+  docker-compose build
+  docker-compose up
 ```
 
 ## Technologies Used:
